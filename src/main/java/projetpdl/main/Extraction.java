@@ -8,14 +8,21 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+<<<<<<< HEAD
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.BufferedReader;
+=======
+import java.io.BufferedReader;
+import org.wikipedia.Wiki;
+import com.bitplan.mediawiki.japi.Mediawiki;
+>>>>>>> 8a86d6d46642312c31ed1869f1b3580727028c80
 
 public class Extraction {
 	//test commit JL 2
+	// test 2 commit momo
 
 	    public static void main(String[] args) throws Exception {
 	    	
@@ -91,7 +98,7 @@ public class Extraction {
 	        		for (Element row : table.select("tr")) { 
 	        			Elements tds = row.select("td");
 	        			if (tds.size() > 6) {
-	        				System.out.println(tds.get(0).text() + ":" + tds.get(1).text());  
+	        				System.out.println(tds.get(0).text() + ":" + tds.get(1).text());   
 	        			}
 	        		}
 	        	}
