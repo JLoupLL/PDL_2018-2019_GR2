@@ -1,6 +1,6 @@
 package projetpdl.main;
 
-import java.io.FileWriter;
+
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -8,17 +8,17 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-<<<<<<< HEAD
+
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import java.io.BufferedReader;
-=======
+import java.io.FileWriter;
 import java.io.BufferedReader;
 import org.wikipedia.Wiki;
 import com.bitplan.mediawiki.japi.Mediawiki;
->>>>>>> 8a86d6d46642312c31ed1869f1b3580727028c80
+
 
 public class Extraction {
 	//test commit JL 2

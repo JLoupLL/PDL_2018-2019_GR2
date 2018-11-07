@@ -22,7 +22,11 @@
     <artifactId>jsoup</artifactId>
     <version>1.9.1</version>
 </dependency>
-
+<dependency>
+  <groupId>com.bitplan</groupId>
+  <artifactId>mediawiki-japi</artifactId>
+  <version>0.1.02</version>
+</dependency>
 <dependency>
     <groupId>log4j</groupId>
     <artifactId>log4j</artifactId>
