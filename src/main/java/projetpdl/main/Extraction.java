@@ -1,21 +1,24 @@
 package projetpdl.main;
 
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import org.wikipedia.Wiki;
-
-import com.bitplan.mediawiki.japi.Mediawiki;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import java.io.BufferedReader;
 
 public class Extraction {
 	//test commit JL 2
 
 	    public static void main(String[] args) throws Exception {
+	    	
 //	        URL wiki = new URL("https://fr.wikipedia.org/wiki/Comma-separated_values");
 //	        URLConnection yc = wiki.openConnection();
 //	        BufferedReader in = new BufferedReader(new InputStreamReader(
@@ -70,10 +73,29 @@ public class Extraction {
 				// TODO: handle exception
 			}  
 		    
-		  
 	        
-	       
 		}
+	    
+	     public void getContentHtml(){
+	    		// TODO Auto-generated method stub   https://fr.wikipedia.org/wiki/Championnat_de_France_de_football
+	    		Document doc=new Document("test");
+	    		try {
+	    			//doc = Jsoup.connect("http://espn.go.com/mens-college-basketball/conferences/standings/_/id/2/year/2012/acc-conference").get();
+	    			doc = Jsoup.connect("https://fr.wikipedia.org/wiki/Championnat_de_France_de_football").get();
+	    		} catch (IOException e) {
+	    			// TODO Auto-generated catch block
+	    			e.printStackTrace();
+	    		}
+	    		System.out.println("testtstte");
+	        	for (Element table : doc.select("table")) {
+	        		for (Element row : table.select("tr")) {
+	        			Elements tds = row.select("td");
+	        			if (tds.size() > 6) {
+	        				System.out.println(tds.get(0).text() + ":" + tds.get(1).text());
+	        			}
+	        		}
+	        	}
+	    	
 
-
+	    }
 }
