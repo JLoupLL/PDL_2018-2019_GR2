@@ -8,6 +8,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 import java.io.BufferedReader;
+import org.wikipedia.Wiki;
+import com.bitplan.mediawiki.japi.Mediawiki;
 
 public class Extraction {
 	//test commit JL 2
