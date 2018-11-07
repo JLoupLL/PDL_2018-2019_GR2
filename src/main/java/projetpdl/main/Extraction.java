@@ -77,8 +77,8 @@ public class Extraction {
 		}
 	    
 	     public void getContentHtml(){
-	    		// TODO Auto-generated method stub   https://fr.wikipedia.org/wiki/Championnat_de_France_de_football
-	    		Document doc=new Document("test");
+	    		// TODO Auto-generated method stub    https://fr.wikipedia.org/wiki/Championnat_de_France_de_football 
+	    		Document doc=new Document("test"); 
 	    		try {
 	    			//doc = Jsoup.connect("http://espn.go.com/mens-college-basketball/conferences/standings/_/id/2/year/2012/acc-conference").get();
 	    			doc = Jsoup.connect("https://fr.wikipedia.org/wiki/Championnat_de_France_de_football").get();
@@ -88,7 +88,7 @@ public class Extraction {
 	    		}
 	    		System.out.println("testtstte");
 	        	for (Element table : doc.select("table")) {
-	        		for (Element row : table.select("tr")) {
+	        		for (Element row : table.select("tr")) { 
 	        			Elements tds = row.select("td");
 	        			if (tds.size() > 6) {
 	        				System.out.println(tds.get(0).text() + ":" + tds.get(1).text());
