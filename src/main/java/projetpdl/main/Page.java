@@ -11,10 +11,6 @@ public class Page {
 	
 	public String getTitre(){
 		
-		
-			
-		return url;
-		
-		
+		return null;		
 	}
 }
