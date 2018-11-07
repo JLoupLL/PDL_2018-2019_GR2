@@ -7,6 +7,7 @@ public class Page {
 	public Page(String url) {
 		super();
 		this.url = url;
+		//ajouter 
 	}
 	
 	public String getTitre(){
