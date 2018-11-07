@@ -91,7 +91,7 @@ public class Extraction {
 	        		for (Element row : table.select("tr")) { 
 	        			Elements tds = row.select("td");
 	        			if (tds.size() > 6) {
-	        				System.out.println(tds.get(0).text() + ":" + tds.get(1).text());
+	        				System.out.println(tds.get(0).text() + ":" + tds.get(1).text());  
 	        			}
 	        		}
 	        	}
