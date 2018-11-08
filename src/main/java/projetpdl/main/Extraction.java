@@ -141,7 +141,7 @@ public class Extraction {
 	}
 	public String getHtmlWikiData(String url) {
 		//A FAIRE
-		return "";
+		return ""; 
 	}
 
 }
