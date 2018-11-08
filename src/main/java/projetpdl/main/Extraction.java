@@ -24,6 +24,7 @@ public class Extraction {
 	//test commit JL 2
 	// test 2 commit momo
 	//test 1 commit linda 
+	//test 1 commit anastasia 
 
 	    public static void main(String[] args) throws Exception {
 	    	
