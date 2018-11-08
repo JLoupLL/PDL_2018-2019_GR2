@@ -23,6 +23,7 @@ import com.bitplan.mediawiki.japi.Mediawiki;
 public class Extraction {
 	//test commit JL 2
 	// test 2 commit momo
+	//test commit linda
 
 	    public static void main(String[] args) throws Exception {
 	    	
