@@ -47,7 +47,7 @@ public class Extraction {
 		        fichier_contenue.append(inputLine);
 		        
 		        String c =  wiki1.getStringFromUrl(chaine1);
-		       
+		        System.out.println("test");
 		        System.out.println(c);
 		        int cp = c.length();
 		        
