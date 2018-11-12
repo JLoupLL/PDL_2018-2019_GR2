@@ -85,13 +85,13 @@ public class Extraction {
 			//			    }
 
 			//	        in.close();	
-			
-		
+
+
 		} catch (Exception e) {
 			// TODO: handle exception
 		}  
 <<<<<<< HEAD
-		
+
 
 //		try {
 //			
@@ -104,21 +104,26 @@ public class Extraction {
 		getContentHtml();
 		 */
 	}
-	
+	/**
+	 * cette fonction permet de récupérer les infos des tableaux d'une page internet
+	 * il faudrait découper le code de cette fonction en plusieurs fonctions ==> plus lisible
+	 * @throws IOException
+	 */
 	public static void getContentHtml() throws IOException{
-		// TODO Auto-generated method stub    https://fr.wikipedia.org/wiki/Championnat_de_France_de_football 
 		Document doc=new Document("test"); 
 		try {
-			//doc = Jsoup.connect("http://espn.go.com/mens-college-basketball/conferences/standings/_/id/2/year/2012/acc-conference").get();
 			doc = Jsoup.connect("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras").get();
-			
-		} catch (IOException e) {
+		} 
+		catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		FileWriter fileWriter = new FileWriter("fichierCSV\\test.csv");
 		System.out.println("testtstte");
+		Elements titre=doc.select("h1");
+		FileWriter fileWriter = new FileWriter("fichierCSV\\"+titre.first().text()+".csv"); //création d'un fichier csv avec le nom de la page
 		String chaineTest="";
+		String nouvelleLigne="\n";
+		//ArrayList<String> arrayliste=new ArrayList<String>();
 		for (Element table : doc.select("table")) {
 			for (Element row : table.select("tr")) { 
 				chaineTest=row.ownText();
@@ -126,17 +131,22 @@ public class Extraction {
 				if (tds.size() > 1) {
 
 					for(int i=0;i<tds.size();i++) {
-						chaineTest=chaineTest+tds.get(i).text()+";";
-						//System.out.println(tds.get(i).text()); 
-						//System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text());    
+						if(i==tds.size()-1) {
+							chaineTest=chaineTest+tds.get(i).text();
+						}
+						else chaineTest=chaineTest+tds.get(i).text()+";";  
 					}
-
 				}
-				System.out.println(chaineTest);
 				fileWriter.append(chaineTest);
-				
-				
-				
+				fileWriter.append(nouvelleLigne);
+				/*
+				arrayliste.add(chaineTest);
+				Iterator<String> it=arrayliste.iterator();
+				while(it.hasNext()) {
+					fileWriter.append(it.next());
+					fileWriter.append(nouvelleLigne);
+				}
+				*/
 			}
 		}
 		fileWriter.close();
