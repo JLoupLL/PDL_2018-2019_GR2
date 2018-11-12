@@ -119,17 +119,20 @@ public class Extraction {
 		String chaineTest="";
 		for (Element table : doc.select("table")) {
 			for (Element row : table.select("tr")) { 
+				chaineTest=row.ownText();
 				Elements tds = row.select("td");
 				if (tds.size() > 1) {
 					System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text()); 
 					mycsv.append(tds.get(0).text());
 
 					for(int i=0;i<tds.size();i++) {
-						System.out.println(tds.get(i).text()); 
+						chaineTest=chaineTest+tds.get(i).text()+" : ";
+						//System.out.println(tds.get(i).text()); 
 						//System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text());    
 					}
 
 				}
+				System.out.println(chaineTest);
 			}
 		}
 	}
