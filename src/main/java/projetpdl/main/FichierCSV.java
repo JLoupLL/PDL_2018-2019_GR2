@@ -18,7 +18,7 @@ public class FichierCSV<T> {
 		
 	public FichierCSV() {
 		try {
-			FileWriter mycsv = new FileWriter("src\\main\\java\\FichierCSV\\tab.csv");
+			FileWriter mycsv = new FileWriter("FichierCSV\\tab.csv");
 			mycsv.append("bonjour");
 		} catch (Exception e) {
 			Logger.getLogger(FichierCSV.class.getName()).log(Level.SEVERE, null, e);
