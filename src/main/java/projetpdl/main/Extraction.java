@@ -27,7 +27,7 @@ public class Extraction {
 	//test 1 commit anastasia 
 
 	public static void main(String[] args) throws Exception {
-
+		getContentHtml();/*
 		//	        URL wiki = new URL("https://fr.wikipedia.org/wiki/Comma-separated_values");
 		//	        URLConnection yc = wiki.openConnection();
 		//	        BufferedReader in = new BufferedReader(new InputStreamReader(
@@ -86,7 +86,7 @@ public class Extraction {
 			// TODO: handle exception
 		}  
 		getContentHtml();
-
+		 */
 	}
 
 	public static void getContentHtml(){
@@ -100,11 +100,15 @@ public class Extraction {
 			e.printStackTrace();
 		}
 		System.out.println("testtstte");
+		String chaineTest="";
 		for (Element table : doc.select("table")) {
 			for (Element row : table.select("tr")) { 
 				Elements tds = row.select("td");
 				if (tds.size() > 1) {
-					System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text());     
+					for(int i=0;i<tds.size();i++) {
+						System.out.println(tds.get(i).text()); 
+						//System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text());    
+					}
 				}
 			}
 		}
