@@ -21,6 +21,8 @@ import java.io.BufferedReader;
 import org.wikipedia.Wiki;
 import com.bitplan.mediawiki.japi.Mediawiki;
 
+import createfileCSV.GestionnaireCSV;
+
 
 public class Extraction {
 	//test commit JL 2
@@ -108,13 +110,13 @@ public class Extraction {
 		Document doc=new Document("test"); 
 		try {
 			//doc = Jsoup.connect("http://espn.go.com/mens-college-basketball/conferences/standings/_/id/2/year/2012/acc-conference").get();
-			doc = Jsoup.connect("https://fr.wikipedia.org/wiki/Championnat_de_France_de_football").get();
+			doc = Jsoup.connect("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras").get();
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		FileWriter mycsv = new FileWriter("fichierCSV\\tab.csv");
+		FileWriter fileWriter = new FileWriter("fichierCSV\\test.csv");
 		System.out.println("testtstte");
 		String chaineTest="";
 		for (Element table : doc.select("table")) {
@@ -122,19 +124,22 @@ public class Extraction {
 				chaineTest=row.ownText();
 				Elements tds = row.select("td");
 				if (tds.size() > 1) {
-					System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text()); 
-					mycsv.append(tds.get(0).text());
 
 					for(int i=0;i<tds.size();i++) {
-						chaineTest=chaineTest+tds.get(i).text()+" : ";
+						chaineTest=chaineTest+tds.get(i).text()+";";
 						//System.out.println(tds.get(i).text()); 
 						//System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text());    
 					}
 
 				}
 				System.out.println(chaineTest);
+				fileWriter.append(chaineTest);
+				
+				
+				
 			}
 		}
+		fileWriter.close();
 	}
 	public String getHtmlJsoup(String url) {
 		String retour= "";
