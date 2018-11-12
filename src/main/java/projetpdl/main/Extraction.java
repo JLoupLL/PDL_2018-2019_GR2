@@ -101,7 +101,6 @@ public class Extraction {
 =======
 		getContentHtml();
 		 */
->>>>>>> cea00eea77f9d5e3df9326b37c2cf708e5304b6a
 	}
 	
 	public static void getContentHtml() throws IOException{
@@ -122,15 +121,14 @@ public class Extraction {
 			for (Element row : table.select("tr")) { 
 				Elements tds = row.select("td");
 				if (tds.size() > 1) {
-<<<<<<< HEAD
 					System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text()); 
 					mycsv.append(tds.get(0).text());
-=======
+
 					for(int i=0;i<tds.size();i++) {
 						System.out.println(tds.get(i).text()); 
 						//System.out.println(tds.get(0).text() + ":" + tds.get(1).text() + ":" + tds.get(2).text());    
 					}
->>>>>>> cea00eea77f9d5e3df9326b37c2cf708e5304b6a
+
 				}
 			}
 		}
