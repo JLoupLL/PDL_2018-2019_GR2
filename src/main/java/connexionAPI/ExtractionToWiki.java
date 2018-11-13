@@ -13,5 +13,7 @@ public class ExtractionToWiki {
 		wiki.getPageHtml("https://fr.wikipedia.org/wiki/Championnat_de_France_de_football");
 		System.out.println(wiki);	
 	}
-	
+	public static void getContentWikiTexte(String url) {
+		
+	}
 }
