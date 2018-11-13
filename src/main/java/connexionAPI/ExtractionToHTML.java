@@ -13,6 +13,7 @@ public class ExtractionToHTML {
 	public static void main(String[] args) {
 		try {
 			getContentHtml("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
+			getContentHtml("https://fr.wikipedia.org/wiki/Championnat_de_France_de_football");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
