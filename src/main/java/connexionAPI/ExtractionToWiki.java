@@ -1,17 +1,147 @@
 package connexionAPI;
 
+import java.io.BufferedInputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.regex.Pattern;
+import java.io.IOException;
+import java.io.Serializable;
+import java.io.File;
+import java.io.IOException;
+
+import org.json.JSONArray;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+import org.sweble.wikitext.engine.EngineException;
+import org.sweble.wikitext.engine.PageId;
+import org.sweble.wikitext.engine.PageTitle;
+import org.sweble.wikitext.engine.WtEngineImpl;
+import org.sweble.wikitext.engine.config.WikiConfig;
+import org.sweble.wikitext.engine.nodes.EngPage;
+import org.sweble.wikitext.engine.nodes.EngProcessedPage;
+import org.sweble.wikitext.engine.utils.DefaultConfigEnWp;
+import org.sweble.wikitext.parser.parser.LinkTargetException;
 import org.wikipedia.Mediawiki;
 
 import com.bitplan.mediawiki.japi.MediawikiApi;
+import com.google.inject.matcher.Matcher;
 
-public class ExtractionToWiki {
-
+public class ExtractionToWiki extends Mediawiki {
+	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -7865476179224701840L;
+	WikiConfig conf;
+	int maxLine;
+	
+	public ExtractionToWiki() {
+		super();
+		this.conf = conf;
+		this.maxLine = maxLine;
+	}
+	public EngPage convertWikiText(String title, String wikiText, int maxLineLength) throws LinkTargetException, EngineException {
+	    // Set-up a simple wiki configuration
+	    WikiConfig config = DefaultConfigEnWp.generate();
+	    // Instantiate a compiler for wiki pages
+	    WtEngineImpl engine = new WtEngineImpl(config);
+	    // Retrieve a page
+	    PageTitle pageTitle = PageTitle.make(config, title);
+	    PageId pageId = new PageId(pageTitle, -1);
+	    // Compile the retrieved page
+	    EngProcessedPage cp = engine.postprocess(pageId, wikiText, null);
+	    //ExtractionToWiki p = new ExtractionToWiki(config, maxLineLength);
+	    return cp.getPage();
+	}
+	 public String getRenderedText(String title) throws IOException
+	    {
+	        // @revised 0.13 genericised to parse any wikitext
+	        return parse("{{:" + title + "}}");
+	    }
+	private String parse(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public static void getTabeWiki(String chaine) {
+		String prefix ="|";	 
+		String text="|-"+chaine+"|"; 
+		 Pattern p = Pattern.compile("<[^>]+>"); 
+		  java.util.regex.Matcher m = p.matcher(text); 
+	        String result =""; 
+	        
+	        while(m.find()) { 
+	            result = m.replaceAll(""); 
+	            System.out.println(result); 
+	        } 
+	}
 	public static void main(String[] args) throws Exception {
-		Mediawiki wiki = new Mediawiki();
-		wiki.getVersion();
-		String url = "https://fr.wikipedia.org/wiki/Championnat_de_France_de_football";
-		wiki.getPageHtml("https://fr.wikipedia.org/wiki/Championnat_de_France_de_football");
-		System.out.println(wiki);	
+			
+//	        HttpURLConnection conn = (HttpURLConnection) new URL(
+//	                "https://meta.wikimedia.org/wiki/Help:Table/fr").openConnection();
+//	        conn.connect();
+//	  
+//	        BufferedInputStream bis = new BufferedInputStream(conn.getInputStream());
+//	       
+//	        byte[] bytes = new byte[1024];
+//	        int tmp ;
+//	        while( (tmp = bis.read(bytes) ) != -1 ) {
+//	            String chaine = new String(bytes,0,tmp);
+//	            System.out.print(chaine);
+//	        }
+//	          
+//	        conn.disconnect();
+		
+			Document doc=new Document("test"); 
+			try {
+				doc = Jsoup.connect("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras").get();
+			} 
+			catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			HttpURLConnection conn = (HttpURLConnection) new URL(
+	                "https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras").openConnection();
+	        conn.connect();
+	 
+	        BufferedInputStream bis = new BufferedInputStream(conn.getInputStream());
+	 
+	        byte[] bytes = new byte[1024];
+	        int tmp ;
+	        while( (tmp = bis.read(bytes) ) != -1 ) {
+	        	
+	            String chaine = new String(bytes,0,tmp);
+	            getTabeWiki(chaine);
+//	            System.out.print(chaine);
+	        }
+	         
+	        System.out.print(bis);
+	        
+	        conn.disconnect();
+		
+			String target = "https://meta.wikimedia.org/wiki/Help:Table/fr";
+			Elements titre =doc.select("h1");
+			String title  = titre.first().text();
+		 // Set-up a simple wiki configuration
+			
+			ExtractionToWiki wiki = new ExtractionToWiki();
+			URL link = new URL(target);
+//			//wiki.convertWikiText(title, , 1000);
+//		    WikiConfig config = DefaultConfigEnWp.generate();
+//		    // Instantiate a compiler for wiki pages
+//		    WtEngineImpl engine = new WtEngineImpl(config);
+//		    // Retrieve a page
+//		    PageTitle pageTitle = PageTitle.make(config, title);
+//		    PageId pageId = new PageId(pageTitle, -1);
+		    // Compile the retrieved page
+		   // EngProcessedPage cp = engine.postprocess(pageId, wikiText, null);
+		   // ExtractionToWiki p = new ExtractionToWiki(config, maxLineLength);
+		    //return cp.getPage();
+			
+		     
 	}
 	
 }

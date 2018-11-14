@@ -89,6 +89,18 @@ public class ExtractionToHTML {
 	 * il faudrait découper le code de cette fonction en plusieurs fonctions ==> plus lisible
 	 * @throws IOException
 	 */
+	//fonction pour recupérer le contenue d'une page via un url 
+	public Document getContenthtml(String url) {
+		
+		Document doc=new Document("test"); 
+		try {
+			doc = Jsoup.connect(url).get();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return doc;		
+	}
 	public static void getContentHtml() throws IOException{
 		Document doc=new Document("test"); 
 		try {
