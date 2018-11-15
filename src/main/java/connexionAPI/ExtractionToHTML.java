@@ -26,7 +26,7 @@ public class ExtractionToHTML {
 	 * il faudrait découper le code de cette fonction en plusieurs fonctions ==> plus lisible
 	 * @throws IOException
 	 */
-<<<<<<< HEAD
+
 	//fonction pour recupérer le contenue d'une page via un url 
 	public Document getContenthtml(String url) {
 		
@@ -49,14 +49,15 @@ public class ExtractionToHTML {
 			e.printStackTrace();
 		}
 		System.out.println("testtstte");
-=======
+	}
+
 	public static void getContentHtml(String url) throws IOException{//trouver un meilleur nom pour cette fonction
 		Document doc=getHtmlJsoup(url);
 		
 		System.out.println("Début de l'éxtraction :");
 		
 		//Création du fichier csv avec comme titre le premier h1 de la page wikipédia
->>>>>>> a7159e58b3261edfb88e855381451a72b565d7d3
+
 		Elements titre=doc.select("h1");
 		FileWriter fileWriter = new FileWriter("fichierCSV\\"+titre.first().text()+".csv");
 		//******************************************************************************
