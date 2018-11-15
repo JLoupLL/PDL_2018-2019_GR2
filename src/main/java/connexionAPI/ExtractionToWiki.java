@@ -66,7 +66,7 @@ public class ExtractionToWiki extends Mediawiki {
 		return null;
 	}
 
-	public static void getTabeWiki(String chaine) {
+	public static void getTabeWiki(String chaine) {//que fait cette fonction?
 		String prefix ="|";	 
 		String text="|-"+chaine+"|"; 
 		Pattern p = Pattern.compile("<[^>]+>"); 
@@ -74,12 +74,15 @@ public class ExtractionToWiki extends Mediawiki {
 		String result =""; 
 
 		while(m.find()) { 
-			result = m.replaceAll(""); 
-			System.out.println(result); 
+			
+			result = m.replaceAll("");
+			System.out.print("test:");
+			System.out.println(result);   //ici on récupère tout le wikicode de la page je crois
+			System.out.print("test2:");
 		} 
 	}
 	public static void main(String[] args) throws Exception {
-		System.out.print("Début du programme :");
+		
 		//	        HttpURLConnection conn = (HttpURLConnection) new URL(
 		//	                "https://meta.wikimedia.org/wiki/Help:Table/fr").openConnection();
 		//	        conn.connect();
@@ -115,7 +118,7 @@ public class ExtractionToWiki extends Mediawiki {
 		while( (tmp = bis.read(bytes) ) != -1 ) {
 
 			String chaine = new String(bytes,0,tmp);
-			getTabeWiki(chaine);
+			getTabeWiki(chaine); //qu'est ce que ça fait cette fonction?
 			//	            System.out.print(chaine);
 		}
 
