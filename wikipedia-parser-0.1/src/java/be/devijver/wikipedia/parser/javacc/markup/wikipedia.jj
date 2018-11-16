@@ -1,0 +1,289 @@
+/**
+ * JavaCC file
+ */
+
+options {
+  JDK_VERSION = "1.4";
+  STATIC = false;
+  UNICODE_INPUT = true;
+  DEBUG_TOKEN_MANAGER = false;
+  DEBUG_PARSER = false;
+
+}
+PARSER_BEGIN(JavaCCParser)
+package be.devijver.wikipedia.parser.javacc.markup;
+
+import java.util.*;
+import be.devijver.wikipedia.parser.ast.*;
+
+public class JavaCCParser {
+}
+PARSER_END(JavaCCParser)
+
+public Document document() :
+{
+	Content content;
+	Document document = new Document();
+}
+{
+	(
+		content = paragraph()
+		{
+			document.addContent( content );
+		}
+	)* {
+		return document;
+	}
+}
+
+private Paragraph paragraph() :
+{
+	List contentList = new ArrayList();
+	Content content;
+}
+{
+	(
+		content = content() { contentList.add(content); }
+	)+ ( "\n" | <EOF>)
+	{
+		Content[] contents = (Content[])contentList.toArray(new Content[contentList.size()]);
+		return new Paragraph(contents);
+	}
+}
+
+private Content content() :
+{
+	Content content;
+}
+{
+	(
+		LOOKAHEAD(3)
+		content = boldAndItalics() { return content; }
+	|	content = bold() { return content; }
+	|	content = italics()	{ return content; }
+	|	content = text()	{ return content; }
+	)
+}
+
+private Content contentWithoutItalics() :
+{
+	Content content;
+}
+{
+	(
+		content = bold() 	{ return content; }
+	|	content = text()	{ return content; }
+	)
+}
+
+private Content contentWithoutBold() :
+{
+	Content content;
+}
+{
+	(
+		content = italics()	 { return content; }
+	|	content = text()	 { return content; }
+	)
+}
+
+private Content contentWithoutBoldAndItalics() :
+{
+	Content content;
+}
+{
+	content = text() { return content; }
+}
+private Italics italics() :
+{
+	Content content;
+}
+{
+	<ITALICS_DEMARCATION>
+	content=contentWithoutItalics()
+	<ITALICS_DEMARCATION>
+	{
+		return new Italics(
+			new Content[] {
+				content
+			}
+		);
+	}
+}
+
+private Bold bold() :
+{
+	Content content;
+}
+{
+	<BOLD_DEMARCATION>
+	content=contentWithoutBold()
+	<BOLD_DEMARCATION>
+	{
+		return new Bold(
+			new Content[] {
+				content
+			}
+		);
+	}
+}
+
+private Content boldAndItalics() :
+{
+	Content content1;
+	Content content2;
+	Content result;
+	String type;
+}
+{
+	(
+		<BOLD_AND_ITALICS_DEMARCATION>
+		content1 = contentWithoutBoldAndItalics()
+		(
+			<BOLD_AND_ITALICS_DEMARCATION>
+			{
+				result = new Bold(
+					new Content[] {
+						new Italics(
+							new Content[] {
+								content1
+							}
+						)
+					}
+				);
+			}
+		|	<BOLD_DEMARCATION>
+			content2 = contentWithoutBoldAndItalics()
+			<ITALICS_DEMARCATION>
+			{
+				result = new Italics(
+					new Content[] {
+						new Bold(
+							new Content[] {
+								content1
+							}
+						),
+						content2
+					}
+				);
+			}
+		|	<ITALICS_DEMARCATION>
+			content2 = contentWithoutBoldAndItalics()
+			<BOLD_DEMARCATION>
+			{
+				result = new Bold(
+					new Content[] {
+						new Italics(
+							new Content[] {
+								content1
+							}
+						),
+						content2
+					}
+				);
+			}
+		)
+	|	(
+			<ITALICS_DEMARCATION>
+			content1 = contentWithoutBoldAndItalics()
+			<BOLD_DEMARCATION>
+			{
+				type = "italics";
+			}
+		|	<BOLD_DEMARCATION>
+			content1 = contentWithoutBoldAndItalics()
+			<ITALICS_DEMARCATION>
+			{
+				type = "bold";
+			}
+		)
+		content2 = contentWithoutBoldAndItalics()
+		<BOLD_AND_ITALICS_DEMARCATION>
+		{
+			if (type.equals("italics")) {
+				result = new Italics(
+					new Content[] {
+						content1,
+						new Bold(
+							new Content[] {
+								content2
+							}
+						)
+					}
+				);
+			} else if (type.equals("bold")) {
+				result = new Bold(
+					new Content[] {
+						content1,
+						new Italics(
+							new Content[] {
+								content2
+							}
+						)
+					}
+				);
+
+			} else {
+				throw new RuntimeException("Parser bug!!");
+			}
+		}
+	)
+	{ return result; }
+}
+
+private Characters text() :
+{
+	Token t;
+	StringBuffer sb = new StringBuffer();
+}
+{
+	(
+		LOOKAHEAD(2)
+		t = <CHARACTER>
+		{
+			sb.append(t.image);
+		}
+	)+ {
+		return new Characters(sb.toString());
+	}
+}
+
+TOKEN : {
+	< BOLD_AND_ITALICS_DEMARCATION : "'''''" >
+|	< BOLD_DEMARCATION : "'''" >
+|	< ITALICS_DEMARCATION : "''" >
+|	< CHARACTER :
+      [
+       "\u0024",
+       "\u0041"-"\u005a",
+       "\u005f",
+       "\u0061"-"\u007a",
+       "\u00c0"-"\u00d6",
+       "\u00d8"-"\u00f6",
+       "\u00f8"-"\u00ff",
+       "\u0100"-"\u1fff",
+       "\u3040"-"\u318f",
+       "\u3300"-"\u337f",
+       "\u3400"-"\u3d2d",
+       "\u4e00"-"\u9fff",
+       "\uf900"-"\ufaff",
+       "\u0030"-"\u0039",
+       "\u0660"-"\u0669",
+       "\u06f0"-"\u06f9",
+       "\u0966"-"\u096f",
+       "\u09e6"-"\u09ef",
+       "\u0a66"-"\u0a6f",
+       "\u0ae6"-"\u0aef",
+       "\u0b66"-"\u0b6f",
+       "\u0be7"-"\u0bef",
+       "\u0c66"-"\u0c6f",
+       "\u0ce6"-"\u0cef",
+       "\u0d66"-"\u0d6f",
+       "\u0e50"-"\u0e59",
+       "\u0ed0"-"\u0ed9",
+       "\u1040"-"\u1049",
+       " ", "\t"
+      ]
+	 >
+
+}
