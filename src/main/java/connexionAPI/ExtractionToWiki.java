@@ -34,25 +34,64 @@ import com.google.inject.matcher.Matcher;
 
 public class ExtractionToWiki {
 
-	/**
-	 * 
-	 */
-	
+             /**
+             * 
+              */
+             
 
-	public ExtractionToWiki() {
-		
-	}
-	
-	//Fonction pour essayeer de Parcer le wikiText avec Parse
-	public static void getTabeWiki(String chaine) {//que fait cette fonction?
-		String prefix ="|";	 
-		String text="{|"+chaine+"|}"; 
-		Pattern p = Pattern.compile("<[^>]+>"); 
-		java.util.regex.Matcher m = p.matcher(text); 
-		String result =""; 
+             public ExtractionToWiki() {
+                           
+             }
+             
+             //Fonction pour essayeer de Parcer le wikiText avec Parse
+             public static void getTabeWiki(String chaine) {//que fait cette fonction?
+                           String prefix ="|";       
+                           String text="{|"+chaine+"|}"; 
+                           Pattern p = Pattern.compile("<[^>]+>"); 
+                           java.util.regex.Matcher m = p.matcher(text); 
+                           String result =""; 
 
-		while(m.find()) { 
+                           while(m.find()) { 
 
+                                        result = m.replaceAll("");
+                                        
+                                        System.out.println("\ntest:");
+                                        int cpt = result.length();
+                                        System.out.println(result);   //ici on récupère tout le wikicode de la page je crois
+                                        System.out.println("\ntest2:");
+                           } 
+             }
+             //Recupération contenue wikitext
+             public static void getContenuePage(String url) throws IOException {
+                                        String balisedebut ="{|";
+                                        String baliseFin   = "|}";
+                                        String nvligne     = "\n";
+                     URL wikipedia = new URL(url);
+                     URLConnection yc = wikipedia.openConnection();
+                     BufferedReader in = new BufferedReader(
+                                             new InputStreamReader(
+                                             yc.getInputStream()));
+                     String inputLine;
+             
+                     while ((inputLine = in.readLine()) != null) 
+                     {
+                          getTabeWiki(inputLine); //appel  de la fonction getTablexiki 
+                     }
+                     in.close();
+             }
+             
+             public static void main(String[] args) throws Exception {
+                           
+                           String Url ="https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras";
+                          
+                           getContenuePage(Url);
+                           
+             }
+}
+
+
+
+<<<<<<< HEAD
 			result = m.replaceAll("");
 			
 			System.out.println("\ntest:");
@@ -88,3 +127,5 @@ public class ExtractionToWiki {
 		
 	}
 }
+=======
+>>>>>>> e67ff1796a29925fd3abb1db93b2b1f33886b464
