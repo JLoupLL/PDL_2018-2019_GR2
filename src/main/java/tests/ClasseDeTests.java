@@ -16,12 +16,8 @@ public class ClasseDeTests {
 	//	fail("Not yet implemented");
 
 		ExtractionToHTML eh = new ExtractionToHTML();
-		try{
-			eh.getContentHtml("https://fr.wikipedia.org/wiki/Statistiques_et_records_du_Paris_Saint-Germain");
-		} catch (IOException e) {
-			e.printStackTrace();}
+		eh.getContentHtml("https://fr.wikipedia.org/wiki/Statistiques_et_records_du_Paris_Saint-Germain");
 			
-		
 	}
 
 	@Test

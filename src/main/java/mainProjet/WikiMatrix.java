@@ -51,6 +51,17 @@ public class WikiMatrix {
 			//eth.
 		}
 		System.out.println(utils.Messages.MESSAGEDEFIN);
+
+		JSONArray jsonArraySearch = null;
+
+		System.out.println(utils.Messages.PATIENT);// Patientez..
+
+
+		ExtractionToHTML eth=new ExtractionToHTML();
+		
+			eth.getContentHtml("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
+		
+
 	}
 
 }
