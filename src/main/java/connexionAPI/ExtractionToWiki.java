@@ -37,14 +37,10 @@ public class ExtractionToWiki {
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = -7865476179224701840L;
-	WikiConfig conf;
-	int maxLine;
+	
 
 	public ExtractionToWiki() {
-		super();
-		this.conf = conf;
-		this.maxLine = maxLine;
+		
 	}
 	
 	//Fonction pour essayeer de Parcer le wikiText avec Parse
