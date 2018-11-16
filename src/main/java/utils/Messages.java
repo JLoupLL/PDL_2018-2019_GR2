@@ -15,11 +15,12 @@ public class Messages {
 			+ "Programme d√©velopp√© par M1 MIAGE Groupe 4 (2017-2018).\n\n"
 			+ "----------------------------------------------------------\n";
 	
-	public static final String ENTERC = "Veillez choisir le type d'extration : " 
-	+ "1 : HTML ou 2 WikiText";
+	public static final String ENTRERCHOIX = "Veillez choisir le type d'extration : " 
+	+ "1 : HTML ou 2 WikiText (q pour quitter)";
 	
 	public static final String PATIENT = "Veuillez patienter !";
 	
-	public static final String CHOIXK = "\nVeuillez choisir un r√©sultat parmi "
-			+ "cette liste avec l'id ( 0 , 1 , etc..). Ou taper 'q' pour quitter.";
+	public static final String DEMANDERURL = "renseignez l'adresse wikipÈdia dont vous voulez extraire les donnÈes: ";
+	
+	public static final String MESSAGEDEFIN = "Fin de l'extraction";
 }

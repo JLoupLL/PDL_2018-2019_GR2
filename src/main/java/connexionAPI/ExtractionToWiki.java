@@ -105,7 +105,7 @@ public class ExtractionToWiki {
 	}
 	
 	public static void main(String[] args) throws Exception {
-<<<<<<< HEAD
+
 		//brouillon();
 		//	        HttpURLConnection conn = (HttpURLConnection) new URL(
 		//	                "https://meta.wikimedia.org/wiki/Help:Table/fr").openConnection();
@@ -192,7 +192,6 @@ public class ExtractionToWiki {
 			
 		}
 	}
-=======
 
 		String Url ="https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras";
 		
@@ -202,5 +201,4 @@ public class ExtractionToWiki {
 		//String title  = titre.first().text();
 		// Set-up a simple wiki configuration
 	}
->>>>>>> 2d810ac83c41b9de3191c8898f8c7e8ecfd727e5
 }
