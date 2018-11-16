@@ -82,7 +82,63 @@ public class ExtractionToWiki {
 	}
 	
 	public static void main(String[] args) throws Exception {
+<<<<<<< HEAD
+
+		//brouillon();
+		//	        HttpURLConnection conn = (HttpURLConnection) new URL(
+		//	                "https://meta.wikimedia.org/wiki/Help:Table/fr").openConnection();
+		//	        conn.connect();
+		//	  
+		//	        BufferedInputStream bis = new BufferedInputStream(conn.getInputStream());
+		//	       
+		//	        byte[] bytes = new byte[1024];
+		//	        int tmp ;
+		//	        while( (tmp = bis.read(bytes) ) != -1 ) {
+		//	            String chaine = new String(bytes,0,tmp);
+		//	            System.out.print(chaine);
+		//	        }
+		//	          
+		//	        conn.disconnect();
+
+		HttpURLConnection conn = (HttpURLConnection) new URL(
+				"https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras").openConnection();
+		conn.connect();
+
+		BufferedInputStream bis = new BufferedInputStream(conn.getInputStream());
+
+		byte[] bytes = new byte[1024];
+		int tmp ;
+		while( (tmp = bis.read(bytes) ) != -1 ) {
+
+			String chaine = new String(bytes,0,tmp);
+			getTabeWiki(chaine); //qu'est ce que ça fait cette fonction?
+			//	            System.out.print(chaine);
+		}
+
+		System.out.print(bis);
+
+		conn.disconnect();
+
+		String target = "https://meta.wikimedia.org/wiki/Help:Table/fr";
+		// Set-up a simple wiki configuration
+
+		ExtractionToWiki wiki = new ExtractionToWiki();
+		URL link = new URL(target);
+		//			//wiki.convertWikiText(title, , 1000);
+		//		    WikiConfig config = DefaultConfigEnWp.generate();
+		//		    // Instantiate a compiler for wiki pages
+		//		    WtEngineImpl engine = new WtEngineImpl(config);
+		//		    // Retrieve a page
+		//		    PageTitle pageTitle = PageTitle.make(config, title);
+		//		    PageId pageId = new PageId(pageTitle, -1);
+		// Compile the retrieved page
+		// EngProcessedPage cp = engine.postprocess(pageId, wikiText, null);
+		// ExtractionToWiki p = new ExtractionToWiki(config, maxLineLength);
+		//return cp.getPage();
 		
+	}
+
+
 		String Url ="https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras";
 		
 		getContenuePage(Url);
