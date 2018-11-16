@@ -47,14 +47,17 @@ public class ExtractionToWiki {
 	public static void getTabeWiki(String chaine) {//que fait cette fonction?
 		String prefix ="|";	 
 		String text="{|"+chaine+"|}"; 
-		Pattern p = Pattern.compile("<[^>]+>"); 
+		Pattern p = Pattern.compile("<^>]+>"); 
+		//Pattern p = Pattern.compile("<^>]+>"); 
 		java.util.regex.Matcher m = p.matcher(text); 
 		String result =""; 
 
 		while(m.find()) { 
 
 			result = m.replaceAll("");
+			
 			System.out.println("\ntest:");
+			int cpt = result.length();
 			System.out.println(result);   //ici on récupère tout le wikicode de la page je crois
 			System.out.println("\ntest2:");
 		} 
@@ -64,8 +67,8 @@ public class ExtractionToWiki {
 			String balisedebut ="{|";
 			String baliseFin   = "|}";
 			String nvligne     = "\n";
-	        URL yahoo = new URL(url);
-	        URLConnection yc = yahoo.openConnection();
+	        URL wikipedia = new URL(url);
+	        URLConnection yc = wikipedia.openConnection();
 	        BufferedReader in = new BufferedReader(
 	                                new InputStreamReader(
 	                                yc.getInputStream()));
