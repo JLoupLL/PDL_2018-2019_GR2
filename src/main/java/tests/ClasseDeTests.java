@@ -24,6 +24,13 @@ public class ClasseDeTests {
 	public void testExtractionToWiki() {
 		fail("Not yet implemented");
 	}
+	@Test
+	public void testgetContentHtml() {
+		ExtractionToHTML ex = new ExtractionToHTML();
+		String url = "https://fr.wikipedia.org/wiki/Statistiques_et_records_du_Paris_Saint-Germain";
+		ex.getContentHtml(url);
+		
+	}
 	
 	
 }

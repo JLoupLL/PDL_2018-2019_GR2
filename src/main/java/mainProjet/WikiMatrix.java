@@ -4,27 +4,24 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import org.json.JSONArray;
-
 import connexionAPI.ExtractionToHTML;
 import connexionAPI.ExtractionToWiki;
 
 public class WikiMatrix {
 
-
 	public static void main(String[] args) {
 		new WikiMatrix();
 		System.out.println(utils.Messages.INTRO);
 		System.out.println(utils.Messages.ENTRERCHOIX);
-		String choix="";
+		String choix = "";
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        try {
+		try {
 			choix = br.readLine();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		while (!choix.equals("1")&&!choix.equals("2")&&!choix.equals("q")) {
+		while (!choix.equals("1") && !choix.equals("2") && !choix.equals("q")) {
 			System.out.println("Erreur veuillez choisir parmi les choix proposés");
 			System.out.println(utils.Messages.ENTRERCHOIX);
 			try {
@@ -35,34 +32,30 @@ public class WikiMatrix {
 			}
 		}
 		System.out.println(utils.Messages.DEMANDERURL);
-		String url="";
+		String url = "";
 		try {
 			url = br.readLine();
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		if(choix.equals("1")) {
-			ExtractionToHTML eth=new ExtractionToHTML();
-			eth.getContentHtml(url);
-		}
-		else if(choix.equals("2")) {
-			ExtractionToWiki eth=new ExtractionToWiki();
-			//eth.
+		if (choix.equals("1")) {
+			ExtractionToHTML eth = new ExtractionToHTML(url);
+			eth.getContentHtml();
+		} else if (choix.equals("2")) {
+			//ExtractionToWiki eth = new ExtractionToWiki();
+			// eth.
 		}
 		System.out.println(utils.Messages.MESSAGEDEFIN);
 
-		JSONArray jsonArraySearch = null;
-
 		System.out.println(utils.Messages.PATIENT);// Patientez..
 
+		ExtractionToHTML eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
 
-		ExtractionToHTML eth=new ExtractionToHTML();
-		
-			eth.getContentHtml("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
-		
+		eth.getContentHtml();
 
 	}
 
 }
-//faire une verification de l'url, elle doit commencer par 'https://en.wikipedia.org/wiki/'
+// faire une verification de l'url, elle doit commencer par
+// 'https://en.wikipedia.org/wiki/'

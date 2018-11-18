@@ -1,1 +1,6 @@
 /target/
+/fichierCSV/
+*.class
+.classpath
+.project
+*.jar
