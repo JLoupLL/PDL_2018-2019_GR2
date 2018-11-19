@@ -37,6 +37,7 @@ public class ExtractionToHTMLTest {
 			fail("L'url doit etre une url valide");
 		} catch (Exception e) {
 			assertTrue(e instanceof IllegalArgumentException);
+			System.out.println("salut");
 		}
 	}
 	
