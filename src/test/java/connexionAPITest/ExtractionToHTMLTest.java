@@ -1,4 +1,4 @@
-package connexionAPI;
+package connexionAPITest;
 
 import static org.junit.Assert.*;
 
@@ -8,6 +8,8 @@ import java.util.Scanner;
 
 import org.jsoup.nodes.Document;
 import org.junit.Test;
+
+import connexionAPI.ExtractionToHTML;
 
 public class ExtractionToHTMLTest {
 	ExtractionToHTML eth;
