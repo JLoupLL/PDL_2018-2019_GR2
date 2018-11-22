@@ -51,22 +51,16 @@ public class ExtractionToHTML {
 		insertionDonnesTableauDansFichierCSV(doc, fileWriter);
 	}
 	
-	public boolean urltrue(String url) {
-		if ( url.contains("https://en.wikipedia.org") ) {
-			return true;
-		}
-		else if( url.contains("https://fr.wikipedia.org") ) {
-			return true;
-		}
-		else {
-			return false;
+	public void urltrue(String url) throws IOException {
+		if ( !url.contains("https://en.wikipedia.org") || !url.contains("https://fr.wikipedia.org") ){
+			throw new IOException();
 		}
 	}
 
 	public Document getHtmlJsoup(String url) {
 		Document doc = null;
-		// test 
 		try {
+			urltrue(url);
 			doc = Jsoup.connect(url).get();
 		} catch (IOException e) {
 			System.out.println("erreur lors de la r�cup�ration du code html");
