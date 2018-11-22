@@ -9,6 +9,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ExtractionToWiki {
+	private String url;
+	public ExtractionToWiki(String url) {
+		this.url= url;
+	}
 
 	// Fonction pour essayeer de Parcer le wikiText avec Parse
 	public static void getTabeWiki(String chaine) {// que fait cette fonction?
