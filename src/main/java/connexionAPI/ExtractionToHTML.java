@@ -58,7 +58,7 @@ public class ExtractionToHTML {
 	}
 
 	public Document getHtmlJsoup(String url) {
-		Document doc = null;
+		Document doc = null; //
 		try {
 			urltrue(url);
 			doc = Jsoup.connect(url).get();
