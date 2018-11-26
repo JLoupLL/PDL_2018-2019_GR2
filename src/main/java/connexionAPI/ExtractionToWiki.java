@@ -5,6 +5,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -15,6 +16,7 @@ import javax.xml.soap.Node;
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
+<<<<<<< HEAD
 import org.jsoup.nodes.Element;
 import org.sweble.wikitext.engine.EngineException;
 import org.sweble.wikitext.engine.PageId;
@@ -25,6 +27,8 @@ import org.sweble.wikitext.engine.nodes.EngProcessedPage;
 import org.sweble.wikitext.engine.utils.DefaultConfigEnWp;
 import org.sweble.wikitext.example.TextConverter;
 import org.sweble.wikitext.parser.parser.LinkTargetException;
+=======
+>>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
 import org.wikipedia.Mediawiki;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -34,6 +38,7 @@ import com.sun.xml.txw2.Document;
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 
@@ -108,6 +113,7 @@ public class ExtractionToWiki {
 		char currentCharEst =' ';
 		
 	}
+<<<<<<< HEAD
 	//
 	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
     {
@@ -153,6 +159,33 @@ public class ExtractionToWiki {
 	 * @param args
 	 * @throws Exception
 	 */
+=======
+	
+	public static String getTitreUrl(String url) throws IOException {
+		org.jsoup.nodes.Document doc = Jsoup.connect(url).get();  
+        String titre = doc.title();     
+        titre = titre.replace(" ","_");
+        titre = titre.replace("_-_Wikipedia","");
+		return titre;  
+	}
+
+	
+	public String getUrlFormatRequeteJson(String url) throws IOException {
+		String titre =  getTitreUrl(url);
+		String newTitre ="";
+		if (url.contains("https://fr.wikipedia.org")) {
+			newTitre = newTitre+"https://fr.wikipedia.org//w/api.php?action=parse&page="+titre+"&prop=wikitext&format=json";
+		}
+		else if( url.contains("https://en.wikipedia.org")){
+			newTitre = newTitre+"https://en.wikipedia.org//w/api.php?action=parse&page="+titre+"&prop=wikitext&format=json";
+		}
+		else {
+			return null;
+		}
+		return  newTitre;
+	}
+	
+>>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
 	public static void main(String[] args) throws Exception {
 
 		String Url1 = "https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
@@ -161,6 +194,7 @@ public class ExtractionToWiki {
 		// System.out.println(wiki.fromXML(getContenuePage(Url)));
 		// System.out.println(getContenuePage(Url));
 		String lis1 = getContenuePage(Url1);
+<<<<<<< HEAD
 		//System.out.println(getTableFormatwikitext(lis1));   
 	    
 		
@@ -172,5 +206,15 @@ public class ExtractionToWiki {
 		
 
 		
+=======
+		System.out.println(getTableFormatwikitext(lis1));
+//		ArrayList list = recupLineTable(getTableFormatwikitext(lis1));
+//		Iterator<String> it = list.iterator();
+//		while(it.hasNext())
+//		{
+//			System.out.print(it.next());
+//		}   
+				
+>>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
 	}
 }
