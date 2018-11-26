@@ -10,6 +10,7 @@ import java.util.regex.Pattern;
 
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
 import org.wikipedia.Mediawiki;
 
 import com.sun.xml.txw2.Document;
@@ -95,7 +96,11 @@ public class ExtractionToWiki {
 		return resultat;
 	}
 	
-	
+	public static String urlTitre(String url) throws IOException {
+		org.jsoup.nodes.Document doc = Jsoup.connect("http://www.javatpoint.com").get();  
+        String title = doc.title();
+		return title;  
+	}
 
 	public static void main(String[] args) throws Exception {
 
