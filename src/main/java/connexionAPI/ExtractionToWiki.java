@@ -5,6 +5,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
@@ -15,6 +16,7 @@ import com.sun.xml.txw2.Document;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class ExtractionToWiki {
@@ -91,6 +93,25 @@ public class ExtractionToWiki {
 			}
 		}	
 		return resultat;
+	}
+	
+	public static void urlTitre(String url) {
+		InputStream response = null;
+	    try {
+	        response = new URL(url).openStream();
+	        Scanner scanner = new Scanner(response);
+	        String responseBody = scanner.useDelimiter("\\A").next();
+	        String titre = responseBody.substring(responseBody.indexOf("<title>") + 7, responseBody.indexOf("</title>"));
+	        System.out.println(titre); 
+	    } catch (IOException ex) {
+	        ex.printStackTrace();
+	    } finally {
+	        try {
+	            response.close();
+	        } catch (IOException ex) {
+	            ex.printStackTrace();
+	        }
+	    }
 	}
 
 	public static void main(String[] args) throws Exception {
