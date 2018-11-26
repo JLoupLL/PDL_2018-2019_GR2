@@ -17,7 +17,7 @@ public class ExtractionToHTML {
 	}
 
 	public static void main(String[] args) {
-		ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)");
+		ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
 		html.getContentHtml();
 	}
 
@@ -95,6 +95,9 @@ public class ExtractionToHTML {
 					}
 					for (Element td : row.select("td")) {
 						ligneDunTableau += td.text().trim() + ";";
+						for(Element th : td.select("th")) {
+							ligneDunTableau += th.text().trim() + ";";
+						}
 					}
 					try {
 						fileWriter.append(ligneDunTableau);
