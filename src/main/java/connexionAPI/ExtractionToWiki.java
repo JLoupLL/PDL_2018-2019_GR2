@@ -97,9 +97,11 @@ public class ExtractionToWiki {
 	}
 	
 	public static String urlTitre(String url) throws IOException {
-		org.jsoup.nodes.Document doc = Jsoup.connect("http://www.javatpoint.com").get();  
-        String title = doc.title();
-		return title;  
+		org.jsoup.nodes.Document doc = Jsoup.connect(url).get();  
+        String titre = doc.title();     
+        titre = titre.replace(" ","_");
+        titre = titre.replace("_-_Wikipedia","");
+		return titre;  
 	}
 
 	public static void main(String[] args) throws Exception {
@@ -116,7 +118,7 @@ public class ExtractionToWiki {
 //		while(it.hasNext())
 //		{
 //			System.out.print(it.next());
-//		}
-		
+//		}   
+				
 	}
 }
