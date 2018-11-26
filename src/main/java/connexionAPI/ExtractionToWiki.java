@@ -7,15 +7,39 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.regex.Pattern;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.soap.Node;
+
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
+import org.sweble.wikitext.engine.EngineException;
+import org.sweble.wikitext.engine.PageId;
+import org.sweble.wikitext.engine.PageTitle;
+import org.sweble.wikitext.engine.WtEngineImpl;
+import org.sweble.wikitext.engine.config.WikiConfig;
+import org.sweble.wikitext.engine.nodes.EngProcessedPage;
+import org.sweble.wikitext.engine.utils.DefaultConfigEnWp;
+import org.sweble.wikitext.example.TextConverter;
+import org.sweble.wikitext.parser.parser.LinkTargetException;
 import org.wikipedia.Mediawiki;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
 
 import com.sun.xml.txw2.Document;
 
 import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.StringReader;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import org.xml.sax.InputSource;
 
 public class ExtractionToWiki {
 	private String url;
@@ -57,6 +81,7 @@ public class ExtractionToWiki {
 	}
 	//cette fonction format le contenu en format tableau wikitext 
 	public static String getTableFormatwikitext(String json) {
+		Document doc;
 		String content = "";
 		try {
 			JSONObject objetJson = new JSONObject(json);
@@ -70,29 +95,64 @@ public class ExtractionToWiki {
 		}
 	return content;
 	}
-
+	//formater le code et enlever 
 	// formater par ligne du tableau le contenu
-	public static ArrayList recupLineTable(String chaine) {
+	public static void recupLineTableAndSavetoCSV(String chaine) {
 		ArrayList resultat = new ArrayList<String>();
 		String  [] ligne = null;
+		String tabAremove[] = {"<span>","</spam>"} ;
 		List characters = new ArrayList();
         List contentList = new ArrayList();
         char nligne ='\n'+' ';
-		char currentChar = '|';
+		char currentChar = '!';
 		char currentCharEst =' ';
-		for (int i = 0; i < chaine.length(); i++) {
-			if (chaine.charAt(i) == currentChar) {
-				System.out.println(chaine.charAt(i));
-			}else 					
-			{
-				currentCharEst = chaine.charAt(i);
-				resultat.add(currentCharEst);
-				System.out.print(chaine.charAt(i));
-			}
-		}	
-		return resultat;
+		
 	}
-
+	//
+	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
+    {
+        //Parser that produces DOM object trees from XML content
+        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+         
+        //API to obtain DOM Document instance
+        DocumentBuilder builder = null;
+        try
+        {
+            //Create DocumentBuilder with default configuration
+            builder = factory.newDocumentBuilder();
+             
+            //Parse the content to Document object
+            org.w3c.dom.Node doc = builder.parse(new InputSource(new StringReader(xmlString)));
+            return doc;
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        return null;
+    }
+	//
+	public static String convertWikiText(String wikiText) throws EngineException, LinkTargetException  {
+	    // Set-up a simple wiki configuration
+	    WikiConfig config = DefaultConfigEnWp.generate();
+	    // Instantiate a compiler for wiki pages
+	    WtEngineImpl engine = new WtEngineImpl(config);
+	    // Retrieve a page
+	    String pageT = "Comparison_of_Canon_EOS_digital_cameras";
+	    PageTitle pageTitle = PageTitle.make(config, pageT);
+	   
+	    PageId pageId = new PageId(pageTitle, -1);
+	    //Compile the retrieved page
+	    EngProcessedPage cp = engine.postprocess(pageId, wikiText, null);
+	    TextConverter p = new TextConverter(config,100);
+		return (String)p.go(cp.getPage());
+	}
+	
+	
+	/**
+	 * @param args
+	 * @throws Exception
+	 */
 	public static void main(String[] args) throws Exception {
 
 		String Url1 = "https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
@@ -101,13 +161,16 @@ public class ExtractionToWiki {
 		// System.out.println(wiki.fromXML(getContenuePage(Url)));
 		// System.out.println(getContenuePage(Url));
 		String lis1 = getContenuePage(Url1);
-		System.out.println(getTableFormatwikitext(lis1));
-//		ArrayList list = recupLineTable(getTableFormatwikitext(lis1));
-//		Iterator<String> it = list.iterator();
-//		while(it.hasNext())
-//		{
-//			System.out.print(it.next());
-//		}
+		//System.out.println(getTableFormatwikitext(lis1));   
+	    
+		
+		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		org.jsoup.nodes.Document doc = Jsoup.parse(getTableFormatwikitext(lis1));
+		System.out.println(doc);
+
+		Element fileWriter = null;
+		
+
 		
 	}
 }
