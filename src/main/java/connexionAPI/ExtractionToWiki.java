@@ -95,24 +95,7 @@ public class ExtractionToWiki {
 		return resultat;
 	}
 	
-	public static void urlTitre(String url) {
-		InputStream response = null;
-	    try {
-	        response = new URL(url).openStream();
-	        Scanner scanner = new Scanner(response);
-	        String responseBody = scanner.useDelimiter("\\A").next();
-	        String titre = responseBody.substring(responseBody.indexOf("<title>") + 7, responseBody.indexOf("</title>"));
-	        System.out.println(titre); 
-	    } catch (IOException ex) {
-	        ex.printStackTrace();
-	    } finally {
-	        try {
-	            response.close();
-	        } catch (IOException ex) {
-	            ex.printStackTrace();
-	        }
-	    }
-	}
+	
 
 	public static void main(String[] args) throws Exception {
 
