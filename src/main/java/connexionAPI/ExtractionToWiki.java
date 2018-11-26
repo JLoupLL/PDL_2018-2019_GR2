@@ -5,16 +5,19 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 import java.util.regex.Pattern;
 
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
 import org.wikipedia.Mediawiki;
 
 import com.sun.xml.txw2.Document;
 
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class ExtractionToWiki {
@@ -91,6 +94,12 @@ public class ExtractionToWiki {
 			}
 		}	
 		return resultat;
+	}
+	
+	public static String urlTitre(String url) throws IOException {
+		org.jsoup.nodes.Document doc = Jsoup.connect("http://www.javatpoint.com").get();  
+        String title = doc.title();
+		return title;  
 	}
 
 	public static void main(String[] args) throws Exception {
