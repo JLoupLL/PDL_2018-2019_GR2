@@ -96,7 +96,7 @@ public class ExtractionToWiki {
 		return resultat;
 	}
 	
-	public static String urlTitre(String url) throws IOException {
+	public static String getTitreUrl(String url) throws IOException {
 		org.jsoup.nodes.Document doc = Jsoup.connect(url).get();  
         String titre = doc.title();     
         titre = titre.replace(" ","_");
@@ -104,6 +104,22 @@ public class ExtractionToWiki {
 		return titre;  
 	}
 
+	
+	public String getUrlFormatRequeteJson(String url) throws IOException {
+		String titre =  getTitreUrl(url);
+		String newTitre ="";
+		if (url.contains("https://fr.wikipedia.org")) {
+			newTitre = newTitre+"https://fr.wikipedia.org//w/api.php?action=parse&page="+titre+"&prop=wikitext&format=json";
+		}
+		else if( url.contains("https://en.wikipedia.org")){
+			newTitre = newTitre+"https://en.wikipedia.org//w/api.php?action=parse&page="+titre+"&prop=wikitext&format=json";
+		}
+		else {
+			return null;
+		}
+		return  newTitre;
+	}
+	
 	public static void main(String[] args) throws Exception {
 
 		String Url1 = "https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
