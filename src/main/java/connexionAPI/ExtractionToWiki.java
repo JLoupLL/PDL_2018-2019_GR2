@@ -16,19 +16,13 @@ import javax.xml.soap.Node;
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
-<<<<<<< HEAD
 import org.jsoup.nodes.Element;
-import org.sweble.wikitext.engine.EngineException;
-import org.sweble.wikitext.engine.PageId;
-import org.sweble.wikitext.engine.PageTitle;
-import org.sweble.wikitext.engine.WtEngineImpl;
+import org.sweble.wikitext.engine.*;
 import org.sweble.wikitext.engine.config.WikiConfig;
 import org.sweble.wikitext.engine.nodes.EngProcessedPage;
 import org.sweble.wikitext.engine.utils.DefaultConfigEnWp;
 import org.sweble.wikitext.example.TextConverter;
 import org.sweble.wikitext.parser.parser.LinkTargetException;
-=======
->>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
 import org.wikipedia.Mediawiki;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
@@ -113,7 +107,6 @@ public class ExtractionToWiki {
 		char currentCharEst =' ';
 		
 	}
-<<<<<<< HEAD
 	//
 	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
     {
@@ -159,7 +152,6 @@ public class ExtractionToWiki {
 	 * @param args
 	 * @throws Exception
 	 */
-=======
 	
 	public static String getTitreUrl(String url) throws IOException {
 		org.jsoup.nodes.Document doc = Jsoup.connect(url).get();  
@@ -184,8 +176,7 @@ public class ExtractionToWiki {
 		}
 		return  newTitre;
 	}
-	
->>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
+
 	public static void main(String[] args) throws Exception {
 
 		String Url1 = "https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
@@ -194,7 +185,6 @@ public class ExtractionToWiki {
 		// System.out.println(wiki.fromXML(getContenuePage(Url)));
 		// System.out.println(getContenuePage(Url));
 		String lis1 = getContenuePage(Url1);
-<<<<<<< HEAD
 		//System.out.println(getTableFormatwikitext(lis1));   
 	    
 		
@@ -206,7 +196,6 @@ public class ExtractionToWiki {
 		
 
 		
-=======
 		System.out.println(getTableFormatwikitext(lis1));
 //		ArrayList list = recupLineTable(getTableFormatwikitext(lis1));
 //		Iterator<String> it = list.iterator();
@@ -215,6 +204,5 @@ public class ExtractionToWiki {
 //			System.out.print(it.next());
 //		}   
 				
->>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
 	}
 }
