@@ -22,7 +22,7 @@ public class WikiMatrix {
 			e.printStackTrace();
 		}
 		while (!choix.equals("1") && !choix.equals("2") && !choix.equals("q")) {
-			System.out.println("Erreur veuillez choisir parmi les choix proposés");
+			System.out.println("Erreur veuillez choisir parmi les choix proposes");
 			System.out.println(utils.Messages.ENTRERCHOIX);
 			try {
 				choix = br.readLine();
