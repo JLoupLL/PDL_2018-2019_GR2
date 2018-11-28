@@ -21,7 +21,6 @@ public class ExtractionToWikiTest {
 		String s= ExtractionToWiki.getContenuePage("https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json");
 		 assertFalse("contenu de la page non vide",s.isEmpty());
 	}
-	
 
 	@Test
 	public void testRecupLineTable() {
