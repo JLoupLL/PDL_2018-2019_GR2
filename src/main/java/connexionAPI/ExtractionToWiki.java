@@ -110,34 +110,12 @@ public class ExtractionToWiki {
 		char currentCharEst =' ';
 
 	}
-<<<<<<< HEAD
+
 
 	//
-	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
-    {
-        //Parser that produces DOM object trees from XML content
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-         
-        //API to obtain DOM Document instance
-        DocumentBuilder builder = null;
-        try
-        {
-            //Create DocumentBuilder with default configuration
-            builder = factory.newDocumentBuilder();
-             
-            //Parse the content to Document object
-            org.w3c.dom.Node doc = builder.parse(new InputSource(new StringReader(xmlString)));
-            return doc;
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
 	
-=======
+	
+
 	//
 	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
 	{
@@ -162,23 +140,8 @@ public class ExtractionToWiki {
 		return null;
 	}
 	//
-	public static String convertWikiText(String wikiText) throws EngineException, LinkTargetException  {
-		// Set-up a simple wiki configuration
-		WikiConfig config = DefaultConfigEnWp.generate();
-		// Instantiate a compiler for wiki pages
-		WtEngineImpl engine = new WtEngineImpl(config);
-		// Retrieve a page
-		String pageT = "Comparison_of_Canon_EOS_digital_cameras";
-		PageTitle pageTitle = PageTitle.make(config, pageT);
+	
 
-		PageId pageId = new PageId(pageTitle, -1);
-		//Compile the retrieved page
-		EngProcessedPage cp = engine.postprocess(pageId, wikiText, null);
-		TextConverter p = new TextConverter(config,100);
-		return (String)p.go(cp.getPage());
-	}
-
->>>>>>> 7bc39a75366d303f316fa351e5d08ec1503daadf
 	/**
 	 * @param args
 	 * @throws Exception
@@ -207,10 +170,7 @@ public class ExtractionToWiki {
 		}
 		return  newTitre;
 	}
-<<<<<<< HEAD
-	
-=======
->>>>>>> 7bc39a75366d303f316fa351e5d08ec1503daadf
+
 
 	public static void main(String[] args) throws Exception {
 
@@ -220,7 +180,7 @@ public class ExtractionToWiki {
 		// System.out.println(wiki.fromXML(getContenuePage(Url)));
 		// System.out.println(getContenuePage(Url));
 		String lis1 = getContenuePage(Url1);
-<<<<<<< HEAD
+
 		List<String> l = new ArrayList<String>();
 		l.add(lis1);
 		
@@ -249,16 +209,11 @@ public class ExtractionToWiki {
 //			System.out.print(it.next());
 //		}   
 				
-=======
+
 		//System.out.println(getTableFormatwikitext(lis1));   
 
 
-		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-		org.jsoup.nodes.Document doc = Jsoup.parse(getTableFormatwikitext(lis1));
-		System.out.println(doc);
-
-		Element fileWriter = null;
-
+		
 
 
 		System.out.println(getTableFormatwikitext(lis1));
@@ -269,6 +224,6 @@ public class ExtractionToWiki {
 		//			System.out.print(it.next());
 		//		}   
 
->>>>>>> 7bc39a75366d303f316fa351e5d08ec1503daadf
+
 	}
 }
