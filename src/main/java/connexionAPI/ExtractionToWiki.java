@@ -99,6 +99,12 @@ public class ExtractionToWiki {
 	}
 
 
+<<<<<<< HEAD
+=======
+	//
+	
+	
+>>>>>>> 818d3a28ea8ca69ad4c4e7d17fddc289cd1c5ed2
 
 	//
 	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
@@ -123,8 +129,14 @@ public class ExtractionToWiki {
 		}
 		return null;
 	}
+<<<<<<< HEAD
 
 
+=======
+	//
+	
+
+>>>>>>> 818d3a28ea8ca69ad4c4e7d17fddc289cd1c5ed2
 	/**
 	 * @param args
 	 * @throws Exception
@@ -192,16 +204,17 @@ public class ExtractionToWiki {
 //			System.out.print(it.next());
 //		}   
 				
+<<<<<<< HEAD
+
+		//System.out.println(getTableFormatwikitext(lis1));   
+
+=======
+>>>>>>> 818d3a28ea8ca69ad4c4e7d17fddc289cd1c5ed2
 
 		//System.out.println(getTableFormatwikitext(lis1));   
 
 
-		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-		org.jsoup.nodes.Document doc = Jsoup.parse(getTableFormatwikitext(lis1));
-		System.out.println(doc);
-
-		Element fileWriter = null;
-
+		
 
 
 		//System.out.println(getTableFormatwikitext(lis1);
@@ -212,5 +225,9 @@ public class ExtractionToWiki {
 		//			System.out.print(it.next());
 		//		}   
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 818d3a28ea8ca69ad4c4e7d17fddc289cd1c5ed2
 	}
 }
