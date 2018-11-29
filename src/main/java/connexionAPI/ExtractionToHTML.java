@@ -15,6 +15,8 @@ public class ExtractionToHTML {
 	public ExtractionToHTML(String url) {
 		this.url = url;
 	}
+	public ExtractionToHTML() {
+	}
 
 	public static void main(String[] args) {
 		ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
@@ -71,40 +73,51 @@ public class ExtractionToHTML {
 		Elements titre = doc.select("h1");
 		FileWriter fileWriter = null;
 		try {
-			fileWriter = new FileWriter("fichierCSV\\" + titre.first().text() + ".csv");
+			fileWriter = new FileWriter("output\\html\\" + titre.first().text() + ".csv");
 		} catch (IOException e) {
 			System.out.println("erreur lors de la cr�ation du fichier .CSV");
 			e.printStackTrace();
 		}
 		return fileWriter;
 	}
-
-	private void insertionDonnesTableauDansFichierCSV(Document doc, FileWriter fileWriter) {
+	public void pourTousLesTableaux(Document doc, FileWriter fileWriter) {
+		if(doc!=null) {
+			if(doc.select("table")!=null) {
+				for (Element table : doc.select("table")) {
+				}
+			}
+		}
+	}
+	public void insertionDonnesTableauDansFichierCSV(Document doc, FileWriter fileWriter) {
 
 		// parcours des tableaux de la page
 		// attention peut-�tre un probl�me?? si on est sur une page wikip�dia contenant
 		// le mot "table"
-		for (Element table : doc.select("table")) {
-			System.out.println(table.className());
-			if (table.className().contains("wikitable")) {
+		if(doc!=null) {
+			if(doc.select("table")!=null) {
+				for (Element table : doc.select("table")) {
+					
+					if (table.className().contains("wikitable")) {
 
-				for (Element row : table.select("tr")) {
-					String ligneDunTableau = "";
-					for(Element th : row.select("th")) {
-						ligneDunTableau += th.text().trim() + ";";
-					}
-					for (Element td : row.select("td")) {
-						ligneDunTableau += td.text().trim() + ";";
-						for(Element th : td.select("th")) {
-							ligneDunTableau += th.text().trim() + ";";
+						for (Element row : table.select("tr")) {
+							String ligneDunTableau = "";
+							for(Element th : row.select("th")) {
+								ligneDunTableau += th.text().trim() + ";";
+							}
+							for (Element td : row.select("td")) {
+								ligneDunTableau += td.text().trim() + ";";
+								for(Element th : td.select("th")) {
+									ligneDunTableau += th.text().trim() + ";";
+								}
+							}
+							try {
+								fileWriter.append(ligneDunTableau);
+								fileWriter.append("\n");
+							} catch (IOException e) {
+								System.out.println("erreur lors de l'ajout d'une ligne dans le fichier .CSV");
+								e.printStackTrace();
+							}
 						}
-					}
-					try {
-						fileWriter.append(ligneDunTableau);
-						fileWriter.append("\n");
-					} catch (IOException e) {
-						System.out.println("erreur lors de l'ajout d'une ligne dans le fichier .CSV");
-						e.printStackTrace();
 					}
 				}
 			}
