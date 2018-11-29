@@ -16,25 +16,7 @@ import javax.xml.soap.Node;
 import org.eclipse.persistence.internal.oxm.schema.model.Content;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
-<<<<<<< HEAD
 import org.jsoup.nodes.Element;
-import org.sweble.wikitext.engine.EngineException;
-import org.sweble.wikitext.engine.PageId;
-import org.sweble.wikitext.engine.PageTitle;
-import org.sweble.wikitext.engine.WtEngineImpl;
-import org.sweble.wikitext.engine.config.WikiConfig;
-import org.sweble.wikitext.engine.nodes.EngProcessedPage;
-import org.sweble.wikitext.engine.utils.DefaultConfigEnWp;
-import org.sweble.wikitext.example.TextConverter;
-import org.sweble.wikitext.parser.parser.LinkTargetException;
-=======
->>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
-import org.wikipedia.Mediawiki;
-import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
-
-import com.sun.xml.txw2.Document;
-
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -86,7 +68,6 @@ public class ExtractionToWiki {
 	}
 	//cette fonction format le contenu en format tableau wikitext 
 	public static String getTableFormatwikitext(String json) {
-		Document doc;
 		String content = "";
 		try {
 			JSONObject objetJson = new JSONObject(json);
@@ -113,7 +94,7 @@ public class ExtractionToWiki {
 		char currentCharEst =' ';
 		
 	}
-<<<<<<< HEAD
+
 	//
 	private static org.w3c.dom.Node convertStringToXMLDocument(String xmlString)
     {
@@ -137,30 +118,13 @@ public class ExtractionToWiki {
         }
         return null;
     }
-	//
-	public static String convertWikiText(String wikiText) throws EngineException, LinkTargetException  {
-	    // Set-up a simple wiki configuration
-	    WikiConfig config = DefaultConfigEnWp.generate();
-	    // Instantiate a compiler for wiki pages
-	    WtEngineImpl engine = new WtEngineImpl(config);
-	    // Retrieve a page
-	    String pageT = "Comparison_of_Canon_EOS_digital_cameras";
-	    PageTitle pageTitle = PageTitle.make(config, pageT);
-	   
-	    PageId pageId = new PageId(pageTitle, -1);
-	    //Compile the retrieved page
-	    EngProcessedPage cp = engine.postprocess(pageId, wikiText, null);
-	    TextConverter p = new TextConverter(config,100);
-		return (String)p.go(cp.getPage());
-	}
-	
+
 	
 	/**
 	 * @param args
 	 * @throws Exception
 	 */
-=======
-	
+
 	public static String getTitreUrl(String url) throws IOException {
 		org.jsoup.nodes.Document doc = Jsoup.connect(url).get();  
         String titre = doc.title();     
@@ -185,7 +149,7 @@ public class ExtractionToWiki {
 		return  newTitre;
 	}
 	
->>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
+
 	public static void main(String[] args) throws Exception {
 
 		String Url1 = "https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
@@ -194,20 +158,27 @@ public class ExtractionToWiki {
 		// System.out.println(wiki.fromXML(getContenuePage(Url)));
 		// System.out.println(getContenuePage(Url));
 		String lis1 = getContenuePage(Url1);
-<<<<<<< HEAD
+		List<String> l = new ArrayList<String>();
+		l.add(lis1);
+		
+		for (int i = 0; i <l.size(); i++) {
+			 
+				  System.out.println(l.get(i));
+		}
+		
+		
 		//System.out.println(getTableFormatwikitext(lis1));   
 	    
 		
-		DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-		org.jsoup.nodes.Document doc = Jsoup.parse(getTableFormatwikitext(lis1));
-		System.out.println(doc);
+		//DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+		//org.jsoup.nodes.Document doc = Jsoup.parse(getTableFormatwikitext(lis1));
+	  
 
-		Element fileWriter = null;
+		//Element fileWriter = null;
 		
 
 		
-=======
-		System.out.println(getTableFormatwikitext(lis1));
+		//System.out.println(getTableFormatwikitext(lis1));
 //		ArrayList list = recupLineTable(getTableFormatwikitext(lis1));
 //		Iterator<String> it = list.iterator();
 //		while(it.hasNext())
@@ -215,6 +186,5 @@ public class ExtractionToWiki {
 //			System.out.print(it.next());
 //		}   
 				
->>>>>>> 9408d5b434390fde1c429e60deda9a4ebd40dcf2
 	}
 }
