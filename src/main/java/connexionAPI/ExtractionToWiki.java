@@ -32,7 +32,6 @@ import org.xml.sax.SAXException;
 
 import com.sun.xml.txw2.Document;
 
->>>>>>> 7bc39a75366d303f316fa351e5d08ec1503daadf
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
