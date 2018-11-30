@@ -22,7 +22,6 @@ public class ExtractionToWikiTest {
 		String s= ExtractionToWiki.getContenuePage(url1);
 		 assertFalse("contenu de la page non vide",s.isEmpty());
 	}
-	
 
 	@Test
 	public void testRecupLineTable() {
