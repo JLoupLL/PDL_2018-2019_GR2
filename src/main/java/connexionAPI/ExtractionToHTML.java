@@ -18,6 +18,11 @@ public class ExtractionToHTML {
 	public ExtractionToHTML() {
 	}
 
+	public static void main(String[] args) {
+		ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
+		html.getContentHtml();
+	}
+
 	public void setUrl(String url) {
 		this.url = url;
 	}
@@ -72,7 +77,7 @@ public class ExtractionToHTML {
 		Elements titre = doc.select("h1");
 		FileWriter fileWriter = null;
 		try {
-			fileWriter = new FileWriter("output\\html\\"+titre.first().text() + ".csv");
+			fileWriter = new FileWriter("output\\html\\" + titre.first().text() + ".csv");
 		} catch (IOException e) {
 			System.out.println("erreur lors de la cr�ation du fichier .CSV");
 			e.printStackTrace();
@@ -129,8 +134,4 @@ public class ExtractionToHTML {
 		}
 	}
 	
-	public static void main(String[] args) {
-		ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
-		html.getContentHtml();
-	}
 }
