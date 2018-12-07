@@ -26,5 +26,9 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+<<<<<<< HEAD
+=======
+	<classpathentry kind="lib" path="swc-example-basic-3.1.9.jar"/>
+>>>>>>> 76e6638f50d36565e5787c5d23d31e3bd245443f
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -5,8 +5,12 @@ import static org.junit.Assert.*;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 
+import org.jsoup.nodes.Document;
 import org.junit.Test;
+
+import connexionAPI.ExtractionToHTML;
 
 public class BenchTest {
 	
@@ -31,12 +35,14 @@ public class BenchTest {
 		BufferedReader br = new BufferedReader(new FileReader(file));
 	    String url;
 	    int nurl = 0;
+	    ExtractionToHTML extractHtml=new ExtractionToHTML();
 	    while ((url = br.readLine()) != null) {
 	       String wurl = BASE_WIKIPEDIA_URL + url; 
 	       System.out.println("Wikipedia url: " + wurl);
 	       // TODO: do something with the Wikipedia URL 
 	       // (ie extract relevant tables for correct URL, with the two extractors)
-		    
+	       extractHtml.setUrl(wurl);
+	       Document doc=extractHtml.getHtmlJsoup(wurl);
 	       
 	       // for exporting to CSV files, we will use mkCSVFileName 
 	       // example: for https://en.wikipedia.org/wiki/Comparison_of_operating_system_kernels
@@ -46,8 +52,11 @@ public class BenchTest {
 	       System.out.println("CSV file name: " + csvFileName);
 	       // the *second* (if any) will be exported to a CSV file called
 	       // "Comparison_of_operating_system_kernels-2.csv"
-
-	       
+	       //Continuer a reflechir!!!!
+	       /*
+	       extractHtml.pourTousLesTableaux(doc, fileiter);
+	       extractHtml.insertionDonnesTableauDansFichierCSV(doc, new FileWriter("output\\html\\"+csvFileName));
+	       */
 	       // TODO: the HTML extractor should save CSV files into output/HTML
 	       // see outputDirHtml 
 	       
