@@ -39,7 +39,7 @@ public class ExtractionToHTMLTest {
 			assertTrue(e instanceof IllegalArgumentException);
 		}
 	}
-
+/*
 	@Test
 	public void testInsertionDonnesTableauDansFichierCSV2() {
 		
@@ -55,6 +55,6 @@ public class ExtractionToHTMLTest {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 
 }
