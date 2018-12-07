@@ -34,14 +34,15 @@ public class ExtractionToHTMLTest {
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
 		try {
 			this.eth.getHtmlJsoup(null);
-			fail("L'url doit etre une url valide");
+			fail("L'url n'est pas valide");
 		} catch (Exception e) {
 			assertTrue(e instanceof IllegalArgumentException);
 		}
 	}
 /*
 	@Test
-	public void testInsertionDonnesTableauDansFichierCSV() {
+	public void testInsertionDonnesTableauDansFichierCSV2() {
+		
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
 		eth.getContentHtml();
 		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
