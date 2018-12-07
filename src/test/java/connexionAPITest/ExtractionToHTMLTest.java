@@ -14,13 +14,13 @@ import connexionAPI.ExtractionToHTML;
 public class ExtractionToHTMLTest {
 	ExtractionToHTML eth;
 
-//	@Test
-//	public void testGetContentHtml() {
-//		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-//		eth.getContentHtml();
-//		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
-//		assertTrue("fichier existe", file.exists());
-//	}
+	@Test
+	public void testGetContentHtml() {
+		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
+		eth.getContentHtml();
+		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
+		assertTrue("fichier existe", file.exists());
+	}
 
 	@Test
 	public void testGetHtmlJsoup() {
@@ -39,21 +39,21 @@ public class ExtractionToHTMLTest {
 			assertTrue(e instanceof IllegalArgumentException);
 		}
 	}
-	
-//	@Test
-//	public void testInsertionDonnesTableauDansFichierCSV() {
-//		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
-//		eth.getContentHtml();
-//		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
-//		try {
-//			Scanner in = new Scanner(file);
-//			in.useDelimiter("\n");
-//			String str= in.next();
-//			in.close();
-//			assertEquals("Corpus de lois;", str);
-//		} catch (FileNotFoundException e) {
-//			e.printStackTrace();
-//		}
-//	}
+
+	@Test
+	public void testInsertionDonnesTableauDansFichierCSV() {
+		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
+		eth.getContentHtml();
+		File file = new File("fichierCSV\\Loi des Douze Tables.csv");
+		try {
+			Scanner in = new Scanner(file);
+			in.useDelimiter("\n");
+			String str = in.next();
+			in.close();
+			assertEquals("Corpus de lois;", str);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 
 }
