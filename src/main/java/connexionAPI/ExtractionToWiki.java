@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.soap.Node;
+
 
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -171,9 +171,4 @@ public class ExtractionToWiki {
                          
 
              }
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> 76e6638f50d36565e5787c5d23d31e3bd245443f
