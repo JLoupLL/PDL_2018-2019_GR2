@@ -29,13 +29,15 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.StringReader;
+import  info.bliki.wiki.model.WikiModel ; 
+import  info.bliki.wiki.model.Configuration ; 
+import  info.bliki.wiki.tags. * ; 
+import  java.io. * ;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import org.xml.sax.InputSource;
 
+ 
 
-public class ExtractionToWiki {
+public class ExtractionToWiki extends Object{
              private String url;
              public ExtractionToWiki(String url) {
                            this.url= url;
@@ -168,6 +170,9 @@ public class ExtractionToWiki {
                            String formatWiki = getTableFormatwikitext(list1);
                            System.out.print(formatWiki);
                            //System.out.println(tasse.getString()); //Rouge
+                         
+                           
+                      
                          
 
              }

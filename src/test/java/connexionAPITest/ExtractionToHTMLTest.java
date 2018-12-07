@@ -39,7 +39,7 @@ public class ExtractionToHTMLTest {
 			assertTrue(e instanceof IllegalArgumentException);
 		}
 	}
-
+/*
 	@Test
 	public void testInsertionDonnesTableauDansFichierCSV() {
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
@@ -54,6 +54,6 @@ public class ExtractionToHTMLTest {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-	}
+	}*/
 
 }
