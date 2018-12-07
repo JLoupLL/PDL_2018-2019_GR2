@@ -1,3 +1,4 @@
+
 package connexionAPI;
 
 import java.io.FileWriter;
@@ -50,7 +51,7 @@ public class ExtractionToHTML {
 		}else {
 			System.out.println("le document est  null");
 		}
-		
+
 	}
 
 	public void urltrue(String url) throws IOException {
@@ -84,23 +85,68 @@ public class ExtractionToHTML {
 		}
 		return fileWriter;
 	}
-	public void pourTousLesTableaux(Document doc, FileWriter fileWriter) {
+	public void pourTousLesTableaux(Document doc, String csvFileName) {
 		if(doc!=null) {
 			if(doc.select("table")!=null) {
+				int i=1;
+				FileWriter fileWriter=null;
 				for (Element table : doc.select("table")) {
+					if (table.className().contains("wikitable")) {
+						try {
+							fileWriter=new FileWriter(csvFileName);
+						} catch (IOException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+						insertionDonnesTableauDansFichierCSV2(table,fileWriter);
+						i++;
+						csvFileName=csvFileName.substring(0,csvFileName.indexOf("-"));
+						//csvFileName=csvFileName.trim() + "-" + i + ".csv";
+						csvFileName=csvFileName+"-"+i+".csv";
+					}
 				}
 			}
 		}
 	}
+	public void insertionDonnesTableauDansFichierCSV2(Element table, FileWriter fileWriter) {
+		for (Element row : table.select("tr")) {
+			String ligneDunTableau = "";
+			for(Element th : row.select("th")) {
+				ligneDunTableau += th.text().trim() + ";";
+			}
+			for (Element td : row.select("td")) {
+				ligneDunTableau += td.text().trim() + ";";
+				for(Element th : td.select("th")) {
+					ligneDunTableau += th.text().trim() + ";";
+				}
+			}
+			try {
+				fileWriter.append(ligneDunTableau);
+				fileWriter.append("\n");
+			} catch (IOException e) {
+				System.out.println("erreur lors de l'ajout d'une ligne dans le fichier .CSV");
+				e.printStackTrace();
+			}
+		}
+
+
+		try {
+			fileWriter.close();
+		} catch (IOException e) {
+			System.out.println("erreur lors de la fermeture du fichier .CSV");
+			e.printStackTrace();
+		}
+	}
+
+
 	public void insertionDonnesTableauDansFichierCSV(Document doc, FileWriter fileWriter) {
 
-		// parcours des tableaux de la page
-		// attention peut-�tre un probl�me?? si on est sur une page wikip�dia contenant
-		// le mot "table"
+
 		if(doc!=null) {
 			if(doc.select("table")!=null) {
+
 				for (Element table : doc.select("table")) {
-					
+
 					if (table.className().contains("wikitable")) {
 
 						for (Element row : table.select("tr")) {
@@ -133,5 +179,6 @@ public class ExtractionToHTML {
 			e.printStackTrace();
 		}
 	}
-	
+
+
 }

@@ -43,7 +43,6 @@ public class BenchTest {
 	       // (ie extract relevant tables for correct URL, with the two extractors)
 	       extractHtml.setUrl(wurl);
 	       Document doc=extractHtml.getHtmlJsoup(wurl);
-	       
 	       // for exporting to CSV files, we will use mkCSVFileName 
 	       // example: for https://en.wikipedia.org/wiki/Comparison_of_operating_system_kernels
 	       // the *first* extracted table will be exported to a CSV file called 
@@ -53,10 +52,9 @@ public class BenchTest {
 	       // the *second* (if any) will be exported to a CSV file called
 	       // "Comparison_of_operating_system_kernels-2.csv"
 	       //Continuer a reflechir!!!!
-	       /*
-	       extractHtml.pourTousLesTableaux(doc, fileiter);
-	       extractHtml.insertionDonnesTableauDansFichierCSV(doc, new FileWriter("output\\html\\"+csvFileName));
-	       */
+	       extractHtml.pourTousLesTableaux(doc, "output\\html\\"+csvFileName);
+	       
+	       
 	       // TODO: the HTML extractor should save CSV files into output/HTML
 	       // see outputDirHtml 
 	       
