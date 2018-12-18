@@ -35,8 +35,8 @@ import  java.io. * ;
 
 public class ExtractionToWiki extends Object{
              private String url;
-             public ExtractionToWiki(String url) {
-                           this.url= url;
+             public ExtractionToWiki() {
+                          
              }
 
              // Fonction pour essayeer de Parcer le wikiText avec Parse
@@ -103,7 +103,7 @@ public class ExtractionToWiki extends Object{
          	public static FileWriter creationFichierCsv(Document doc) { // peut �tre d�placer dans un autre package
          		// (createFileCSV)
          		// Cr�ation du fichier csv avec comme titre le premier h1 de la page wikip�dia
-         		Elements titre = doc.select("p");
+         		Elements titre = doc.select("h1");
          		FileWriter fileWriter = null;
          		try {
          			fileWriter = new FileWriter("output\\wikitext\\" + titre.first().text() + ".csv");

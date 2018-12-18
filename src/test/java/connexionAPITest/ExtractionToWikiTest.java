@@ -12,10 +12,11 @@ import connexionAPI.ExtractionToWiki;
 public class ExtractionToWikiTest {
  ExtractionToWiki etw;
  String url1;
+ 	/*
  	@Before
  	public void intiTest() {
  		url1="https://en.wikipedia.org/w/api.php?action=parse&page=Comparison_of_Canon_EOS_digital_cameras&prop=wikitext&format=json";
- 		etw = new ExtractionToWiki (url1);
+ 		etw = new ExtractionToWiki ();
  	}
 	@Test
 	public void testGetContenuePage() throws IOException {
@@ -27,5 +28,6 @@ public class ExtractionToWikiTest {
 	public void testRecupLineTable() {
 	
 	}
+	*/
 
 }

@@ -13,7 +13,7 @@ import connexionAPI.ExtractionToHTML;
 
 public class ExtractionToHTMLTest {
 	ExtractionToHTML eth;
-
+	/*
 	@Test
 	public void testGetContentHtml() {
 		eth = new ExtractionToHTML("https://fr.wikipedia.org/wiki/Loi_des_Douze_Tables");
@@ -39,7 +39,6 @@ public class ExtractionToHTMLTest {
 			assertTrue(e instanceof IllegalArgumentException);
 		}
 	}
-/*
 	@Test
 	public void testInsertionDonnesTableauDansFichierCSV2() {
 		
