@@ -18,17 +18,13 @@ import javax.xml.parsers.ParserConfigurationException;
 
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.select.Elements;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
 import com.google.inject.spi.Element;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.StringReader;
 import  info.bliki.wiki.model.WikiModel ; 
 import  info.bliki.wiki.model.Configuration ; 
 import  info.bliki.wiki.tags. * ; 
@@ -103,6 +99,20 @@ public class ExtractionToWiki extends Object{
                            char currentCharEst =' ';
 
              }
+           //plus besoin de cette fonction, elle est donnee par les profs (cf norme de nommage)
+         	public static FileWriter creationFichierCsv(Document doc) { // peut �tre d�placer dans un autre package
+         		// (createFileCSV)
+         		// Cr�ation du fichier csv avec comme titre le premier h1 de la page wikip�dia
+         		Elements titre = doc.select("p");
+         		FileWriter fileWriter = null;
+         		try {
+         			fileWriter = new FileWriter("output\\wikitext\\" + titre.first().text() + ".csv");
+         		} catch (IOException e) {
+         			System.out.println("erreur lors de la cr�ation du fichier .CSV");
+         			e.printStackTrace();
+         		}
+         		return fileWriter;
+         	}
 
 
 
@@ -168,12 +178,45 @@ public class ExtractionToWiki extends Object{
                                                    
                            String list1 = getContenuePage(Url1);
                            String formatWiki = getTableFormatwikitext(list1);
-                           System.out.print(formatWiki);
+                         //  System.out.print(formatWiki);
+                           
+                           Document doc = null; //
+                           
+                           //doc = Jsoup.connect(WikiModel.toHtml(formatWiki)).get();
+                           doc = Jsoup.parse(WikiModel.toHtml(formatWiki));
+                           ExtractionToHTML et1 = new ExtractionToHTML();
+                           System.out.print(doc);
+                           FileWriter f =  creationFichierCsv(doc);
+                           et1.insertionDonnesTableauDansFichierCSV(doc, f);
+                           /*
                            //System.out.println(tasse.getString()); //Rouge
-                         
+                           Configuration conf = Configuration.DEFAULT_CONFIGURATION;
+                           // Allow custom user <IMG> tags
+                           conf.addTokenTag("table", new HTMLTag("table"));
+
+                           // Ignore custom <INPUTBOX> tags
+                           conf.addTokenTag("inputbox", new IgnoreTag("inputbox"));
+
+                           WikiModel wiki = new WikiModel(conf,formatWiki , "${title}");
+
+                           try {
+                               BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+                               StringBuilder sb = new StringBuilder();
+                               String newLine = System.getProperty("line.separator");
+                               String line;
+                               while ((line = reader.readLine()) != null) {
+                                   sb.append(line);
+                                   sb.append(newLine);
+                               }
+                               String htmlText = wiki.render(sb.toString());
+                               System.out.print(htmlText);
+
+                           } catch (IOException e) {
+                               e.printStackTrace();
+                           }*/
+                       }
                            
                       
                          
 
-             }
-}
+    }

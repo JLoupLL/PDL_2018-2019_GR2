@@ -72,7 +72,7 @@ public class ExtractionToHTML {
 		return doc;
 	}
 	//plus besoin de cette fonction, elle est donnee par les profs (cf norme de nommage)
-	private FileWriter creationFichierCsv(Document doc) { // peut �tre d�placer dans un autre package
+	public FileWriter creationFichierCsv(Document doc) { // peut �tre d�placer dans un autre package
 		// (createFileCSV)
 		// Cr�ation du fichier csv avec comme titre le premier h1 de la page wikip�dia
 		Elements titre = doc.select("h1");
