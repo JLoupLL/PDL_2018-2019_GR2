@@ -1,0 +1,13 @@
+;Trident;Tasman;Gecko;WebKit;KHTML;Presto;iCab;
+Mouse;
+onclick;rowspan="7" {{Dunno}};rowspan="7" {{Dunno}};rowspan="7" {{Dunno}};rowspan="7" {{Dunno}};rowspan="7" {{Dunno}};rowspan="7" {{Dunno}};rowspan="7" {{Dunno}};
+ondblclick;
+onmousedown;
+onmouseup;
+onmouseover;
+onmousemove;
+onmouseout;
+Keyboard;
+onkeypress;rowspan="3" {{Dunno}};rowspan="3" {{Dunno}};rowspan="3" {{Dunno}};rowspan="3" {{Dunno}};rowspan="3" {{Dunno}};rowspan="3" {{Dunno}};rowspan="3" {{Dunno}};
+onkeydown;
+onkeyup;

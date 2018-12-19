@@ -1,0 +1,82 @@
+C++;Java;
+class Foo {          // Declares class Foo
+    int x = 0;       //  Private Member variable. It will
+                     // be initialized to 0, if the
+                     // constructor would not set it.
+                     // (from C++11)
+    public:
+      Foo() : x(0)     //  Constructor for Foo; initializes
+      {}               //  x to 0. If the initializer were
+                     //  omitted, the variable would
+                     //  be initialized to the value that
+                     // has been given at declaration of x.
+
+      int bar(int i) { // Member function bar()
+          return 3*i + x;
+      }
+};;class Foo {               // Defines class Foo
+    private int x;        // Member variable, normally declared
+                          // as private to enforce encapsulation
+                          // initialized to 0 by default
+
+    public Foo() {        // Constructor for Foo
+    }                     // no-arg constructor supplied by default
+
+    public int bar(int i) {        // Member method bar()
+        return 3*i + x;
+    }
+};
+Foo a;
+// declares a to be a Foo object value,
+// initialized using the default constructor.
+
+// Another constructor can be used as
+Foo a(args);
+// or (C++11):
+Foo a{args};;Foo a = new Foo();
+// declares a to be a reference to a new Foo object
+// initialized using the default constructor
+
+// Another constructor can be used as
+Foo a = new Foo(args);;
+Foo b = a;
+// copies the contents of a to a new Foo object b;
+// alternative syntax is "Foo b(a)";// Foo b = a;
+// would declare b to be reference to the object pointed to by a
+Foo b = a.clone();
+// copies the contents of the object pointed to by a 
+//     to a new Foo object;
+// sets the reference b to point to this new object;
+// the Foo class must implement the Cloneable interface
+//     for this code to compile;
+a.x = 5; // modifies the object a;a.x = 5; // modifies the object referenced by a;
+std::cout << b.x << std::endl;
+// outputs 0, because b is
+// some object other than a;System.out.println(b.x);
+// outputs 0, because b points to
+// some object other than a;
+Foo *c;
+// declares c to be a pointer to a
+// Foo object (initially
+// undefined; could point anywhere);Foo c;
+// declares c to be a reference to a Foo
+// object (initially null if c is a class member;
+// it is necessary to initialize c before use
+// if it is a local variable);
+c = new Foo;
+// c is set to the value of the address of the Foo object created by operator new;c = new Foo();
+// binds c to reference a new Foo object;
+Foo &d = *c;
+// binds d to reference the same object to which c points;Foo d = c;
+// binds d to reference the same object as c;
+c->x = 5;
+// modifies the object pointed to by c;c.x = 5;
+// modifies the object referenced by c;
+a.bar(5);  // invokes Foo::bar() for a
+c->bar(5); // invokes Foo::bar() for *c;a.bar(5); // invokes Foo.bar() for a
+c.bar(5); // invokes Foo.bar() for c;
+std::cout << d.x << std::endl;
+// outputs 5, because d references the
+// same object to which c points;System.out.println(d.x);
+// outputs 5, because d references the
+// same object as c;

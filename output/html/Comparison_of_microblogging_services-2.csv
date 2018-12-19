@@ -1,0 +1,8 @@
+Service;Tagging[Note 1];Groups;Conversation[Note 2];Private[Note 3];Private following list;RSS;Atom;Bookmarklet;
+Tumblr;Yes;No;No;Yes;?;Yes;No;?;
+Facebook;Yes;Yes;Yes;Yes;?;Yes;No;?;
+Google+;Yes;Yes;Yes;Yes;Yes;No[7];No[7];?;
+identi.ca;Yes;Yes;Yes;Yes;?;Yes;Yes;Yes[8];
+Twitter;Yes;No;Yes;Yes;Yes;No[9];No[9];No;
+Mastodon;Yes;No;Yes;Yes;?;No;Yes;No;
+micro.blog;Yes;No;Yes;No;?;Yes;No;No;

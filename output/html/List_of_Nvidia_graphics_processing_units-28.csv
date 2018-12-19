@@ -1,0 +1,5 @@
+Model;Launch;Code name;Bus interface;Core clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;
+MOperations/s;MPixels/s;MTexels/s;MVertices/s;Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);
+GeForce2 Go 100;February 6, 2001;NV11M;AGP 4×;125;332;2:0:4:2;250;250;500;0;8, 16;1.328;DDR;32;
+GeForce2 Go;November 11, 2000;NV11M;AGP 4×;143;166 332;2:0:4:2;286;286;572;0;16, 32;2.656;SDR DDR;128 64;
+GeForce2 Go 200;February 6, 2001;NV11M;AGP 4×;143;332;2:0:4:2;286;286;572;0;16, 32;2.656;DDR;64;

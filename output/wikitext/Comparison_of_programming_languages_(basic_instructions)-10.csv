@@ -1,0 +1,53 @@
+! throw;handler;assertion;
+Ada[1];raise exception_name «with string_expression»;begin<dl><dd>statements</dd></dl>exception<dl><dd>'''when''' exception_list<sub>1</sub> '''<nowiki>=></nowiki>''' statements;</dd><dd>'''when''' exception_list<sub>2</sub> '''<nowiki>=></nowiki>''' statements;</dd></dl>... <dl><dd>«'''when others <nowiki>=></nowiki>''' statements;»</dd></dl>end{{ref|Ada_uncaught_exceptions|[b]}};pragma Assert («Check =>» boolean_expression ««Message =>» string_expression») [function | procedure | entry] with<dl><dd>'''Pre <nowiki>=></nowiki>''' boolean_expression</dd><dd>'''Post <nowiki>=></nowiki>''' boolean_expression</dd></dl> any_type with Type_Invariant => boolean_expression;
+APL;«string_expression» ?SIGNAL number_expression;:Trap number«s»_expression<dl><dd>statements</dd></dl>«:Case number«s»_expression<dl><dd>statements»</dd></dl>... «:Else number«s»_expression<dl><dd>statements»</dd></dl>:EndTrap;«string_expression» ?SIGNAL 98/?~condition;
+C (C99);longjmp(state, exception);;switch (setjmp(state)) { case 0: instructions break; case exception: instructions ... };assert(condition);;
+C++;throw exception;;try { instructions } catch «(exception)» { instructions } ...;
+C#;try { instructions } catch «(exception)» { instructions } ... «finally { instructions }»;Debug.Assert(condition);;
+Java;try { instructions } catch (exception) { instructions } ... «finally { instructions }»;assert condition «: description»;;
+JavaScript;try { instructions } catch (exception) { instructions } «finally { instructions }»;{{dunno}};
+D;try { instructions } catch (exception) { instructions } ... «finally { instructions }»;assert(condition);;
+PHP;try { instructions } catch (exception) { instructions } ... «finally { instructions }»;assert(condition);;
+S-Lang;try { instructions } catch «exception» { instructions } ... «finally { instructions }»;{{dunno}};
+Windows PowerShell;trap «[exception]» { instructions } ... instructions or try { instructions } catch «[exception]» { instructions } ... «finally { instructions }»;[Debug]::Assert(condition);
+Objective-C;@throw exception;;@try { instructions } @catch (exception) { instructions } ... «@finally { instructions }»;NSAssert(condition, description);;
+Swift;throw exception (2.x);do { try expression ... instructions } catch exception { instructions } ... (2.x);assert(condition«, description»);
+Perl;die exception;;eval { instructions }; if ($@) { instructions };{{dunno}};
+Perl 6;try { instructions CATCH { when exception { instructions } ...}};{{dunno}};
+Ruby;raise exception;begin <dl><dd>instructions</dd></dl> rescue exception <dl><dd>instructions</dd></dl>... «else <dl><dd>instructions»</dd></dl> «ensure <dl><dd>instructions»</dd></dl> end;;
+Smalltalk;exception raise;instructionBlock on: exception do: handlerBlock;assert: conditionBlock;
+Common Lisp;(error "exception") or (error <dl><dd>'''type</dd><dd>arguments''')'''</dd></dl> or (error (make-condition<dl><dd>'''type</dd><dd>arguments'''))'''</dd></dl>;(handler-case<dl><dd>(progn '''instructions''')</dd><dd>('''exception instructions''')</dd><dd>'''...''')'''</dd></dl> or (handler-bind<dl><dd>('''condition <dl><dd>'''(lambda</dd><dd>'''instructions</dd><dd>«'''invoke-restart''' restart args»'''))'''</dd></dl>...){{ref|a|[a]}}</dd></dl>;(assert condition) or (assert condition<dl><dd>«'''('''place''')'''</dd><dd>«error»»''')'''</dd></dl> or (check-type var type);
+Scheme (R6RS);(raise exception);(guard (con (condition instructions) ...) instructions);{{dunno}};
+ISLISP;(error "error-string" objects) or (signal-condition condition continuable);(with-handler<dl><dd>'''handler form*''')'''</code>;{{dunno}};
+Pascal;raise Exception.Create();try Except on E: exception do begin instructions end; end;;{{dunno}};
+Visual Basic;Err.Raise ERRORNUMBER;With New Try: On Error Resume Next <dl><dd>OneInstruction</dd></dl> .Catch: On Error GoTo 0: Select Case .Number <dl><dd>'''Case''' ERRORNUMBER</dd></dl> <dl><dd><dl><dd>instructions</dd></dl></dd></dl> End Select: End With 
+'*** Try class ***
+Private mstrDescription As String
+Private mlngNumber As Long
+Public Sub Catch()
+
+mstrDescription = Err.Description
+
+mlngNumber = Err.Number
+
+End Sub
+Public Property Get Number() As Long
+
+Number = mlngNumber
+
+End Property
+Public Property Get Description() As String
+
+Description = mstrDescription
+End Property
+[12];Debug.Assert condition;
+Visual Basic .NET;Throw exception;Try <dl><dd>instructions</dd></dl> Catch «exception» «When condition» <dl><dd>instructions</dd></dl> ... «Finally <dl><dd>instructions»</dd></dl> End Try;Debug.Assert(condition);
+Xojo;Raise exception;Try <dl><dd>instructions</dd></dl> Catch «exception»<dl><dd>instructions</dd></dl> ... «Finally <dl><dd>instructions»</dd></dl> End Try;{{n/a}};
+Python;raise exception;try: {{keypress|Tab}} instructions except «exception»: {{keypress|Tab}} instructions ... «else: {{keypress|Tab}} instructions» «finally: {{keypress|Tab}} instructions»;assert condition;
+Fortran;colspan=3 {{n/a}};
+Forth;code THROW;xt CATCH ( code or 0 );{{n/a}};
+OCaml;raise exception;try expression with pattern -> expression ...;assert condition;
+F#;try expression with pattern -> expression ... or try expression finally expression;
+Standard ML;raise exception «arg»;expression handle pattern => expression ...;;
+Haskell (GHC);throw exception or throwError expression;catch tryExpression catchExpression or catchError tryExpression catchExpression;assert condition expression;
+COBOL;RAISE «EXCEPTION» exception;USE «AFTER» EXCEPTION OBJECT class-name. or USE «AFTER» EO class-name. or USE «AFTER» EXCEPTION CONDITION exception-name «FILE file-name». or USE «AFTER» EC exception-name «FILE file-name».;{{n/a}};

@@ -1,0 +1,12 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+NYSK Dataset;English news articles about the case relating to allegations of sexual assault against the former IMF director Dominique Strauss-Kahn.;Filtered and presented in XML format.;10,421;XML, text;Sentiment analysis, topic extraction;2013;[172];Dermouche, M. et al.;
+The Reuters Corpus Volume 1;Large corpus of Reuters news stories in English.;Fine-grain categorization and topic codes.;810,000;Text;Classification, clustering, summarization;2002;[173];Reuters;
+The Reuters Corpus Volume 2;Large corpus of Reuters news stories in multiple languages.;Fine-grain categorization and topic codes.;487,000;Text;Classification, clustering, summarization;2005;[174];Reuters;
+Thomson Reuters Text Research Collection;Large corpus of news stories.;Details not described.;1,800,370;Text;Classification, clustering, summarization;2009;[175];T. Rose et al.;
+Saudi Newspapers Corpus;31,030 Arabic newspaper articles.;Metadata extracted.;31,030;JSON;Summarization, clustering;2015;[176];M. Alhagri;
+RE3D (Relationship and Entity Extraction Evaluation Dataset);Entity and Relation marked data from various news and government sources. Sponsored by Dstl;Filtered, categorisation using Baleen types;not known;JSON;Classification, Entity and Relation recognition;2017;[177];Dstl;
+ABC Australia News Corpus;Entire news corpus of ABC Australia from 2003 to 2017;Publish date and headlines;1,082,477;CSV;Clustering, Events, Sentiment;2017;[178];R. Kulkarni;
+Examiner Pseudo-News Corpus;Clickbait, spam, crowd-sourced headlines from 2010 to 2015;Publish date and headlines;3,089,781;CSV;Clustering, Events, Sentiment;2017;[179];R. Kulkarni;
+Worldwide News - Aggregate of 20K Feeds;One week snapshot of all online headlines in 20+ languages;Publish time, URL and headlines;1,398,431;CSV;Clustering, Events, Language Detection;2017;[180];R. Kulkarni;
+Reuters News Wire Headline;11+ Years of timestamped events published on the news-wire;Publish time, Headline Text;16,121,000;CSV;NLP, Computational Linguistics, Events;2018;[181];R. Kulkarni;
+The Irish Times The Irish Times IRS;12 Years of Events From Ireland;Publish time, Headline Text;1,422,000;CSV;NLP, Computational Linguistics, Events;2018;[182];R. Kulkarni;

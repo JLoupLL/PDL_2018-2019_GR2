@@ -1,0 +1,8 @@
+Kernel Name;Container (no resource management, no security);Container (no resource management);Container (resource management);Paravirtualization;Full virtualization;User-space execution;Kernel as Library;Kernel as Kernel Driver;Hypervisor-Enforced Kernel Partitioning;
+Linux;{{yes|chroot}};colspan="2" {{yes|LXC}};{{yes|Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest}};{{yes|KVM}};{{yes|UML}};{{no|(LKL)}};{{no|(coLinux)}};{{no}};
+DragonFly BSD kernel;{{yes|chroot}};colspan="2" {{yes|jail}};{{no}};{{no}};{{yes|vkernel}};{{?}};{{?}};{{no}};
+FreeBSD kernel;{{yes|chroot}};colspan="2" {{yes|jail}};{{yes|Virtio, Xen (guest only)}};{{yes|BHyVe (KVM)}};{{dunno}};{{?}};{{?}};{{no}};
+NetBSD kernel;{{yes|chroot}};{{no|(sysjail (discontinued))}};{{no}};{{yes|Virtio and Xen}};{{no}};{{dunno}};{{yes|Rump kernel}};{{?}};{{no}};
+Solaris kernel;{{yes|chroot}};colspan="2" {{yes|Solaris Containers / Zones}};{{No}};{{No}};{{No}};{{?}};{{?}};{{no}};
+Windows NT kernel;colspan="3" {{yes|AppContainers, Job Objects, Windows Server Containers}};colspan="2" {{yes|Hyper-V}};colspan="2" {{no|Project Drawbridge}};{{no}};{{yes|Virtual Secure Mode, Device Guard, Credential Guard}}[15];
+XNU;{{yes|chroot}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{?}};{{?}};{{no}};

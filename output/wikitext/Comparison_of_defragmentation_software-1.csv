@@ -1,0 +1,15 @@
+Program;Developer;License;Supported file systems;Supported platforms;GUI;CLI;Script;Scheduler;Boot time;Auto defrag when idle;Stable release;
+Auslogics Disk Defrag;Auslogics;{{Nonfree|Freeware}};FAT16, FAT32, NTFS;Windows XP and later;{{Yes}};{{Yes}};;{{Yes}};{{Yes}};{{Yes}};{{Latest stable software release/Auslogics Disk Defrag}};
+AVG PC TuneUp;AVG Technologies;{{Nonfree|Trialware}};;;;;;;;;2015 (v15.0.1001.238) (November 30, 2014);
+Contig;Microsoft;{{Nonfree|Freeware }};NTFS;Windows XP and later; Windows Server 2003 and later;{{No}}[1];{{Yes}};{{No}};{{Yes|Yes, with Windows Task Scheduler}};{{No}};{{Yes|Yes, with Windows Task Scheduler}}{{efn|name="ScheduleIdle"|Windows Task Scheduler "Idle" schedules and options settings will be applied to scheduled tasks.}};1.6 (February 1, 2011)[1];
+Defraggler;Piriform;{{Nonfree|Freeware }};FAT32, NTFS, exFAT, ReFS[2];Windows XP and later;{{Yes}};{{Yes}};{{No}};{{Yes|Yes, with Windows Task Scheduler}}{{efn|Defraggler's GUI only provides an interface to configure defragmenting activity in Windows Task Scheduler.[3]}};{{Yes}};{{Yes|Yes, with Windows Task Scheduler}}{{efn|name="ScheduleIdle"}};{{Latest stable software release/Defraggler}};
+Disk Defragmenter;Microsoft;{{Needs|Bundled with Microsoft Windows}};FAT16, FAT32, NTFS, ReFS;Windows NT 4 and later; Windows 95 and later;{{Yes}};{{Yes}};{{Yes}};{{Yes|Yes; via Security and Maintenance}};{{No}};{{Yes|Yes; via Security and Maintenance}};Same as Windows;
+Diskeeper;Condusiv Technologies;{{Nonfree|Trialware}};FAT16, FAT32, NTFS;Windows XP and later;{{Yes}}[4];{{Yes}}[5];{{Yes}}[6];{{Yes}}{{efn|Condusiv Technologies claims its InvisiTasking technology eliminates the need for scheduled defragmentation.}};{{Yes}}[7];{{Yes}};{{Latest stable software release/Diskeeper}};
+JkDefrag;Jeroen Kessels;{{Free|GNU GPL}};FAT & NTFS;Windows 2000, Windows XP, Windows Vista;{{Yes}};{{Yes}};;;;;3.36.0.2 / August 31, 2008;
+O&O Defrag;O&O Software;{{Nonfree|Trialware}};FAT16, FAT32, NTFS;Windows 2000, XP, Vista, Server 2008, 7, and 8;{{Yes}};{{Yes}};;{{Yes}};{{Yes}};{{Yes}};{{Latest stable software release/O&O Defrag}};
+PageDefrag;Microsoft;{{Nonfree|Freeware}};;;;;;;;;;
+PerfectDisk;Raxco;{{Nonfree|Trialware}};;;;;;;;;;
+UltimateDefrag;DiskTrix;{{Nonfree|Trialware}}[8];FAT32, NTFS;Windows XP and later;{{Yes}};;;{{Yes}};{{Yes}};;{{Latest stable software release/UltimateDefrag}};
+UltraDefrag;Dmitri Arkhangelski, Justin Dearing, Sayem Chaklader, Stefan Pendl;{{Free|GNU GPL}};FAT12, FAT16, FAT32, NTFS, exFAT[9];Windows NT 4.0 and later;{{Yes}};{{Yes}};{{Yes}}{{efn|UltraDefrag can be run in batch scripts and apply several parameters separately for each disk.}}[10];{{Yes|Yes, with Windows Task Scheduler}};{{Yes}};{{Yes|Yes, with Windows Task Scheduler}}{{efn|name="ScheduleIdle"}};{{Latest stable software release/UltraDefrag}};
+Vopt;GoldenBow (or DataTuna)[11];{{dropped|Discontinued (formerly freeware)}};FAT32, NTFS;Windows 2000 and later;{{Yes}};;;{{Yes}};;;{{Latest stable software release/Vopt}};
+Program;Developer;License;Supported file systems;Supported platforms;GUI;CLI;Script;Scheduler;Boot time;Auto defrag when idle;Stable release;

@@ -1,0 +1,7 @@
+Kernel name;CRC-32 (IEEE);CRC32c;MD2;MD4;MD5;SHA-1;SHA-2;SHA-3;Michael MIC;Poly1305;RIPEMD-128;RIPEMD-160;RIPEMD-256;RIPEMD-320;Tiger;Whirlpool;HMAC;MDC2;GOST;LASH;VMAC;
+Linux;Yes[40][41];Yes[42];No;Yes[43];Yes[44];Yes[45];Yes[46];Partial[47];Yes[48];Yes[49];Yes[50];Yes[51];Yes[52];Yes[53];Yes[54];Yes[55];Yes[56];No;No;No;Yes[57];
+Solaris kernel;Yes;Yes;Yes;Yes;Yes;Yes;Yes;?;?;?;?;Yes;?;?;Yes;?;Yes;Yes;?;?;?;
+Windows NT kernel;?;?;Yes;Yes;Yes;Yes;Yes;?;No;?;No;No;No;No;No;No;Yes;No;No;No;?;
+FreeBSD kernel;Yes;Yes;?;Yes;Yes;Yes;Yes;?;?;?;?;Yes;?;?;Yes;?;Yes;?;?;?;?;
+XNU kernel;Yes;?;Yes;?;Yes;Yes;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+Kernel name;CRC-32 (IEEE);CRC32c;MD2;MD4;MD5;SHA-1;SHA-2;SHA-3;Michael MIC;Poly1305;RIPEMD-128;RIPEMD-160;RIPEMD-256;RIPEMD-320;Tiger;Whirlpool;HMAC;MDC2;GOST;LASH;VMAC;

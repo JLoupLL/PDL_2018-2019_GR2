@@ -1,0 +1,10 @@
+Name;Tail-Call Optimization;Choice Point Elimination;Environment Trimming;Just-in-Time Indexing;
+Ciao;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};?;
+ECLiPSe;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};{{n/a|multi-argument (compile time)}};
+GNU Prolog;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};?;
+Jekejeke Prolog;{{yes|Yes (runtime)}};{{yes|Yes (runtime)}};{{yes|Yes (runtime)}};{{yes|Yes}};
+SICStus Prolog;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};;
+SWI-Prolog;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};
+Visual Prolog;{{yes|Yes (compile time)}};{{yes|Yes (compile time)}};{{n/a}};{{n/a|N/A (compile time)}};
+XSB;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};?;
+YAP-Prolog;{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};{{yes|Yes}};

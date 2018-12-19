@@ -1,0 +1,18 @@
+;Trident;Gecko;WebKit;KHTML;Presto;
+Basic structure;
+html;<3.1[IE 5.0];Yes;Yes;Yes;1.0;
+head;<3.1[IE 4.0];
+body;
+Metadata;
+title;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+meta;
+Headings;
+h1;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+h2;
+h3;
+h4;
+h5;
+h6;
+Grouping elements;
+div;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+span;

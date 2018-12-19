@@ -1,0 +1,4 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+UrbanSound;Labeled sound recordings of sounds like air conditioners, car horns and children playing.;Sorted into folders by class of events as well as metadata in a JSON file and annotations in a CSV file.;1,059;Sound (WAV);Classification;2014;[263][264];J. Salamon et al.;
+AudioSet;10-second sound snippets from YouTube videos, and an ontology of over 500 labels.;128-d PCA'd VGG-ish features every 1 second.;2,084,320;Text (CSV) and TensorFlow Record files;Classification;2017;[265];J. Gemmeke et al., Google;
+Bird Audio Detection challenge;Audio from environmental monitoring stations, plus crowdsourced recordings;;17,000+;;Classification;2016 (2018);[266][267];Queen Mary University and IEEE Signal Processing Society;

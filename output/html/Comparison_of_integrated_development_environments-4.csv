@@ -1,0 +1,12 @@
+IDE;License;Windows;Linux;macOS;Developer;Other platforms;Latest stable release;
+Basic4android;Proprietary;Yes;No;No;Anywhere Software;cross-compile from Windows to Android;2018-03-20;
+Gambas;GPL;No;Yes;No;Benoît Minisini;FreeBSD, Cygwin;2017-01-01;
+FreeBASIC;GPL;Yes;Yes;No;The FreeBASIC Development Team;Windows, FreeBSD;2015-10-01;
+Microsoft Visual Studio;Proprietary;Yes;Yes;Yes;Microsoft;;2017-10-19;
+Microsoft Small Basic;Proprietary;Yes;No;No;Microsoft;;2015-10-01;
+MonoDevelop;LGPL;Yes;Yes;Yes;Xamarin and the Mono community;FreeBSD, OpenBSD, Solaris;2016-01-28;
+PBASIC Stamp Editor;Proprietary;Yes;No;Yes;Parallax Inc;;2014-07-02[4];
+PureBasic;Proprietary;Yes;Yes;Yes;Fantaisie Software;AmigaOS;2015-10-16;
+SharpDevelop;LGPL;Yes;No;No;ICSharpCode Team;;2015-07-14;
+SlickEdit;Proprietary;Yes;Yes;Yes;SlickEdit;Solaris, Solaris SPARC, AIX, HP-UX;October 2016;
+Xojo;Proprietary;Yes;Yes;Yes;Xojo, Inc.;Web;2015-12-17;

@@ -1,0 +1,10 @@
+IDE;License;Developer;Latest stable release;Windows;Linux;macOS;Other platforms;
+Microsoft Visual Studio;Proprietary Community Edition: Freeware;Microsoft;15.4.1  / October 19, 2017;Yes;No;No;;
+MonoDevelop;LGPL;Xamarin and the Mono community;6.1.2.44 / November 11, 2016;Yes;Yes;Yes;FreeBSD, OpenBSD, Solaris;
+SharpDevelop;LGPL;IC#Code Team;5.1 / April 14, 2016;Yes;No;No;;
+SlickEdit;Proprietary;SlickEdit;October 2016;Yes;Yes;Yes;Solaris, Solaris SPARC, AIX, HP-UX;
+Understand;Proprietary;SciTools;814 / December 4, 2015;Yes;Yes;Yes;Solaris;
+Visual Studio Code;source code(MIT License) - binary(Proprietary);Microsoft;1.17.1 / September, 2017;Yes;Yes;Yes;;
+Xamarin Studio;source code(MIT License) - binary(Proprietary);Microsoft;December 2016;Yes;Yes;Yes;;
+Eclipse;EPL;Eclipse Foundation;4.7  / June 28, 2017;Yes;Yes;Yes;;
+Rider;Proprietary;JetBrains;2017.2  / October 12, 2017;Yes;Yes;Yes;;

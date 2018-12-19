@@ -1,0 +1,7 @@
+Client;Encrypted transfer;Encrypted storage;Server changing;Web-based UI;Exporting;Link verification;Duplicate link checker;Notes;
+BookmarkSync;Yes;No;Yes;Yes;Yes;Yes;Yes;Feb 12, 2012: Sync doesn't work properly.;
+Opera Link;Yes[19];No;No;Yes;Yes;No;Yes (only webbased);;
+Firefox Sync;Yes;Yes;Yes;No;No;No;No;Data is encrypted on the client and not accessible even to Mozilla server operators.[20];
+;
+Eversync;Yes;?;?;?;?;?;?;?;
+Client;Encrypted transfer;Encrypted storage;server changing;webbased UI;exporting;Link Verification;Duplicate Link Checker;Notes;

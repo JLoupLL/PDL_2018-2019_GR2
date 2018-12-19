@@ -1,0 +1,9 @@
+Operating system;Mandatory access control;Software executable space protection;Operating system-level virtualization;Virtualisation;Userspace protection;Others;
+Linux;{{yes|SELinux, AppArmor{{r|group=Note|z1}} }};{{yes|Exec Shield,{{r|group=Note|z1}} PaX{{r|group=Note|z1}} }};{{yes|Chroot, namespace and cgroups,{{r|group=Note|z4}} Linux-VServer,{{r|group=Note|z1}} OpenVZ{{r|group=Note|z1}} }};{{yes|KVM}};IPFilter, Iptables;grsecurity,{{r|group=Note|z1}} RSBAC{{r|group=Note|z1}};
+FreeBSD;{{yes|SeBSD,{{r|group=Note|z2}}{{r|group=Note|z3}}}} TrustedBSD;{{yes|ProPolice/SSP{{r|group=Note|z5}}}};{{yes|jail}};{{yes|bhyve}}[48];IPFW, PF, IPFilter;;
+Darwin;{{yes|SEDarwin, TrustedBSD}};;{{yes|jail}};;IPFW;;
+OpenBSD;;{{yes|W^X, ProPolice/SSP{{r|group=Note|z6}}}};;{{yes|vmm}}[49];PF;;
+OpenSolaris, illumos;TrustedBSD;;{{yes|Solaris Containers}};KVM[50];IPFilter;RBAC[51];
+AuroraUX;TrustedBSD;;{{yes|Solaris Containers}};;IPFilter;;
+Plan 9;{{no}};{{no}};{{yes|per-process namespaces}};;;;
+Inferno;{{no}};{{no}};{{yes|per-process namespaces}};;;;

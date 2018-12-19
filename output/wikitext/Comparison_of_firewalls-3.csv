@@ -1,0 +1,12 @@
+Can Target:;Changing default policy to accept/reject (by issuing a single rule);IP destination address(es);IP source address(es);TCP/UDP destination port(s);TCP/UDP source port(s);Ethernet MAC destination address;Ethernet MAC source address;Inbound firewall (ingress);Outbound firewall (egress);
+Trend Micro Internet Security;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};
+Untangle;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Vyatta;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};
+Windows XP Firewall;{{no}};{{no}};{{yes}};{{partial}}{{efn|can target only single destination TCP/UDP port per rule, not port ranges.}};{{no}};{{no}};{{no}};{{yes}};{{no}};
+Windows Vista Firewall;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};
+Windows 7 / Windows 2008 R2 Firewall;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};
+WinGate;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};
+Zeroshell;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Zorp;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};
+pfSense;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+IPFire;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};

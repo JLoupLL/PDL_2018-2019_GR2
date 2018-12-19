@@ -1,0 +1,18 @@
+;Trident;EdgeHTML;Gecko;WebKit;Presto;
+main element[29];No;12;21.0[g 76];Yes[w 60];No;
+template element[30];No;13;No;Yes[w 61];No;
+Selectors API[31];4.0[t 36];12;1.9.1[g 77];525[w 62];2.2[p 20];
+Web Storage[32];4.0;12;1.9.1[g 78];525;2.5[p 21];
+Indexed Database API[33];5.0[t 37];12;16.0[g 79];Partial;No;
+Web SQL Database (obsolete)[34];No;No;No[g 80];Yes[w 63];2.5[p 21];
+File API[35];5.0;12;Yes[g 81];Yes[w 64][w 65];2.8[p 22];
+File API: Writer[36];5.0;No;No[g 82];Partial[w 66];No;
+File API: Directories and System[37];No;No;No[g 83];Yes[w 67];
+Media Capture API[38];2.0[j];No;2.10[p 23];
+Server-sent events[39];6.0[g 85];Yes[w 68];2.7[p 24][p 25];
+WebSocket[40];6.0[t 38];12;11.0[g 86];533;2.11[k];
+Web Workers[41][42];6.0[t 39];12;1.9.1[g 87];Yes;2.6[p 8][p 9];
+Geolocation API[43];5.0[t 40];12;1.9.1[g 88];533[w 69];2.6[l];
+Offline Web applications[44];6.0[t 41];12;1.9.1[g 89];Yes;2.6[p 8][p 9];
+Web Notifications[45];No;No;22.0[46][47];only in Chrome[48];25[p 31];
+;Trident;EdgeHTML;Gecko;WebKit;Presto;

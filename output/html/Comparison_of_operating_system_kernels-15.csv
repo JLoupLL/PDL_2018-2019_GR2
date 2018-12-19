@@ -1,0 +1,5 @@
+Kernel name;ACL;SCO;LMP;HCI;L2CAP;BNEP;RFComm.;SDP;TCP;AVTCP;AVDTP;OBEX;CMTP;HIDP;HCRP;CAPI;PPP;
+FreeBSD kernel;?;?;?;Yes;Yes;?;Yes;Yes;?;?;?;No;?;?;?;?;?;
+Linux;?;Yes;?;Yes;Yes;Yes;Yes;?;?;?;?;?;Yes;Yes;?;?;?;
+macOS XNU Kernel;?;?;?;?;Yes;?;Yes;Yes;?;?;?;No;?;?;?;?;?;
+Kernel name;ACL;SCO;LMP;HCI;L2CAP;BNEP;RFComm.;SDP;TCP;AVTCP;AVDTP;OBEX;CMTP;HIDP;HCRP;CAPI;PPP;

@@ -1,0 +1,5 @@
+Name;Release date;RTM build;Latest version;Status support;Codename;MS-DOS version;Kernel type;Architecture;Editions;Target market;
+Windows 95;1995-08-15;950;4.00.950C OSR2.5 (1997-11-26);Unsupported (2001-12-31);Chicago;MS-DOS 7.0, MS-DOS 7.1 (OSR2.x);Monolithic;Hybrid 16/32-bit;Retail, OSR1, OSR2, OSR2.1, OSR2.5;Desktops;
+Windows 98;1998-05-15;1998;4.10.1998;Unsupported (2006-07-11);Memphis;MS-DOS 7.1;Monolithic;Hybrid 16/32-bit;;Desktops;
+Windows 98 SE;1999-05-05;2222;4.10.2222A (2000-02-25);Unsupported (2006-07-11);;MS-DOS 7.1;Monolithic;Hybrid 16/32-bit;;Desktops;
+Windows Me;2000-06-19;3000;4.90.3000 (2000-09-14);Unsupported (2006-07-11);Millennium;MS-DOS 8.0;Monolithic;Hybrid 16/32-bit;;Desktops;

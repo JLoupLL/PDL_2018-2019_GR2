@@ -1,0 +1,10 @@
+;Fills & hatch;Vector combine;Rotate & move;Polylines;Spline curves;Lines to curves cmd. & vice versa;Vector shapes;Font ID & replace;
+Easy Trace;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};No;
+FreeHand;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};No;
+Graphic Tracer Professional;N/A;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Illustrator;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};No;
+Potrace;N/A;N/A;N/A;N/A;N/A;N/A;N/A;No;
+ImageTracer;N/A;N/A;N/A;N/A;N/A;N/A;N/A;No;
+Scan2CAD;{{Yes}};{{Yes}};{{Yes}};{{yes}};{{yes}};{{Yes}};{{Yes}};No;
+WinTopo Pro;{{dunno}};{{Yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{dunno}};No;
+! Fills & hatch;Vector combine;Rotate & move;Polylines;Spline curves;Lines to curves cmd. & vice versa;Vector shapes;;

@@ -1,0 +1,10 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Yacht Hydrodynamics Dataset;Yacht performance based on dimensions.;Six features are given for each yacht.;308;Text;Regression;2013;[316][317];R. Lopez;
+Robot Execution Failures Dataset;5 data sets that center around robotic failure to execute common tasks.;Integer valued features such as torque and other sensor measurements.;463;Text;Classification;1999;[318];L. Seabra et al.;
+Pittsburgh Bridges Dataset;Design description is given in terms of several properties of various bridges.;Various bridge features are given.;108;Text;Classification;1990;[319][320];Y. Reich et al.;
+Automobile Dataset;Data about automobiles, their insurance risk, and their normalized losses.;Car features extracted.;205;Text;Regression;1987;[321][322];J. Schimmer et al.;
+Auto MPG Dataset;MPG data for cars.;Eight features of each car given.;398;Text;Regression;1993;[323];Carnegie Mellon University;
+Energy Efficiency Dataset;Heating and cooling requirements given as a function of building parameters.;Building parameters given.;768;Text;Classification, regression;2012;[324][325];A. Xifara et al.;
+Airfoil Self-Noise Dataset;A series of aerodynamic and acoustic tests of two and three-dimensional airfoil blade sections.;Data about frequency, angle of attack, etc., are given.;1503;Text;Regression;2014;[326];R. Lopez;
+Challenger USA Space Shuttle O-Ring Dataset;Attempt to predict O-ring problems given past Challenger data.;Several features of each flight, such as launch temperature, are given.;23;Text;Regression;1993;[327][328];D. Draper et al.;
+Statlog (Shuttle) Dataset;NASA space shuttle datasets.;Nine features given.;58,000;Text;Classification;2002;[329];NASA;

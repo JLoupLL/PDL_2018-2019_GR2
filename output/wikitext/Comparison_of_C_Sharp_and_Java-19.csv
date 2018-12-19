@@ -1,0 +1,8 @@
+Preprocessing, Compilation and Packaging;Java;C#;
+Namespaces;{{yes|Packages}};{{yes|Namespaces}};
+File contents;{{no|Restricted}};{{yes|Free}};
+Packaging;{{yes|Package}};{{yes|public/internal visibility on namespace members, which the build system translates to modules and assemblies at the CLR-level}};
+Classes/assembly search path;{{partial|ClassPath}};{{yes|Both compile-time and runtime}}[78][79];
+Conditional compilation;{{no}}; but see Apache Ant[80];{{yes}};
+Custom errors/warnings;{{yes}}; AnnotationProcessor;{{yes}};
+Explicit regions;{{no}};{{yes}};

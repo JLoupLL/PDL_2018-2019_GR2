@@ -1,0 +1,10 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Separate volume for ringtone and media;Yes;Yes;8.1+[93];Yes;?;Yes;Yes;
+Voice commands;Yes[524];5+ (Siri);8.1+ Microsoft Cortana[525];Yes[526];?;via 3rd party software such Saera[527];No;
+Offline voice commands;6+[528];Yes[529];Limited, Playback control not available[530];No[526];?;No;No;
+Voice recognition;Yes;5+ (Siri);8.1+ Microsoft Cortana[525];Yes;?;No;No;
+Offline voice recognition;4.1+[531];Limited, only calling and music playback[532];Limited, only calling and launching apps;No;No;No;No;
+Non-English voice recognition;Yes;Yes[288];Yes[315];Yes;?;No;No;
+Sound recorder;Very limited (Doesn't work in background[533] and not voice controlled);3+: Limited (Not voice controlled)[534][535];10+: Quite limited (doesn't work in background),[536] for older versions: 3rd party software, also similarly limited;10+ Embedded into Remember[537] app, works in background but not voice controlled. 7.1 and older: Very limited (Doesn't work in background and not voice controlled);Partial;3rd party software[538];No Third party app;
+Call recorder;Prevented by OS restrictions,[539] but possible with 3rd party firmware[540];3rd party software[541];10+ some devices[542];With third-party software[543];?;Yes [544]}};No;
+Sound trim;No,[545] but 3rd party software available[546];Yes[547];3rd party software[548];?;?;?;?;

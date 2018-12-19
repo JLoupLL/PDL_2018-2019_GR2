@@ -1,0 +1,7 @@
+Name;Mac OS X;Mac OS classic;Windows;Cygwin;BSD;Linux;Solaris;Java;OpenVMS;z/OS;AmigaOS;AIX;HPUX;iOS: iPhone,[Note 1] iPod Touch;webOS;Android;
+Apache MINA SSHD;Yes;No;Yes;No;Yes;Yes;Yes;Yes;No;No;No;Yes;Yes;No;No;No;
+Copssh;No;No;Yes;Yes;No;No;No;No;No;No;No;No;No;No;No;No;
+CrushFTP Server;Yes;No;Yes;Yes;Yes;Yes;Yes;Yes;No;No;No;Yes;Yes;No;No;No;
+Dropbear;Yes;No;No;Yes;Yes;Yes;Yes;No;No;No;No;Yes;Yes;No;Yes[Note 2];Yes;
+lsh;Yes;No;No;No;Partial[Note 3];Yes;Yes;No;No;No;No;No;No;No;No;??;
+OpenSSH;Included;No;Partial[Note 4];Included;Included;Included[Note 5];Yes;No;Yes;Yes;Yes;Yes[Note 6];Included;Yes[Note 7];Yes[Note 2];Partial;

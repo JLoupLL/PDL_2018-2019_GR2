@@ -1,0 +1,7 @@
+;Trident;Gecko;WebKit;KHTML;Presto;Prince XML;Antenna House;
+XML namespace[spec 1];5.0;1.0;?;Yes;1.0;5.1;Yes;
+xml:id[spec 2];No;No[g 1];No;No;2.0;Yes;
+XML Events[spec 3];No;1.8;?;?;1.0;?;No;
+XInclude[spec 4];3.1;No[g 2];No;?;No;5.1;No;
+XML Fragment Interchange[spec 5];?;?;?;?;?;?;No;
+Associating CSS;<3.1[IE 5.0];1.0;419;Yes;1.0;Yes;Yes;

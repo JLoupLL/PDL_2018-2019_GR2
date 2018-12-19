@@ -1,0 +1,10 @@
+Native interoperability;Java;C#;
+Cross-language interoperability;{{yes}} (with GraalVM, Nashorn, CORBA, JNI or JNA)[88];{{yes}}; C# was designed for it[88];
+External/native methods;{{yes}};{{yes}};
+Marshalling;{{no|External glue code needed}};{{yes}}; metadata controlled;
+Pointers and arithmetics;{{yes}}[89];{{yes}};
+Native types;{{yes}}[90];{{yes}};
+Fixed-size buffers;{{no}};{{yes}};
+Explicit stack allocation;{{no}};{{yes}};
+Address-of;{{no}};{{yes}};
+Object pinning (fix variable to address);{{no}};{{yes}};

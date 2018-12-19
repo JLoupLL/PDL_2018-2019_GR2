@@ -1,0 +1,12 @@
+Model;Features;
+Scalable Link Interface (SLI);PureVideo 2 with VP2, BSP Engine, and AES128 Engine;PureVideo 3 with VP3, BSP Engine, and AES128 Engine;
+GeForce 9300 GE (G98);rowspan="7" {{yes}};rowspan="2" {{no}};rowspan="2" {{yes}};
+GeForce 9300 GS (G98);
+GeForce 9400 GT;rowspan="8" {{yes}};rowspan="8" {{no}};
+GeForce 9500 GT;
+GeForce 9600 GSO;
+GeForce 9600 GT;
+GeForce 9800 GT;
+GeForce 9800 GTX;rowspan="2" {{yes}} 3-way;
+GeForce 9800 GTX+;
+GeForce 9800 GX2;{{yes}};

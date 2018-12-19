@@ -1,0 +1,16 @@
+;Version;Operating systems;Office suite;Developer;License;ISO/IEC 26300:2006;Notes;
+Calligra Sheets;2.4+;Windows, Mac OS X, Linux, Unix-based systems;Calligra Suite;KDE Project;GPL / LGPL;Yes;;
+EditGrid;;Any (Web-based);;Team and Concepts;Proprietary;Yes;;
+Gnumeric;1.12.5+;Linux, Unix-based systems, Windows;;GNOME;GPL;Yes;Saves in ODF 1.2;
+Google Spreadsheets;;Any (Web-based);Google Docs & Spreadsheets;Google;Proprietary;no (not valid);;
+IBM Lotus Symphony;1.0+;Windows, Linux, Mac OS X;IBM Lotus Symphony;IBM;Proprietary;Yes;;
+IBM Workplace Documents;2.5+;Any (Web-based);IBM Workplace Collaboration Services;IBM;Proprietary;Yes;no longer being actively marketed;
+KSpread / KCells;1.4+;Linux, Unix-based systems;KOffice;KDE Project;LGPL;Yes;;
+LibreOffice Calc;3.3.0;Windows, Linux, Unix-based systems, Mac OS X, Solaris;LibreOffice;LibreOffice;LGPL;Yes;
+Microsoft Office Excel;2007 SP2;Windows;Microsoft Office;Microsoft;Proprietary;No (different results in validators);;
+NeoOffice Calc;1.2;Mac OS X;NeoOffice;Patrick Luby and Edward Peterlin;GPL;;Import only;
+NeoOffice Calc;2.2.5;Mac OS X;NeoOffice;Patrick Luby and Edward Peterlin;GPL;Yes;[1];
+OpenOffice.org Calc;2.0+;Windows, Linux, Unix-based systems, Mac OS X, Solaris;OpenOffice.org;OpenOffice.org;LGPL;Yes;;
+StarOffice Calc;8;Windows, Linux, Solaris;StarOffice;Sun Microsystems;Proprietary;Yes;;
+Zoho Sheet;2006;Any (Web-based);Standalone;AdventNet;Proprietary;Yes;;
+;Version;Operating systems;Office suite;Developer;License;ISO/IEC 26300:2006;Notes;

@@ -1,0 +1,16 @@
+Model (Codename);Launch;Architecture (Fab);Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TDP;
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Bus type & width;Size (GiB);Clock (MHz);Band- width (GB/s);
+Radeon R5 M420[116] (Jet Pro);15 May 2016;GCN 1st gen (28 nm);320:20:8;780 855;15.6 17.1;6.24 6.84;499 547;DDR3 64-bit;2;1000;16.0;~20 W;
+Radeon R5 M430[117] (Exo Pro);15 May 2016;320:20:8;1030 ?;20.6;8.2;659.2 659.2;DDR3 64-bit;2;1000;14.4;18 W;
+Radeon R7 M435[118] (Jet Pro);15 May 2016;320:20:8;780 855;15.6 17.1;6.24 6.84;499 547;GDDR5 64-bit;4;1000;32;~20 W;
+Radeon R7 M440[119] (Meso Pro);15 May 2016;320:20:8;1021 ?;20.4;8.17;653 653;DDR3 64-bit;4;1000;16;~20 W;
+Radeon R7 M445[120] (Meso Pro);14 May 2016;320:20:8;780 920;15.6 18.4;6.24 7.36;499 589;GDDR5 64-bit;4;1000;32;~20 W;
+Radeon R7 M460[121][122] (Meso XT);April 2016;384:24:8;1100 1125;26.4 27.0;8.8 9.00;844 864;DDR3 64-bit;2;900;14.4;Unknown;
+Radeon RX 460[123] (Baffin);August 2016;GCN 4th gen (14 nm);896:56:16;Unknown;Unknown;Unknown;Unknown;GDDR5 128-bit;2;1750;112;35 W?;
+Radeon R7 M465[124][125] (Litho XT);May 2016;GCN 1st gen (28 nm);384:24:8;825 960;19.8 23.0;6.6 7.68;634 737;GDDR5 128-bit;4;1150;32;Unknown;
+Radeon R7 M465X[126] (Tropo XT);May 2016;512:32:16;900 925;28.8 29.6;14.4 14.80;921 947;GDDR5 128-bit;4;1125;72;Unknown;
+Radeon R9 M470[127] (Strato Pro);May 2016;GCN 2nd gen (28 nm);768:48:16;900 1000;43.2 48.0;14.4 16.00;1382 1536;GDDR5 128-bit;4;1500;96;~75 W;
+Radeon R9 M470X[128] (Strato XT);May 2016;896:56:16;1000 1100;56.0 61.6;16.00 17.60;1792 1971;GDDR5 128-bit;4;1500;96;~75 W;
+Radeon RX 470[129] (Ellesmere Pro);August 2016;GCN 4th gen (14 nm);2048:128:32;Unknown;Unknown;Unknown;Unknown;GDDR5 256-bit;4;1650;211;85 W?;
+Radeon RX 480M (Baffin);TBA;1024:xx:xx;Unknown;Unknown;Unknown;Unknown;GDDR5 128-bit;Unknown;Unknown;Unknown;35 W;
+Radeon R9 M485X[130] (Antigua XT);May 2016;GCN 3rd gen (28 nm);2048:128:32;723;92.5;23.14;2961;GDDR5 256-bit;8;1250;160;~100 W;

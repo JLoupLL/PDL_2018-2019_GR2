@@ -1,0 +1,12 @@
+Other software;Windows;Linux;OS X;Other;
+ADCCore;{{yes}};{{dunno}};{{dunno}};Any .NET4 enabled platform;
+DCBouncer;{{yes}};{{yes}};{{no}};{{no}};
+DC-Hublink;{{yes}};{{no}};{{no}};{{no}};
+DCWatch;{{yes}};{{yes}};{{no}};{{no}};
+Embla;{{yes}};{{yes}};{{yes}};Any Java enabled platform;
+FlowLib;{{yes}};{{yes}};{{yes}};Any C# enabled platform;
+NetChatLink;{{yes}};{{no}};{{no}};Runs under Wine;
+Announcer Bot;{{yes}};{{no}};{{no}};{{no}};
+Certmanager;{{yes}};{{no}};{{no}};{{no}};
+SerieBot;{{yes}};{{yes}};{{yes}};Any C# enabled platform;
+Other software;Windows;Linux;OS X;Other;

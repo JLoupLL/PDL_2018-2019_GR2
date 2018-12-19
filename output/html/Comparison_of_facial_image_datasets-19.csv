@@ -1,0 +1,3 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+HIGGS Dataset;Monte Carlo simulations of particle accelerator collisions.;28 features of each collision are given.;11M;Text;Classification;2014;[312][313][314];D. Whiteson;
+HEPMASS Dataset;Monte Carlo simulations of particle accelerator collisions. Goal is to separate the signal from noise.;28 features of each collision are given.;10,500,000;Text;Classification;2016;[313][314][315];D. Whiteson;

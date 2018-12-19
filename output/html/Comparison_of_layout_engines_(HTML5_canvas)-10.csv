@@ -1,0 +1,14 @@
+;Trident;Gecko;WebKit;KHTML;Presto;
+Basic structure;
+form;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+fieldset;
+legend;
+Form controls and labels;
+button;<3.1[IE 4.0] [note 3];1.0;Yes;Yes;1.0;
+textarea;<3.1[IE 4.0];
+input;
+label;3.4.2[note 4];
+List boxes (combo boxes);
+select;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+optgroup;
+option;

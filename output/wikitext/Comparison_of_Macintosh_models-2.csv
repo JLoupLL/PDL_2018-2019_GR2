@@ -1,0 +1,16 @@
+Model;USB;Gigabit Ethernet;AirPort Extreme;Bluetooth;Video interface;SD card slot;Keyboard and mouse;iSight/Facetime Camera;Remote IR receiver;
+Mac mini[1];{{yes|4}};{{yes}};{{yes}};{{yes}};HDMI and Thunderbolt 2;{{yes}};{{no}};{{no}};{{yes}};
+iMac 21.5 in[2];{{yes|4}};{{yes}};{{yes}};{{yes}};Thunderbolt 3;{{yes}};{{yes}};{{yes}};{{no}};
+iMac 21.5 in Retina Display[2];{{yes|4}};{{yes}};{{yes}};{{yes}};Thunderbolt 3;{{yes}};{{yes}};{{yes}};{{no}};
+iMac 27 in[2];{{yes|4}};{{yes}};{{yes}};{{yes}};Thunderbolt 3;{{yes}};{{yes}};{{yes}};{{no}};
+Mac Pro Quad-Core[3];{{yes|4}};{{yes|2}};{{yes}};{{yes}};HDMI and Thunderbolt 2;{{no}};{{no}};{{no}};{{no}};
+Mac Pro 6-Core[3];{{yes|4}};{{yes|2}};{{yes}};{{yes}};HDMI and Thunderbolt 2;{{no}};{{no}};{{no}};{{no}};
+MacBook Air[4];{{yes|2}};{{no}};{{yes}};{{yes}};Thunderbolt 2;{{yes}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook 1.1 GHz;{{yes|1 USB-C}};{{no}};{{yes}};{{yes}};HDMI and VGA through USB-C adapter;{{no}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook 1.2 GHz;{{yes|1 USB-C}};{{no}};{{yes}};{{yes}};HDMI and VGA through USB-C adapter;{{no}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook Pro 13 in 2.0 GHz[5];{{yes|2 USB-C}};{{no}};{{yes}};{{yes}};Thunderbolt 3;{{no}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook Pro 13 in 2.9 GHz[5];{{yes|4 USB-C}};{{no}};{{yes}};{{yes}};Thunderbolt 3;{{no}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook Pro 15 in 2.6 GHz[5];{{yes|4 USB-C}};{{no}};{{yes}};{{yes}};Thunderbolt 3;{{no}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook Pro 15 in 2.7 GHz[5];{{yes|4 USB-C}};{{no}};{{yes}};{{yes}};Thunderbolt 3;{{no}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook Pro 13 in 2.7 GHz[5];{{yes|2}};{{no}};{{yes}};{{yes}};HDMI and Thunderbolt 2;{{yes}};{{yes|Integrated}};{{yes}};{{no}};
+MacBook Pro 15 in 2.2 GHz[5];{{yes|2}};{{no}};{{yes}};{{yes}};HDMI and Thunderbolt 2;{{yes}};{{yes|Integrated}};{{yes}};{{no}};

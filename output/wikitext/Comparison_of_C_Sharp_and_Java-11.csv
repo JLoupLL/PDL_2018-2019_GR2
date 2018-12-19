@@ -1,0 +1,11 @@
+Fields and initialization;Java;C#;
+Fields;{{yes}};{{yes}};
+Constants;{{yes}};{{yes}}; but no support for constant passed parameters[50];
+Static (class) constructors;{{yes}};{{yes}};
+Instance constructors;{{yes}};{{yes}};
+Finalizers/destructors;{{yes}};{{yes}};
+Instance initializers;{{yes}};{{no}}; can be simulated with instance constructor;
+Object initialization;{{yes|Bottom-up (fields and constructors)}};{{yes|Top-down (fields); bottom-up (constructors)}};
+Object initializers;{{yes}};{{yes}};
+Collection initializers;{{no}}; can be simulated with methods initializers;{{yes}};
+Array initializers;{{yes}};{{yes}};

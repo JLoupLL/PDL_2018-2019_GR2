@@ -1,0 +1,13 @@
+RFC;Description;Status;ejabberd;iChat Server;jabberd14;jabberd2;Metronome;Openfire;Prosody;Sun Java System Instant Messaging Server;Tigase;
+RFC 3920;XMPP Core;{{incorrect|Obsolete}};{{Yes}}[1];{{unk}};{{Yes}}[2];{{Yes}}[3];{{unk}};{{Yes}}[4];{{Yes}};{{unk}};{{Yes}}[5];
+RFC 3921;XMPP IM;{{incorrect|Obsolete}};{{Yes}}[1];{{unk}};{{Yes}}[2];{{Yes}}[3];{{unk}};{{Yes}}[4];{{Yes}};{{unk}};{{Yes}}[5];
+RFC 3922;XMPP CPIM;{{Yes|Final}}[6];{{Yes}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+RFC 3923;XMPP E2E;{{Yes|Final}}[6];{{Yes}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+RFC 4854;XMPP URN;{{okay|Informational}}[6];{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+RFC 4979;XMPP ENUM;{{Yes|Final}}[6];{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+RFC 5122;XMPP URI;{{Yes|Final}}[6];{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+RFC 6120;XMPP Core;{{Yes|Final}}[6];{{Yes}}[7];{{Yes}};{{unk}};{{unk}};{{Yes}};{{Yes}}/Partial [8];{{Yes}};{{unk}};{{Yes}}[5];
+RFC 6121;XMPP IM;{{Yes|Final}}[6];{{Yes}}[7];{{Yes}};{{unk}};{{unk}};{{Yes}};{{Yes}}/Partial [9];{{Yes}};{{unk}};{{Yes}}[5];
+RFC 6122;XMPP AF;{{incorrect|Obsolete}};{{Yes}}[7];{{Yes}};{{unk}};{{unk}};{{Yes}};{{Yes}}[10];{{Yes}};{{unk}};{{unk}};
+RFC 7395;XMPP WebSockets;Proposed;{{Yes}}[11];{{unk}}[12];{{unk}};{{unk}};{{Yes}}[13];{{Yes}}/Plugin[14];{{Yes}}[15];{{unk}};{{unk}}[16][17];
+RFC 7622;XMPP AF;{{Yes|Final}}[6];{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};

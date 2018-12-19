@@ -1,0 +1,9 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Webpages from Common Crawl 2012;Large collection of webpages and how they are connected via hyperlinks;None.;3.5B;Text;clustering, classification;2013;[437];V. Granville;
+Internet Advertisements Dataset;Dataset for predicting if a given image is an advertisement or not.;Features encode geometry of ads and phrases occurring in the URL.;3279;Text;Classification;1998;[438][439];N. Kushmerick;
+Internet Usage Dataset;General demographics of internet users.;None.;10,104;Text;Classification, clustering;1999;[440];D. Cook;
+URL Dataset;120 days of URL data from a large conference.;Many features of each URL are given.;2,396,130;Text;Classification;2009;[441][442];J. Ma;
+Phishing Websites Dataset;Dataset of phishing websites.;Many features of each site are given.;2456;Text;Classification;2015;[443];R. Mustafa et al.;
+Online Retail Dataset;Online transactions for a UK online retailer.;Details of each transaction given.;541,909;Text;Classification, clustering;2015;[444];D. Chen;
+Freebase Simple Topic Dump;Freebase is an online effort to structure all human knowledge.;Topics from Freebase have been extracted.;large;Text;Classification, clustering;2011;[445][446];Freebase;
+Farm Ads Dataset;The text of farm ads from websites. Binary approval or disapproval by content owners is given.;SVMlight sparse vectors of text words in ads calculated.;4143;Text;Classification;2011;[447][448];C. Masterharm et al.;

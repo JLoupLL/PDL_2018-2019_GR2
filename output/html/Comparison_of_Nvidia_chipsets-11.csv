@@ -1,0 +1,3 @@
+Model;Code Name;Release Date;CPU Socket;Processors Supported;Fab (nm);HyperTransport (MT/s);PCI-Express;SLI;PCI;USB;PATA;SATA;LAN;Sound;Graphic;
+nForce 630a;MCP68;September, 2007;Socket AM2;Athlon 64 Athlon 64 X2 Athlon 64 FX Opteron Sempron Phenom Phenom II;;1.0 2000;1.1 20 lanes;No;5 Ports;12 Ports Rev 2.0;1 Ports UDMA 133;4 Ports 3.0Gbit/s;1000 Mbit/s;HDA;GeForce 7025/7050;
+nForce 680a SLI;2*MCP55;December 6, 2006;Socket F;AMD Dual Dual-core;;2 × 1.0 2× 2000;1.0a 56 lanes;x16+x16+x8+x8;5 Ports;20 Ports Rev 2.0;2 Ports UDMA 133;12 Ports 3.0Gbit/s;4 × 1000 Mbit/s;HDA;none;

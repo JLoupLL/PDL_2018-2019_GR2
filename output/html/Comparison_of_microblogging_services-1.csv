@@ -1,0 +1,13 @@
+Service;Owner;Launched;Primary service;Software license;Content license;Multilingual;Ad-free;
+Diaspora;Open source;2010-11;social network;AGPLv3;AGPLv3;Yes;Yes;
+Facebook;Facebook, Inc.[1];2004-02;social network;proprietary;own TOS;Yes;No;
+Gab;Gab AI, Inc.;2016-08;micro-blogging;proprietary;own TOS;Yes;Yes;
+Google+;Google, Inc.;2011-06;social network;proprietary;own TOS;Yes;No;
+micro.blog;Riverfold Software;2017-04;micro-blogging;???;???;Yes;Yes;
+identi.ca;Status Net, Inc.;2008-07 [2];micro-blogging;Apache v2 (pump.io);CC-BY 3.0;Yes;Yes;
+Tout;Tout;2010-04 [3];micro-blogging;proprietary;own TOS;Yes;Yes;
+Twitter;Twitter, Inc.;2006-08 [4];micro-blogging;proprietary;own TOS;Yes;No;
+Yammer;Yammer, Inc.;2008-09 [5];micro-blogging;proprietary;own TOS;Yes;Yes;
+Mastodon;Open source;2016[6];micro-blogging;AGPLv3;own TOS;Yes;Yes;
+Twister;Open source;2013;micro-blogging;MIT and BSD licenses;own TOS;Yes;Yes;
+Tumblr;Oath Inc.;2007;micro-blogging;proprietary;own TOS;Yes;No;

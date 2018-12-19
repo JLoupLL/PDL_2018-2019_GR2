@@ -1,0 +1,11 @@
+;Trident;Gecko;WebKit;Presto;Blink;
+Called as function;
+Boolean([value]);Yes;Yes;Yes;Yes;Yes;
+Called as constructor;
+new Boolean([value]);3.0;Yes;Yes;Yes;Yes;
+Properties;
+prototype;4.0;Yes;Yes;Yes;Yes;
+Properties of prototype;
+constructor;4.0;Yes;Yes;Yes;Yes;
+toString();4.0;Yes;Yes;Yes;Yes;
+valueOf();4.0;Yes;Yes;Yes;Yes;

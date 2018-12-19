@@ -1,0 +1,17 @@
+Graphics;Launch;PowerVR core;Market;Chipset;Code name;Device id.;Core render clock (MHz);Pixel pipelines;Shader model (vertex/pixel);API support;Memory bandwidth (GB/s);DVMT (MB);Hardware acceleration;
+Direct3D;OpenGL;OpenCL;MPEG-2;VC-1;AVC;
+GMA 500;2008;SGX535;CE;CE3100;Canmore;2E5B;?;2[85];3.0;9.0c;2.0;—;4.2;256;Full;Full;Full;
+2009;Atom CE4100;Sodaville;
+Atom CE4110;200;
+Atom CE4130;
+Atom CE4150;400;
+Atom CE4170;
+2010;Atom CE4200;Groveland;?;
+2008;MID;UL11L;Poulsbo (Menlow);8108 8109;100;
+US15L;200;
+US15W;
+GMA 600;2010;MID;Atom Z6xx;Lincroft (Moorestown);4102;400[86];2;3.0;9.0c;2.0;—;6.4;759;Full;Full;Full;
+GMA;2012;SGX540;Smartphone;Atom Z2460;Penwell (Medfield);?;400[87];4;—;—;ES 2.0;—;6.4;1024;Full;Full;Full;
+GMA 3600;2011;SGX545;Nettop Netbook;Atom D2500 Atom N2600;Cedarview (Cedar Trail);0BE0 0BE1 0BE2 0BE3;400[88];4;3.0;9.0c;3.0;—;8.5 6.4;1024[89];Full;Full;Full;
+GMA 3650;Atom D2700 Atom N2800;640[88];8.5;
+GMA;2012;Tablet;Atom Z2760;Cloverview (Clover Trail);08C7 08C8 08C9 08CA 08CB 08CC 08CD 08CE 08CF;533;4;3.0;9.0c;2.0;—;6.4;2048;Full;Full;Full;

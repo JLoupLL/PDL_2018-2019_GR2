@@ -1,0 +1,15 @@
+Program;Developer;License;Supported file systems;Supported platforms;GUI;CLI;Script;Scheduler;Boot time;Auto defrag when idle;Stable release;
+Auslogics Disk Defrag;Auslogics;Freeware;FAT16, FAT32, NTFS;Windows XP and later;Yes;Yes;;Yes;Yes;Yes;7.1.5.0 (Free), 4.8.1.0 (Pro) (July 17, 2017; 16 months ago (2017-07-17) (Free), December 12, 2016; 23 months ago (2016-12-12) (Pro)) [±];
+AVG PC TuneUp;AVG Technologies;Trialware;;;;;;;;;2015 (v15.0.1001.238) (November 30, 2014);
+Contig;Microsoft;Freeware;NTFS;Windows XP and later; Windows Server 2003 and later;No[1];Yes;No;Yes, with Windows Task Scheduler;No;Yes, with Windows Task Scheduler[a];1.6 (February 1, 2011)[1];
+Defraggler;Piriform;Freeware;FAT32, NTFS, exFAT, ReFS[2];Windows XP and later;Yes;Yes;No;Yes, with Windows Task Scheduler[b];Yes;Yes, with Windows Task Scheduler[a];2.22.995 [4] (May 22, 2018 (2018-05-22)) [±];
+Disk Defragmenter;Microsoft;Bundled with Microsoft Windows;FAT16, FAT32, NTFS, ReFS;Windows NT 4 and later; Windows 95 and later;Yes;Yes;Yes;Yes; via Security and Maintenance;No;Yes; via Security and Maintenance;Same as Windows;
+Diskeeper;Condusiv Technologies;Trialware;FAT16, FAT32, NTFS;Windows XP and later;Yes[5];Yes[6];Yes[7];Yes[c];Yes[8];Yes;2018 (18.0.1226.0) (March 28, 2018 (2018-03-28)) [±];
+JkDefrag;Jeroen Kessels;GNU GPL;FAT & NTFS;Windows 2000, Windows XP, Windows Vista;Yes;Yes;;;;;3.36.0.2 / August 31, 2008;
+O&O Defrag;O&O Software;Trialware;FAT16, FAT32, NTFS;Windows 2000, XP, Vista, Server 2008, 7, and 8;Yes;Yes;;Yes;Yes;Yes;20.0.465 (March 1, 2017) [±];
+PageDefrag;Microsoft;Freeware;;;;;;;;;;
+PerfectDisk;Raxco;Trialware;;;;;;;;;;
+UltimateDefrag;DiskTrix;Trialware[9];FAT32, NTFS;Windows XP and later;Yes;;;Yes;Yes;;5.1.10.0 (July 2, 2017; 16 months ago (2017-07-02)) [±];
+UltraDefrag;Dmitri Arkhangelski, Justin Dearing, Sayem Chaklader, Stefan Pendl;GNU GPL;FAT12, FAT16, FAT32, NTFS, exFAT[10];Windows NT 4.0 and later;Yes;Yes;Yes[d][11];Yes, with Windows Task Scheduler;Yes;Yes, with Windows Task Scheduler[a];7.1.1 (October 12, 2018 (2018-10-12)) [±];
+Vopt;GoldenBow (or DataTuna)[12];Discontinued (formerly freeware);FAT32, NTFS;Windows 2000 and later;Yes;;;Yes;;;9.21.0001 (November 14, 2010 (2010-11-14)) [±];
+Program;Developer;License;Supported file systems;Supported platforms;GUI;CLI;Script;Scheduler;Boot time;Auto defrag when idle;Stable release;

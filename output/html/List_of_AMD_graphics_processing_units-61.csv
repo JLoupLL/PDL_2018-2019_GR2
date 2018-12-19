@@ -1,0 +1,14 @@
+Model (Codename);Launch;Architecture (Fab);Core;Fillrate[a][b];Processing power[c] (GFLOPS);Memory;Bus interface;Notes;
+Config;Clock (MHz);Texture (GT/s);Pixel (GP/s);Size (MB);Bus type & width (bit);Clock (MHz);Band- width (GB/s);
+Mobility FireGL 7800 [225] (M7-GL);2001-09-29;R100 (150 nm);0:2:2:2[d];280;0.56;0.56;Unknown;64;DDR 128-bit;200;6.4;AGP;27 Watt TDP;
+Mobility FireGL 9000 [226] (M7-GL);2002-01-01;R200 (150 nm);1:4:4:4[d];250;1.0;1.0;Unknown;64;DDR 128-bit;200;6.4;AGP 4x;;
+Mobility FireGL T2 [227] (M7-GL);2003-11-01;R300 (130 nm);2:4:4:4[d];320;1.28;1.28;Unknown;128;DDR 128-bit;200;6.5;AGP 4x;;
+Mobility FireGL T2e [228] (M7-GL);2004-08-01;R300 (130 nm);2:4:4:4[d];450;1.8;1.8;Unknown;128;DDR 128-bit;225;7.2;AGP;;
+Mobility FireGL V3100 [229] (M7-GL);2004-06-01;R300 (110 nm);2:4:4:4[d];350;1.4;1.4;Unknown;128;DDR 128-bit;200;6.4;PCIe x16;;
+Mobility FireGL V3200 [230] (M7-GL);2004-06-01;R300 (130 nm);2:4:4:4[d];400;1.6;1.6;Unknown;128;DDR2 128-bit;250;12.8;PCIe x16;;
+Mobility FireGL V5000 [231] (M7-GL);2005-02-03;R420 (110 nm);6:8:8:8[d];350;2.8;2.8;Unknown;128;GDDR3 128-bit;425;13.6;PCIe x16;;
+Mobility FireGL V5200 [232] (M7-GL);2006-02-01;R520 (90 nm);5:12:12:12[d];425;5.1;5.1;Unknown;256;GDDR3 128-bit;475;15.2;PCIe x16;;
+Mobility FireGL V5250 [233] (M7-GL);2007-01-01;R520 (90 nm);5:12:12:12[d];450;5.4;5.4;Unknown;256;GDDR3 128-bit;350;11.2;PCIe x16;;
+Mobility FireGL V5600 [234] (M7-GL);2007-05-14;TeraScale 1 (65 nm);120:8:4[e];500;4.0;2.0;120.0;256;GDDR3 128-bit;400;12.8;PCIe 2.0 x16;;
+Mobility FireGL V5700 [235] (M7-GL);2008-01-07;Terascale 2 (55 nm);120:8:4[e];600;4.8;2.4;144;512;GDDR3 128-bit;700;22.4;PCIe 2.0 x16;in Lenovo ThinkPad W500;
+Mobility FireGL V5725 [236] (M7-GL);2009-01-01;Terascale 2 (55 nm);120:8:4[e];680;5.44;2.72;163.2;256;GDDR3 128-bit;800;25.6;PCIe 2.0 x16;;

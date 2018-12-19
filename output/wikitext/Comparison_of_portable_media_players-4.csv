@@ -1,0 +1,17 @@
+Product;Manufacturer;Web browser;Wireless synching;Ad hoc;On-demand;Web radio/TV;
+Archos 5, 7;Archos;{{yes|Opera}};;;;;
+Archos 604 WiFi, 704 WiFi;Archos;{{yes|Opera 8.5}};{{yes2}}file browsing;{{no}};{{no}};;
+Archos 605 WiFi, 705 WiFi;Archos;{{yes|Opera 9}};{{yes2}}file browsing;{{no}};Content Portals;{{yes}};
+Archos PMA400;Archos;{{yes|Opera}};{{yes2}}via FTP;{{yes}};{{no}};;
+Cowon Q5W;Cowon;{{yes|IE Mobile}};;;;{{yes|Yes (using Flash-based Internet Radio sites)}};
+Ibiza Rhapsody;Haier;{{yes|Minimo}};{{yes}};{{no}};{{yes|Rhapsody}};{{yes2}}radio only;
+iPod Touch;Apple Inc.;{{yes|Webkit}};{{yes}};{{yes}};{{yes|iTunes, Spotify}};{{yes}};
+Samsung Galaxy Player;Samsung;{{yes|Webkit}};;;{{yes|Android Marketplace}};;
+Sansa Connect;SanDisk;{{no}};;;{{yes|Yahoo! Music}};;
+Sony PSP;Sony;{{Yes|NetFront}};{{Yes}};{{Yes}};{{Yes|PlayStation Store}};{{Yes}};
+Sony Walkman X Series;Sony;{{yes|NetFront}};{{no}};{{yes}};;{{yes}};
+ZEN X-Fi;Creative;{{no}};{{yes|media server}};{{no}};{{yes|Creative MediaBox}};{{no}};
+Zune 4, 8;Microsoft;{{no}};{{yes}};{{yes}};{{yes|Zune Marketplace}};;
+Zune 30;Microsoft;{{no}};{{yes}};{{yes}};{{yes|Zune Marketplace}};;
+Zune 80, 120;Microsoft;{{no}};{{yes}};{{yes}};{{yes|Zune Marketplace}};;
+Zune HD;Microsoft;{{yes|IE Mobile 6}};{{yes}};{{yes}};{{yes|Zune Marketplace}};;

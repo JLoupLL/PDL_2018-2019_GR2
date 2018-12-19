@@ -1,0 +1,14 @@
+System;Creator;License;Implementation language(s);Back end;Launch Date;
+Faveo Helpdesk;Ladybird Web Solution;Open Software License;PHP;MySQL;2015;
+GLPI;INDEPNET;GPL;PHP;MySQL;2003;
+HEAT;FrontRange Solutions;Proprietary;.NET;Microsoft SQL Server, Oracle;1990;
+JIRA;Atlassian;Proprietary, Free for non-commercial use; hosted & on-premises;Java;MySQL, PostgreSQL, Oracle, Microsoft SQL Server;2003;
+Liberum Help Desk;Doug Luxem;GPL;ASP;Microsoft SQL Server, Access;2000;
+OTRS;OTRS;AGPL;Perl;MySQL, PostgreSQL, Oracle, Microsoft SQL Server;2001;
+Request Tracker;Best Practical Solutions, LLC;GPL;Perl;MySQL, PostgreSQL, Oracle;1999-10-13;
+Spiceworks;Spiceworks IT Software;Proprietary; free for use;Ruby;sqlite;2006;
+Supportworks;Hornbill Systems;Proprietary;Visual C++ and PHP;Microsoft SQL Server, MySQL, Oracle, Sybase;1994;
+SysAid;SysAid Technologies;Proprietary;Java, C#;MySQL, Derby, Oracle, Microsoft SQL Server;2002;
+TeamWox;MetaQuotes Software Corp.;Proprietary;C++;FireBird;2008;
+Tracker;Automation Centre;Proprietary;Groupware, requires Lotus Notes;IBM Lotus Domino;2001;
+TrackerSuite.Net;Automation Centre;Proprietary;C#;Microsoft SQL Server;2006;

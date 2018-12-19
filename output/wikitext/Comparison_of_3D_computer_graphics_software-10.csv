@@ -1,0 +1,16 @@
+Application;Alembic Importer;Rendering Engine;Volume Rendering for clouds;Interactive Rendering;Isolating light contribution;Light Lister;IES Light;Physical Sun & Sky;Sun Positioning by location and times;Light Portal;Shadow Catcher;IBL and Environment texture;Light Paint;Light Layers;
+Lat Long;sIBL;Light Extraction[19];
+Maya;Maya Hardware 2.0;rowspan=3 {{Yes}};{{?}};{{Yes}};{{No}}[20];rowspan=3 {{Yes|Light Editor}};{{?}};{{?}};{{?}};{{?}};{{?}};{{yes}};{{?}};{{?}};{{No}};{{No}};
+Maya Software;{{?}};{{?}};{{Yes|Light Linking}};{{No}};{{?}};{{?}};{{?}};{{?}};{{Yes|Env Sphere}};{{?}};{{?}};{{No}};{{No}};
+Arnold;{{yes}};{{yes}};{{Yes|Light Linking}};{{yes|Ai Photometric Light}};{{yes}};{{?}};{{yes}};{{yes}};{{yes}};{{?}};{{?}};{{No}};{{No}};
+3ds Max;Quicksilver;rowspan=4 {{Yes}};{{?}};{{Yes}};{{No}}[21];rowspan=3 {{Yes|Light Lister}};{{?}};{{?}};{{?}};{{?}};{{?}};{{?}};{{?}};{{?}};{{No}};{{No}};
+Scanline;{{?}};{{?}};{{Yes|Light Exclude/Include}};{{?}};{{?}};{{?}};{{?}};{{Yes}};{{?}};{{Partial|sIBL-GUI software}};{{?}};{{No}};{{No}};
+{{abbr|ART|Autodesk Raytracer}};{{?}};{{?}};{{?}};{{Yes}};{{?}};{{?}};{{?}};{{?}};{{?}};{{?}};{{?}};{{No}};{{No}};
+Arnold;{{yes}};{{yes}};{{No}}[22];{{No}};{{yes|Ai Photometric Light}};{{yes}};{{yes|Sun Positioner[23]}};{{yes}};{{yes}};{{yes}};{{?}};{{?}};{{No}};{{No}};
+Blender;Viewport;rowspan=3 {{Yes|2.78 and later}};{{?}};{{Yes}};{{Yes|Light Groups}};rowspan=2 {{Partial|Property Chart Addon / Gaffer addon}};{{No}};{{No}};{{?}};{{No}};{{No}};{{yes}};{{?}};{{?}};{{No}};{{No}};
+Blender Internal;{{?}};{{Yes}};{{Yes|Light Groups}};{{No}};{{No}};{{?}};{{No}};{{Yes|"Shadows Only" option}};{{yes}};{{?}};{{?}};{{No}};{{No}};
+Cycles;{{Yes}};{{Yes}};{{No|D1985}};{{Partial|Gaffer addon}};{{No|(2.8 and later)[24]}};{{Yes}};{{Partial|Sun Position addon}};{{Yes|from 2.75}};{{Yes|from 2.79}};{{yes}};{{Partial|sIBL_GUI for Blender addon/ Add Environment nodes addon}};{{?}};{{No}};{{No}};
+MODO;MODO Renderer;{{Yes}};{{Yes}};{{Yes}};{{Yes|Light Linking[25]}};{{?}};{{Yes|Photometric Light}};colspan=2 {{Yes|Directional Light[26]}};{{Yes|Portal}};{{Yes|Shadow Catcher}};{{yes}};{{Partial|mm_sIBLToModoEnvironment script}};{{?}};{{No}};{{No}};
+LightWave;LightWave Renderer;{{Yes|11.6 and later}};{{Yes}};{{Yes}};{{?}};{{?}};{{Yes|Photometric Light}};{{?}};{{?}};{{?}};{{?}};{{yes}};{{?}};{{?}};{{No}};{{No}};
+Houdini;Mantra ({{abbr|PT|Path Tracing}});{{yes}};{{Yes}};{{Yes}};{{Yes|Light categories}};{{?}};{{yes}};{{?}};{{?}};{{?}};{{yes|Shadow Matte}};{{yes}};{{?}};{{?}};{{?}};{{?}};
+Cinema 4D;CineRender;{{yes}};{{?}};{{Yes}};{{Yes|Exclude/Include}};{{?}};{{Yes}};{{?}};{{?}};{{?}};{{yes|from R18}};{{yes}};{{?}};{{?}};{{?}};{{?}};

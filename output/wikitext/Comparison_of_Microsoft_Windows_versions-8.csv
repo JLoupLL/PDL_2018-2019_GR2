@@ -1,0 +1,5 @@
+Name;Kernel;Kernel type;Architecture;Integrated firewall;SMP support;USB support;UDMA support;LFN support;Update management;APIs;DDIs;Safe Mode;DirectX;
+Windows 95;MS-DOS 7.0 (Win95, Win95A), MS-DOS 7.1 (Win95B, Win95C);Monolithic kernel;x86, hybrid 16/32-bit;{{No}};{{No}};{{Partial}} (OSR 2.1/2.5 only) [1];{{No}};{{Yes}};{{Yes|Windows Update}};Win16, Win32;DOS,DLL,VxD, WDM(USB-only), direct-access;{{Yes}};n/a(RTM/OSR1) 2.0a(OSR2/2.1) 5.0(OSR2.5) 8.0a(optional);
+Windows 98;MS-DOS 7.1;Monolithic kernel;x86, hybrid 16/32-bit;{{No}};{{No}};{{Yes}};{{Yes}};{{Yes}};{{Yes|Windows Update}};Win16, Win32;DOS,DLL,VxD, WDM(partial), direct-access;{{Yes}};5.2 9.0c(oct2006)(optional);
+Windows 98 Second Edition;MS-DOS 7.1;Monolithic kernel;x86, hybrid 16/32-bit;{{No}};{{No}};{{Yes}};{{Yes}};{{Yes}};{{Yes|Windows Update}};Win16, Win32;DOS,DLL,VxD, WDM(partial), direct-access;{{Yes}};6.1a 9.0c(oct2006)(optional);
+Windows Me;MS-DOS 8.0;Monolithic kernel;x86, hybrid 16/32-bit;{{No}};{{No}};{{Yes}};{{Yes}};{{Yes}};{{Yes|Windows Update}};Win16, Win32;DLL,VxD, WDM(partial), direct-access;{{Yes}};7.1 9.0c(oct2006)(optional);

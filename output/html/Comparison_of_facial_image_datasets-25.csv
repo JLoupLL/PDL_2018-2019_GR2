@@ -1,0 +1,6 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Abalone Dataset;Physical measurements of Abalone. Weather patterns and location are also given.;None.;4177;Text;Regression;1995;[372];Marine Research Laboratories – Taroona;
+Zoo Dataset;Artificial dataset covering 7 classes of animals.;Animals are classed into 7 categories and features are given for each.;101;Text;Classification;1990;[373];R. Forsyth;
+Demospongiae Dataset;Data about marine sponges.;503 sponges in the Demosponge class are described by various features.;503;Text;Classification;2010;[374];E. Armengol et al.;
+Splice-junction Gene Sequences Dataset;Primate splice-junction gene sequences (DNA) with associated imperfect domain theory.;None.;3190;Text;Classification;1992;[353];G. Towell et al.;
+Mice Protein Expression Dataset;Expression levels of 77 proteins measured in the cerebral cortex of mice.;None.;1080;Text;Classification, Clustering;2015;[375][376];C. Higuera et al.;

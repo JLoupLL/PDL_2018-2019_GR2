@@ -1,0 +1,15 @@
+Card;Write protection switch{{hsp}}[30];DRM;
+CompactFlash;{{no}};{{no}};
+SmartMedia;{{partial}}, sticker;{{partial}} (optional);
+MMC, RS-MMC;rowspan="2" {{no}};{{no}};
+MMCMobile;{{yes}}, secureMMC;
+SD;{{yes}}{{hsp}}[31][32];rowspan="3" {{yes}}, CPRM;
+miniSD;{{no}};
+microSD;{{no}};
+Memory Stick Standard, PRO;{{yes}};{{optional}}, MagicGate;
+Memory Stick Duo, PRO Duo;{{no}};{{optional}}, MagicGate;
+Memory Stick PRO-HG Duo;{{no}};{{optional}}, MagicGate;
+Memory Stick Micro (M2);{{no}};{{optional}}, MagicGate;
+PS Vita Memory Card;{{no}};{{yes}}, Proprieatory;
+xD;{{no}};{{partial}}{{hsp}}[33];
+USB;Sometimes;{{no}};

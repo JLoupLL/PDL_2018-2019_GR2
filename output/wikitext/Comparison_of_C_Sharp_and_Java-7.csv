@@ -1,0 +1,13 @@
+Expressions and operators;Java;C#;
+Arithmetic operators;{{yes}};{{yes}};
+Logical operators;{{yes}};{{yes}};
+Bitwise logic operators;{{yes}};{{yes}};
+Conditional;{{yes}};{{yes}};
+String concatenation;{{yes}};{{yes}};
+Casts;{{yes}};{{yes}};
+Boxing;{{yes}}; implicit;{{yes}}; implicit;
+Unboxing;{{yes}}; implicit;{{yes}}; explicit;
+Lifted operators;{{no}}, but see java.util.Optional;{{yes}};
+Overflow control;{{no}};{{yes}};
+Strict floating point evaluation;{{yes}}; opt-in/out;{{yes}}; opt-in[38];
+Verbatim (here-)strings;{{no}};{{yes}}[39];

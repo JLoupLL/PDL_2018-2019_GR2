@@ -1,0 +1,14 @@
+Model;Launch;Code name;Fab (nm);Transistors (billion);Die size (mm2);Bus interface;Core config;Clock speeds;Fillrate;Memory;API support (version);Processing power (GFLOPS);TDP (Watts);SLI support;
+Base core clock (MHz);Boost core clock (MHz);Memory (MT/s);Pixel (GP/s);Texture (GT/s);Size (GiB);Bandwidth (GB/s);Bus type;Bus width (bit);DirectX;OpenGL;OpenCL;Vulkan;Single precision (Boost);Double precision;Half precision;
+GeForce MX110[147][148];November 2017;GM108;28;{{unk}};{{unk}};{{unk}};256:?:8;{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};?2;(variable);GDDR5/DDR3;64;12;4.5;{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+GeForce MX130[147][149][150];November 2017;GM108;28;{{unk}};{{unk}};{{unk}};384:?:8;{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};(variable);Unknown;Unknown;{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+GeForce MX150[151];Mid 2017;GP108 (N17S-G1-A1);14;1.8;70;PCIe 3.0 x4;384:24:16[152][153];1468;1532;6008;23.5;35.2;2;48;GDDR5;64;12 (12_1);4.5;1.2;1.0;1127 (1177);18;9;25;rowspan=6 {{No}};
+?;GP108 (N17S-LG-A1);937;1038;5012;15;22.5;40;720 (797);11;6;10;
+GeForce GTX 1050 (Notebook)[154];January 3, 2017;GP107;3.3;135;PCIe 3.0 x16;640:40:32;1354;1493;7000;21.7;54.2;4;112;128;1733 (1911);27;14;53;
+GeForce GTX 1050 Ti (Notebook)[154];768:48:32;1493;1620;47.8;71.7;2293 (2488);36;18;64;
+GeForce GTX 1060 (Notebook)[154];August 16, 2016;GP106;16;4.4;200;1280:80:48;1404;1670;8000;67.4;112;6;192;192;3594 (4275);112;56;80;
+GeForce GTX 1060 Max-Q;May 2017;1063;1480;;;;;;;
+GeForce GTX 1070 (Notebook)[154];August 16, 2016;GP104;7.2;314;2048:128:64;1442;1645;92.3;185;8;256;256;5906 (6738);185;92;115;rowspan=1 {{Yes}};
+GeForce GTX 1070 Max-Q;May 2017;1101;1379;;;;;;;rowspan=1 {{No}};
+GeForce GTX 1080 (Notebook)[154];August 16, 2016;2560:160:64;1556;1733;10000;99.6;249;320;GDDR5X;7967 (8873);249;124;150;rowspan=1 {{Yes}};
+GeForce GTX 1080 Max-Q;May 2017;1101;1468;;;;;;;rowspan=1 {{No}};

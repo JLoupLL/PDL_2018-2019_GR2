@@ -1,0 +1,15 @@
+Format;Languages;
+string1 == string2;Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Erlang, Haskell, Lua, D, Mathematica, Swift, Ya;
+string1 === string2;JavaScript, PHP;
+string1 == string2 or string1 .EQ. string2;Fortran;
+strcmp(string1, string2) == 0;C;
+(string=? string1 string2);Scheme;
+(string= string1 string2);Common Lisp, ISLISP;
+string1 = string2;ALGOL 68, Ada, Object Pascal (Delphi), OCaml, Pascal, Rexx, Seed7, Standard ML, BASIC, VB, VB .NET, F#, Smalltalk, PL/I, COBOL;
+test string1 = string2, or [ string1 = string2 ];Bourne Shell;
+string1 eq string2;Perl 5 / Perl 6;
+string1.equals(string2);Cobra, Java;
+string1.Equals(string2);C#;
+string1 -eq string2, or [string]::Equals(string1, string2);Windows PowerShell;
+[string1 isEqualToString:string2], or [string1 isEqual:string2];Objective-C (NSString * only);
+string1 ? string2;APL;

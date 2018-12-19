@@ -1,0 +1,5 @@
+IDE;License;Windows;Linux;macOS;Other platforms;Debugger;Assemblers;Auto-complete;Macros/templates;Latest stable release;
+SASM;{{yes|GPL}};{{yes}};{{yes}};{{no}};{{unk}};{{yes}};NASM, MASM, GAS and FASM;{{yes}};{{yes}};3.5.0 / 19 March 2016;
+Fresh;{{yes|EUPL and 2-clause BSD}};{{yes}};{{no}};{{no}};{{unk}};{{no}};FASM;{{unk}};{{unk}};2.2.0 / May 1, 2014;
+RadASM;{{no|Freeware}};{{yes}};{{no}};{{no}};{{unk}};{{yes}};MASM, FASM, NASM, TASM, GoAsm, High Level Assembly;{{yes}};{{yes}};2.2.2.0 / March 17, 2010;
+SlickEdit;{{Proprietary}};{{Yes}};{{Yes}};{{Yes}};Solaris, Solaris SPARC, AIX, HP-UX;{{No}};MASM, High Level Assembly, Linux Assembly, OS/390 Assembly;{{Yes}};{{Yes}};October 2016;

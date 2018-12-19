@@ -1,0 +1,7 @@
+Service;Post via;Read via;
+Web;XMPP;E-Mail;SMS;API;Micropub;Web;XMPP;E-Mail;SMS;API;Feed;
+Facebook;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};
+identi.ca;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Twitter;{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{dunno}};{{yes}};{{yes}};{{yes}};
+Mastodon;{{yes}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};
+micro.blog;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};

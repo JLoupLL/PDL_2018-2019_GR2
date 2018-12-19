@@ -1,0 +1,16 @@
+Name;Language;Latest stable version;Academic/noncommercial use is free;Can be used in proprietary aps;License;Notes;
+ALGLIB;C++, C#, FreePascal, VBA;3.8.0 / August 2013;Yes;Yes;Dual (Commercial, GPL);General purpose library, includes optimization package.;
+AMPL;C;October 2013;Yes;Yes;Dual (Commercial, academic);A popular algebraic modeling language for linear, mixed-integer and nonlinear optimization. Student and AMPL for courses versions are available for free.;
+APMonitor;Fortran, C++, Python, Matlab, Julia;0.6.2 / March 2016;Yes;Yes;Dual (Commercial, academic);A differential and algebraic modeling language for mixed-integer and nonlinear optimization. Freely available interfaces for Matlab, Python, and Julia.;
+Artelys Knitro;C, C++, C#, Python, Java, Julia, Matlab, R;11.1 / November 2018;No;Yes;Commercial, Academic, Trial;General purpose library, specialized in nonlinear optimization. Handles mixed-integer problems (MINLP) and mathematical programs with equilibrium constraints (MPEC). Specialized algorithms for nonlinear least squares problems.;
+FICO Xpress;Mosel, BCL, C, C++, Java, R Python, Matlab, .Net, VB6;8.5 / Aug 2018;Yes;Yes;Commercial, academic, community, trial;Suite of Optimization Technologies and Solutions. Includes: Solver technologies including (LP (Simplex & Barrier), MIP, MIQP, MIQCQP, MISOCP, MINLP QP, QCQP, SOCP, NLP (SLP & Interior Point); An algebraic modelling and procedural programming language; an Integrated Development Environment; Supports for a range of execution services; Support for packaging of optimization models and services as software solutions;
+GNU Linear Programming Kit;C;4.52 / July 2013;Yes;No;GPL;Free library for linear programming (LP) and mixed integer programming (MIP).;
+GNU Scientific Library;C;1.16 / July 2013;Yes;No;GPL;Free library provided by GNU project.;
+Gurobi;C, C++, C#, Java, .Net, Matlab, Python, R;8.1 / Sep 2018;Yes;Yes;Comercial, academic, trial;Optimization library. Handles mixed-integer linear problems, convex quadratic constraints and objective, multi-objective optimization and SOS constraints;
+IMSL Numerical Libraries;C, Java, C#, Fortran, Python;many components;No;Yes;Proprietary;;
+LIONsolver;C++, Java;2.0.198 / October 2011;Yes;Yes;Proprietary;Support for interactive and learning optimization, according to RSO principles .[2];
+MKL;C++, Fortran;11.1 / October 2013;No;Yes;Proprietary;Numerical library from Intel. MKL is specialized on linear algebra, but contains some optimization-related functionality.;
+NAG Numerical Libraries;C, Fortran;Mark 26 / October 2017;No;Yes;Proprietary;;
+NMath;C#;5.3 / May 2013;No;Yes;Proprietary;C# numerical library built on top of MKL.;
+OptaPlanner;Java;6.0.1.Final / Dec 2013;Yes;Yes;ASL;Lightweight optimization solver in Java;
+SciPy;Python;0.13.1 / November 2013;Yes;Yes;BSD;General purpose numerical and scientific computing library for Python.;

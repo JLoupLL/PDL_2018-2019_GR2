@@ -1,0 +1,7 @@
+Model;Launch;Core;Bus interface;Core clock (MHz);Memory clock (MHz);Core config1;Fillrate (GT/s);Memory;API compliance (version);TDP / idle (watts);Notes;
+Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Direct3D;OpenGL;
+FireMV 2200 PCI.[30];jan 2006;RV280 GL;PCI;240;200;1:4:4:4;0.96;64;3.2;DDR;64;8.1;1.4;15;DMS-59 for dual DVI-D output;
+FireMV 2200 PCIe.[31];jan 2006;RV370;PCIe x16;324;196;2:4:4:4;1.296;128;3.2;DDR;64;9.0;2.1;15;DMS-59 for dual DVI-D output;
+FireMV 2260[32];Jan 2008;RV620;PCIe 2.0 x1/x16, PCI;600;500;40(8×5):4:4;2.4;256;32;DDR2;256;10.1[33];3.3;15/8;Dual DisplayPort (with adapters: DVI-D);
+FireMV 2400 PCI.[34];jan 2008;RV380;PCI;500;500;2:4:4:4;2.0;128;16;DDR;128;9.0b;2.1;20;2x VHDCI for quad DVI-D output, VGA;
+FireMV 2400 PCIe.[35];jan 2008;RV380;PCIe x1;500;500;2:4:4:4;2.0;256;16;DDR3;128;9.0b;2.1;20;2x VHDCI for quad DVI-D output, VGA;

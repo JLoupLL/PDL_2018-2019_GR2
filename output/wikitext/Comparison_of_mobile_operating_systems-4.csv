@@ -1,0 +1,5 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+System wide base text size;{{Yes}};{{Yes}}[97][98][99];{{Yes}};{{Yes}}[100];?;{{Okay|2.1.0+: Set text size}}[101];?;
+Monaural output;{{Yes}};{{Yes}};{{No}};{{No}};{{No}};{{No}};{{No}};
+Always visible scrollbar;{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};
+Reduced Animations;{{Yes|Developer Options}};{{Yes}};{{No}};{{No}};{{No}};{{No}};{{No}};

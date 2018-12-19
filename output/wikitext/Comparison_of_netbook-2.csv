@@ -1,0 +1,13 @@
+Distribution;Target Boot Time;Whole OS Loads to RAM (Default);LIVE Medium;Target Users;SSD Write Optimization (SSD degradation, I/O optimization, etc.);Specific Supported Hardware;
+Aurora 3.0;;;;;;;
+EasyPeasy 1.6;;;LIVE Medium;Beginner, highly mobile netbook users.;;;
+Eeedora[4];;;;;;;
+Firefly Linux 1.0 Beta 1;;;;;;;
+Joli OS 1.2;;;;;;;
+Kuki Linux 2.0;;;;;;;
+Linux4One 1.5;40 seconds[13];;;;;;
+Manjaro Netbook Edition;;;;;;;
+Moblin 2.0;5 seconds[14][15];;;;;;
+OpenGeeeU 8.10;;;;;;;
+Puppeee Linux 4.3X;30s;Loads to RAM;;;Layered filesystem - caches writes in RAM;Lightweight kernel compiled for EeePCs only;
+Ubuntu Netbook Edition 10.10;;;;;;;

@@ -1,0 +1,7 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Official app store;Google Play;App Store;Microsoft Store;BlackBerry World, Amazon Appstore[102];Tizen Store;Jolla Store;OpenStore;
+Non-discriminatory stores;No, Some apps like Ad blockers are censored on Google Play[103][104] but developers can distribute apps from their own sources;No, Apple discriminates based on country[105] and own Apple policies[106];No, Discriminates by country,[107] manufacturer[108] and type of application[109];3rd party software;?;Openrepos.[110] Developers can distribute apps from their own sources, supports multiple app stores;?;
+Common APIs for smartphones, tablets, and PCs;Yes[111];Smartphone and tablet only[112];8.1+[113];No;No;Yes;Yes;
+Official SDK platform(s);Linux, macOS and Windows[114];macOS using iOS SDK;Windows[115];Windows, macOS,[116] Linux (only Native SDK for 10+)[117];GNU/Linux, Windows, macOS[118];Windows, macOS and Linux[119];Yes;
+Cost to develop for the mobile OS;Free;Free with Xcode 7+[120];Free[121];Free;Free;Free;Free;
+Cost to publish app to official store;US$25 once to offer it on Google Play[122];US$99/year;US$19, once, for an individual; and $99 for a company account.[123] Students can get a token for an individual account (1 token for 365 days) which gives free access to Windows Store/Phone Dev Center for 12 months.[124];Free;Free;Free[125];Free;

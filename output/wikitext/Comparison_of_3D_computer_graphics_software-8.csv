@@ -1,0 +1,7 @@
+Application;Hard surface Modeling;Sculpt Modeling;Non-destructive Modeling <!--;Patch Modeling -->;
+Polygon Modeling;Subdivision Modeling;Base-mesh Creation;Sculpting;Retopology;Boolean;Bevel;Procedural <!--;Single Patch;Multi-Patch -->;
+Maya;{{Yes}};{{Yes}};{{No|(SOuP BMesh)}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};
+3ds Max;{{Yes}};{{Yes}};{{No|(Form)}};{{Yes|Paint Deform}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};
+Blender;{{Yes}};{{Yes}};{{Yes|Skin Modifier}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Some|stack only}};
+ZBrush;{{Yes|ZModeler}};{{Yes|ZModeler}};{{Yes|ZSphere and ZSketch}};{{Yes}};{{Yes}};{{Yes|4R8 and later}};?;{{No}};
+Curvy 3D;{{No}};{{No}};{{Yes|sketch-based}};{{Yes}};?;?;?;{{No}};

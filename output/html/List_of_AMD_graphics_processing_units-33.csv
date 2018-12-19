@@ -1,0 +1,5 @@
+Model (codename);Launch;Architecture (Fab);Transistors Die Size;Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TBP;Bus interface;Release price (USD);
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Half;Single;Double;Bus type & width;Size (GiB);Clock (MT/s);Bandwidth (GB/s);
+Radeon RX Vega 56[90][91][92];August 28, 2017;GCN 5th gen (14 nm);7010125000000000000?12.5×109 486 mm2;3584:224:64;1156 1471;258.9 329.5;74.0 94.1;16572 21088;8286 10544;518 659;HBM2 2048-bit;8;1600;410;210 W;PCIe 3.0 ×16;$399;
+Radeon RX Vega 64[90][92][93];August 14, 2017;4096:256:64;1247 1546;319.2 395.8;79.8 98.9;20431 25330;10215 12665;638 792;1890;483.8;295 W;$499;
+Radeon RX Vega 64 Liquid[90][92][93];1406 1677;359.9 429.3;90.0 107.3;23036 27476;11518 13738;720 859;345 W;$699;

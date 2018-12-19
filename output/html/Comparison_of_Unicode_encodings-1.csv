@@ -1,0 +1,9 @@
+Code range (hexadecimal);UTF-8;UTF-16;UTF-32;UTF-EBCDIC;GB 18030;
+000000 – 00007F;1;2;4;1;1;
+000080 – 00009F;2;2 for characters inherited from GB 2312/GBK (e.g. most Chinese characters) 4 for everything else.;
+0000A0 – 0003FF;2;
+000400 – 0007FF;3;
+000800 – 003FFF;3;
+004000 – 00FFFF;4;
+010000 – 03FFFF;4;4;4;
+040000 – 10FFFF;5;

@@ -1,0 +1,18 @@
+IDE;License;Written in Java only;Windows;Linux;macOS;Other platforms;GUI builder;
+BlueJ;GPL2+GNU linking exception;Yes;Yes;Yes;Yes;Solaris;No;
+DrJava;Permissive;Yes;Yes;Yes;Yes;Solaris;No;
+Eclipse JDT;EPL;No[26];Yes;Yes;Yes;FreeBSD, JVM, Solaris;Yes;
+Geany;GPL;No;Yes;Yes;Yes;FreeBSD, AIX, OpenBSD, Solaris, other Unix;No;
+Greenfoot;GPL;Yes;Yes;Yes;Yes;Solaris;No;
+IntelliJ IDEA;Community Edition: Apache License v2.0, Ultimate Edition: proprietary;Yes;Yes;Yes;Yes;FreeBSD, OpenBSD, Solaris;Yes;
+JBuilder;Proprietary;Yes;Yes;Yes;Yes;Solaris;Yes;
+JCreator;Proprietary;No;Yes;No;No;;No;
+JDeveloper;Proprietary (freeware);Yes;Yes;Yes;Yes;generic JVM;Yes;
+jGRASP;Proprietary (freeware);Yes;Yes;Yes;Yes;;No;
+MyEclipse;Proprietary;Yes;Yes;Yes;Yes;FreeBSD, JVM, Solaris;Yes;
+NetBeans;CDDL, GPL2;Yes;Yes;Yes;Yes;OpenBSD, Solaris;Yes;
+Rational Application Developer;Proprietary;Yes;Yes;Yes;No;AIX, Solaris;Yes;
+Servoy;Proprietary;Yes;Yes;Yes;Yes;Solaris;Yes;
+SlickEdit;Proprietary;No;Yes;Yes;Yes;Solaris, Solaris SPARC, AIX, HP-UX;No;
+Understand;Proprietary;No;Yes;Yes;Yes;Solaris;Yes;
+Xcode (Apple);Proprietary;No;No;No;Yes;;Yes;

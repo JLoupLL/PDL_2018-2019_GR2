@@ -1,0 +1,5 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Concrete Compressive Strength Dataset;Dataset of concrete properties and compressive strength.;Nine features are given for each sample.;1030;Text;Regression;2007;[337][338];I. Yeh;
+Concrete Slump Test Dataset;Concrete slump flow given in terms of properties.;Features of concrete given such as fly ash, water, etc.;103;Text;Regression;2009;[339][340];I. Yeh;
+Musk Dataset;Predict if a molecule, given the features, will be a musk or a non-musk.;168 features given for each molecule.;6598;Text;Classification;1994;[341];Arris Pharmaceutical Corp.;
+Steel Plates Faults Dataset;Steel plates of 7 different types.;27 features given for each sample.;1941;Text;Classification;2010;[342];Semeion Research Center;

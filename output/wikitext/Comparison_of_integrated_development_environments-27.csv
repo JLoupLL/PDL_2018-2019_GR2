@@ -1,0 +1,5 @@
+IDE;Developer;License;Windows;Linux;macOS;Other platforms;Debugger;GUI builder;
+Dolphin Smalltalk;Object Arts;{{yes|MIT License}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};
+Pharo;INRIA;{{yes|MIT License}};{{yes}};{{yes}};{{yes}};various;{{yes}};{{yes}};
+Squeak;squeak.org;{{yes|MIT License}};{{yes}};{{yes}};{{yes}};various;{{yes}};{{yes}};
+VisualWorks;Cincom;{{Proprietary}};{{yes}};{{yes}};{{yes}};various;{{yes}};{{yes}};

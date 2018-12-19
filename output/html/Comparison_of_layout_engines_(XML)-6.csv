@@ -1,0 +1,4 @@
+;Trident;Gecko;WebKit;KHTML;Presto;Prince XML;Antenna House;
+DTD;No;Partial[note 4];No[w 6];No;Partial[note 5];3.0;Depends[a 1];
+XML Schema[spec 16][spec 17][spec 18][spec 19];?;Partial;No;?;No;?;Depends[a 1];
+RELAX NG[spec 20];?;No[g 9];?;?;Depends[a 1];

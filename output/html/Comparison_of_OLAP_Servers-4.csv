@@ -1,0 +1,17 @@
+OLAP Server;Real Time;Write-back;Partitioning;Usage Based Optimizations;Load Balancing and Clustering;
+Apache Kylin;No;No;Yes;Yes;Yes;
+Druid;Yes;?;Yes;Yes;Yes;
+Essbase;Yes;Yes;Yes;Yes;Yes;
+IBM Cognos BI;Yes;No;Yes;Yes;?;
+IBM Cognos TM1;Yes;Yes;Yes;?;?;
+icCube;Yes[27];Yes[28];Yes[29];?;?;
+Infor BI OLAP Server;Yes;Yes;Yes;?;?;
+Jedox OLAP Server;Yes;Yes;Yes;?;?;
+Kyligence;No;No;Yes;Yes;Yes;
+Kyvos BI on Big Data;No;No;Yes;Yes;Yes;
+Microsoft Analysis Services;Yes;Yes;Yes;Yes;Yes;
+MicroStrategy Intelligence Server;?;Yes[30];Yes;?;?;
+Mondrian OLAP server;Yes;Planned;Yes;?;?;
+Oracle Database OLAP Option;?;Yes;Yes;No;?;
+SAP NetWeaver BW;?;Yes;Yes;?;?;
+SAS OLAP Server;?;Yes;Yes;?;?;

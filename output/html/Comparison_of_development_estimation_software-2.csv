@@ -1,0 +1,5 @@
+Software;Schedule estimate;Cost estimate;Cost Models;Input;Report Output Format;Supported Programming Languages;Platforms;Cost;License;
+AFCAA REVIC[32];Yes;Yes;REVIC;KLOC, Scale Factors, Cost Drivers;proprietary, Text;any;DOS;Free;Proprietary Free for public distribution;
+Seer for Software[33];Yes;Yes;SEER-SEM;SLOC, Function points, use cases, bottoms-up, object, features;proprietary, Excel, Microsoft Project, IBM Rational, Oracle Crystal Ball;any;Windows, Any (Web-based)[34];Commercial;Proprietary;
+SLIM[35];Yes;Yes;SLIM;Size (SLOC, Function points, Use Cases, etc.), constraints (size, duration, effort, staff), scale factors, historical projects, historical trends;proprietary, Excel, Microsoft Project, Microsoft PowerPoint, IBM Rational, text, HTML;any;Windows, Any (Web-based)[36];Commercial;Proprietary;
+TruePlanning[37];Yes;Yes;PRICE;Components, Structures, Activities, Cost drivers, Processes, Functional Software Size (Source Lines of Code (SLOC), Function Points, Use Case Conversion Points (UCCP), Predictive Object Points (POPs) etc.);Excel, CAD;any;Windows;Commercial;Proprietary;

@@ -1,0 +1,6 @@
+Model;Launch;Micro-archi-tecture;Code name;Fab (nm);Bus interface;Clock rate;Core config1;Fillrate;Memory;Processing power (GFLOPS);API compliance (version);TDP (Watts);Notes;
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (GiB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;OpenCL;Vulkan;
+FirePro V3900[57];February 7, 2012;TeraScale 2;Turks GL;40;PCIe 2.1 x16;650;900;480(96×5):24:8:6;5.2;15.6;1;28.8;GDDR3;128;624;;11.0;4.3;1.2;rowspan=4 {{N/A}};50;HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity;
+FirePro V4900[58];November 1, 2011;TeraScale 2;Turks XT GL;40;PCIe 2.1 x16;800;1000;480(96×5):24:8:6;6.4;19.2;1;64;GDDR52;128;768;;11.0;4.3;1.2;<75 Max;HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity;
+FirePro V5900[59];May 24, 2011;TeraScale 3;Cayman LE GL;40;PCIe 2.1 x16;600;5002;512(128×4):32:32:8;19.2;19.2;2;64;GDDR52;256;610;154;11.0;4.3;1.2;<75 Max;HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity;
+FirePro V7900[60];May 24, 2011;TeraScale 3;Cayman Pro GL;40;PCIe 2.1 x16;725;12502;1280(320×4):80:32:20;23.2;58;2;160;GDDR52;256;1860;464;11.0;4.3;1.2;<150 Max;HD3D, UVD3, DP 1.2, PowerPlay, Eyefinity;

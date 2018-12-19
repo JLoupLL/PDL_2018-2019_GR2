@@ -1,0 +1,9 @@
+Value;Meaning;
+Yes;Fully supported;
+No;Has never been supported;
+Partial;Only some values are supported;
+Incorrect;Not implemented correctly in all cases;
+Experimental;May be incomplete or buggy;
+Nightly build;Currently in development; full support is expected;
+Depends;Only supported for the specified conditions;
+Dropped;No longer supported;

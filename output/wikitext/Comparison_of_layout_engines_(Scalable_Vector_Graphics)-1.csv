@@ -1,0 +1,8 @@
+Trident;Gecko;WebKit;Blink;Presto;KSVG;Amaya;
+<img>;rowspan="5" {{yes|5.0}}[3];{{yes|2.0}}[5];{{yes}}[6];rowspan="7" {{dunno}};{{yes|2.1}};{{no}};{{yes|5.1}};
+<embed>;rowspan="2" {{yes|1.8}};rowspan="2" {{yes}}[7];{{partial}}{{#tag:ref|<embed> — Presto does not scale the image properly if its size is given in relative units.|group=note}};rowspan="2" {{partial}}{{#tag:ref|<embed>, <object> — KSVG does not scale the image properly if its size is given in relative units.|group=note}};{{yes|5.2}};
+<object>;{{yes}};{{yes|5.1}};
+CSS background-image;rowspan="2" {{yes|2.0}}[8];{{no}};rowspan="2" {{yes|2.1}};rowspan="3" {{no}};{{dunno}};
+CSS list-style-image;{{partial}}{{#tag:ref|list-style-image — WebKit does render the image if its size is given in relative units.[6]|group=note}};{{dunno}};
+as Favicon;{{no}};{{yes|41}}[9];{{no}};{{yes|2.1.1}};{{dunno}};
+in data URIs;{{yes|5.0}};{{yes}};{{yes}};{{no}};{{dunno}};{{dunno}};

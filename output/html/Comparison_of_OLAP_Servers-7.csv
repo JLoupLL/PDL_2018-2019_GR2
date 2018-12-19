@@ -1,0 +1,15 @@
+OLAP Server;Authentication;Network encryption;On-the-Fly[a];Data access;
+Cell security;Dimension security;Visual totals;
+Apache Kylin;LDAP, SAML, Kerboros, Microsoft Active Directory;SSL;Yes;No;No;?;
+Druid;Druid Database authentication;SSL;Yes;No;Yes;No;
+Essbase;Essbase authentication, LDAP authentication, Microsoft Active Directory;SSL;Yes;Yes;Yes;No;
+IBM Cognos TM1;Builtin, LDAP, Microsoft Active Directory, NTLM, IBM Cognos BI authentication;SSL;Yes;Yes;Yes;Yes;
+icCube;HTTP Basic/Form Authentication, Windows SSO (NTLM,Kerberos);SSL;Yes;Yes;Yes;Yes;
+Infor BI OLAP Server;OLAP authentication, Infor Federation Services, LDAP, Microsoft Active Directory;Yes;Yes;Yes;Yes;?;
+Jedox OLAP Server;Jedox authentication, LDAP, Microsoft Active Directory;SSL;Yes;Yes;Yes;?;
+Kyligence;LDAP, SAML, Kerboros, Microsoft Active Directory, Built-in;SSL;;Yes;Yes;?;
+Kyvos BI on Big Data;Built-in, LDAP, Microsoft Active Directory, Windows SSO (NTLM, Kerberos);SSL;Yes;Yes;Yes;?;
+Microsoft Analysis Services;NTLM, Kerberos;SSL and SSPI;Yes;Yes;Yes;Yes;
+MicroStrategy Intelligence Server;Host authentication, database authentication, LDAP, Microsoft Active Directory, NTLM, SiteMinder, Tivoli, SAP, Kerberos;SSL, AES[37];?;Yes;Yes;Yes;
+Oracle Database OLAP Option;Oracle Database authentication;SSL;?;Yes;Yes;No;
+SAS OLAP Server[38];Host authentication,SAS token authentication, LDAP, Microsoft Active Directory;Yes[39];?;Yes;Yes;Yes;

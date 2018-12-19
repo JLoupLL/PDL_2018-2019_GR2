@@ -1,0 +1,10 @@
+Model;Launch;Code name;Fab (nm);Core clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;
+MOperations/s;MPixels/s;MTexels/s;MVertices/s;Size (MiB);Bandwidth (GB/s);Bus type;Bus width (bit);
+Radeon X300;June 21, 2004;RV370 (hari);110;325;200;4:2:4:4;1300;1300;1300;162.5;64, 128;6.4;DDR;128;
+Radeon X300 LE;June 21, 2004;RV370 (hari);110;325;200;4:2:4:4;1300;1300;1300;162.5;64, 128;6.4;DDR;128;
+Radeon X300 SE;June 21, 2004;RV370 (hari);110;325;200;4:2:4:4;1300;1300;1300;162.5;64, 128;3.2;DDR;64;
+Radeon X300 SE HyperMemory;April 4, 2005;RV370 (hari);110;325;300;4:2:4:4;1300;1300;1300;162.5;32, 64, 128 onboard + up to 128 system;3.2;DDR;64;
+Radeon X550;June 21, 2005;RV370 (hari);110;400;250;4:2:4:4;1600;1600;1600;200;128, 256;8;DDR;128;
+Radeon X600 Pro;June 21, 2004;RV380 (vishnu);130;400;300;4:2:4:4;1600;1600;1600;200;128, 256;9.6;DDR;128;
+Radeon X600 XT;June 21, 2004;RV380 (vishnu);130;500;370;4:2:4:4;2000;2000;2000;250;128, 256;11.84;DDR;128;
+Radeon X1050;Dec. 7, 2006;RV370 (hari);110;400;333;4:2:4:4;1600;1600;1600;200;128, 256;5.328;DDR2;64;

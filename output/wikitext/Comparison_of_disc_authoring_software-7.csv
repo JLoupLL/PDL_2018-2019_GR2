@@ -1,0 +1,13 @@
+Application;Command line interface;Graphical user interface;Text user interface;
+Alcohol 120%;{{no}};{{yes}};{{no}};
+CDBurnerXP;{{yes}};{{yes}};{{no}};
+cdrtools;{{yes}};{{no}};{{no}};
+DeepBurner;{{no}};{{yes}};{{no}};
+ExpressBurn;{{yes}};{{yes}};{{no}};
+ImgBurn;{{no}};{{yes}};{{no}};
+InfraRecorder;{{no}};{{yes}};{{no}};
+K3b;{{yes}};{{yes}};{{no}};
+Nero Burning ROM;{{no}};{{yes}};{{no}};
+UltraISO;{{yes}};{{yes}};{{no}};
+X-CD-Roast;{{no}};{{yes}};{{no}};
+Application;Command line interface;Graphical user interface;Text user interface;

@@ -1,0 +1,11 @@
+Graphics;Launch;Market;Processor;Code name;Device id.;Core clock (MHz);Execution units;API support[12];Memory bandwidth (GB/s);DVMT (MB);CVT HD;
+Direct3D;OpenGL;OpenCL;
+HD Graphics;2010;Desktop;Celeron G1101 Pentium G69xx;Ironlake (Clarkdale);0042;533;12;10.1 FL10_0;2.1 ES 2.0Linux;No;17;1720;No;
+Core i3-5x0 Core i5-6x0 Core i5-655K;733;21.3;Yes;
+Core i5-661;900;
+Mobile;Celeron U3xxx Pentium U5xxx;Ironlake (Arrandale);0046;166–500;12.8;No;
+Core i3-3x0UM Core i5-5x0UM Core i7-6x0UE Core i7-6x0UM;Yes;
+Core i7-620LE Core i7-6x0LM;266–566;17.1;
+Celeron P4xxx Pentium P6xxx;500–667;No;
+Core i3-330E Core i3-3x0M;Yes;
+Core i5-4x0M Core i5-520E Core i5-5x0M Core i7-610E Core i7-6x0M;500–766;

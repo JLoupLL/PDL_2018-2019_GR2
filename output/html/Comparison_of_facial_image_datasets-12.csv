@@ -1,0 +1,16 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Web of Science Dataset;Hierarchical Datasets for Text Classification;None.;46,985;Text;Classification, Categorization;2017;[214][215];K. Kowsari et al.;
+Legal Case Reports;Federal Court of Australia cases from 2006 to 2009.;None.;4,000;Text;Summarization, citation analysis;2012;[216][217];F. Galgani et al.;
+Blogger Authorship Corpus;Blog entries of 19,320 people from blogger.com.;Blogger self-provided gender, age, industry, and astrological sign.;681,288;Text;Sentiment analysis, summarization, classification;2006;[218][219];J. Schler et al.;
+Social Structure of Facebook Networks;Large dataset of the social structure of Facebook.;None.;100 colleges covered;Text;Network analysis, clustering;2012;[220][221];A. Traud et al.;
+Dataset for the Machine Comprehension of Text;Stories and associated questions for testing comprehension of text.;None.;660;Text;Natural language processing, machine comprehension;2013;[222][223];M. Richardson et al.;
+The Penn Treebank Project;Naturally occurring text annotated for linguistic structure.;Text is parsed into semantic trees.;~ 1M words;Text;Natural language processing, summarization;1995;[224][225];M. Marcus et al.;
+DEXTER Dataset;Task given is to determine, from features given, which articles are about corporate acquisitions.;Features extracted include word stems. Distractor features included.;2600;Text;Classification;2008;[226];Reuters;
+Google Books N-grams;N-grams from a very large corpus of books;None.;2.2 TB of text;Text;Classification, clustering, regression;2011;[227][228];Google;
+Personae Corpus;Collected for experiments in Authorship Attribution and Personality Prediction. Consists of 145 Dutch-language essays.;In addition to normal texts, syntactically annotated texts are given.;145;Text;Classification, regression;2008;[229][230];K. Luyckx et al.;
+CNAE-9 Dataset;Categorization task for free text descriptions of Brazilian companies.;Word frequency has been extracted.;1080;Text;Classification;2012;[231][232];P. Ciarelli et al.;
+Sentiment Labeled Sentences Dataset;3000 sentiment labeled sentences.;Sentiment of each sentence has been hand labeled as positive or negative.;3000;Text;Classification, sentiment analysis;2015;[233][234];D. Kotzias;
+BlogFeedback Dataset;Dataset to predict the number of comments a post will receive based on features of that post.;Many features of each post extracted.;60,021;Text;Regression;2014;[235][236];K. Buza;
+Stanford Natural Language Inference (SNLI) Corpus;Image captions matched with newly constructed sentences to form entailment, contradiction, or neutral pairs.;Entailment class labels, syntactic parsing by the Stanford PCFG parser;570,000;Text;Natural language inference/recognizing textual entailment;2015;[237];S. Bowman et al.;
+DSL Corpus Collection (DSLCC);A multilingual collection of short excerpts of journalistic texts in similar languages and dialects.;None;294,000 phrases;Text;Discriminating between similar languages;2017;[238];Tan, Liling et al.;
+Urban Dictionary Dataset;Corpus of words, votes and definitions;User names anonymised;2,606,522;CSV;NLP, Machine comprehension;2016-05;[239];Anonymous;

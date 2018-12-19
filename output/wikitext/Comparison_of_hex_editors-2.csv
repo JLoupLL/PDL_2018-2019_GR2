@@ -1,0 +1,12 @@
+;Maximum file size;Partial file loading;Disk sector editing;Bit editing;Text editor;Insert/delete bytes;Character encodings(ao);Search Unicode;File structure view;Disassembler;File compare;Find in files;Bookmarks;Macro;Data inspector;
+beye;8 PiB;{{yes}};{{no}};{{yes}};{{no}};{{yes}};ANSI, EBCDIC, ASCII, Macintosh;{{yes}};;data-sort-value="Yes" {{yes|AVR, Java, x86, i386, x86-64, ARM/XScale, PowerPC, PPC64}};;;{{yes}};
+bvi;Unlimited;{{yes}};;{{yes}};{{yes}};{{yes}};ANSI, ASCII;;{{no}};{{no}};;{{Yes}} and replace;;
+Emacs;;;{{no}};{{no}};{{yes}};{{yes}};;;{{no}};{{no}};;;;{{yes}};{{no}};
+FlexHex;Unlimited;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};ANSI, OEM, UTF-16;{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{yes}};;{{yes}};
+Frhed;Limited by RAM;{{yes}};{{no}}(read only);{{yes}};{{no}};{{yes}};ANSI, OEM;{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{yes}};
+Hiew;Unlimited;{{yes}};{{partial|WinNT only}};{{yes}};{{yes}};{{yes}};ASCII,OEM, Unicode,Custom;{{yes}};{{yes}};data-sort-value="Yes" {{yes|x86, x86-64, MMX, SSE 4.2, 3DNow! - all assembler, ARM}};;{{yes}};{{yes}};{{yes}};
+HxD;Unlimited[2];{{yes}};{{yes|Windows 9x/NT and up}};{{yes}};{{no}};{{yes}};ANSI, ASCII, OEM, EBCDIC, Macintosh;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};;{{yes}};
+VEDIT;Standard, 2 GiB, Pro 64, unlimited;{{yes}};data-sort-value="Partial" {{partial|DOS version only}};{{yes}};{{yes}};{{yes}};ANSI, OEM, EBCDIC, ASCII, custom;;{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};
+UltraEdit;>4 GiB;{{yes}};{{no}};{{no}};{{yes}};{{yes}};ANSI, OEM, EBCDIC, ASCII, Mac, Unix, UTF-8;{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};
+WinHex;Unlimited;{{yes}};{{yes}};{{yes}};{{partial|External: notepad}};{{yes}};{{partial}} support of these formats: ANSI, UNICODE, OEM, UTF-8/UTF-16, EBCDIC, ASCII;{{yes}};{{yes}};{{partial|Only x86 Intel opcodes}};{{yes}};data-sort-value="Yes" {{Yes}} and replace;;{{yes}}[3];{{yes}};
+! Maximum file size;Partial file loading;Disk sector editing;Bit editing;Text editor;Insert/delete bytes;Character encodings(ao);Search Unicode;File structure view;Disassembler;File compare;Find in files;Bookmarks;Macro;Data inspector;

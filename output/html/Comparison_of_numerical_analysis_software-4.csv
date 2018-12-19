@@ -1,0 +1,10 @@
+;Creator;Language;First public release;Latest stable version;Cost (USD);License;Notes;
+ALGLIB;Sergey Bochkanov;C++, C#, FreePascal;2006;3.12.0 / August 2017;Dual licensed;GPL/commercial;General purpose numerical analysis library. Cross-platform (Windows, *nix).;
+Armadillo;NICTA;C++;2009;3.900 / 2013;Free;MPL;C++ template library for linear algebra; includes various decompositions and factorisations; syntax (API) is similar to MATLAB.;
+GNU Scientific Library;GNU Project;C;1996;2.3 / December 2016;Free;GPL;General purpose numerical analysis library. Targets GNU/Linux, can be built on almost any *nix OS with Ansi C compiler.;
+ILNumerics;H. Kutschbach;C#, PowerShell;2007;1.3.14 / August 2008;Non-free;Proprietary;aims .Net/mono, 2D/3D plottings (beta);
+IMSL Numerical Libraries;Rogue Wave Software;C, Java, C#, Fortran, Python;1970;many components;Not free;Proprietary;General purpose numerical analysis library.;
+Math.NET Numerics;C. Rüegg, M. Cuda, et al.;C#, F#, C, PowerShell;2009;3.20 / July 2017;Free;MIT/X11;General purpose numerical analysis and statistics library for the .NET Framework and Mono, with optional support for native providers.;
+NAG Numerical Library;The Numerical Algorithms Group;C, Fortran;1971;many components;Not free;Proprietary;General purpose numerical analysis library.;
+NMath;CenterSpace Software;C#;2003;6.2 / March 2016;$995;Proprietary;Math and statistical libraries for the .NET Framework;
+SciPy;scipy.org community;Python;2001;1.0.0 / 25 October 2017;Free;BSD;Adds numerical programming capabilities to the Python programming language. Related to NumPy, and therefore connected to the previous Numeric and Numarray packages for Python;

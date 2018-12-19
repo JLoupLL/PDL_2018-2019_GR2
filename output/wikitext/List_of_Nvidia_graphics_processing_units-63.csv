@@ -1,0 +1,6 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro FX 360M;G86M;80;PCIe 1.0 ×16;400;800;1200;16:8:4;1.6;3.2;256;9.6;DDR2;64;38.4;10.0;3.3;17;;
+Quadro FX 560M;G73GLM;90;PCIe 1.0 ×16;500;500;1200;5:12:12:8;4;6;512;19.2;GDDR3;128;;9.0c;2.1;35?;;
+Quadro FX 1600M;G84M;80;PCIe 1.0 ×16;625;1250;1600;32:16:8;5;10;512;25.6;GDDR3;128;120;10.0;3.3;50?;;
+Quadro FX 3600M;G92M;65;PCIe 1.0 ×16;500;1250;1600;64:32:16 96:48:16;8 8;16 24;512;51.2;GDDR3;256;240 360;10.0;3.3;70;;

@@ -1,0 +1,7 @@
+Client name;Free;Network protocols;Diff;Merge;Browse remote repository;
+Cornerstone;No;file, http, https, svn, svn+file, svn+http, svn+https, svn+ssh;Yes;Yes;Yes;
+eSvn;Yes;http, svn;?;?;?;
+kdesvn;Yes;file, http, https, (k)svn, (k)svn+file, (k)svn+http, (k)svn+https, (k)svn+ssh;Yes;Yes;Yes;
+QSvn;Yes;;Yes;?;?;
+RapidSVN;Yes;;internal;internal;Yes;
+SubTile;Yes;http, https, svn, svn+ssh;Yes;Yes;Yes;

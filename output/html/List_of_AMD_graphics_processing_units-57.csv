@@ -1,0 +1,8 @@
+Model;Launch;Micro-archi-tecture;Code name;Fab (nm);Bus interface;Clock rate;Core config1;Fillrate;Memory;Processing power (GFLOPS);API compliance (version);TDP (Watts);Notes;
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (GiB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;OpenCL;Vulkan;
+FirePro W2100[183];August 13, 2014;GCN 1st gen;Oland XT;28;PCIe 3.0 x8;630;900;320:20:8:5;5.04;12.6;2;28.8;DDR3;128;403.2;25.5;11.2a/12.0;4.5;2.0 (new);1.0;<26;Two Standard DisplayPort DP 1.2a outputs;
+FirePro W4100[184];August 13, 2014;GCN 1st gen;Cape Verde;28;PCIe 3.0 x16;630;1125;512:32:16:8;10.08;20.16;2;72;GDDR5;128;645.1;40.3;11.2a/12.0;4.5;2.0 (new);<50;Four Standard Mini-DP 1.2a outputs;
+FirePro W5100[185];August 13, 2014;GCN 2nd gen;Bonaire Pro;28;PCIe 3.0 x16;930;1500;768:48:16:12;14.88;44.64;4;96;GDDR5;128;1430;89.2;11.2b/12.0;4.5;2.0;<75;DirectGMA, GeometryBoost, 4 DP 1.2a, including Adaptive-Sync and HBR2;
+FirePro W7100[186];August 13, 2014;GCN 3rd gen;Tonga Pro GL;28;PCIe 3.0 x16;920;1400;1792:112:32:28;29.4;103;8;160;GDDR5;256;3297;206;11.2b/12.0;4.5;2.0;1.1;<150;DirectGMA, GeometryBoost, 4 DP 1.2a, including Adaptive-Sync and HBR2;
+FirePro W8100[187];June 26, 2014;GCN 2nd gen;Hawaii Pro GL;28;PCIe 3.0 x16;824;1250;2560:160:64:40;52.7;145;8;320;GDDR5;512;4218.9;2109.45;11.2b/12.0;4.5;2.0;1.0;220;ECC RAM, 4 DP + SDI-Link;
+FirePro W9100[188];March 26, 2014;GCN 2nd gen;Hawaii XT;28;PCIe 3.0 x16;930;1250;2816:176:64:44;59.5;163.7;16 32;320;GDDR5;512;5237.8;2618.9;11.2b/12.0;4.5;2.0[189];275;ECC RAM, Six Mini DP + SDI-Link;

@@ -1,0 +1,6 @@
+;Array;List;Set;Multiset;Object reference;
+CUBRID;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Oracle;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+OpenLink Virtuoso;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+PostgreSQL;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Informix;{{no}};{{yes}};{{yes}};{{yes}};{{yes}};

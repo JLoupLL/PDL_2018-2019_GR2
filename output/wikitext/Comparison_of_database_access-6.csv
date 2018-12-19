@@ -1,0 +1,2 @@
+! Read value;Change value;Search;Inserting;
+django;{{sxhl|lang=python|1=table_var."field_name"}};{{sxhl|lang=python|1=table_var."field_name" = \ "value"}};{{sxhl|lang=python|1=table_var = \ Table.objects.filter( "expr" )}};{{sxhl|lang=python|1=table_var = Table() table_var.save()}};

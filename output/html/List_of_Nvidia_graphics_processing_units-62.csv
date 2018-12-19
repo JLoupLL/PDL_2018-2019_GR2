@@ -1,0 +1,8 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config12;Fillrate;Memory;Processing power (GFLOPS);Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro2 Go [192];NV11GLM?;;AGP 4×;143;;130 360;2:0:4:2;0.286;0.592;32 64;2.9 5.8;SDR DDR;128;;7?;1.2;;First mobile Quadro based on the Geforce2 Go, Dynamic core clock 100–143 MHz, Dynamic Voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia [193][194];
+Quadro4 500 Go GL [195][196];NV17 GLM;150;AGP 4×,8×;?;;?;2:0:4:2;0.44;0.88;64;7.0;DDR;128;;7.0;1.3;;Based on the Geforce4 Go, dynamic core clock 66–220 MHz, core voltage 1.35 V, uses DDR SDRAM according to Nvidia brochures[194];
+Quadro4 700 Go GL [195][197][198];NV28 A1 GLM;150;AGP 4×,8×;176;;200;4:2:4:4;0.704;0.704;64;7.4?;DDR;128?;;8.1;1.3;;Based on Geforce4 Go 4200, uses DDR according to Nvidia brochures;
+Quadro FX Go 700 [199];NV31 GLM;130;AGP 8×;295?;;590?;4:3:4:4;1.18;1.18;128;9.44?;DDR;128;;9.0?;2.1?;;Based on the Geforce FX Go 5 (FX 56XX), uses DDR SDRAM.;
+Quadro FX Go 1000 [200];NV36 GLM;120;AGP 8×;295?;;570?;4:3:4:4;1.18;1.18;128;9.12?;DDR;128;;9.0?;2.1?;;;
+Quadro FX Go 1400 [200];NV41 GLM;130;PCIE;275;;590;12:5:12:12?;2.20;2.2;256;18.9?;DDR;256;;9.0?;2.1?;;Last chip designated as a Quadro FX Go, apparently uses PCIE instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from Geforce Go 6800.;

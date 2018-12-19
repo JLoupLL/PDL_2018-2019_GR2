@@ -1,0 +1,11 @@
+IDE;Widget toolkit;Platform;Compilers;Open Source;Made in D;Notes;
+Visual Studio;Unknown;Windows;DMD, LDC (LLVM), GDC (GCC);No;No;Visual Studio extension. VisualD, wrote in D.;
+NetBeans;Java Swing;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana, Java;DMD, LDC (LLVM), GDC (GCC);Yes;No;NetBeans module. NetBeans-D, under MIT License.;
+SlickEdit;Qt;Windows, Linux, MacOS, AIX, HP-UX, Solaris, Solaris SPARC;DMD;No;No;;
+CodeLite;wxWidget;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana;DMD, LDC (LLVM), GDC (GCC);Yes;No;;
+Xcode;Cocoa;macOS;DMD, GDC (GCC);No;No;Xcode plugin. D for Xcode, under GPL v2.;
+MonoDevelop;GTK#;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana;DMD, LDC (LLVM), GDC (GCC);Yes;No;MonoDevelop extension. Mono-D, support VisualD projects and DUB, Can be installed on Xamarin Studio too, under Apache License.;
+KDevelop;Qt;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana;DMD, LDC (LLVM), GDC (GCC);Yes;No;;
+Geany;GTK+;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana;DMD, LDC (LLVM), GDC (GCC);Yes;No;Native support.;
+Code::Blocks;wxWidget;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana;DMD, LDC (LLVM), GDC (GCC);Yes;No;Includes partial support.;
+Eclipse;SWT;Windows, macOS, GNU/Linux, FreeBSD, Solaris, OpenIndiana, Java;DMD;Yes;No;Eclipse Plugin. DDT. Dropped.;

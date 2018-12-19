@@ -1,0 +1,3 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Wine Dataset;Chemical analysis of wines grown in the same region in Italy but derived from three different cultivars.;13 properties of each wine are given;178;Text;Classification, regression;1991;[308][309];M. Forina et al.;
+Combined Cycle Power Plant Data Set;Data from various sensors within a power plant running for 6 years.;None;9568;Text;Regression;2014;[310][311];P. Tufekci et al.;

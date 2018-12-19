@@ -1,0 +1,8 @@
+;Trident;Gecko;WebKit;Blink;Presto;KSVG;Amaya;
+<img>;5.0[t 1];2.0[g 2];Yes[w 1];?;2.1;No;5.1;
+<embed>;1.8;Yes[w 2];Partial[note 2];Partial[note 3];5.2;
+<object>;Yes;5.1;
+CSS background-image;2.0[g 3];No;2.1;No;?;
+CSS list-style-image;Partial[note 4];?;
+as Favicon;No;41[g 4];No;2.1.1;?;
+in data URIs;5.0;Yes;Yes;No;?;?;

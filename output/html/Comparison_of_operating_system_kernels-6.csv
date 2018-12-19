@@ -1,0 +1,11 @@
+Kernel Name;a.out;ECOFF;ELF;FDPIC ELF binaries (mmu less);flat binaries (superH);HUNK;Mach-O;Misc (wrapper based, like interpreters);PE;SOM (PA-RISC, HP-UX);NLM;PEF;DOS COM;MZ;LE;LX;NE;
+Amiga Exec;No;No;Yes[20];No;No;Yes;No;No;No;No;?;?;?;?;?;?;?;
+DragonFly BSD kernel;No;No;Yes;No;No;No;No;No;No;No;No;No;No;No;No;No;No;
+HP-UX kernel;No;No;Yes;No;No;No;No;No;No;Yes;No;No;?;?;?;?;?;
+Linux kernel;Yes;Yes;Yes;Yes;Yes;No;No;Yes;Some[21];Yes;?;No;?;?;?;?;?;
+MINIX 3 kernel;Some[8][9];No;Yes[7];No;No;No;No;No;No;No;No;No;?;?;?;?;?;
+NetBSD kernel;Yes;Yes;Yes;?;?;?;Yes;?;Yes;?;?;?;?;?;?;?;?;
+ReactOS kernel;?;?;?;?;?;?;?;?;Yes;?;?;?;?;?;?;?;?;
+Solaris kernel;Yes[22];No;Yes[23];No;No;No;No;No;Some[24];No;?;?;?;?;?;?;?;
+Windows NT kernel;No;No;Yes with WSL;No;No;No;No;No;Yes;No;No;No;Yes on x86;Yes on x86;?;?;Yes on x86;
+XNU;No;No;No;No;No;No;Yes;No;No;No;No;No;No;No;No;No;No;

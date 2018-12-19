@@ -1,0 +1,18 @@
+Desktop publishing software;PDF;EPS;SVG;TeX/LaTeX;HTML;Other;
+CorelDRAW;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes|PSD, AI, SWF, WPD}};
+Fatpaint;{{no}};{{no}};{{no}};{{no}};{{no}};{{yes|JPG, PNG}};
+FrameMaker;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes|DOC, WPD}};
+InDesign;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes|EPUB, SWF, XML, RTF}};
+InPage;{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes|GIF}};
+iStudio Publisher;{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes|EPUB, RTF}};
+LyX;{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes|PS, ODF}};
+Microsoft Publisher;{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes|JPG, PNG, TIFF}};
+OpenOffice.org;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes|RTF}};
+PageMaker*;{{yes|with Distiller}};{{yes}};{{no}};{{no}};{{no}};{{no}};
+PagePlus;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};
+Pages;{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes|EPUB, RTF}};
+QuarkXPress;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes|EPUB, Kindle, iOS, HTML5}};
+Scribus;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes|List}};
+The Print Shop;{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};
+Ventura*;{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes|RTF, PSD, AI, WPD}};
+Desktop publishing software;PDF;EPS;SVG;TeX/LaTeX;HTML;Other;

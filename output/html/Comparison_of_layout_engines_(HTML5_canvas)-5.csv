@@ -1,0 +1,9 @@
+;Trident;Gecko;WebKit;KHTML;Presto;
+Unordered and ordered lists;
+ul;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+ol;
+li;
+Definition lists;
+dl;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+dt;
+dd;

@@ -1,0 +1,15 @@
+Implementation;Dependencies;Optional dependencies;
+BearSSL;none;;
+Botan;C++11;sqlite, zlib (compression), bzip2 (compression), liblzma (compression), boost, openssl (crypto backend), trousers (TPM);
+CryptoComply;None;libc, Java SE, zlib (compression);
+GnuTLS;libc nettle gmp;zlib (compression) p11-kit (PKCS #11) trousers (TPM);
+JSSE;Java;;
+MatrixSSL;none;zlib (compression);
+MatrixSSL-open;libc or newlib;;
+mbed TLS;libc;libpkcs11-helper (PKCS #11) zlib (compression);
+NSS;libc libnspr4 libsoftokn3 libplc4 libplds4;zlib (compression);
+OpenSSL;libc;zlib (compression);
+RomSTL;none;;
+wolfSSL;None;libc, zlib (compression);
+Erlang/OTP ssl application;libcrypto (from OpenSSL), Erlang/OTP and its public_key, crypto and asn1 applications;Erlang/OTP -inets (http fetching of CRLs);
+Implementation;Dependencies;Optional dependencies;

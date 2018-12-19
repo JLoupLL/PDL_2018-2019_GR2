@@ -1,0 +1,18 @@
+Chip series;Micro-architecture;Fab;Supported APIs;AMD support;Year introduced;Introduced with;
+Rendering;Computing;
+Vulkan;OpenGL[4];Direct3D;HSA;OpenCL;
+R100;Fixed-pipeline[a];180 nm 150 nm;No;1.3;7.0;No;No;Ended;2000;Original "ATI Radeon", as well as Radeon DDR, 7000, 7500, VE, and LE models;
+R200;Programmable pixel & vertex pipelines;150 nm;8.1;2001;8500, 9000, 9200 and 9250;
+R300;150 nm 130 nm 110 nm;2.0[b];9.0 11 (FL 9_2);2002;9500–9800, X300–X600, X1050;
+R420;130 nm 110 nm;9.0b 11 (FL 9_2);2004;X700–X850;
+R520;90 nm 80 nm;9.0c 11 (FL 9_3);2005;X1300–X1950;
+R600;TeraScale 1;80 nm 65 nm;3.3;10.0 11 (FL 10_0);ATI Stream;2007;HD 2000 series, HD 3410;
+RV670;55 nm;10.1 11 (FL 10_1);ATI Stream APP[5];2007;HD 3450–3870, Mobility HD 2000 and 3000 series;
+RV770;55 nm 40 nm;1.0;2008;HD 4000 series;
+Evergreen;TeraScale 2;40 nm;4.4[c] 4.5 Mesa WIP 4.6 Mesa WIP without SPIR-V;11 (FL 11_0);1.2;2009;HD 5000 series;
+Northern Islands;TeraScale 2 TeraScale 3;2010;HD 6000 series, and IGP 7000 series;
+Southern Islands;GCN 1st gen;28 nm;1.0;4.5 4.6 actual Adrenalin driver (Mesa WIP);11 (FL 11_1) 12 (FL11_1);Yes;1.2 2.0 possible;Current;2012;HD 7000 series;
+Sea Islands;GCN 2nd gen;1.1 [6];11 (FL 12_0) 12 (FL 12_0);2.0 2.1 Beta in Linux ROCm 2.2 possible (1.2 in MacOS, Linux);2013;Radeon 200 series;
+Volcanic Islands;GCN 3rd gen;1.1;2015;Radeon 300 series;
+Arctic Islands;GCN 4th gen;14 nm;2016;Radeon 400 series;
+Vega;GCN 5th gen;14 nm 7 nm;11 (FL 12_1) 12 (FL 12_1);2017;Radeon Vega series;

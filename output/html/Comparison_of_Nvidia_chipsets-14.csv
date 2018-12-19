@@ -1,0 +1,7 @@
+Model;Code Name;Release Date;CPU Socket;Processors Supported;Fab (nm);FSB/HT Frequency (MHz);Memory;PCI-Express;SLI;PCI;USB;PATA;SATA;LAN;Sound;Graphics;Notes;
+nForce 730i;MCP7A;October 16, 2008;LGA 775;Intel Core 2, Pentium Dual-Core, Core-based Celerons;;1333 MHz;DDR3-1333 dual channel;2.0 20 lanes;No;5 Ports;12 Ports Rev 2.0;1 Ports UDMA 133;6 Ports 3.0Gbit/s;1000 Mbit/s;HDA;GeForce 9300;;
+nForce 740i SLI;MCP7A;October 16, 2008;;x8+x8;12 Ports Rev 2.0;none;;
+nForce 750i SLI;Crush72 + MCP51 + nForce200;2007;90nm;DDR2-800 dual channel;2.0 24 lanes 1.1 2 lanes;x8+x8;8 Ports Rev 2.0;2 Ports UDMA 133;4 Ports 3.0Gbit/s;none;Unofficial support DDR2-1066;
+nForce 760i SLI;MCP7A;October 16, 2008;;DDR3-1333 dual channel;2.0 20 lanes;x8+x8;12 Ports Rev 2.0;1 Port UDMA 133;6 Ports 3.0Gbit/s;GeForce 9300;;
+nForce 780i SLI;Crush72 + MCP55 + nForce200;December 17, 2007;90nm;DDR2-800 dual channel;2.0 32 lanes 1.1 30 lanes;x16+x16+x16;10 Ports Rev 2.0;2× 1000 Mbit/s;none;Unofficial support DDR2-1066;
+nForce 790i SLI;Crush73 + MCP55;March 2008;90nm;1600 MHz;DDR3-1333 dual channel, up to 8 GB;10 Ports Rev 2.0;none;Compatible with Intel 05B/05A/06 processors;

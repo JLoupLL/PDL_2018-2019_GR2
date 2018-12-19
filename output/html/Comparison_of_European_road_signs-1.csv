@@ -1,0 +1,18 @@
+Country;Motorways;Express-/ Speedways;Motor- & Express-/ Speedways directions;Primary roads;Secondary roads;Warning signs;Road works / Detours[n 1];
+Name;Code;white on green;white on blue;n/a;white on green;white on blue;white on green;white on blue;white on green;white on blue;black on yellow;black/red on white;n/a;black on white;white on blue;Triangle on white;Triangle on yellow;Diamond on yellow;on orange;on yellow;
+Austria;A;;w/b;;;w/b;;w/b;°w/g[n 2][n 3];;;bl/w;×;;;bl/w;;;;bl/y;
+Switzerland;CH;w/g;;;w/g;;w/g;;;w/b;;;;bl/w;;bl/w;;;bl/o;;
+Liechtenstein;LI;w/g;;;w/g;;w/g;;;w/b;;;;bl/w;;bl/w;;;bl/o;;
+Lithuania;LT;w/g;;;;w/b;w/g;;;w/b;;;;bl/w;;bl/w;;;;bl/y;
+Czech Republic;CZ;w/g;;;;w/b;w/g[n 4];w/b[n 5];;w/b;;;;bl/w;;bl/w;;;bl/o;;
+Germany;D;;w/b;;;w/b;;w/b;;;bl/y;;×;;;bl/w;;;;bl/y;
+Greece;GR;y+w/g;;;;y+w/b;°y+w/g[n 6];°y+w/b[n 7];;y+w/b;;;;bl/w;;;bl/y;;;
+France;F;;w/b;;;w/b;;w/b;°w/g[n 2];;;bl/w;×;;;bl/w;°bl/y[n 1];;bl/o;;
+Poland;PL;;w/b;;w/b;;;w/b;w/g;;;;;b/w;;;bl/o;;bl/o;;
+Ireland;IE;;w/b;×;;;;w/b;w/g;;;;;bl/w;;;;bl/y;bl/o;;
+Italy;I;w/g;;;;w/b[n 8];°w/g[n 6];°w/b[n 7];;w/b;;;;bl/w;;bl/w;°bl/y[n 1];;;bl/y;
+Netherlands;NL;;w/b;;;w/b;;w/b;;w/b;;;;;w/b;bl/w;;;;bl/y;
+Norway;N;;w/b;;;w/b;;w/b;;;bl/y;;×;;;bl/w;°bl/gg[n 1];;bl/o;;
+Portugal;PT;;w/b;;;w/b;;w/b;;;;bl/w;;bl/w;;bl/w;;;;bl/y;
+United Kingdom;UK;;w/b;×;;;;w/b;w/g;;;;;bl/w;;bl/w;;;;bl/y;
+Legend:  t/b – applied text/icon and background colour code (black, blue, green, gleaming green, orange, red, yellow, white) ° – partially applicable    × – not applicable;

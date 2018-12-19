@@ -1,0 +1,6 @@
+Application;LoD Generation;Texture Baking;
+Automatic;Normal Map;AO Map;Light Map;
+Tangent Space Normal Map;Non-directional (Traditional);Directional;
+Maya (Turtle renderer);"Generate LOD Meshes";Yes;Yes;Yes;RNM (Radiosity Normal Map), and SH (Spherical harmonics) coefficients;
+Enlighten;No;No;?;Yes;Yes;
+Blender;Dark Blender scripts;Yes;Yes;TextureAtlas addon;No;

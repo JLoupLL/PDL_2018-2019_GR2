@@ -1,0 +1,18 @@
+Assembler;Operating system;FLOSS;License;Development active;
+A86/A386;Windows, DOS;{{no}};{{proprietary}};{{No}};
+ACK;Linux, MINIX, Unix-like;{{yes}};{{free|BSD since 2003}};1985-? {{ref|ACK}};
+IBM ALP;OS/2;{{no}};{{proprietary}};{{No}};
+AT&T;Unix System V;{{no}};{{proprietary}};{{No|1985-?}}{{ref|ATT}};
+Digital Research ASM86;CP/M-86, DOS, Intel's ISIS and iRMX;{{no}};{{proprietary}};{{No|1978-1992}};
+FASM;Windows, DOS, Linux, Unix-like;{{yes}};{{free|BSD with added Copyleft}};{{yes}};
+GAS;Unix-like, Windows, DOS, OS/2;{{yes}};{{GPL-lic}};{{Yes|Since 1987}};
+HLA;Windows, Linux, FreeBSD, macOS;{{yes}};{{free|Public domain}};{{yes}};
+Open Watcom Assembler (HJWASM a.k.a. UASM, JWASM, WASM);Windows, DOS, Linux, FreeBSD, OS/2;approved by OSI, but not by FSF;{{free|Sybase Open Watcom Public}};{{yes}};
+MASM;Windows, DOS, OS/2;{{no}};{{proprietary|Microsoft EULA}};{{Yes|Since 1981}}{{ref|MASM}};
+NASM;Windows, Linux, macOS, DOS, OS/2;{{yes}};{{free|BSD}};{{yes}};
+Tim Paterson's ASM;86-DOS, DOS DEBUG;{{no}};{{proprietary}};{{No|1979-1983}};
+TASM;Windows, DOS;{{no}};{{proprietary}};{{?}}{{ref|TASM1}}{{ref|TASM2}};
+TCCASM;Unix-like, Windows;{{yes}};{{free|LGPL}};{{yes}};
+vasm;various;{{yes}};{{free}};{{yes}};
+Xenix;Xenix 2.3 and 3.0 (before 1985);{{no}};{{proprietary}};{{No|1982-1984}};
+Yasm;Windows, DOS, Linux, Unix-like;{{yes}};{{free|BSD}};{{yes}};

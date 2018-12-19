@@ -1,0 +1,18 @@
+! Precondition;Postcondition;Check;Invariant;Loop;
+ABAP Objects;colspan=5 rowspan=2 {{n/a}};
+C++ (STL);
+C#;Spec#: type foo( «parameters» )     requires expression {     body };Spec#: type foo( «parameters» )     ensures expression {     body };
+Java;colspan=5 rowspan=3 {{n/a}};
+Objective-C;
+Visual Basic .NET;
+D;f in { asserts } body{ instructions };f out (result) { asserts } body{ instructions };assert(expression);invariant() { expression };;
+Eiffel;f require tag: expression do end;f do ensure tag: expression end;f do check tag: expression end end;class X invariant tag: expression end;from instructions invariant tag: expression until expr loop instructions variant tag: expression end;
+Python;colspan=5 rowspan=3 {{n/a}};
+PHP;
+Perl;
+Perl 6;PRE { condition };POST { condition };;;;
+Ruby;colspan=5 rowspan=5 {{n/a}};
+Windows PowerShell;
+OCaml;
+F#;
+COBOL;

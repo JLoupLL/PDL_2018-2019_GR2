@@ -1,0 +1,9 @@
+Kernel name;Linux;Darwin;Windows NT;FreeBSD;NetBSD;Solaris;OSF/1;Amiga Unix;SunOS;BSD/OS;IBCS2 systems;IRIX;Ultrix;NDIS;SVR4;
+FreeBSD kernel;{{yes}}[38];{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{yes}}[38];{{yes}}[38];
+Linux kernel;{{yes}};{{no}};{{no|(Longene)}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+NetBSD kernel;{{yes}}[39];{{no}}? [14]?;{{no}}? [15]?;{{yes}}[39];{{yes}};{{yes}}[39];{{yes}}[39];{{yes}}[39];{{yes}}[39];{{yes}}[39];{{yes}}[39];{{yes}}[39];{{yes}}[39];{{yes}} [16];{{yes}};
+OpenBSD kernel;{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{no}};{{yes}};
+Windows NT kernel;{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+ReactOS kernel;{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+XNU;{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+Kernel name;Linux;Darwin;Windows NT;FreeBSD;NetBSD;Solaris;OSF/1;Amiga Unix;SunOS;BSD/OS;IBCS2 systems;IRIX;Ultrix;NDIS;SVR4;

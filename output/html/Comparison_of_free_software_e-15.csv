@@ -1,0 +1,14 @@
+;Australia Post;Canada Post;DHL;FedEx;OnTrac;United States Postal Service;UPS;
+Apache OFBiz;No;No;No;No;No;No;No;
+Batavi;No;No;No;No;No;No;No;
+Bigcommerce;Yes;Yes;No;Yes;No;Yes;Yes;
+KonaKart;No;No;No;Yes*;No;Yes*;Yes;
+Magento;No;No;No;No;No;No;No;
+nopCommerce;No;No;No;No;No;No;No;
+osCommerce;No;No;No;No;No;No;No;
+PrestaShop;via webservice;No;No;No;No;No;No;
+Sana Commerce;No;No;No;No;No;No;No;
+Shopify;No;No;No;No;No;No;No;
+WooCommerce;Yes;Yes;No;No;No;Yes;No;
+Zen Cart;No;No;No;Yes;Yes;yes with Stamps;Yes;
+;Australia Post;Canada Post;DHL;FedEx;OnTrac;United States Postal Service;UPS;

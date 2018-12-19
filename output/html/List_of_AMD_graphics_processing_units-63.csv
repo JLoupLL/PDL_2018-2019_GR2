@@ -1,0 +1,5 @@
+Model (Codename);Launch;Architecture (Fab);Transistors Die Size;Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TBP (W);Bus interface;Release Price (USD);
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Half;Single;Double;Bus type & width (bit);Size (GiB);Clock (MT/s);Band- width (GB/s);
+Radeon Pro 450[262][263][264][265][266];October 2016;GCN 4th gen (14 nm);7009300000000000000?3.0×109 123 mm2;640:40:16;725 775;29 31;11.6 12.4;SP;928 992;1/16 SP;GDDR5 128-bit;2;5000;80;35;PCIe 3.0 ×16;Unknown;
+Radeon Pro 455[262][263][264][267];October 2016;768:48:16;850;40.8;13.6;SP;1305.6;1/16 SP;GDDR5 128-bit;2;5000;80;35;Unknown;
+Radeon Pro 460[262][263][264][268];October 2016;1024:64:16;850 910;54.4 58.2;13.6 14.56;SP;1740.8 1863.7;1/16 SP;GDDR5 128-bit;4;5000;80;35;Unknown;

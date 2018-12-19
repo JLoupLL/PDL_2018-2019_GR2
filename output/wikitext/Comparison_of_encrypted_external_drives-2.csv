@@ -1,0 +1,16 @@
+Name;Windows;FreeBSD;Linux;Mac OS;NetBSD;OpenBSD;
+SafeStick;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+SafeStick SuperSonic;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+IronKey S100;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+IronKey S200;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+IronKey D200;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+CryptX2;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+DataTraveler 5000;{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};
+DataTraveler Locker+;{{yes}};{{no}};{{no}};{{yes}};{{no}};{{no}};
+DataTraveler Vault;{{yes}};{{no}};Public partition only;{{partial|Public partition only}};{{no}};{{no}};
+DataTraveler Vault – Privacy Edition;{{yes}};{{no}};{{no}};{{yes}};{{no}};{{no}};
+JumpDrive SecureII Plus;{{yes}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+IronClad;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+Cruzer Enterprise;{{yes}};{{unk}};{{unk}};{{yes}};{{unk}};{{unk}};
+Store n' Go Corporate;{{yes}};{{unk}};{{unk}};{{unk}};{{unk}};{{unk}};
+Name;Windows;FreeBSD;Linux;Mac OS;NetBSD;OpenBSD;

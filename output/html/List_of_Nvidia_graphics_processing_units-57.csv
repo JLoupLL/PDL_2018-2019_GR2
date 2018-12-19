@@ -1,0 +1,11 @@
+Model;Code name[162];Fab (nm);Bus interface;Core clock (MHz);Boost clock (MHz);Memory clock (MHz);Core config1;Fillrate[163];Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;Vulkan;OpenCL;CUDA;
+Quadro P400;GP107;14;PCIe 3.0 ×16;1070;1170;1752 (7008);256:16:16:2;17.1;17.1;2;32;GDDR5;64;641;20.0;12.1;4.6;1.1;1.2;6.1;30;Three Mini-DisplayPort 1.4;
+Quadro P600;1354;1557;1003 (4012);384:24:16:3;21.7;32.5;2;64;GDDR5;128;1195;37.3;12.1;4.6;1.1;1.2;6.1;40;Four Mini-DisplayPort 1.4;
+Quadro P620;1266;1455;1003 (4012);512:32:16:4;23.3;46.6;2;64;GDDR5;128;1490;46.6;12.1;4.6;1.1;1.2;6.1;40;Four Mini-DisplayPort 1.4;
+Quadro P1000;1354;1455;1752 (7008);640:40:32:5;43.3;54.2;4;82;GDDR5;128;1894;59.2;12.1;4.6;1.1;1.2;6.1;47;Four Mini-DisplayPort 1.4;
+Quadro P2000;GP106;16;1370;1470;2002 (8008);1024:64:40:8;54.8;87.7;5;140;GDDR5;160;3000;93.8;12.1;4.6;1.1;1.2;6.1;75;Four DisplayPort 1.4;
+Quadro P4000;GP104;1227;1480;1502 (6008);1792:112:64:14;78.5;137.4;8;243;GDDR5;256;5300;165.6;12.1;4.6;1.1;1.2;6.1;105;Four DisplayPort 1.4;
+Quadro P5000;GP104-875;1607;1733;1126 (9008);2560:160:64:20;102.8;257.1;16;288;GDDR5X;256;8873;277.3;12.1;4.6;1.1;1.2;6.1;180;Four DisplayPort 1.4, One DVI-I;
+Quadro P6000;GP102-875;1417;1531;1126 (9008);3840:240:96:32;136.0;340.0;24;432;GDDR5X;384;10882 (11758);~340;12.1;4.6;1.1;1.2;6.1;250;Four DisplayPort 1.4, One DVI-I;
+Quadro GP100;GP100;~1328;~1480;703 (1406);3584:224:96;138.4;323;16;720;HBM2;4096;10336;5168;12.1;4.6;1.1;1.2;6;235;NVLINK support;

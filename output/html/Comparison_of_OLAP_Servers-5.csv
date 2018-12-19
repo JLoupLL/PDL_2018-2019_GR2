@@ -1,0 +1,17 @@
+OLAP Server;Semi-additive measures;Many-to-Many;Multi-Cube Model;Perspectives;KPI;Multilingual;Named Sets;Multi-attribute Hierarchies;Actions;
+Apache Kylin;No;No;Yes;No;Yes;Yes;No;Yes;Yes;
+Druid;Yes;Yes;Yes;?;No;Yes;?;Yes;Yes;
+Essbase;Yes;?;?;?;Yes;Yes;Yes;Yes;?;
+IBM Cognos BI;Yes;Yes;?;?;?;?;Yes;Yes;?;
+IBM Cognos TM1;Yes;Yes;Yes;?;?;?;?;?;?;
+icCube;Yes[31];Yes[32];Yes;Yes;?;Yes;Yes;?;?;
+Infor BI OLAP Server;Yes;?;Yes;?;Yes;?;?;?;?;
+Jedox OLAP Server;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;?;
+Kyligence;Yes;No;No;No;Yes;Yes;;Yes;;
+Kyvos BI on Big Data;Yes;Yes;Yes;No;Yes;Yes;Yes;Yes;No;
+Microsoft Analysis Services;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+MicroStrategy Intelligence Server;Yes;?;?;?;?;?;?;?;?;
+Mondrian OLAP server;Yes[33];?;?;?;?;?;?;?;?;
+Oracle Database OLAP Option;Yes;?;?;?;?;?;?;?;?;
+SAP NetWeaver BW;Yes;?;?;?;?;?;?;?;?;
+SAS OLAP Server;Yes;?;?;?;?;?;?;?;?;

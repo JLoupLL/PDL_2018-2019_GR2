@@ -1,0 +1,16 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Company;Google, Open Handset Alliance;Apple Inc.;Microsoft;BlackBerry Ltd.;Linux Foundation, Tizen Association, Samsung, Intel;Sailfish Alliance, Mer, Jolla and Sailfish community contributors;UBports and Ubuntu community contributors (previously Canonical Ltd.);
+Market share[1];86.2%;13.7%;0.1%;N/A;N/A;N/A;N/A;
+Current version;9.0;12.1.1;10.0.15254.490;10.3.3.3216;3.0;3.0.0.8;16.04 OTA-6;
+Development version;N/A;N/A;N/A;N/A;5.0 M1;N/A;17.04;
+Current version release dates;August 6, 2018; 4 months ago (2018-08-06);December 5, 2018; 11 days ago (2018-12-05)[2];July 10, 2018; 5 months ago (2018-07-10)[3][4][5];December 12, 2016; 2 years ago (2016-12-12);May 20, 2017; 18 months ago (2017-05-20);November 8, 2018; 38 days ago (2018-11-08)[6];December 7, 2018; 9 days ago (2018-12-07)[7];
+License;Free and open-source, but usually bundled with proprietary apps and drivers[8][9];Proprietary except for open source components;Proprietary, Commercial software;Proprietary;Free and open-source, but the SDK is proprietary and closed source;Free and open-source, but the UI is proprietary and closed source;Free and open-source, mainly the GPL;
+OS family;Linux;Darwin;Microsoft Windows;QNX;Linux;Linux;Linux;
+Supported CPU architecture;ARM (32-bit ARMv7-A and 64-bit ARMv8-A only), x86, x86-64[10];64-bit ARMv8-A;32-bit ARMv7-A and 32-bit ARMv8-A;ARM;ARM, x86, x86-64;ARM, x86-64;ARM, x86-64;
+Programmed in;C, C++, Java, Kotlin;C, C++, Objective-C, Swift;7+: XNA (.NET C#), Silverlight, native C/C++ (only for vendors and partners[11]) 8+: .NET C#, VB.NET, Silverlight, native C/C++, WinRTP (XMLA), DirectX;C/ C++: Native SDK, C++/Qt: Cascades SDK, HTML5/Javascript/CSS: Webworks SDK, ActionScript: Adobe AIR, Java: Android runtime;C++;C++, QML, Python;Apps: HTML5, QML, Go, JavaScript, C++ System: C, C++, QML;
+Public issues list;Yes[12];3rd party[13];No[14];Yes[15];Yes[16];Yes[17];Yes[18];
+DRM-free[19];No[20] since Android 4.1[21] and Android 4.3[22] and more restrictions on Android 4.4[23];No - FairPlay;No;No[24];Yes;Yes;Yes;
+Device independent system updates;Partial system updates since Oreo[25] 3rd party software like LineageOS[26];Yes[27];Only for developers;No;No;Yes;Yes[28];
+Wireless system updates;Yes;5+[29];8+[30];Yes[31];No;Yes;Yes;
+GPU accelerated GUI;3+[32];Yes;Yes[33];Yes, OS 7.0+;?;Yes;Yes;
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;

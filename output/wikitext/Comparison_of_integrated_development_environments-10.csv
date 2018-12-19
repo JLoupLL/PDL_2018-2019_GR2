@@ -1,0 +1,2 @@
+IDE;License;Windows;Linux;macOS;Other platforms;Debugger;GUI builder;Toolchain;Profiler;Code coverage;Autocomplete;Static code analysis;GUI-based design;Class browser;Latest stable release;
+EiffelStudio;{{yes|GPL and commercial}};{{yes}};{{yes}};{{yes}};FreeBSD, OpenVMS, Solaris, VxWorks, other Unix;{{yes}};{{yes}};{{yes}};{{yes}};{{unk|Automatic testing framework}};{{yes}};{{unk|Metrics tool}};{{Yes|BON / UML class diagramming}};{{Yes|Multi-view}};V7.1 June 2012;

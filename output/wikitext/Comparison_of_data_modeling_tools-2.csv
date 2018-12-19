@@ -1,0 +1,13 @@
+Tool;Supported data models (conceptual, logical, physical);Supported notations;Forward engineering;Reverse engineering;Model/database comparison and synchronization;Teamwork/repository;
+Database Workbench;Conceptual, logical, physical;IE (Crows feet);{{yes}};{{yes}};Update database and/or update model;{{no}};
+Enterprise Architect;Conceptual, Logical & Physical + MDA Transform of Logical to Physical;IDEF1X, UML DDL, Information Engineering & ERD;{{yes}};{{yes}};Update database and/or update model;Multi-user collaboration using File, DBMS or Cloud Repository (or transfer via XMI, CVS/TFS or Difference Merge).;
+ER/Builder data Modeler;physical;Relational;{{yes}};{{yes}};Update database;{{No}};
+ER/Studio;Conceptual, logical, physical, ETL;IDEF1X, IE (Crows feet);{{yes}};{{yes}};Update database and/or update model;ER/Studio Repository and Team Server (formerly Portal/CONNECT) for collaboration;
+MagicDraw;Conceptual, Logical & Physical + MDA Transform of Logical to Physical;IDEF1X, UML DDL, Information Engineering & ERD;{{yes}};{{yes}};Update database and/or update model;Multi-user collaboration using File, DBMS or (transfer via XMI, CVS/TFS or Difference Merge).;
+MySQL Workbench;Physical;IDEF1X, IE (Crows feet), UML, and more;{{yes}};{{yes}};Update database and/or update model;{{no}};
+Navicat Data Modeler;Conceptual, physical;IE (Crows feet);{{yes}};{{yes}};Update database and/or update model;{{no}};
+NORMA Object-Role modeling;Conceptual (ORM), Logical, Physical;ORM, Relational(Crows feet option), Barker;{{yes}};{{yes}};Update database and/or update model;{{no}};
+Open ModelSphere;Conceptual, Logical, physical;IDEF1X, IE (Crows feet), and more;{{yes}};{{yes}};Update database and/or update model;{{no}};
+Oracle SQL Developer Data Modeler;Logical, physical;IDEF1X, IE (Crows feet), and more;{{yes}};{{yes}};Update database and/or update model;{{yes}};
+PowerDesigner;Conceptual, logical, physical;IDEF1X, IE (Crows feet), and more;{{yes}};{{yes}};Update database and/or update model;{{yes}};
+Toad Data Modeler;Logical, physical;IDEF1X, IE (Crows feet), and more;{{yes}};{{yes}};Update database and/or update model;{{yes}};

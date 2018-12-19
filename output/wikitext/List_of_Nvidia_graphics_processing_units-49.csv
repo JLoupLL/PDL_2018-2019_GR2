@@ -1,0 +1,11 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
+Quadro FX 350;G72GL;90;PCIe ×16;550;550;810;3:4:4:2;1.1;1.1;128;6.48;DDR2;64;;;9.0c;2.1;21;;
+Quadro FX 550;NV43GL;90;PCIe ×16;360;360;800;4:8:8:8;2.88;2.88;128;12.8;GDDR3;128;;;9.0c;2.1;25;;
+Quadro FX 1500;G71;90;PCIe ×16;375;375;800;7:20:20:16;6;7.5;256;40.0;GDDR3;256;;;9.0c;2.1;65;;
+Quadro FX 3500;G71GL;90;PCIe ×16;470;470;1320;7:20:20:16;7.52;9.4;256;42.2;GDDR3;256;;;9.0c;2.1;80;Stereo display, SLI;
+Quadro FX 4500;G70;110;PCIe ×16;470;470;1050;8:24:24:16;7.52;11.28;512;33.6;GDDR3;256;;;9.0c;2.1;109;Stereo display, SLI, Genlock;
+Quadro FX 4500X2;G70;110;PCIe ×16;470;470;1050;2× 8:24:24:16;15.04;22.56;1024;33.6;GDDR3;256;;;9.0c;2.1;145;Stereo display, Genlock;
+Quadro FX 4500 SDI;G70;110;PCIe ×16;470;470;1050;8:24:24:16;7.52;11.28;512;33.6;GDDR3;256;;;9.0c;2.1;116;Stereo display, Genlock;
+Quadro FX 5500;G71;90;PCIe ×16;700;700;1050;8:24:24:16;11.2;16.8;1024;33.6;GDDR3;256;;;9.0c;2.1;96;Stereo display, SLI, Genlock;
+Quadro FX 5500 SDI;G71;90;PCIe ×16;700;700;1050;8:24:24:16;11.2;16.8;1024;33.6;GDDR3;256;;;9.0c;2.1;104;Stereo display, SLI, Genlock;

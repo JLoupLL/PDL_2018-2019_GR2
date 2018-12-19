@@ -1,0 +1,10 @@
+;Protocol;Author, creator;First public release date;Latest stable version;Cost (USD);Software license;Programming language;
+BeeBEEP [1];BeeBEEP Protocol;Marco Mastroddi;2010;4.0.0 ({{start date and age|2017|08|01}});{{free}};{{free|QPL}};C++ and Qt;
+Bit Chat;Bit Chat Protocol;Technitium;2011;4.5.1 ({{start date and age|2016|09|24}});{{free}}[2];{{free|GNU GPLv3}};C#;
+BORGChat;{{dunno}};Ionut Cioflan;2002;{{Latest stable release/BORGChat}};{{free}}[3];{{free|Freeware}};{{dunno}};
+iChat;Bonjour IM Protocol;Apple Inc.;2003;5.0.3 (745), ({{start date and age|2010|04|26}});{{nonfree}}, bundled with OS;{{proprietary}};Likely Objective-C;
+iptux;Windows Messenger service;Jally, ManPT, others;2008;0.51 ({{start date and age|2009|11|20}});{{free}}[4];{{free|GNU GPL}};{{dunno}};
+LinPopUp;Windows Messenger service;Jean-Marc Jacquet;2000;1.2.0 (Debian, {{start date and age|2008|04|07}});{{free}}[5];{{free|GNU GPL}};C;
+Miranda IM;Windows Messenger service;Roland Rabien;2000;0.10.56 ({{start date and age|2016|08|12}});{{free}};{{free|GNU GPL}};C/C++;
+Pidgin[6];{{dunno}};Mark Spencer, others;1998;2.11.0 ({{start date and age|2016|06|20}});{{free}};{{free|GNU GPL}};C;
+Qualia LAN Messenger;LAN Messenger protocol;Qualia Technologies;2010;1.2.37 ({{start date and age|2016|11|10}});{{free}}[7];{{free|GNU GPL}};C++;

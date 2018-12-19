@@ -1,0 +1,11 @@
+Program;Author or Based On;Version;System;HTML Compliant;Display;Forms;Tables;Integrated Browser;Cost;
+asWedit;Andrzej Stochniol;1.1;Unix;HTML 3;source;{{yes}};{{yes}};{{no}};freeware;
+HoTMetaL;SoftQuad;1.0+;Unix,Windows;HTML 1;WYSIWYG;{{partial}};{{no}};{{no}};freeware;
+HoTMetaL pro;SoftQuad;1;Unix, Windows, Macintosh;HTML 2;WYSIWYG;{{yes}};{{yes}};{{no}};commercial;
+Live Markup;MediaTech;16b4a;Windows;HTML 2;WYSIWYG;{{no}};{{no}};{{no}};commercial;
+Symposia;GRIF;0.8;Unix;HTML 2;WYSIWYG;{{yes}};{{yes}};{{yes}};beta;
+Tkhtml;Liem Bahenmann;2.3;Unix;{{no}};source;{{yes}};{{no}};{{no}};freeware;
+Phoenix;University of Chicago;0.1.7;Unix;{{no}};WYSIWYG;{{no}};{{no}};{{yes}};freeware;
+WebPages;DART Software;1.7;NextStep;HTML 1;WYSIWYG;{{no}};{{no}};{{no}};commercial;
+WebMagic;SiliconGraphics;1;Irix;HTML 2;WYSIWYG;{{no}};{{no}};{{no}};commercial;
+Webtor;Jochen Schales;.91prealpha2;Macintosh;HTML2;WYSIWYG;{{no}};{{no}};{{no}};freeware;

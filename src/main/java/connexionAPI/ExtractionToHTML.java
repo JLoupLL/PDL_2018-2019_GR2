@@ -20,8 +20,8 @@ public class ExtractionToHTML {
 	}
 
 	public static void main(String[] args) {
-		ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
-		html.getContentHtml();
+		//ExtractionToHTML html = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Norwegian_Bokm%C3%A5l_and_Standard_Danish");
+		//html.getContentHtml();
 	}
 
 	public void setUrl(String url) {

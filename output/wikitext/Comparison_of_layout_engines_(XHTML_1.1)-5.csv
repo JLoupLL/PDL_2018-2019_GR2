@@ -1,0 +1,9 @@
+;Trident;Tasman;Gecko;WebKit;KHTML;Presto;iCab;
+b;{{IE|1}}[6];rowspan="8" {{Yes}};rowspan="8" {{Yes}};rowspan="8" {{Yes}};rowspan="8" {{Yes}};rowspan="8" {{Yes}};rowspan="8" {{Yes}};
+big;{{IE|3}}[6];
+hr;{{IE|1}}[8];
+i;{{IE|1}}[6];
+small;rowspan="3" {{IE|3}}[6];
+sub;
+sup;
+tt;{{Yes}};

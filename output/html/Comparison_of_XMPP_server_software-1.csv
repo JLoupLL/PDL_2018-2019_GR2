@@ -1,0 +1,13 @@
+RFC;Description;Status;ejabberd;iChat Server;jabberd14;jabberd2;Metronome;Openfire;Prosody;Sun Java System Instant Messaging Server;Tigase;
+RFC 3920;XMPP Core;Obsolete;Yes[1];Unknown;Yes[2];Yes[3];Unknown;Yes[4];Yes;Unknown;Yes[5];
+RFC 3921;XMPP IM;Obsolete;Yes[1];Unknown;Yes[2];Yes[3];Unknown;Yes[4];Yes;Unknown;Yes[5];
+RFC 3922;XMPP CPIM;Final[6];Yes;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;
+RFC 3923;XMPP E2E;Final[6];Yes;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;
+RFC 4854;XMPP URN;Informational[6];Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;
+RFC 4979;XMPP ENUM;Final[6];Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;
+RFC 5122;XMPP URI;Final[6];Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;
+RFC 6120;XMPP Core;Final[6];Yes[7];Yes;Unknown;Unknown;Yes;Yes/Partial [8];Yes;Unknown;Yes[5];
+RFC 6121;XMPP IM;Final[6];Yes[7];Yes;Unknown;Unknown;Yes;Yes/Partial [9];Yes;Unknown;Yes[5];
+RFC 6122;XMPP AF;Obsolete;Yes[7];Yes;Unknown;Unknown;Yes;Yes[10];Yes;Unknown;Unknown;
+RFC 7395;XMPP WebSockets;Proposed;Yes[11];Unknown[12];Unknown;Unknown;Yes[13];Yes/Plugin[14];Yes[15];Unknown;Unknown[16][17];
+RFC 7622;XMPP AF;Final[6];Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;Unknown;

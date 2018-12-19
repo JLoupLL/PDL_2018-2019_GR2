@@ -1,0 +1,3 @@
+Model;Code name[162];Fab (nm);Bus interface;Core clock (MHz);Boost clock (MHz);Memory clock (MHz);Core config1;Fillrate[163];Memory;Processing power (GFLOPS);Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;Vulkan;OpenCL;CUDA;
+Quadro GV100;GV100;12;PCIe 3.0 ×16;~1132;~1628;848 (1696);5120:320:128:80:640;208.4;521;32;870;HBM2;4096;16671;8335;12.1;4.6;1.1;1.2;7;250;4x DisplayPort, NVLINK support;

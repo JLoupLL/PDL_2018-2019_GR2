@@ -1,0 +1,9 @@
+Model;Launch;Code name;Fab (nm);Bus interface;Core clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;
+MOperations/s;MPixels/s;MTexels/s;MVertices/s;Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);
+GeForce Go 6100 + nForce Go 430;Unknown;C51M;110;HyperTransport;425;System memory;2:1:2:1;850;425;850;106.25;Up to 128 MB system;System memory;DDR2;64/128;
+GeForce Go 6150 + nForce Go 430;Unknown;C51M;110;HyperTransport;425;System memory;2:1:2:1;850;425;850;106.25;Up to 128 MB system;System memory;DDR2;64/128;
+GeForce Go 6200;Unknown;NV44M;110;PCIe ×16;300;600;4:3:4:2;1200;600;1200;225;16;2.4;DDR;32;
+GeForce Go 6400;Unknown;NV44M;110;PCIe ×16;400;700;4:3:4:2;1600;800;1600;250;16;5.6;DDR;64;
+GeForce Go 6600;Unknown;NV43M;110;PCIe ×16;300;700;8:3:8:4;3000;1500;3000;281.25;128;11.2;DDR;128;
+GeForce Go 6800;November 8, 2004;NV41M;130;PCIe ×16;300;700 1100;12:5:12:12;3000;1500;3000;375;128;22.4 35.2;DDR, DDR2 DDR3;256;
+GeForce Go 6800 Ultra;February 24, 2005;NV41M;130;PCIe ×16;450;700 1100;12:5:12:12;5400;3600;5400;562.5;256;22.4 35.2;DDR, DDR2 DDR3;256;

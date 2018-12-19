@@ -1,0 +1,14 @@
+;Australia Post;Canada Post;DHL;FedEx;OnTrac;United States Postal Service;UPS;Purolator;
+Apache OFBiz;No;No;Yes;Yes;No;Yes;Yes;n/a;
+Bigcommerce;Yes;Yes;No;Yes;No;Yes;Yes;No;
+KonaKart;No;No;No;Yes;No;Yes;Yes;n/a;
+LemonStand;Yes;Yes;No;Yes;Yes;No;Yes;Yes;
+Magento;No;Yes;Yes;Yes;No;Yes;Yes;Yes;
+nopCommerce;Yes;Yes;No;Yes;No;Yes;Yes;No;
+osCommerce;No;No;No;No;No;No;No;n/a;
+PrestaShop;Yes;Yes;No;Yes;No;Yes;Yes;Yes;
+Sana Commerce;No;No;Yes;Yes;No;Yes;No;n/a;
+Shopify;No;free add-on;No;No;No;Yes;Yes;n/a;
+WooCommerce;No;Yes;No;No;No;Yes;No;No;
+Zen Cart;free add-on;free add-on;free add-on[36];free add-on;Yes;free add-on;Yes;Yes;
+;Australia Post;Canada Post;DHL;FedEx;OnTrac;United States Postal Service;UPS;Purolator;

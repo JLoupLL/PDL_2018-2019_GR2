@@ -1,0 +1,15 @@
+ADC hub;GUI;CLI;Other;Programming language;Based on;
+ADCH++;{{no}};{{yes}};{{dunno}};C++, Lua, Python, Ruby;;
+ADCH++ GUI;{{yes}};{{no}};{{dunno}};C++, Python;ADCH++;
+DSHub;{{yes}};{{yes}};{{dunno}};Java, Python;;
+FlexHub;Planned;{{yes}};{{dunno}};Lua;;
+Luadch;{{no}};{{yes}};{{dunno}};C++, Lua;;
+Luadch GUI;{{yes}};{{no}};{{dunno}};wxLua;;
+Nexthub;{{yes}};{{no}};{{no}};C-Sharp;;
+uhub;{{no}};{{yes}};{{dunno}};C;;
+Erlhub;{{dunno}};{{dunno}};{{dunno}};Erlang;;
+Qhub;{{dunno}};{{dunno}};{{dunno}};{{dunno}};;
+Starlet ADC Hub;{{no}};{{yes}};{{no}};C;;
+StarHub;{{yes}};{{dunno}};{{dunno}};Java;;
+RusHub;{{no}};{{yes}};{{no}};C++;;
+ADC hub;GUI;CLI;Other;Programming language;Based on;

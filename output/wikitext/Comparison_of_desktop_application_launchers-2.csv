@@ -1,0 +1,7 @@
+;Creator;Latest stable version;Release date;OS;Software license;Open source;Programming language;Plugin support;
+9menu;Arnold Robbins;1.8;{{dts|2004|06|01}};Linux;GPL;{{yes}};C;{{no}};
+Avant Window Navigator;Neil J. Patel;0.4.2 [2];{{dts|2013|11|27}};Linux;GPL;{{yes}};C;{{yes}};
+dmenu;dwm developers;4.5[3];{{dts|2011|12|19}};Linux;MIT License;{{yes}};C;{{no}};
+GNOME Do;GNOME Do Developers;0.95.1[4];{{dts|2014|01|23}};Linux;GPL;{{yes}};C Sharp;{{yes}};
+Katapult;Katapult Developers;0.3.2.1;{{dts|2008|07|23}};Linux with KDE;GPL;{{yes}};C++;{{yes}};
+Unity Dash;Canonical Ltd.;7.3.0[5];{{dts|2014|06|19}};Ubuntu;GPLv3;{{yes}};Vala;{{yes}} ("lenses" and "scopes");

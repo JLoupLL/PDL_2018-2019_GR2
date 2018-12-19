@@ -1,0 +1,17 @@
+Model (Codename);Launch;Architecture (Fab);Transistors Die Size;Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory[e];TDP (W);Bus interface;
+Config[f];Clock[a] (MHz);Pixel (GP/s);Texture (GT/s);Single;Double;Bus type & width (bit);Size (MiB);Clock (MHz);Band- width (GB/s);Idle Max;
+Radeon HD 8350 (Cedar);January 8, 2013;TeraScale 2 (40 nm);7008292000000000000?292×106 59 mm2;80:8:4;400–650;1.6 2.6;3.2 5.2;104;N/A;DDR2 DDR3 64-bit;256 512;400 800;6.4 12.8;6.4 19.1;PCIe 2.1 ×16;
+Radeon HD 8450 (Caicos);January 8, 2013;7008370000000000000?370×106 67 mm2;160:8:4;625;2.5;5.0;200;N/A;DDR3 64-bit;512;533;8.53;9 18;
+Radeon HD 8470 (Caicos);January 8, 2013;750;3.0;6.0;240;N/A;GDDR5 64-bit;1024;800;25.6;9 35;
+Radeon HD 8490 (Caicos);July 23, 2013;875;3.5;7.0;280;N/A;GDDR5 64-bit;1024;900;28.8;9 35;
+Radeon HD 8570 (Oland);January 8, 2013;GCN 1st gen (28 nm);7009104000000000000?1040×106 90 mm2;384:24:8;730;6.4;19.2;560;35;DDR3 GDDR5 128-bit;2048;900 1150;28.8 72;12 66;PCIe 3.0 ×8;
+Radeon HD 8670 (Oland);January 8, 2013;1000;8;24;768;48;GDDR5 128-bit;2048;1150;72;16 86;
+Radeon HD 8730 (Cape Verde LE);September 5, 2013;7009150000000000000?1500×106 123 mm2;384:24:8;800;6.4;19.2;614.4;44.8;GDDR5 128-bit;1024;1125;72;10 47;PCIe 3.0 ×16;
+Radeon HD 8760 (Cape Verde XT);January 8, 2013;640:40:16;1000;16;40;1280;80;GDDR5 128-bit;2048;1125;72;16 80;PCIe 3.0 ×16;
+Radeon HD 8770 (Bonaire XT);September 2, 2013;GCN 2nd gen (28 nm);7009208000000000000?2080×106 160 mm2;896:56:16;1000;16.0;56.0;1792;128;GDDR5 128-bit;2048;1500;96;10 85;PCIe 3.0 ×16;
+Radeon HD 8870 (Pitcairn XT)[25];January 8, 2013;GCN 1st gen (28 nm);7009280000000000000?2800×106 212 mm2;1280:80:32;1000;32;80;2560;160;GDDR5 256-bit;2048;1200;153.6;15 150;PCIe 3.0 ×16;
+Radeon HD 8950 (Tahiti Pro);January 8, 2013;7009431300000000000?4313×106 352 mm2;1792:112:32;850 925;27.2 29.6;95.2 103.6;3046.4 3315.2;761.6 828.8;GDDR5 384-bit;3072;1250;240;15 225;PCIe 3.0 ×16;
+Radeon HD 8970 (Tahiti XT2);January 8, 2013;2048:128:32;1000 1050;32 33.6;128.0 134.4;4096 4301;1024 1075;GDDR5 384-bit;3072;1500;288;15 250;PCIe 3.0 ×16;
+Radeon HD 8990 (Malta);April 24, 2013;2× 7009431300000000000?4313×106 2× 352 mm2;2× 2048:128:32;950 1000;2× 32;2× 128;7782 8192;1946 2048;GDDR5 384-bit;2× 3072;1500;2× 288;15 375;PCIe 3.0 ×16;
+Model (Codename);Launch;Architecture (Fab);Transistors Die Size;Config[f];Clock[a] (MHz);Pixel (GP/s);Texture (GT/s);Single;Double;Bus type & width (bit);Size (MiB);Clock (MHz);Band- width (GB/s);Idle Max;Bus interface;
+Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory[e];TDP (W);

@@ -1,0 +1,18 @@
+Implementation;Namespace;Build tools;API manual;Crypto back-end;{{clarify span|OpenSSL compatibility Layer|date=November 2013}};
+BearSSL;br_*;Makefile;API Reference (Doxygen);Included;{{no}};
+Botan;Botan::TLS;Makefile;Sphinx;Included (pluggable);{{no}};
+Bouncy Castle;org.bouncycastle;Java Development Environment;Programmers reference manual (PDF);Included (pluggable);{{no}};
+CryptoComply;com.safelogic.cryptocomply ...;C linker and/or Java classloader;User Guide and/or Support Portal;Included;{{yes}};
+cryptlib;crypt*;makefile, MSVC project workspaces;Programmers reference manual (PDF), architecture design manual (PDF);Included (monolithic);{{no}};
+GnuTLS;gnutls_*;Autoconf, automake, libtool;Manual and API reference (HTML, PDF);External, libnettle;{{yes}} (limited);
+JSSE;javax.net.ssl;Makefile;API Reference (HTML) + {{Javadoc:SE-guide|security/jsse/JSSERefGuide.html|JSSE Reference Guide}};Java Cryptography Architecture, Java Cryptography Extension;{{No}};
+MatrixSSL;matrixSsl_* ps*;Makefile, MSVC project workspaces, Xcode projects for OS X and iOS;API Reference (PDF), Integration Guide;Included (pluggable);{{yes}} (Subset: SSL_read, SSL_write, etc.);
+mbed TLS;mbedtls_ssl_* mbedtls_sha1_* mbedtls_md5_* mbedtls_x509* ...;Makefile, CMake, MSVC project workspaces, yotta;API Reference + High Level and Module Level Documentation (HTML);Included (monolithic);{{no}};
+NSS;CERT_* SEC_* SECKEY_* NSS_* PK11_* SSL_* ...;Makefile;Manual (HTML);Included, PKCS#11 based[220];{{yes}} (separate package called nss_compat_ossl[221]);
+OpenSSL;SSL_* SHA1_* MD5_* EVP_* ...;Makefile;Man pages;Included (monolithic);{{N/a}};
+RomSTL;Sl*;C compiler, linker;Manual with API reference;Included;{{no}};
+RSA BSAFE Micro-Edition Suite;R_*;Makefile;Developer's guide;Included;{{no}};
+RSA BSAFE SSL-J;com.rsa.*;Java classloader;Javadoc, Developer's guide (HTML);Included;{{no}};
+rustls;rustls;cargo;API Reference;External, ring[222];{{no}};
+wolfSSL;CyaSSL_* SSL_*;Autoconf, automake, libtool, MSVC project workspaces, XCode projects, CodeWarrior projects, MPLAB X projects, Keil, IAR, Clang, GCC;Manual and API Reference (HTML, PDF);Included (monolithic);{{yes}} (about 10% of API);
+Implementation;Namespace;Build tools;API manual;Crypto back-end;OpenSSL compatibility layer;

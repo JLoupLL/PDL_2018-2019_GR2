@@ -1,0 +1,6 @@
+IDE;License;Windows;Linux;macOS;Other platforms;Debugger;GUI builder;Profiler;Static code analysis;MXML;Export to Mobile;
+Adobe Animate Formerly Adobe Flash Professional;{{proprietary}};{{yes}};{{no}};{{yes}};JVM;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Flash Builder;{{proprietary}};{{yes}};{{no}};{{yes}};JVM;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+FlashDevelop;{{yes|MIT License}};{{yes}};{{no}};{{no}};;{{yes}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};
+IntelliJ IDEA;{{proprietary}};{{yes}};{{yes}};{{yes}};FreeBSD, OpenBSD, Solaris;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};
+Powerflasher FDT;{{proprietary}};{{yes}};{{yes}};{{yes}};JVM;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};

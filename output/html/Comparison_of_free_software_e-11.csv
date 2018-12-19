@@ -1,0 +1,17 @@
+;Authorize.Net AIM;Authorize.Net SIM;Barclaycard CPI;Barclaycard MPI;HSBC API;HSBC CPI;PayPal Standard;
+Apache OFBiz;Yes;No;No;No;No;No;Yes;
+Batavi;No;No;No;No;No;No;No;
+Bigcommerce;Yes;Yes;No;No;No;No;Yes;
+Drupal Commerce;Yes;No;No;No;No;No;Yes;
+KonaKart;Yes;Yes;No;No;No;No;Yes;
+Magento;Yes;add-on ($50.00);Yes;Yes;Yes;Yes;Yes;
+nopCommerce;Yes;Yes;No;No;No;No;Yes;
+osCommerce;Yes;Yes;No;No;No;No;Yes;
+pimcore;No;No;No;No;No;No;No;
+PrestaShop;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+Sana Commerce;Yes;Yes;No;No;No;No;Yes;
+Shopify;Yes;Yes;No;Yes;No;No;Yes;
+Virto Commerce;Yes;Yes;No;No;No;No;Yes;
+WooCommerce;Yes;Yes;No;No;No;No;Yes;
+Zen Cart;Yes;Yes;No;No;No;No;Yes;
+;Authorize.Net AIM;Authorize.Net SIM;Barclaycard CPI;Barclaycard MPI;HSBC API;HSBC CPI;PayPal Standard;

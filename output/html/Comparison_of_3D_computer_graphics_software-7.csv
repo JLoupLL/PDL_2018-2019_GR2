@@ -1,0 +1,8 @@
+Application;Polygon;Curves;Spline/Bézier Surface;Metaball;Point Clouds;Particles;Voxel;Bone;Text;Camera;Light;Speaker;
+tris;quads;N-gon;donut;Linear;Quadratic Bézier;Cubic Bézier;B-Spline;Cardinal spline;Hermite Spline;TCB spline;Smooth-step;Akima Spline;NURBS;NURBS regular patch;NURBS trimmed surface;Bicubic Bézier patch;
+Blender;Yes;Yes;Yes;No[11];Bézier curve without subdivision;No;Yes;No;No;No;No;No;No;Yes;Yes;No;No;Yes;No;Yes;3D Texture;Yes;Yes;Yes;Yes;Yes;
+Maya;Yes;Yes;Yes;Yes;Yes;?;?;?;?;?;No;No;No;Yes;Yes;Yes;No;Yes;No;Yes;3D Texture;Yes;Yes;Yes;Yes;No;
+3ds Max;Yes;Yes;Yes;?;Yes;?;Yes;Yes;No;No;No;No;No;Yes;Yes;Yes;Yes;Yes;Yes;Yes;No;Yes;Yes;Yes;Yes;No;
+Cinema 4D;Yes;Yes;Yes;?;Yes;No;Yes;Yes;No;?;No;No;Yes;?;?;?;?;Yes;?;Yes;?;Yes;Yes;Yes;Yes;Null object with Sound Track;
+LightWave;Yes;Yes;Yes;Yes;?;?;?;Yes;?;only in Graph Editor;only in Graph Editor;?;No;?;(LWCAD plugin);?;No;Yes;No;Yes;?;Yes;Yes;Yes;Yes;?;
+Shade 3D;Yes;Yes;Yes;?;?;?;Yes;?;No;No;No;No;No;Yes;?;?;Yes;Yes;No;Yes;?;Yes;Yes;Yes;Yes;Sound Object;

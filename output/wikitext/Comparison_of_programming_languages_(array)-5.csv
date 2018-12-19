@@ -1,0 +1,10 @@
+Language/ Library;Create;Determinant;Transpose;Element;Column;Row;Eigenvalues;
+APL;m?dims?x11 x12 ...;-.×m;?m;m[i;j] or i j?m;m[;j] or j?[2]m or j??m;m[i;] or i?m;??1?m;
+Fortran;m = RESHAPE([x11, x12, ...], SHAPE(m));;TRANSPOSE<wbr/>(m);m(i,j);m(:,j);m(i,:);;
+Ch [40];m = {...};determinant<wbr/>(m);transpose<wbr/>(m);{{nowrap|m[i-1][j-1]}};shape<wbr/>(m,0);shape<wbr/>(m,1);eigen<wbr/>(output, m, NULL);
+Mathematica;m = {{x11, x12, ...}, ...};Det[m];Transpose<wbr/>[m];m[[i,j]];{{nowrap|m[[;;,j]]}};m[[i]];Eigenvalues<wbr/>[m];
+MATLAB / GNU Octave;m = [...];det(m);m.';m(i,j);m(:,j);m(i,:);eig(m);
+NumPy;m = mat(...);linalg.det(m);m.T;{{nowrap|m[i-1,j-1]}};m[:,i-1];m[i-1,:];linalg.eigvals(m);
+S-Lang;m = reshape<wbr/>([x11, x12, ...], [new-dims]);;m = transpose<wbr/>(m);m[i,j]<wbr/>;m[*,j];m[j,*];;
+SymPy;m = Matrix(...);;m.T;{{nowrap|m[i-1,j-1]}};;;;
+Wolfram Language;m = {{x11, x12, ...}, ...};Det[m];Transpose<wbr/>[m];m[[i,j]];{{nowrap|m[[;;,j]]}};m[[i]];Eigenvalues<wbr/>[m];

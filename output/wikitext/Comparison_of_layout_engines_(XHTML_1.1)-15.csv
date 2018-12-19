@@ -1,0 +1,2 @@
+;Trident;Tasman;Gecko;WebKit;KHTML;Presto;iCab;
+style;{{IE|3.0|Incorrect}}[2]{{#tag:ref|All style tags after the first 31 style tags are not applied. All style rules after the first 4,095 rules are not applied. On pages that uses the @import rule to continuously import external style sheets that import other style sheets, style sheets that are more than three levels deep are ignored.[9]|group=note}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};

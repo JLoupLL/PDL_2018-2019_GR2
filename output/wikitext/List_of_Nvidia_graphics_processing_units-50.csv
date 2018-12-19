@@ -1,0 +1,6 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config12;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
+Quadro FX 560;G73GL;90;PCIe ×16;350;350;1200;5:12:12:8;2.8;4.2;128;19.2;GDDR3;128;;;9.0c;2.1;30;;
+Quadro FX 46002;G80;90;PCIe ×16;500;1200;1400;96:24:24;12;24;768;67.2;GDDR3;384;345;;10.0;3.3;134;Stereo display, SLI, Genlock;
+Quadro FX 4600 SDI2;G80;90;PCIe ×16;500;1200;1400;96:24:24;12;24;768;67.2;GDDR3;384;345;;10.0;3.3;154;Stereo display, SLI, Genlock;
+Quadro FX 56002;G80;90;PCIe 2.0 ×16;600;1350;1600;128:32:24;14.4;38.4;1536;76.8;GDDR3;384;518.4;;10.0;3.3;171;Stereo display, SLI, Genlock;

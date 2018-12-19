@@ -1,0 +1,5 @@
+Model;Launch;Code name;Fab (nm);Bus interface;Clock rate;Core config1;Fillrate;Memory;Processing power (GFLOPS);API compliance (version);TDP (Watts);Notes;
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (GiB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;OpenCL;Vulkan;
+Radeon Sky 500[318];April, 2013;Pitcairn XT;28;PCIe 3.0 x16;950;1200;1280:80:32:20;30.4;76;4;153.6;GDDR5;256;2432;152;12.0;4.5;1.2;?;150;One DisplayPort;
+Radeon Sky 700[319];April, 2013;Tahiti PRO;28;PCIe 3.0 x16;900;1375;1792:112:32:28;28.8;100.8;6;264;GDDR5;384;3225.6;806.4;12.0;4.5;1.2;225;One DisplayPort;
+Radeon Sky 900[320];April, 2013;2× Tahiti PRO;28;PCIe 3.0 x16;825 950;1250;2× 1792:112:32:28;52.8;184.8;2× 3;2× 240;GDDR5;2x 384;5913.6;1478.4;12.0;4.5;1.2;300;Four Mini DisplayPort, One DVI-I;

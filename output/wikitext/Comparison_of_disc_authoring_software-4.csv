@@ -1,0 +1,12 @@
+Application;ISO 9660;Joliet;Rock Ridge;Amiga rock ridge;El Torito;Apple ISO9660;UDF;MRW;
+Alcohol 120%;{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+CDBurnerXP;{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};
+cdrtools;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};
+ExpressBurn;{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};
+ImgBurn;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};
+InfraRecorder;{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{yes}};{{dunno}};
+K3b;{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{no}};{{yes}};{{no}};
+Nero Burning ROM;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};
+UltraISO;{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{yes}};{{dunno}};
+X-CD-Roast;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{yes}};{{no}};
+Application;ISO 9660;Joliet;Rock Ridge;Amiga rockridge;El Torito;Apple ISO9660;UDF;MRW;

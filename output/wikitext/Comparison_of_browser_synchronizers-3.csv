@@ -1,0 +1,7 @@
+Client;Internet Explorer;Microsoft Edge;Mozilla Firefox;Opera;Safari;Google Chrome;other;
+BookmarkSync;{{yes}};{{no}};{{yes}};{{yes}};{{yes}} (Mac Only);{{no}};{{yes|SeaMonkey}};
+Opera Link;{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{yes|Opera Mini, Opera Mobile}};
+Firefox Sync;{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes|Firefox for Mobile[3]}}, SeaMonkey;
+;
+Eversync;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};
+Client;Internet Explorer;Microsoft Edge;Mozilla Firefox;Opera;Safari;Google Chrome;other;

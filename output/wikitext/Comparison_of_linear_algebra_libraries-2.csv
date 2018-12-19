@@ -1,0 +1,14 @@
+;Real;Complex;SPD;HPD;SY;HE;BND;TF;OF;EVD;SVD;GEVD;GSVD;
+ALGLIB;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};
+ATLAS;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};
+Dlib;{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{No}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{No}};{{No}};
+GNU Scientific Library;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};
+ILNumerics.Net;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+IMSL Numerical Libraries;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};
+LAPACK;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+MKL;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+NAG Numerical Library;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+NMath;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+SciPy (Python packages);{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+Eigen;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};
+Armadillo;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};

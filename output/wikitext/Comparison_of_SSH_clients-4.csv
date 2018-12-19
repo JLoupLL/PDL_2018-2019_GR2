@@ -1,0 +1,12 @@
+Name;Keyboard mapping;Session tabs;ZMODEM transfers;Find text in buffer;Mouse input support{{r|group=Note|mouse_input}};Unicode support;URL hyperlinking;Public key authentication;Smart card support;Hardware encryption;FIPS 140-2 validation;Scripting;Shared Database;Auto-reconnect;
+AbsoluteTelnet;{{yes|full}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};{{dunno}};{{dunno}};
+OpenSSH;{{dunno}};{{no}};{{no}};{{dunno}};{{yes}}{{r|group=Note|openssh_mouse_input}};{{yes}};{{partial|not native}}{{r|group=Note|openssh_url_highlight}};{{yes}};{{yes}}{{r|group=Note|openssh_smartcard}};{{yes}};{{partial}}{{r|group=Note|openssh_fips}};{{No}};{{No}};{{dunno}};
+PACManager;{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{dunno}};{{dunno}};
+PuTTY;{{no}};{{no}}{{r|group=Note|puttyTabs}};{{no}};{{no}};{{yes}};{{yes}};{{no}}{{r|group=Note|puttyHyperlink}};{{yes}};{{no}}{{r|group=Note|puttySmartcard}};{{no}}{{r|group=Note|puttyAES}};{{no}};{{no}};{{no}};{{no}};
+SecureCRT;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{dunno}};
+SmartFTP;{{partial}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes|AES-NI}};{{yes}};{{no}};{{dunno}};{{dunno}};
+Tera Term;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{dunno}};
+TN3270 Plus;{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{dunno}};{{dunno}};
+TtyEmulator;{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{dunno}};{{dunno}};
+Xshell;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{dunno}};
+ZOC;{{yes|full}};{{yes}};{{yes}};{{yes|Alt+F}};{{yes}};{{yes|UTF-8}};{{yes}};{{yes}};{{yes|pkcs#11}};{{no}};{{no}};{{yes}};{{dunno}};{{dunno}};

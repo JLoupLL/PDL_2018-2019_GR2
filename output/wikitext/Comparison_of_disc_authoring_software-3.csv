@@ -1,0 +1,13 @@
+Application;CD-R/W;DVD-R/RW/RAM;DVD+R/RW;DVD+R/RW DL;DVD-R/RW DL;BD-R/RE;BD-R/RE DL;
+Alcohol 120%;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+CDBurnerXP;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+cdrtools;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+DeepBurner;{{yes}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{no}};{{no}};
+ExpressBurn;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+ImgBurn;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+InfraRecorder;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+K3b;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Nero Burning ROM;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+UltraISO;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+X-CD-Roast;{{yes}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{no}};{{no}};
+Application;CD-R/W 737MB=702MiB;DVD-R/RW/RAM 4.707GB=4.384GiB;DVD+R/RW 4.700GB=4.378GiB;DVD+R/RW DL 8.548GB=7.961GiB;DVD-R/RW DL 8.544GB=7.957GiB;BD-R/RE 25GB=23.31GiB;BD-R/RE DL 50GB=46.61GiB;

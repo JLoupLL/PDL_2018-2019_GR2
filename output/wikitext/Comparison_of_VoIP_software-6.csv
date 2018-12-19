@@ -1,0 +1,3 @@
+Client name;Encryption protocols;
+Google Hangouts[35];{{yes|SRTP}}[52];
+Skype[35];{{yes-no|A custom protocol}};

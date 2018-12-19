@@ -1,0 +1,3 @@
+Exceptions;Java;C#;
+Checked exceptions;{{yes}};{{no}};
+Try-catch-finally;{{yes}};{{yes}};

@@ -1,0 +1,11 @@
+Model;Launch;Model Number;Code name;Fab (nm);Bus interface;Core clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;API compliance (version);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Direct3D;OpenGL;
+Mobility Radeon X1300;January 19, 2006;M52;RV515;90;PCIe x16;350;250;2:4:4:4;1.4;1.4;128 + shared;8;DDR DDR2;128;9.0c;2.0;;
+Mobility Radeon X1350;September 18, 2006;M62;RV515;90;PCIe x16;470;350;2:4:4:4;1.88;1.88;128 + shared;11.2;DDR2 GDDR3;128;9.0c;2.0;;
+Mobility Radeon X1400;January 19, 2006;M54;RV515;90;PCIe x16;445;250;2:4:4:4;1.78;1.78;128 + shared;8;DDR DDR2;128;9.0c;2.0;;
+Mobility Radeon X1450;September 18, 2006;M64;RV515;90;PCIe x16;550;450;2:4:4:4;2.2;2.2;128 + Shared;14.4;DDR2 GDDR3;128;9.0c;2.0;;
+Mobility Radeon X1600;February 1, 2006;M56;RV530;90;PCIe x16;425 450;375 470;5:12:4:4;1.7 1.8;1.7 1.8;256;12.0 15.04;DDR2 GDDR3;128;9.0c;2.0;;
+Mobility Radeon X1700;February 1, 2006;M66;RV535;80;PCIe x16;475;400 550;5:12:4:4;1.9;1.9;256;11.2 17.6;DDR2 GDDR3;128;9.0c;2.0;strained silicon;
+Mobility Radeon X1800;March 1, 2006;M58;R520;90;PCIe x16;450;500;8:12:12:12;5.4;5.4;256;32;GDDR3;256;9.0c;2.0;;
+Mobility Radeon X1800 XT;March 1, 2006;M58;R520;90;PCIe x16;550;650;8:16:16:16;8.8;8.8;256;41.6;GDDR3;256;9.0c;2.0;;
+Mobility Radeon X1900;January 11, 2007;M59;RV570;80;PCIe x16;400;480;8:36:12:12;4.8;4.8;256;30.72;GDDR3;256;9.0c;2.0;PowerPlay 6.0;

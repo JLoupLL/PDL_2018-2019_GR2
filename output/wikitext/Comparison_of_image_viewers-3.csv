@@ -1,0 +1,13 @@
+Program;ARW Sony;CR2 Canon;DNG Adobe;NEF Nikon;ORF Olympus;PEF Pentax;RAF Fujifilm;SRW Samsung;X3F Sigma;Others;Notes;
+ACDSee;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{Yes|SRW}};{{No|X3F}};cRAW, CRW, DCR, ERF, HDR, MRW, RAW, RWL, sRAW;[1];
+Aperture;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{Yes|SRW}};{{No|X3F}};CRW, MOS, RAW, FFF, 3FR;[2];
+digiKam;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{Yes|SRW}};{{Yes|X3F}};Several;[3][4];
+F-Spot;{{dunno|ARW?}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{dunno|SRW?}};{{dunno|X3F?}};CRW, MRW, RAW, SRF;
+FastPictureViewer (registered edition);{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{Yes|SRW}};{{Partial|X3F}};NRW, RW2, SR2, SRF, RWZ etc.;[5];
+Geeqie;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{dunno|SRW?}};{{Yes|X3F}};3FR, CRW, DCR, ERF, K25, KDC, MEF, MOS, MRW, PTX, R3D, RAW, SR2, SRF;
+IrfanView;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{No|SRW}};{{Yes|X3F}};CRW, EEF, DCR, MRW, NRW, RW2, SRF;[6];
+Phase One Media Pro;{{dunno|ARW?}};{{dunno|CR2?}};{{Yes|DNG}};{{Yes|NEF}};{{dunno|ORF?}};{{dunno|PEF?}};{{Yes|RAF}};{{Yes|SRW}};{{dunno|X3F?}};CRW, MOS, RAW;
+Picasa;{{yes|ARW}};{{yes|CR2}};{{yes|DNG}};{{yes|NEF}};{{yes|ORF}};{{yes|PEF}};{{yes|RAF}};{{no|SRW}};{{yes|X3F}};3FR, CRW, DCR, KDC, MRW, NRW, RAW, RW2, SRF, SR2;[7];
+Shotwell;{{dunno|ARW?}};{{dunno|CR2?}};{{dunno|DNG?}};{{dunno|NEF?}};{{dunno|ORF?}};{{dunno|PEF?}};{{dunno|RAF?}};{{dunno|SRW?}};{{dunno|X3F?}};;Support "limited", export 8-bit only [8];
+XnView and XnViewMP;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{No|SRW}};{{Yes|X3F}};CRW, RWZ and more;[9];
+Zoner Photo Studio;{{Yes|ARW}};{{Yes|CR2}};{{Yes|DNG}};{{Yes|NEF}};{{Yes|ORF}};{{Yes|PEF}};{{Yes|RAF}};{{Yes|SRW}};{{No|X3F}};3FR, CRW, ERF, KDC, MEF, MRW, RAW, RW2, RWZ, SR2, SRF;[10];

@@ -1,0 +1,5 @@
+Model;Code name[162];Fab (nm);Bus interface;Core clock (MHz);Boost clock (MHz);Memory clock (MHz);Core config1;Fillrate[163];Memory;Processing power (GFLOPS)[163];Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;Vulkan;OpenCL;CUDA;
+Quadro RTX 5000;TU104;12;PCIe 3.0 ×16;1350;1730;1750 (14000);3072:192:64:24:384;110.7;332.2;16;448;GDDR6;256;10629;;12.1;4.6;1.1;1.2;7.1;200;3x DisplayPort 1x USB Type-C;
+Quadro RTX 6000;TU102;1350;1730;1500 (12000);4608:288:96:72:576;166.1;498.2;24;576;GDDR6;384;15944;7972;12.1;4.6;1.1;1.2;7.1;250;3x DisplayPort 1x USB Type-C;
+Quadro RTX 8000;1350;1730;1750 (14000);4608:288:96:72:576;166.1;498.2;48;672;GDDR6;384;15944;7972;12.1;4.6;1.1;1.2;7.1;250;3x DisplayPort 1x USB Type-C;

@@ -1,0 +1,7 @@
+Software;Windows;Mac OS X;Linux;BSD;Unix;IIS;Apache;Notes;
+Connectbeam;{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};none;
+Dogear;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{no}};requires IBM WebSphere Application Server 6.1.0.13 for the web server;
+Jumper 2.0;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};none;
+Knowledge Plaza;{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};No OS management required. Infrastructure-as-a-Service for on-premises installation.;
+Licorize;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};Written in Java 6, runs on Apache Tomcat and compatible servers.;
+Scuttle;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};none;

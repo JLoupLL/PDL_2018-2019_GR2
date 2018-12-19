@@ -1,0 +1,13 @@
+Application;Microsoft Windows;Mac OS X;Linux;BSD;Unix;
+Alcohol 120%;{{yes}};{{no}};{{no}};{{no}};{{no}};
+CDBurnerXP;{{yes}};{{no}};{{no}};{{no}};{{no}};
+cdrtools;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+DeepBurner;{{yes}};{{no}};{{no}};{{no}};{{no}};
+ExpressBurn;{{yes}};{{yes}};{{no}};{{no}};{{no}};
+ImgBurn;{{yes}};{{no}};{{no}};{{no}};{{no}};
+InfraRecorder;{{yes}};{{no}};{{no}};{{no}};{{no}};
+K3b;{{no}};{{no}};{{yes}};{{yes}};{{no}};
+Nero Burning ROM;{{yes}};{{no}};{{yes}};{{no}};{{no}};
+UltraISO;{{yes}};{{no}};{{no}};{{no}};{{no}};
+X-CD-Roast;{{no}};{{yes}};{{yes}};{{yes}};{{yes}};
+Application;Microsoft Windows;Mac OS X;Linux;BSD;Unix;

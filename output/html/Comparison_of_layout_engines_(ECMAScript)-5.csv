@@ -1,0 +1,17 @@
+;Trident;Gecko;WebKit;Presto;Blink;
+Called as function;
+Function([[p1 [, p2 [, ...]],] body]);?;Yes;Yes;?;Yes;
+Called as constructor;
+new Function([[p1 [, p2 [, ...]],] body]);4.0;1.0;Yes;1.0;Yes;
+Properties;
+length;?;1.0;Yes;Yes;Yes;
+prototype;4.0;1.0;Yes;1.0;Yes;
+Properties of prototype;
+length;?;1.0;Yes;?;Yes;
+constructor;4.0;1.0;Yes;1.0;Yes;
+toString();4.0;1.0;Yes;1.0;Yes;
+apply(thisArg, argArray);4.0;1.0;Yes;1.0;Yes;
+call(thisArg [, arg1 [, arg2 [, ...]]]);4.0;1.0;Yes;1.0;Yes;
+Properties of instances;
+length;4.0;1.0;Yes;1.0;Yes;
+prototype;4.0;1.0;Yes;1.0;Yes;

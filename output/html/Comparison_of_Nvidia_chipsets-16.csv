@@ -1,0 +1,3 @@
+Model;Code Name;Release Date;CPU Socket;Processors Supported;Fab (nm);FSB/HT Frequency (MHz);Memory;PCI-Express;SLI;PCI;USB;PATA;SATA;LAN;Sound;Graphics;
+GeForce 9300;MCP7A;October 2008;LGA 775;Intel Core 2, Pentium Dual-Core, Core-based Celerons;;1333 MHz;DDR3-1333 dual channel;2.0 20 lanes;No;5 Ports;12 Ports Rev 2.0;No;6 Ports 3.0Gbit/s;1000 Mbit/s;HDA;GeForce 9300;
+GeForce 9400;MCP7A;;GeForce 9400;

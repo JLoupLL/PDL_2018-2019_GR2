@@ -1,0 +1,16 @@
+Application;Alembic Importer;Rendering Engine;Volume Rendering for clouds;Interactive Rendering;Isolating light contribution;Light Lister;IES Light;Physical Sun & Sky;Sun Positioning by location and times;Light Portal;Shadow Catcher;IBL and Environment texture;Light Paint;Light Layers;
+Lat Long;sIBL;Light Extraction[16];
+Maya;Maya Hardware 2.0;Yes;?;Yes;No[17];Light Editor;?;?;?;?;?;Yes;?;?;No;No;
+Maya Software;?;?;Light Linking;No;?;?;?;?;Env Sphere;?;?;No;No;
+Arnold;Yes;Yes;Light Linking;Ai Photometric Light;Yes;?;Yes;Yes;Yes;?;?;No;No;
+3ds Max;Quicksilver;Yes;?;Yes;No[18];Light Lister;?;?;?;?;?;?;?;?;No;No;
+Scanline;?;?;Light Exclude/Include;?;?;?;?;Yes;?;sIBL-GUI software;?;No;No;
+ART;?;?;?;Yes;?;?;?;?;?;?;?;No;No;
+Arnold;Yes;Yes;No[19];No;Ai Photometric Light;Yes;Sun Positioner[20];Yes;Yes;Yes;?;?;No;No;
+Blender;Viewport;2.78 and later;?;Yes;Light Groups;Property Chart Addon / Gaffer addon;No;No;?;No;No;Yes;?;?;No;No;
+Blender Internal;?;Yes;Light Groups;No;No;?;No;"Shadows Only" option;Yes;?;?;No;No;
+Cycles;Yes;Yes;D1985;Gaffer addon;(2.8 and later)[21];Yes;Sun Position addon;from 2.75;from 2.79;Yes;sIBL_GUI for Blender addon/ Add Environment nodes addon;?;No;No;
+MODO;MODO Renderer;Yes;Yes;Yes;Light Linking[22];?;Photometric Light;Directional Light[23];Portal;Shadow Catcher;Yes;mm_sIBLToModoEnvironment script;?;No;No;
+LightWave;LightWave Renderer;11.6 and later;Yes;Yes;?;?;Photometric Light;?;?;?;?;Yes;?;?;No;No;
+Houdini;Mantra (PT);Yes;Yes;Yes;Light categories;?;Yes;?;?;?;Shadow Matte;Yes;?;?;?;?;
+Cinema 4D;CineRender;Yes;?;Yes;Exclude/Include;?;Yes;?;?;?;from R18;Yes;?;?;?;?;

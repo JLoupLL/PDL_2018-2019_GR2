@@ -1,0 +1,7 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+NPS Chat Corpus;Posts from age-specific online chat rooms.;Hand privacy masked, tagged for part of speech and dialogue-act.;~ 500,000;XML;NLP, programming, linguistics;2007;[208];Forsyth, E., Lin, J., & Martell, C.;
+Twitter Triple Corpus;A-B-A triples extracted from Twitter.;;4,232;Text;NLP;2016;[209];Sordini, A. et al.;
+UseNet Corpus;UseNet forum postings.;Anonymized e-mails and URLs. Omitted documents with lengths <500 words or >500,000 words, or that were <90% English.;7 billion;Text;;2011;[210];Shaoul, C., & Westbury C.;
+NUS SMS Corpus;SMS messages collected between two users, with timing analysis.;;~ 10,000;XML;NLP;2011;[211];KAN, M;
+Reddit All Comments Corpus;All Reddit comments (as of 2015).;;~ 1.7 billion;JSON;NLP, research;2015;[212];Stuck_In_the_Matrix;
+Ubuntu Dialogue Corpus;Dialogues extracted from Ubuntu chat stream on IRC.;;;CSV;Dialogue Systems Research;2015;[213];Lowe, R. et al.;

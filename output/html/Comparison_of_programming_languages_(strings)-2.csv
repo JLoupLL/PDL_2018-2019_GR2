@@ -1,0 +1,11 @@
+Syntax;Language(s);
+$"hello, {name}";C#;
+"Hello, $name!";Bourne shell, Perl, PHP, Windows PowerShell;
+qq(Hello, $name!);Perl (alternate);
+"Hello, {$name}!";PHP (alternate);
+"Hello, #{name}!";CoffeeScript, Ruby;
+%Q(Hello, #{name}!);Ruby (alternate);
+(format t "Hello, ~A" name);Common Lisp;
+`Hello, ${name}!`;JavaScript (ECMAScript 6);
+"Hello, \(name)!";Swift;
+f'Hello, {name}!';Python;

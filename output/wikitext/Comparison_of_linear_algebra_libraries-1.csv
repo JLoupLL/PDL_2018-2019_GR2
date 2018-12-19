@@ -1,0 +1,15 @@
+;Creator;Language;First public release;Latest stable version;Source code availability;License;Notes;
+ALGLIB;ALGLIB Project;C++, C#, FreePascal, VBA;2006;3.12.0 / 08.2017;{{free}};GPL/commercial;General purpose numerical analysis library with C++ and C# interfaces.;
+ATLAS;R. Clint Whaley et al.;C;2001;3.10.3 / 07.2016;{{free}};BSD;Automatically tuned implementation of BLAS. Also includes LU and Cholesky decompositions.;
+Dlib;Davis E. King;C++;2006;19.7 / 09/2017;{{Free}};Boost;C++ template library; binds to optimized BLAS such as the Intel MKL; Includes matrix decompositions, non-linear solvers, and machine learning tooling;
+GNU Scientific Library;GNU Project;C, C++;1996;2.5 / 06.2018;{{free}};GPL;General purpose numerical analysis library. Includes some support for linear algebra.;
+IMSL Numerical Libraries;Rogue Wave Software;C, Java, C#, Fortran, Python;1970;many components;{{nonfree}};Proprietary;General purpose numerical analysis library.;
+LAPACK;;Fortran;1992;3.7.0 / 12.2016;{{free}};3-clause BSD;Numerical linear algebra library with long history;
+MKL;Intel;C++, Fortran;2003;2017 update 2 / 09.2016;{{nonfree}};Intel Simplified Software License;Numerical analysis library optimized for Intel CPUs;
+Math.NET_Numerics;C. Rüegg, M. Cuda, et al.;C#;2009;3.20 / 07.2017;{{free}};MIT_License;C# numerical analysis library with linear algebra support;
+NAG Numerical Library;The Numerical Algorithms Group;C, Fortran;1971;many components;{{nonfree}};Proprietary;General purpose numerical analysis library.;
+NMath;CenterSpace Software;C#;2003;4.0 / November 2009;{{nonfree}};Proprietary;Math and statistical libraries for the .NET Framework;
+SciPy;Enthought;Python;2001;1.0.0 / 10.2017;{{free}};BSD;Based on Python;
+Eigen;Benoît Jacob;C++;2008;3.3.4 / 06.2017;{{free}};MPL2;Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms.;
+Armadillo;NICTA;C++;2009;9.200 / 10.2018;{{free}};Apache License 2.0;C++ template library for linear algebra; includes various decompositions and factorisations; syntax (API) is similar to MATLAB.;
+librsb;Michele Martone;C, Fortran, M4;2011;1.2 / September 2016;{{free}};GPL;High-performance multi-threaded primitives for large sparse matrices. Support operations for iterative solvers: multiplication, triangular solve, scaling, matrix I/O, matrix rendering. Many variants: e.g.: symmetric, hermitian, complex, quadruple precision.;

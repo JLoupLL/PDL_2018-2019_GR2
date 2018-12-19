@@ -1,0 +1,31 @@
+;construction;destruction;
+ABAP Objects;data variable type ref to class . create object variable «exporting parameter = argument».[1];[2][3];
+C++ (STL);class variable«(parameters)»; or class *variable = new class«(parameters)»;;delete pointer;;
+C#;class variable = new class(parameters);;variable.Dispose();[3];
+Java;[3];
+D;destroy(variable);;
+eC;class «instance handle» { «properties/data members assignments, instance method overrides» };delete instance handle;;
+Objective-C (Cocoa);class *variable = [[class alloc ] init]; or class *variable = [[class alloc ] initWithFoo:parameter «bar:parameter ...»];;[variable release];;
+Swift;let variable = class(parameters);;
+Python;variable = class(parameters);del variable[3] (Normally not needed);
+Visual Basic .NET;Dim variable As New class(parameters);variable.Dispose()[3];
+Xojo;Dim variable As New class(parameters);variable = Nil;
+Eiffel;create variable or create «{TYPE}» variable.make_foo «(parameters)» or variable := create {TYPE} or variable := create {TYPE}.make_foo «(parameters)»;[3];
+PHP;$variable = new class«(parameters)»;;unset($variable);[3];
+Perl 5;«my »$variable = class->new«(parameters)»;;undef($variable);;
+Perl 6;«my »$variable = class.new«(parameters)»;;$variable.undefine;;
+Ruby;variable = class.new«(parameters)»;[3];
+Windows PowerShell;$variable = New-Object «-TypeName» class ««-ArgumentList» parameters»;Remove-Variable «-Name» variable;
+OCaml;let variable = new class «parameters» or let variable = object members end[4];[3];
+F#;let variable = «new »class(«parameters»);
+Smalltalk;The class is an Object. Just send a message to a class, usually #new or #new:, and many others, for example: Point x: 10 y: 20.
+Array with: -1 with: 3 with: 2.;;
+JavaScript;var variable = new class«(parameters)» or var variable = { «key1: value1«, key2: value2 ...»»};[3];
+Object Pascal (Delphi);ClassVar := ClassType.ConstructorName(parameters);;ClassVar.Free;;
+Scala;val obj = new Object // no parameters
+val obj = new Object(arg0, arg1, arg2...)
+val obj = Object(arg0, arg1, arg2...) // case class
+val obj = new Object(arg0, arg1, param1 = value1, ...) // named parameters;[3];
+COBOL;INVOKE class "NEW" RETURNING variable or MOVE class::"NEW" TO variable;;
+Cobra;variable «as class» = class(parameters);variable.dispose;
+ISLISP;(setq variable (create (class <some-class> [:field-1 value-1 [:field-2 value-2] ..])));[3];

@@ -1,0 +1,4 @@
+Model (Codename);Launch;Architecture (Fab);Transistors Die Size;Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TBP;Bus interface;Release Price (USD);
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Half;Single;Double;Bus type & width;Size (GiB);Clock (MT/s);Band- width (GB/s);
+Radeon Vega Frontier Edition (Air Cooled)[223][224];27 June 2017;GCN 5th gen (14 nm);7010125000000000000?12.5×109 484 mm2;4096:256:64;1382 1600;409.6;102.4;22643 26214;11321 13107;707.6 819.2;HBM2 2048-bit;16;1890;483.8;300 W;PCIe 3.0 ×16;$999;
+Radeon Vega Frontier Edition (Liquid Cooled)[223][224];1382 1600;409.6;102.4;22643 26214;11321 13107;707.6 819.2;1890;483.8;350 W;PCIe 3.0 ×16;$1499;

@@ -1,0 +1,14 @@
+ADC client;Windows;Linux;OS X;BSD;Haiku;
+AirDC++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+AirDC++ Web Client;{{no}};{{yes}};{{partial|No installable package}}[8];{{yes}};{{dunno}};
+ApexDC++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+DC++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+jucy;{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+LinuxDC++;{{no}};{{yes}};{{no}};{{yes}};{{no}};
+EiskaltDC++;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+FlylinkDC++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+RSX++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+TKDC++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+StrongDC++;{{yes}};{{no}};{{no}};{{no}};{{no}};
+ncdc;{{no}};{{yes}};{{yes}};{{yes}};{{dunno}};
+ADC client;Windows;Linux;OS X;BSD;Haiku;

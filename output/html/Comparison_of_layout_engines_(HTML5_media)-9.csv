@@ -1,0 +1,7 @@
+;Trident;Gecko;WebKit;KHTML;Presto;
+Frame layout;
+frameset;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+frame;
+noframes;
+Inline frames;
+iframe;<3.1[IE 4.0];1.0;Yes;Yes;1.0;

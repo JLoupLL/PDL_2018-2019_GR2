@@ -1,0 +1,13 @@
+IDE;Developer;Latest stable release;Windows;Linux;macOS;Other platforms;Mobiles;Debugger;GUI builder;License;Autocomplete;
+Delphi;Embarcadero Technologies;Delphi 10.2 (Tokyo) / March 2017;Yes;No;No;cross-compile to macOS, Android, iOS (Linux server on the roadmap)[36];Yes;Yes;Yes;Proprietary;Yes;
+Free Pascal IDE;Volunteers;3.0.4 / December 6, 2017;Yes;Yes;Yes;AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.;Yes;Yes;No;GPL; LGPL with static linking exception;No;
+KDevelop;KDevelop Team;5.2.3 (November 24, 2017; 12 months ago (2017-11-24)) [±] (only 3.x supports Pascal);Yes;Yes;Yes;FreeBSD, OpenBSD, NetBSD, Solaris, other Unix;No;No;No;GPL;;
+Lazarus;Volunteers;1.8.0 / December 6, 2017;Yes;Yes;Yes;See Free Pascal;Yes;Yes;Yes;GPL; LGPL with static linking exception;Yes;
+MIDletPascal;Code Research Laboratories;3.5 / February 2, 2013;Yes;No;No;cross-compile from Windows to Java ME;Yes;No;No;GPL;;
+Morfik;Morfik Technology Pty Ltd.;2.0.5.27;Yes;Yes;Yes;compiles to HTML+CSS+XML+JavaScript (web apps);Yes;Yes;Yes;Proprietary;;
+MSEide;Martin Schreiber;4.6 / 2017-11-24;Yes;Yes;No;FreeBSD;Yes;Yes;Yes;GPL; LGPL with static linking exception for the library MSEgui;;
+Understand;SciTools;4.0 / April 2015;Yes;Yes;Yes;Solaris;Yes;No;Yes;Proprietary;;
+Visual Studio via Oxygene;RemObjects Software;10.0 / August 2018;Yes and additional Water IDE;No;Yes via Fire IDE;JVM, .NET, Mono, Cocoa, Cocoa Touch, Android, iOS, WebAssembly, cross compile to Linux;Yes;Yes;Yes;Proprietary; free compiler;Yes;
+PocketStudio;winsoft;3.0;No;No;No;Palm OS;Yes;Yes;Yes;Proprietary;;
+Dev-Pascal;Bloodshed Software;1.9.2 (using FPC 1.9.2 from 2005);Yes;No;No;;No;Yes;No;GPL;;
+PascalABC.NET;Volunteers;3.4 / Jule 27, 2018;Yes;Yes;Yes;compiles to CLR;No;Yes;Yes;LGPL;Yes;

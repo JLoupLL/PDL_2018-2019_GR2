@@ -1,0 +1,11 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Non-English languages support;{{Okay|Partial}}[285];{{Yes}}[286][287][288];{{Yes}};{{Yes}};{{Okay|Limited (Search is not diacritical mark-insensitive)}};{{Yes}};{{Yes}};
+Underlining spell checker;{{Yes|2.3+}}[289][290];{{Yes}}[291];{{Yes}}[292];{{Yes}};{{No}};?;{{No}};
+Built-in system-wide dictionary;{{Yes|Built into keyboard app. Available on every device.}}[293];{{Yes|5+}}[294];{{Yes}}[295];{{Yes}};{{No}};{{Yes}};{{Yes}};
+Autoexpanding text replacements;{{Yes}};{{Yes|5+}}[296];{{Yes}}[295];{{Yes}}[297];?;?;?;
+Keyboard next word prediction;{{No2}} No,[298] 3rd party software[299];{{Yes|8+}}[300];{{Yes}}[301];{{Yes}};{{No}};{{Yes}};{{Yes}};
+Keyboard cursor controller;{{No}};{{Yes|12+}};[302] 9-11: Only on devices with 3D Touch;[303];{{Yes}}[304];{{No}};{{No}};{{No}};{{Yes}};
+Optical character recognition input method;{{No}}[305];{{Okay|11+: Notes app;[306] 8+: Only for inputting credit card details}}[307];{{No}};{{No}};{{No}};{{No}};{{No}};
+Third party input methods;{{Yes}}[308];{{Yes|8+}};{{No}};{{No2}} No, only for Android apps through sideload of Android keyboard[309];?;?;?;
+Gesture text input;{{Yes|4+}}[310];{{No2|8+:}} 3rd party software like SwiftKey;{{Yes|8.1+}}[311];{{Yes}};?;{{No}}[312];{{No}};
+Emoji support;{{Yes|4.4+}}[313];{{Yes}}[314];{{Yes}}[315];{{Yes|10.2+}}[316];?;{{No2}} 3rd party software;{{Yes}};

@@ -1,0 +1,14 @@
+Model;Launch;Code name;Fab (nm);Bus interface;Core config1;Clock speed;Fillrate;Memory;Supported API version;Processing power (GFLOPS)2;TDP (Watts);Notes;
+Min (MHz);Average (MHz);Memory (MT/s);Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Direct3D;OpenGL;OpenCL;
+GeForce 920M;March 12, 2015;GK208;28;PCIe 3.0 ×16;384:32:8 (2 SMX);954;{{unk}};1800;7.6;30.5;2;14.4;DDR3;64;12 (11_0);4.5;1.2;733;33;;
+GeForce 930M;GM108;384:24:8 (3 SMM);928;941;7.4;22.3;713;29 [138];;
+GeForce 940M;1072;1176;2000;8.6;25.7;16;823;36 [139];;
+GeForce GTX 950M;GM107;640:40:16 (5 SMM);914;rowspan="2" {{unk}};5000;14.6;36.6;2, 4;80;GDDR5;128;1170;{{unk}};Similar core config to GTX 750 Ti (GM107-400-A2);
+2000;32;DDR3;55 [140];
+GeForce GTX 960M;1097;1176;5000;17.5;43.8;80;GDDR5;1403;65 [141];
+GeForce GTX 965M [142];January 5, 2015;GM204;1024:64:32 (8 SMM);944;{{unk}};30.2;60.4;12 (12_1);1933;60 [143];Similar core config to GTX 960 (GM206-300);
+GeForce GTX 970M [144];October 7, 2014;1280:80:48 (10 SMM);993;44.4;73.9;3, 6;120;192;2365;75;Similar core config to GTX 960 OEM (GM204);
+GeForce GTX 980M [145];1536:96:64 (12 SMM);1038;1127;66.4;99.6;4, 8;160;256;3189;100;Similar core config to GTX 970 (GM204-200) with one SMM disabled;
+GeForce GTX 980 [146];September 22, 2015;2048:128:64 (16 SMM);1064;{{unk}};7010;68.1;136.2;8;224;4358;165, oc to 200;Similar to Desktop GTX 980;
+Model;Launch;Code name;Fab (nm);Bus interface;Core config1;Clock speed;Fillrate;Memory;Supported API version;Processing power (GFLOPS)2;TDP (Watts);Notes;
+Min (MHz);Average (MHz);Memory (MT/s);Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Direct3D;OpenGL;OpenCL;

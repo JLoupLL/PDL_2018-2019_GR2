@@ -1,0 +1,16 @@
+JVM;x86;x86-64;SPARC;MIPS;Itanium;Power;ARM;Alpha;S390;zSeries;m68k;
+CACAO;Yes[17];Yes[17];Not any more[17];Yes[17];No[17];Yes[17];Yes[17];Yes[17];Yes[17];No[17];Not any more[17];
+GCJ;Yes[37];Yes[37];Yes[37];Yes[37];Yes[37];Yes[37];Yes[37];Yes[37];Yes[37];No[37];No[37];
+HotSpot, OpenJDK edition;Yes[38];Yes[38];Solaris only[38];Port[39][40];No[38];PowerPC/AIX port[41];Yes[38];No[38];No[38];No[38];No[38];
+HotSpot, Oracle JDK edition;Yes[38];Yes[38];Solaris only[38];No[38];Java 1.6[42];No[38];Yes[38];No[38];No[38];No[38];No[38];
+HotSpot, Java SE embedded edition;Yes[5];Yes[5];Yes[5];?;?;Yes[5];Yes[5];?;?;?;?;
+HotSpot, Zero port;Yes[43];Yes[43];No[43];Yes[43];Yes[43];Yes[43];Yes[43];Yes[43];No[43];Yes[43];No[43];
+IKVM.NET;Any architecture with a .NET framework.;
+JAmiga;?;?;No;No;No;Yes;No;No;No;No;Yes;
+JamVM;Yes[23];Yes[23];Yes[23];Yes[23];No[23];Yes[23];Yes[23];No[23];No[23];No[23];No[23];
+Jato VM;Yes[10];Under development[44];No;No;No;Under development[44];Preliminary ARMv5 support[25];No;No;No;No;
+JC virtual machine;Yes;No;No;No;No;No;No;No;No;No;No;
+Jikes RVM;Yes[45];No[45];No[45];No[45];No[45];Yes[45];No[45];No[45];No[45];No[45];No[45];
+Kaffe;Yes[13];Yes[13];Yes[13];Yes[13];Yes[13];Yes[13];Yes[13];Yes[13];Yes[13];No[13];Yes[13];
+Mysaifu JVM;No[46];No[46];No[46];No[46];No[46];No[46];Yes[46];No[46];No[46];No[46];No[46];
+SableVM;Yes[47];Yes;Yes[47];Yes;Yes[47];Yes[47];Yes[47];Yes[47];Yes[47];No[47];Yes[47];

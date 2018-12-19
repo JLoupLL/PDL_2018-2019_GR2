@@ -1,0 +1,10 @@
+Internet media type;Trident;Tasman;Gecko;WebKit;KHTML;Presto;Prince XML;
+application/atom+xml;?;?;?;?;?;{{yes|8.00 beta 2}}[2][3];?;
+application/mathml+xml;{{no}};{{no}};{{yes|2.0}}[4];{{no}};{{no}};{{yes|9.50 beta 2}}[5];?;
+application/rss+xml;?;?;?;?;?;{{yes|7.50 beta 1}}[6][7];?;
+application/xhtml+xml;{{yes|XHTML 5.0}};{{no|Prompt for download}};{{yes|XHTML}};{{yes|XHTML 125}};{{partial|HTML}};{{yes|XHTML 1.0}};?;
+application/xml;{{yes|XHTML 5.0}};{{no|Crash}};{{yes|XHTML}};{{yes|XHTML 125}};{{partial|XML}};{{yes|XHTML 1.0}};?;
+application/xslt+xml;?;?;?;?;?;{{yes|9.00 beta 1}}[8];?;
+image/svg+xml;?;?;{{yes|1.0}}[9];?;?;{{yes|9.50}}[10][11];?;
+text/xml;{{yes|XHTML 5.0}};{{no|Crash}};{{yes|XHTML}};{{yes|XHTML 125}};{{partial|XML}};{{yes|XHTML 1.0}};?;
+text/html;{{yes|HTML}};{{yes|HTML}};{{yes|HTML}};{{yes|HTML}};{{yes|HTML}};{{yes|HTML}};?;

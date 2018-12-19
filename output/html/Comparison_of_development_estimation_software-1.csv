@@ -1,0 +1,8 @@
+Estimation approach;Category;Examples of support of implementation of estimation approach;
+Analogy-based estimation;Formal estimation model;ANGEL, Weighted Micro Function Points;
+WBS-based (bottom up) estimation;Expert estimation;Project management software, company specific activity templates;
+Parametric models;Formal estimation model;COCOMO, SLIM, SEER-SEM, TruePlanning for Software;
+Size-based estimation models[14];Formal estimation model;Function Point Analysis,[15] Use Case Analysis, Use Case Points, SSU (Software Size Unit), Story points-based estimation in Agile software development, Object Points;
+Group estimation;Expert estimation;Planning poker, Wideband Delphi;
+Mechanical combination;Combination-based estimation;Average of an analogy-based and a Work breakdown structure-based effort estimate[16];
+Judgmental combination;Combination-based estimation;Expert judgment based on estimates from a parametric model and group estimation;

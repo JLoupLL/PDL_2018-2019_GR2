@@ -1,0 +1,7 @@
+Can:;work at OSI Layer 4 (stateful firewall);work at OSI Layer 7 (application inspection);Change TTL? (Transparent to traceroute);Configure REJECT-with answer;DMZ (de-militarized zone) - allows for single/several hosts not to be firewalled.;Filter according to time of day;Redirect TCP/UDP ports (port forwarding);Redirect IP addresses (forwarding);Filter according to User Authorization;Traffic rate-limit / QoS;Tarpit;Log;
+Sidewinder;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Untangle;{{yes}};{{yes}} (Some modules);{{no}};{{no}};{{yes}};{{yes}} (With Policy manager);{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+WinGate;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};
+Zeroshell;{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};
+pfSense;{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};
+IPFire;{{yes}};{{yes}};{{dunno}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{no}};{{yes}};

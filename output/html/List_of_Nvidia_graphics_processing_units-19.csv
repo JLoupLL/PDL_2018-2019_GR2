@@ -1,0 +1,7 @@
+Model;Launch;Code name;Fab (nm);Transistors (million);Die size (mm2);Bus interface;Core config1;Clock rate;Fillrate;Memory configuration;Supported API version;Processing power (GFLOPS)2;TDP (Watts);Comments;
+Core (MHz);Shader (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);DRAM type;Bus width (bit);Direct3D;OpenGL;Single precision;
+GeForce 310;November 27, 2009;GT218;40;260;57;PCIe 2.0 ×16;16:8:4;589;1402;1000;2.356;4.712;512;8;DDR2;64;10.1;3.3;44.8;30.5;OEM Card, similar to Geforce 210;
+GeForce 315;February 2010;GT216;40;486;100;48:16:4;475;1100;1580;3.8;7.6;512;12.6;DDR3;64;10.1;3.3;105.6;33;OEM Card, similar to Geforce GT220;
+GeForce GT 320;February 2010;GT215;40;727;144;72:24:8;540;1302;1580;4.32;12.96;1024;25.3;GDDR3;128;10.1;3.3;187.5;43;OEM Card;
+GeForce GT 330 [18];February 2010;GT215-301-A3;40;727;144;96:32:8 96:48?:12? 112:56?:16?[citation needed];500 550[citation needed];1250 1340[citation needed];1000 (DDR2) 1600 (GDDR3);4.40;17.6;1024 1536 2048;24 32[citation needed];DDR2 GDDR3;128 192 256;10.1;3.3;240 257.3;75;Specifications vary depending on OEM, similar to GT230 v2.;
+GeForce GT 340;February 2010;GT215;40;727;144;96:32:8;550;1340;3400;4.4;17.6;512 1024;54.4;GDDR5[19];128;10.1;3.3;257.3;69;OEM Card, similar to GT240;

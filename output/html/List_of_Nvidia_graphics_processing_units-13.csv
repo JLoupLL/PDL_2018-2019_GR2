@@ -1,0 +1,15 @@
+Model;Features;
+Scalable Link Interface (SLI);3-Way SLI;PureVideo HD with VP1;PureVideo 2 with VP2, BSP Engine, and AES128 Engine;PureVideo 3 with VP3, BSP Engine, and AES128 Engine;PureVideo 4 with VP4;Compute ability;
+GeForce 8300 GS (G86);No;No;No;Yes;No;No;1.1;
+GeForce 8400 GS Rev. 2 (G98);No;No;No;No;Yes;No;1.1;
+GeForce 8400 GS Rev. 3 (GT218);No;No;No;No;No;Yes;1.2;
+GeForce 8500 GT;Yes;No;No;Yes;No;No;1.1;
+GeForce 8600 GT;Yes;No;No;Yes;No;No;1.1;
+GeForce 8600 GTS;Yes;No;No;Yes;No;No;1.1;
+GeForce 8800 GS (G92);Yes;No;No;Yes;No;No;1.1;
+GeForce 8800 GTS (G80);Yes;No;Yes;No;No;No;1.0;
+GeForce 8800 GTS Rev. 2 (G80);Yes;No;Yes;No;No;No;1.0;
+GeForce 8800 GT (G92);Yes;No;No;Yes;No;No;1.1;
+GeForce 8800 GTS (G92);Yes;No;No;Yes;No;No;1.1;
+GeForce 8800 GTX;Yes;Yes;Yes;No;No;No;1.0;
+GeForce 8800 Ultra;Yes;Yes;Yes;No;No;No;1.0;

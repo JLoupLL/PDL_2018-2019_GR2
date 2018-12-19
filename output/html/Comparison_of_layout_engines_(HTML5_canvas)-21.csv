@@ -1,0 +1,11 @@
+Attribute;Element;Trident;EdgeHTML;Gecko;WebKit;Presto;
+manifest;html;6.0[21];12;1.9;Yes;2.6[p 8][p 9];
+sizes;link;No;13;8.0 (only mobile)[g 16][g 17];Yes[w 19];No;
+charset;meta;4.0[22];12;1.9.2;Yes;2.5.24;
+scoped;style;No;No;21.0[g 18];No[w 20];No;
+async;script;6.0;12;1.9.2[g 19];Yes[w 21];
+reversed;ol;No;No;18.0[g 20];Yes[w 22];
+download[citation needed];a,area;No;13;20.0[g 21];Yes;
+sandbox;iframe;6.0[t 5];12;17.0[g 22];533[w 23];
+seamless;iframe;No;No;No[g 23];No[w 24];
+Attribute;Element;Trident;EdgeHTML;Gecko;WebKit;Presto;

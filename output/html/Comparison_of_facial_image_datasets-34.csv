@@ -1,0 +1,4 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Bike Sharing Dataset;Hourly and daily count of rental bikes in a large city.;Many features, including weather, length of trip, etc., are given.;17,389;Text;Regression;2013;[432][433];H. Fanaee-T;
+New York City Taxi Trip Data;Trip data for yellow and green taxis in New York City.;Gives pick up and drop off locations, fares, and other details of trips.;6 years;Text;Classification, clustering;2015;[434];New York City Taxi and Limousine Commission;
+Taxi Service Trajectory ECML PKDD;Trajectories of all taxis in a large city.;Many features given, including start and stop points.;1,710,671;Text;Clustering, causal-discovery;2015;[435][436];M. Ferreira et al.;

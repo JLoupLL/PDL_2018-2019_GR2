@@ -1,0 +1,6 @@
+Name;Online sync;Blind support;Wild cards;Suggestions;W/O diacritics;Full text search;Inflection search;Word context;History;Microsoft Windows;Linux;Mac OS;Android;Windows Phone;Software needs;Storage needs MB;Author;License;
+Maestro DEX;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};Perl, wxWidgets, only on Linux;490;Octavian Râ?ni??;GPL;
+PyDEX;{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};wxPython;250;Cristian N?v?lici;GPLv3;
+Dixit;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};QT, g++, only on Linux;48;Octavian Procopiuc;GPL;
+DEX pentru Android;{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{no}};;3;Adrian Vintu;Freeware;
+DEX pentru Windows Phone;{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};;1;Adrian Vintu;Freeware;

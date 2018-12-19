@@ -1,0 +1,5 @@
+BitTorrent library;Cache[66];Web seeding [98];Broadcatching (RSS);Prioritization;Selective downloads;SOCKS;Remote control via web;Engine;Notes;
+libtorrent (Rasterbar);{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};;
+MonoTorrent;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};;
+rTorrent (libTorrent Rakshasa);{{partial}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};No built-in cache-disk cache but a delayed sync;
+BitTorrent library;Cache;Web seeding;Broadcatching (RSS);Prioritization;Selective downloads;SOCKS;Remote control via web;Engine;Notes;

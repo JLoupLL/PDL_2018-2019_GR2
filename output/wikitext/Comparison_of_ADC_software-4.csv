@@ -1,0 +1,13 @@
+ADC hub;Encryption;IPv6;Plugin;Hash algorithms;Bloom filter;ADC support;Other;
+ADCH++;{{yes}};{{yes}};Lua, Python, Ruby;Tiger tree hash;{{yes}};TIGR, PING, ADCS;;
+ADCH++ GUI;{{yes}};{{no}};Python;Tiger tree hash;{{yes}};TIGR, PING, ADCS;;
+DSHub;{{yes}};{{no}};Java, Python;Tiger tree hash;{{no}};TIGR, PING, ADCS;;
+FLexHub;{{partial|Linux only}};{{no}};{{no}};Tiger tree hash;{{no}};TIGR, PING, ADCS;;
+Luadch;{{yes}};{{yes}};Lua;Tiger tree hash;{{no}};TIGR, PING, ADCS, KEYP, ASCH, SUDP, OSNR;;
+Nexthub;{{yes}};{{no}};C#;Tiger tree hash;{{no}};TIGR, ADCS;;
+uhub;{{yes}};{{yes}};C;Tiger tree hash;{{no}};TIGR, PING, ADCS;;
+Qhub;{{dunno}};{{dunno}};{{dunno}};Tiger tree hash;{{no}};TIGR;;
+Starlet ADC Hub;{{no}};{{no}};{{no}};Tiger tree hash;{{no}};TIGR;;
+Starhub;{{dunno}};{{dunno}};{{dunno}};Tiger tree hash;{{no}};TIGR;;
+RusHub;{{no}};{{dunno}};{{no}};Tiger tree hash;{{no}};TIGR;;
+ADC hub;Encryption;IPv6;Plugin;Hash algorithms;Bloom filter;ADC support;Other;

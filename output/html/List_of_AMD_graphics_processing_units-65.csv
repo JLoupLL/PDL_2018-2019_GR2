@@ -1,0 +1,8 @@
+Model (Codename);Launch;Architecture (Fab);Bus interface;Stream processors;Clock rate;Memory;Processing power[a] (GFLOPS);TDP (Watts);
+Core (MHz);Memory (MHz);Size (MB);Type;Bus width (bit);Bandwidth (GB/s);Single;Double;
+Stream Processor (R580);2006;R500 80 nm;;240;600;;1024;GDDR3;256;83.2;375[279];N/A;165;
+FireStream 9170 (RV670)[280][281];November 8, 2007;TeraScale 1 55 nm;PCIe 2.0 x16;320;800;800;2048;GDDR3;256;51.2;512;102.4;105;
+FireStream 9250 (RV770)[282][283];June 16, 2008;TeraScale 1 55 nm;PCIe 2.0 x16;800;625;993;1024;GDDR3;256;63.6;1000;200;150;
+FireStream 9270 (RV770)[284][285];November 13, 2008;TeraScale 1 55 nm;PCIe 2.0 x16;800;750;850;2048;GDDR5;256;108.8;1200;240;160;
+FireStream 9350 (Cypress XT)[286];June 23, 2010;TeraScale 2 40 nm;PCIe 2.1 x16;1440;700;1000;2048;GDDR5;256;128;2016;403.2;150;
+FireStream 9370 (Cypress XT)[287];June 23, 2010;TeraScale 2 40 nm;PCIe 2.1 x16;1600;825;1150;4096;GDDR5;256;147.2;2640;528;225;

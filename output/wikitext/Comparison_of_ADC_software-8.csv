@@ -1,0 +1,14 @@
+ADC client;Magnet URI;UPnP;NAT traversal;DHT;Encryption;IPv6;Plugin/API;Proxy;Hash algorithms;Protocol support;Other;NMDC compatible;
+AirDC++;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};Web API;{{yes}};Tiger tree hash;TIGR, ADCS, UCMD,NATT, SEGA, PFSR, KEYP, PBD1, UBN1, MCN1, BLOM, SUDP, QP, HBRI, ASCH;{{yes}};;
+AirDC++ Web Client;{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};Web API;{{yes}};Tiger tree hash;Inherits from AirDC++;{{yes}};;
+ApexDC++;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};C++, Lua;{{yes}};Tiger tree hash;Inherits from StrongDC++;{{yes}};;
+DC++;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};C++, Lua;{{yes}};Tiger tree hash;TIGR, ADCS, UCMD, BLOM, NATT, SEGA;{{yes}};;
+jucy;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};Eclipse RCP;{{yes}};Tiger tree hash;TIGR, ADCS, KEYP, SUDP, BLOM, UCMD;{{yes}};;
+LinuxDC++;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{yes}};Tiger tree hash;Inherits from DC++;{{yes}};;
+EiskaltDC++;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};Lua, QtScript, QML;{{yes}};Tiger tree hash;TIGR, ADCS, UCMD, BLOM, NATT, SEGA, PFSR, KEYP, FS;{{yes}};;
+FlylinkDC++;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};Tiger tree hash;Inherits from StrongDC++;{{yes}};;
+RSX++;{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};C++, Lua;{{yes}};Tiger tree hash;Inherits from StrongDC++;{{yes}};;
+TKDC++;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};C++, Lua;{{yes}};Tiger tree hash;TIGR, ADCS, UCMD, BLOM, NATT, PFSR, SEGA;{{yes}};;
+StrongDC++;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};Tiger tree hash;TIGR, ADCS, UCMD, BLOM, NATT, PFSR, QP, SEGA;{{yes}};;
+ncdc;{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};Tiger tree hash;TIGR, ADCS, KEYP, SUDP;{{yes}};;
+ADC client;Magnet URI;UPnP;NAT traversal;DHT;Encryption;IPv6;Plugin;Proxy;Hash algorithms;Protocol support;Other;NMDC compatible;

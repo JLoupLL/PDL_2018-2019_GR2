@@ -1,0 +1,13 @@
+Virtual machine;Machine model;Memory management;Code security;Interpreter;JIT;AOT;Shared libraries;Common Language Object Model;Dynamic typing;
+Android Runtime (ART);register;automatic;Yes;Yes;Yes;Yes;?;Yes;Yes;
+Common Language Runtime (CLR);stack;automatic or manual;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+Dis (Inferno);register;automatic;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+DotGNU Portable.NET;stack;automatic or manual;Yes;Yes;Yes;Yes;Yes;Yes;No;
+Java virtual machine (JVM);stack;automatic;Yes;Yes;Yes;Yes;Yes;Yes;Yes[1];
+JikesRVM;stack;automatic;Yes;Yes;Yes;Yes;?;Yes;Yes;
+LLVM;register;manual;No;Yes;Yes;Yes;Yes;Yes;No;
+Mono;stack;automatic or manual;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+Parrot;register;automatic;No;Yes;No[2];Yes;Yes;Yes;Yes;
+Dalvik;register;automatic;Yes;Yes;Yes;No;?;No;No;
+Squeak;stack;automatic;No;Yes;Yes;No;Yes;No;Yes;
+BEAM (Erlang);register;automatic;?;Yes;Yes;Yes;Yes;Yes;Yes;

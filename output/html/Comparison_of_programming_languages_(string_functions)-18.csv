@@ -1,0 +1,18 @@
+Format;Languages;
+string1 ne string2, or string1 NE string2;ALGOL 68 – note: the operator "ne" is literally in bold type-font.;
+string1 /= string2;ALGOL 68, Ada, Erlang, Fortran, Haskell;
+string1 <> string2;BASIC, VB, VB .NET, Pascal, Object Pascal (Delphi), OCaml, PHP, Seed7, Standard ML, F#, COBOL, Cobra, Python 2 (deprecated);
+string1 # string2;BASIC (some implementations);
+string1 ne string2;Perl 5 / Perl 6;
+(string<> string1 string2);Scheme (SRFI 13);
+(string/= string1 string2);Common Lisp;
+(string/= string1 string2);ISLISP;
+(not= string1 string2);Clojure;
+string1 != string2;C++ (STL), C#, Go, JavaScript (not similar), PHP (not similar), Python, Ruby, Swift, D, Mathematica;
+string1 !== string2;JavaScript, PHP;
+string1 \= string2;Rexx;
+string1 ¬= string2;PL/I;
+test string1 != string2, or [ string1 != string2 ];Bourne Shell;
+string1 -ne string2, or -not [string]::Equals(string1, string2);Windows PowerShell;
+string1 ~= string2;Lua, Smalltalk;
+string1 ? string2;APL;

@@ -1,0 +1,13 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Camera focus at specified point;{{Yes|2.3+}}[381];{{Yes}}[74];{{Yes}}[382];{{Yes|10+}};?;{{Yes|1.0.4.20+}}[383];{{Yes}};
+Camera exposure metering from specified point;{{No}},[384] available on some phones.[385][386];{{Yes}}[387];{{Yes|8.1+}}[388];{{No}};{{No}};?;{{No}};
+On device picture info (including Exif data);{{Okay|Only date and location; more with 3rd party software}}[389];{{Okay|Only date and location;}} more with 3rd party software[390];{{Okay|3rd party apps}}[391];{{Okay|Date and location}}[392];{{No}};?;{{Yes}};
+On device picture categorization;{{No}}[393] 3rd party software like TouchWiz[394];{{Yes|5+}}[395];{{Yes}}[396];{{Yes|Yes, photos can be renamed and searched}};{{No}};?;{{No}};
+On device picture description and search;{{No}}[397];{{Yes|10+:}} Items/objects in picture;[398] 7+: Only date and location[399];{{Yes}};Yes;{{No}};?;{{No}};
+Turn off shutter sound;{{Yes|In silent mode}}[400];{{Yes|In silent mode}}[401];{{Yes|7.5+}}[402];{{Yes|10.2+}} - In silent mode[403];{{Yes|In silent mode}};{{Yes|In silent mode}}[404];{{No}};
+Picture crop;{{Yes}};{{Yes|5+}}[405];{{Yes|8+}}[406];{{Yes|10+}}[407];{{No}};{{Yes}};{{Yes}};
+Photo rotation;{{Yes}};{{Yes|5+}}[405];{{Yes|8+}}[406];{{Yes|10+}}[407];{{No}};{{Yes}};{{Yes}};
+Photo red-eye reduction;{{Yes|2.3+}}[408];{{Yes|5+}}[405];{{Yes}} 8.1+[409];{{Yes|10+}}[407];{{No}};{{No}}[410];{{No}};
+HDR photos option;{{Yes|4.2+}}, some manufacturers earlier[411];{{Yes}}[412];{{Yes|8.1+}};{{Yes|10.1+}}[413];{{No}};{{No}}[414];{{Yes}};
+Photo/video import from memory cards;{{Yes}};{{Yes|With Camera Connection Kit}}[375];{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};
+Video trim;{{Yes|2.3+}};{{Yes}};{{Yes|8+}}[415];{{Yes|10+}}[416];{{No}};?;{{No}};

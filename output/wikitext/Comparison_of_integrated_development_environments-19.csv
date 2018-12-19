@@ -1,0 +1,13 @@
+IDE;Developer;Latest stable release;Windows;Linux;macOS;Other platforms;Mobiles;Debugger;GUI builder;License;Autocomplete;
+Delphi;Embarcadero Technologies;Delphi 10.2 (Tokyo) / March 2017;{{yes}};{{no}};{{no}};cross-compile to macOS, Android, iOS (Linux server on the roadmap)[36];{{yes}};{{yes}};{{yes}};{{proprietary}};{{yes}};
+Free Pascal IDE;Volunteers;3.0.4 / December 6, 2017;{{yes}};{{yes}};{{yes}};AmigaOS, Android, FreeBSD, Game Boy Advance, Haiku, AIX, iOS, MorphOS, DOS, NetBSD, Nintendo DS, Nintendo Wii, OpenBSD, OS/2, Solaris, Windows CE, Java Virtual Machine, LLVM (experimental), JavaScript transpiler, Embedded systems.;{{yes}};{{yes}};{{no}};{{yes|GPL; LGPL with static linking exception}};{{no}};
+KDevelop;KDevelop Team;{{Latest stable release/KDevelop}} (only 3.x supports Pascal);{{yes}};{{yes}};{{yes}};FreeBSD, OpenBSD, NetBSD, Solaris, other Unix;{{no}};{{no}};{{no}};{{yes|GPL}};;
+Lazarus;Volunteers;1.8.0 / December 6, 2017;{{yes}};{{yes}};{{yes}};See Free Pascal;{{yes}};{{yes}};{{yes}};{{yes|GPL; LGPL with static linking exception}};{{yes}};
+MIDletPascal;Code Research Laboratories;3.5 / February 2, 2013;{{yes}};{{no}};{{no}};cross-compile from Windows to Java ME;{{yes}};{{no}};{{no}};{{yes|GPL}};;
+Morfik;Morfik Technology Pty Ltd.;2.0.5.27;{{yes}};{{yes}};{{yes}};compiles to HTML+CSS+XML+JavaScript (web apps);{{yes}};{{yes}};{{yes}};{{proprietary}};;
+MSEide;Martin Schreiber;4.6 / 2017-11-24;{{yes}};{{yes}};{{no}};FreeBSD;{{yes}};{{yes}};{{yes}};{{yes|GPL; LGPL with static linking exception for the library MSEgui}};;
+Understand;SciTools;4.0 / April 2015;{{yes}};{{yes}};{{yes}};Solaris;{{yes}};{{no}};{{yes}};{{proprietary}};;
+Visual Studio via Oxygene;RemObjects Software;10.0 / August 2018;{{yes}} and additional Water IDE;{{no}};{{yes}} via Fire IDE;JVM, .NET, Mono, Cocoa, Cocoa Touch, Android, iOS, WebAssembly, cross compile to Linux;{{yes}};{{yes}};{{yes}};{{proprietary}}; free compiler;{{yes}};
+PocketStudio;winsoft;3.0;{{no}};{{no}};{{no}};Palm OS;{{yes}};{{yes}};{{yes}};{{proprietary}};;
+Dev-Pascal;Bloodshed Software;1.9.2 (using FPC 1.9.2 from 2005);{{yes}};{{no}};{{no}};;{{no}};{{yes}};{{no}};{{yes|GPL}};;
+PascalABC.NET;Volunteers;3.4 / Jule 27, 2018;{{yes}};{{yes}};{{yes}};compiles to CLR;{{no}};{{yes}};{{yes}};{{yes|LGPL}};{{yes}};

@@ -1,0 +1,7 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro FX 380M;GT218M;40;PCIe 2.0 ×16;625;1530;1600;16:8:4;2.5;5;512;12.8;GDDR3;64;73.44;10.1;3.3;25;;
+Quadro FX 880M;GT216M;40;PCIe 2.0 ×16;550;1210;1600;48:16:8;4.4;8.8;1024;25.6;GDDR3;128;174.24;10.1;3.3;35;;
+Quadro FX 1800M;GT215M;40;PCIe 2.0 ×16;450;1080;1600 2200;72:24:8;3.6;10.8;1024;25.6 35.2;GDDR3 GDDR5;128;233.28;10.1;3.3;45;;
+Quadro FX 2800M;G92M;55;PCIe 2.0 ×16;500;1250;2000;96:48:16;8;16;1024;64;GDDR3;256;360;10.0;3.3;75;;
+Quadro FX 3800M;G92M;55;PCIe 2.0 ×16;675;1688;2000;128:64:16;10.8;43.2;1024;64;GDDR3;256;648.192;10.0;3.3;100;;

@@ -1,0 +1,13 @@
+DVR;Subscription free electronic program guide (EPG);Power management;Multiple TV tuner cards support;CableCARD support;CAM support;ATSC tuner support;Automated commercial skipping;Teletext;Schedule timed recordings;Personalized intelligent recording and scheduling[f 1];DRM support;DVB (T/T2, S/S2, C) tuner support;Smartphone/tablet playback;Smartphone/tablet syncing;Smartphone/tablet remote control;
+Beyond TV;Yes;Yes[f 2];Yes;No;?;Yes;Yes;No;Yes;Yes;No;No;?;?;?;
+EyeTV;DVB;[f 3] other guide info varies by region[f 4];Yes;Yes;No;?;Yes;External add-on;Yes;Yes;Yes;Yes;Yes;?;?;?;
+WinTV;Yes;Yes;Yes;Limited[f 5];?;Yes;No;Yes;Yes;Yes;No;Yes;Yes;?;?;
+Kodi (formerly XBMC);Yes;Yes;External add-on;External add-on;External add-on;External add-on;Yes;External add-on;External add-on;External add-on;External add-on;External add-on;Using Plugin;Using Plugin;Using Apps;
+NextPVR;Yes[f 6];Yes;Yes;Partial[f 7];Yes;Yes;Yes;Yes;Yes;Yes;Unknown;Yes;Yes;?;?;
+MediaPortal;DVB[f 3]/XMLTV[f 9];Yes;Yes;Partial[f 10];Supported on some specific cards;Yes;Using Plugin;Yes;Yes;Yes;Partial support;Yes;Yes[f 11];?;Yes[f 11];
+MediaPhoenix/ShowShifter;DVB[f 3];Unknown;Yes;No;?;Unknown;No;No;Yes;Yes;Unknown;Yes;No;No;No;
+MythTV;DVB;[f 3] other services region dependent[f 12];Yes;Yes;Limited[f 13];Yes[f 14];Yes;Yes;Yes;Yes;Requires external add-on[f 15];No;Yes[f 16];Yes[f 17];No;Yes[f 17];
+SageTV;Yes (with former purchased license);Yes;Yes;Partial Using Plugin[f 18];?;Yes;Using Plugin[f 19];No;Yes;Yes;No;?;?;?;?;
+Video Disk Recorder;Yes;Yes;Yes;No;Yes;Yes;No;Using Plugin;Yes;Using Plugin;No;Yes;Using Plugin;No;Using Plugin;
+Windows Media Center;Yes;Yes;Yes[f 20];Yes[f 21];?;Yes;External add-on[f 22];Yes;Yes;Yes[f 23];Yes; also respects "do not record" flag;Supports DVB-T/T2 and DVB-S/S2; does not support DVB-C[f 24];Yes;Yes;Yes;
+VBox@TV;DVB Guide info varies by broadcaster and TV service provider;No;Yes;No;Yes;Yes;?;Yes;Yes;Yes;?;Yes;Yes;Yes;Yes;

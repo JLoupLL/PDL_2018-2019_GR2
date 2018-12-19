@@ -1,0 +1,5 @@
+Model;Launch;Fab (µm);Bus interface;Memory;
+Size (KiB);Bus type;Bus width (bit);
+Wonder MDA/CGA;1986;1;PC/XT;64;DRAM;8;
+Wonder EGA;1987;1;PC/XT;256;DRAM;8;
+Wonder VGA;1987;1, 0.8;PC/XT, ISA;256, 512 1024;DRAM;8, 16;

@@ -1,0 +1,5 @@
+Kernel name;Intel;NVIDIA;AMD;ARM;Qualcomm;Imagination Technologies;Broadcom;VeriSilicon;
+Intel HD/Iris Graphics;GeForce/Quadro/Tesla;Radeon;Mali;Adreno;PowerVR;VideoCore4;Vivante;
+Linux kernel;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes|Etnaviv}};
+Windows NT kernel;{{yes}};{{yes}};{{yes}};{{?}};{{yes|Windows RT}};{{?}};{{?}};{{?}};
+XNU;colspan=3 {{partial|via I/O Kit (macOS only)}};{{no}};{{no}};{{partial|via I/O Kit (iOS only)}};{{no}};{{no}};

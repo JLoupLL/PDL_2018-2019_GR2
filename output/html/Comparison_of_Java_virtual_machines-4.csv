@@ -1,0 +1,16 @@
+JVM;Windows;Linux;FreeBSD;NetBSD;OpenBSD;Solaris;OpenSolaris;Darwin;Mac OS X;iOS;BeOS;Haiku;AIX;IRIX;OS/2;Windows Mobile;AmigaOS;Other;
+CACAO;Using Cygwin[48];Yes[48];Yes[48];Yes[48];No[48];Yes[48];Yes[48];Yes[48];?[48];No[48];No[48];No[48];No[48];Yes[48];No[48];No[48];No[48];kFreeBSD, ucLinux[48];
+GCJ;Yes[37];Yes[37];Yes[37];?;?;Yes[37];?;Yes[37];Yes[37];?;?;?;?;Yes[37];?;No[37];No[37];DEC OSF 4.0f and 5.1, Hitachi SH-3/4 micro-controller[37];
+HotSpot, OpenJDK edition;Yes[49] (distributed as source code);Yes;Port[50];Port[50];Port[50];Yes;Yes[51];?;Yes[52];No;No;Port[53];Port[41];No;Port[54];No;No;;
+HotSpot, Oracle JDK edition;Yes[38];Yes[38];No;No;No;Yes[38];?;?;Yes[38];No;No;No;No;No;No;No;No;;
+HotSpot, Java SE embedded edition;Yes[5];Yes[5];No[5];No[5];No[5];Yes[5];?[5];No[5];No[5];No[5];No[5];No[5];No[5];No[5];No[5];No[5];No[5];;
+HotSpot, Zero port;No[43][55];Yes[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];No[43][55];;
+IKVM.NET;Any operating system with a .NET framework;
+JAmiga;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;Yes;;
+JamVM;No[23];Yes[23];Yes[23];No[23];Yes[23];Yes[23];Yes[23];Yes[23];Yes[23];On Jailbroken iPhone[23];No[23];No[23];No[23];No[23];No[23];No[23];No[23];kFreeBSD;
+Jato VM;No[44];Yes[44];No[44];No[44];No[44];No[44];No[44];Under development[44];?[44];No[44];No[44];No[44];No[44];No[44];No[44];No[44];No[44];;
+JC virtual machine;No;Yes;Yes;No;No;No;No;No;No;No;No;No;No;No;No;No;No;;
+Jikes RVM;No[45];Yes[45];No[45];No[45];No[45];No[45];No[45];No[45];Yes[45];No[45];No[45];No[45];Yes[45];No[45];No[45];No[45];No[45];;
+Kaffe;Using Cygwin[13];Yes[13];Yes[13];Yes[13];Yes[13];Yes[13];?;Yes[13];Yes[13];No[13];Yes[13];No[13];Yes[13];Yes[13];No[13];No[13];Yes;HPUX 11.x, BSDI 2.x, Unixware, SCO 3.2v5, NeXTStep 3.x, DG/UX, OpenStep 4.x, QNX 4.x, NCR MP-RAS 3.x, OSKit 0.96 +, GNU Hurd, Cygwin, DragonFly BSD, Interix, Ultrix 4.2, PS2Linux, AUX, MachTen 4.0.3, Fujitsu UXP/DS[13];
+Mysaifu JVM;No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];No[46];Yes[46];No[46];;
+SableVM;Using Cygwin[47];Yes[47];Yes[47];?;?;?;?;?;Yes[47];?;?;?;?;?;?;?;?;;

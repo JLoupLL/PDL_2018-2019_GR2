@@ -1,0 +1,7 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Cloud DataSet;Data about 1024 different clouds.;Image features extracted.;1024;Text;Classification, clustering;1989;[420];P. Collard;
+El Nino Dataset;Oceanographic and surface meteorological readings taken from a series of buoys positioned throughout the equatorial Pacific.;12 weather attributes are measured at each buoy.;178080;Text;Regression;1999;[421];Pacific Marine Environmental Laboratory;
+Greenhouse Gas Observing Network Dataset;Time-series of greenhouse gas concentrations at 2921 grid cells in California created using simulations of the weather.;None.;2921;Text;Regression;2015;[422];D. Lucas;
+Atmospheric CO2 from Continuous Air Samples at Mauna Loa Observatory;Continuous air samples in Hawaii, USA. 44 years of records.;None.;44 years;Text;Regression;2001;[423];Mauna Loa Observatory;
+Ionosphere Dataset;Radar data from the ionosphere. Task is to classify into good and bad radar returns.;Many radar features given.;351;Text;Classification;1989;[365][424];Johns Hopkins University;
+Ozone Level Detection Dataset;Two ground ozone level datasets.;Many features given, including weather conditions at time of measurement.;2536;Text;Classification;2008;[425][426];K. Zhang et al.;

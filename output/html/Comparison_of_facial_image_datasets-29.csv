@@ -1,0 +1,3 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Numenta Anomaly Benchmark (NAB);Data are ordered, timestamped, single-valued metrics. All data files contain anomalies, unless otherwise noted.;None;50+ files;Comma separated values;Anomaly detection;2016 (continually updated);[403];Numenta;
+On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study;Most data files are adapted from UCI Machine Learning Repository data, some are collected from the literature.;treated for missing values, numerical attributes only, different percentages of anomalies, labels;1000+ files;ARFF;Anomaly detection;2016 (possibly updated with new datasets and/or results);[404];Campos et al.;

@@ -1,0 +1,7 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Witty Worm Dataset;Dataset detailing the spread of the Witty worm and the infected computers.;Split into a publicly available set and a restricted set containing more sensitive information like IP and UDP headers.;55,909 IP addresses;Text;Classification;2004;[268][269];Center for Applied Internet Data Analysis;
+Cuff-Less Blood Pressure Estimation Dataset;Cleaned vital signals from human patients which can be used to estimate blood pressure.;125 Hz vital signs have been cleaned.;12,000;Text;Classification, regression;2015;[270][271];M. Kachuee et al.;
+Gas Sensor Array Drift Dataset;Measurements from 16 chemical sensors utilized in simulations for drift compensation.;Extensive number of features given.;13,910;Text;Classification;2012;[272][273];A. Vergara;
+Servo Dataset;Data covering the nonlinear relationships observed in a servo-amplifier circuit.;Levels of various components as a function of other components are given.;167;Text;Regression;1993;[274][275];K. Ullrich;
+UJIIndoorLoc-Mag Dataset;Indoor localization database to test indoor positioning systems. Data is magnetic field based.;Train and test splits given.;40,000;Text;Classification, regression, clustering;2015;[276][277];D. Rambla et al.;
+Sensorless Drive Diagnosis Dataset;Electrical signals from motors with defective components.;Statistical features extracted.;58,508;Text;Classification;2015;[278][279];M. Bator;

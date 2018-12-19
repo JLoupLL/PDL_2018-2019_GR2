@@ -1,0 +1,15 @@
+Model (Codename);Launch;Architecture (Fab);Transistors Die Size;Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TBP (W);Bus interface;Release Price (USD);
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Single;Double;Bus type & width;Size (GiB);Clock (MT/s);Band- width (GB/s);
+Radeon 520[73];April 18, 2017;GCN 1st gen (28 nm);Unknown;320:20:4;1030;20.6;4.1;659;Unknown;GDDR5 64-bit;1 2;4500;48;Unknown;Unknown;OEM;
+Radeon 530 GDDR5[74];April 18, 2017;GCN 2nd gen (28 nm);125 mm2;320:20:8 384:24:8;1024;24.6;8.2;655 786;Unknown;GDDR5 64-bit;1 2 4[75];Unknown;Unknown;OEM;
+Radeon 530 DDR3[74];DDR3;Unknown;Unknown;
+Radeon RX 540 (Lexa)[76][77];April 18, 2017;GCN 4th gen (14 nm);7009220000000000000?2.2×109 101 mm2;512:32:16;1219;39;19.5;1248;78;GDDR5 128-bit;2 4;6000;96;Unknown;PCIe 3.0 x8;OEM;
+Radeon RX 550 (Lexa)[78][79];April 20, 2017;640:40:16;1100[80] 1183;35.2 37.9;17.6 18.9;1126 1211;70.4 75.7;7000;112;50;$79;
+Radeon 550X (Lexa)[81];April 11, 2018;640:40:16;1287;51.48;20.6;1647;103;GDDR5 64-bit;7000;56;50;Unknown;
+Radeon RX 550X (Lexa)[82];April 3, 2018;512:40:16 640:40:16;1287;51.48;20.6;1318 1647;82.4 103;GDDR5 128-bit;7000;112;50;$79;
+Radeon RX 560D[83][84][85];July 2017;7009300000000000000?3.0×109 123 mm2;896:56:16;1090 1175;61.0 65.8;17,4 18.8;1953 2106;122,0 131.6;6000;96;65;Only available in China and through OEMs;
+Radeon RX 560[f] (Baffin)[83];October 2017;896:56:16;1090 1175;61.0 65.8;17.4 18.8;1953 2106;122.0 131.6;7000;112;60-80;$99;
+Radeon RX 560[f] (Baffin)[86][79];May 2017;1024:64:16;1175 1275;75.2 81.6;18.8 20.4;2406 2611;150.4 163.2;7000;112;60–80;$99;
+Radeon RX 570 (Polaris 20 XL)[87][79];April 18, 2017;7009570000000000000?5.7×109 232 mm2;2048:128:32;1168 1244;149.5 159.2;37.4 39.8;4784 5095;299.0 318.4;GDDR5 256-bit;4 8;7000;224;150;PCIe 3.0 x16;$169;
+Radeon RX 580 (Polaris 20 XT)[88][79];April 18, 2017;2304:144:32;1257 1340;181.0 193.0;40.2 42.9;5792 6175;362.0 385.9;8000;256;185;$199 (4 GB) $229 (8 GB);
+Radeon RX 590 (Polaris 30)[89];November 15, 2018;GCN 4th gen (12 nm);2304:144:32;1469 1545;211.5 222.5;47.0 49.4;6769 7120;423.0 444.9;8;8000;256;225;$279;

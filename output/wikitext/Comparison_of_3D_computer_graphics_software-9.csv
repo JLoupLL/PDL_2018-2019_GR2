@@ -1,0 +1,8 @@
+Application;PBR viewport;Viewport effects;Interactive GI Rendering;Integrated Compositing;Text editor for shader writing;Material Nodes;Turntable Rendering;
+Maya;{{Yes}};{{Some}};{{Yes|Arnold}};{{No}};{{?}};{{Yes|Hypershade, Node Editor, ShaderFX}};{{Yes|Yes[15]}};
+3ds Max;{{Yes}};{{Some}};{{Yes|Arnold}};{{Some|(State Set)}};{{Yes|OSL Map[16]}};{{Yes|Slate Material Editor, ShaderFX}};{{Partial|Easy Turntable script}};
+MODO;{{Yes}};{{?}};{{Yes}};{{No}};{{?}};{{Yes|Nodal Shading}};{{Yes|Render Turntable}}[17];
+Blender;{{No|Eevee (2.8 and later)}};{{Some}};{{Yes|Cycles}};{{Yes}};{{Yes|Text Editor}};{{Yes}};{{Yes|Turnaround Camera addon}};
+Gaffer;{{No}};{{No}};{{Some|external renderers}};{{Yes}};{{Yes|OSLCode Node}};{{No}};{{No}};
+Marmoset Toolbag;{{Yes}};{{Yes}};{{No}};{{No}};{{?}};{{No|Uber PBR shaders only}};{{Yes}}[18];
+Substance Designer;{{Yes}};{{Yes|YEBIS}};{{Yes|NVIDIA Iray}};{{?}};{{?}};{{Yes|MDL graph}};{{?}};

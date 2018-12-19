@@ -1,0 +1,8 @@
+PC operating system;Mobile operating system;;
+Client;Windows;OS X;Linux;FreeBSD;iOS;Android;BlackBerry OS;Symbian;Windows Phone;other;
+BookmarkSync;{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+Opera Link;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes|Solaris, Java ME, S60, UIQ3, BREW}};
+Firefox Sync;{{yes}};{{yes}};{{yes}};{{Yes|Yes[1]}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes|OpenSolaris[2]}};
+;
+Eversync;{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};
+Client;Windows;OS X;Linux;FreeBSD;iOS;Android;BlackBerry OS;Symbian;Windows Phone;other;

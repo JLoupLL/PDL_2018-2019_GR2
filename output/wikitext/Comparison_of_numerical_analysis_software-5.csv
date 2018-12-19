@@ -1,0 +1,9 @@
+;Windows;macOS;Linux;BSD;Unix;DOS;Android;
+ALGLIB;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};
+GNU Scientific Library;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};
+ILNumerics;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+IMSL Numerical Libraries;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{no}};
+Math.NET Numerics;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+NAG Numerical Library;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};
+NMath;{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+SciPy (Python packages);{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};

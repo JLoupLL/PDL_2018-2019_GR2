@@ -1,0 +1,8 @@
+;Trident;EdgeHTML;Gecko;WebKit;Presto;
+getElementsByClassName[27];5.0[t 31];12;1.9[g 62];525;2.1;
+registerProtocolHandler;No;No;1.9[f][dead link];Yes[w 51];2.10[p 14];
+registerContentHandler;1.8[g];
+Cross-document messaging;4.0;12;1.9[g 65];Yes;2.0;
+Drag-and-drop;6.0;12;1.9.1[g 28];Yes;2.10.270[p 15];
+pushState() and replaceState();6.0[t 32];12;2.0[g 66];528[w 52];2.9[p 16];
+;Trident;EdgeHTML;Gecko;WebKit;Presto;

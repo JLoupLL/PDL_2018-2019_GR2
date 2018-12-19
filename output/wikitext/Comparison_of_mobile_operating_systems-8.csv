@@ -1,0 +1,17 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Unified Inbox;{{No2}}No,[243] but 3rd party apps available[244];{{Yes}};{{Yes|7.5+}}[245];{{Yes}};{{Yes}};{{Yes}};?;
+Email sync protocols supported;POP3, IMAP, MAPI;POP3, IMAP, MAPI, ActiveSync[246];POP3, IMAP, MAPI, ActiveSync;BES, BIS, Push e-mail, 10+: POP3, IMAP, ActiveSync;POP3, IMAP;POP3, IMAP, ActiveSync;?;
+Non-carrier-based integrated messaging;{{Yes|Google Hangouts}};{{Yes|5+}} (iMessage)[247];{{Yes|Skype}}[248];{{Yes|BBM}};?;{{No2}} 3rd party software;{{No2}} 3rd party software;
+Visual voicemail;{{Yes|2.1+}}[249];{{Yes}};{{Yes}}[250];{{Yes}};?;?;?;
+Call log duration;{{Yes}}[251];{{Yes}}[252];{{Yes|8.1+}}[253];{{Yes}}[254];?;{{Yes}};{{Yes}};
+Multiple mobile phones per contact;{{Yes}};{{Yes}};{{Yes}};{{Yes}};?;{{Yes}};{{Yes}};
+Contact groups;{{Yes|4+}}[255] or 3rd party software[256];{{Okay|Via iCloud or 3rd party software}}[257];{{Yes|7.5+}}[258];{{Yes}};{{Yes}};{{No}}[259];?;
+Voice over IP;{{Yes|Yes (SIP)}}[260] or 3rd party software[261];{{Yes|FaceTime;}} 3rd party software[262];{{Yes|8+}} Skype[263];{{Yes|BBM 7+}}[264] or 3rd party software[265];{{No}}[266];{{No2}} 3rd party software;{{No2}} 3rd party software;
+NFC payment software;{{Yes|Available on any device that supports the hardware. Android Pay for NFC payments available in Play Store.}}[267];{{Yes|8+: iPhone 6/6 Plus and later (iPhone 5 and later if used with Apple Watch)}}, via Apple Pay;{{Yes|8+}}[268];{{Yes}}[269];{{No}};{{No}};{{No}};
+Tethering;Mobile Wi-Fi Hotspot, USB, Bluetooth;4.3+: Personal Hotspot (Wi-Fi, Bluetooth, USB; carrier dependent);Internet Sharing (Wi-Fi Hotspot),[270] Bluetooth (8.1 Update+);USB, Bluetooth, Mobile Wi-Fi Hotspot;microUSB, Bluetooth 3.0, Mobile Wi-Fi Hotspot;Mobile Wi-Fi Hotspot, USB, Bluetooth;Mobile Wi-Fi Hotspot;
+USB On-The-Go;{{Yes|3.1+}}[271][272];{{No2|No, only for connecting cameras}};{{Yes|10+}}[273];{{Yes|10.2+}}[274];{{No}};{{Yes}};{{Yes}};
+Direct file transfer over Wi-Fi Direct;{{Yes|4+}}[60] and selected devices[275][276];{{No2}}No, 3rd party software on jailbroken devices;{{No}};{{Yes|10.2+}};{{No}}, was available on bada 2+,[277] but removed on Tizen;{{No}}[278];{{No}};
+DHCP v4;Yes;Yes;?;Yes;?;?;?;
+DHCP v6;No;Yes;?;Yes (Manually selected; Wi-Fi only);?;?;?;
+Direct file transfer over Bluetooth;{{Yes|2+}}[279];{{Okay|AirDrop: 7+: Between iOS only; 8+: Between Mac/iOS only. (Note: AirDrop utilizes Wi-Fi as well)}};{{Yes|8+}}[280];{{Yes}};{{No}}, was available on bada,[281] but removed on Tizen;{{Yes}}[282] but limited to images, videos and contacts;{{No}};
+Direct file transfer over NFC;{{Yes|4+}}[60];{{No}};{{Yes|8+}}[283];{{Yes|7.1+}}[284];{{Yes|2+}}[277];{{No}};{{No}};

@@ -1,0 +1,14 @@
+;Trident;EdgeHTML;Gecko;WebKit;Blink;KHTML[n 1];Presto;
+JPEG;3.0;Yes;1.0;85;Yes;Yes;1.0;
+JPEG 2000;No;No;No[1];Depends[n 2];No;No;No;
+JPEG XR;5.0[3];Yes;No[4];No;No;No;No;
+GIF;GIF 89a;3.0;Yes;1.0;85;Yes;Yes;1.0;
+GIF 87a;
+PNG;1.2;3.1;Yes;1.0;85;Yes;Yes;1.0;
+1.1;
+1.0;
+APNG;No;No;3.0;528;59.0;No;9.5;
+BMP;Yes;Yes;Yes;Yes;Yes;Yes;1.0;
+ICO;Yes;Yes;Yes;Yes;Yes;Yes;1.0;
+TIFF;5.0[3];Yes;No[5];No;No;Yes[6];No;
+WebP;No;17 [7];Experimental[8];534.10[9];Yes[10];No;2.8.131[11];

@@ -1,0 +1,8 @@
+Kernel Name;Container (no resource management, no security);Container (no resource management);Container (resource management);Paravirtualization;Full virtualization;User-space execution;Kernel as Library;Kernel as Kernel Driver;Hypervisor-Enforced Kernel Partitioning;
+Linux;chroot;LXC;Virtio, Hyper-V (guest only), Xen (guest only), VMI (guest only), kvm-lite, lguest;KVM;UML;(LKL);(coLinux);No;
+DragonFly BSD kernel;chroot;jail;No;No;vkernel;?;?;No;
+FreeBSD kernel;chroot;jail;Virtio, Xen (guest only);BHyVe (KVM);?;?;?;No;
+NetBSD kernel;chroot;(sysjail (discontinued));No;Virtio and Xen;No;?;Rump kernel;?;No;
+Solaris kernel;chroot;Solaris Containers / Zones;No;No;No;?;?;No;
+Windows NT kernel;AppContainers, Job Objects, Windows Server Containers;Hyper-V;Project Drawbridge;No;Virtual Secure Mode, Device Guard, Credential Guard[15];
+XNU;chroot;?;?;?;?;?;?;?;No;

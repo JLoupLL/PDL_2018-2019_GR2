@@ -1,0 +1,5 @@
+Standard;SD;UFS Card;CFast;XQD;CFexpress;
+Version;3.0;4.0;6.0;7.0[8];1.0;2.0;1.0;2.0;1.0;2.0;1.0;?;
+Launched;2010 Q2;2011 Q1;2017 Q1;?;Q2 2016;?;2008 Q3;2012 Q3;2011 Q4;2014 Q1;2017 Q2;?;
+Bus;UHS-I;UHS-II;UHS-III;PCIe;UFS 2.0;UFS 3.0;SATA-300;SATA-600;PCIe 2.0 x1;PCIe 2.0 x2;PCIe 3.0 x2;PCIe 3.0 x8;
+Speed (full-duplex);104 MB/s;156 MB/s;624 MB/s;1970 MB/s (?);600 MB/s;1200 MB/s;300 MB/s;600 MB/s;500 MB/s;1000 MB/s;1970 MB/s;7880 MB/s;

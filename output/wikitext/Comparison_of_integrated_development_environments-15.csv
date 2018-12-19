@@ -1,0 +1,18 @@
+IDE;License;Written in Java only;Windows;Linux;macOS;Other platforms;GUI builder;
+BlueJ;{{yes|GPL2+GNU linking exception}};{{yes}};{{yes}};{{yes}};{{yes}};Solaris;{{no}};
+DrJava;{{free|Permissive}};{{yes}};{{yes}};{{yes}};{{yes}};Solaris;{{no}};
+Eclipse JDT;{{yes|EPL}};{{no}}[26];{{yes}};{{yes}};{{yes}};FreeBSD, JVM, Solaris;{{yes}};
+Geany;{{yes|GPL}};{{no}};{{yes}};{{yes}};{{yes}};FreeBSD, AIX, OpenBSD, Solaris, other Unix;{{no}};
+Greenfoot;{{yes|GPL}};{{yes}};{{yes}};{{yes}};{{yes}};Solaris;{{no}};
+IntelliJ IDEA;{{yes|Community Edition: Apache License v2.0}}, Ultimate Edition: proprietary;{{yes}};{{yes}};{{yes}};{{yes}};FreeBSD, OpenBSD, Solaris;{{yes}};
+JBuilder;{{proprietary}};{{yes}};{{yes}};{{yes}};{{yes}};Solaris;{{yes}};
+JCreator;{{proprietary}};{{no}};{{yes}};{{no}};{{no}};;{{no}};
+JDeveloper;{{proprietary}} (freeware);{{yes}};{{yes}};{{yes}};{{yes}};generic JVM;{{yes}};
+jGRASP;{{proprietary}} (freeware);{{yes}};{{yes}};{{yes}};{{yes}};;{{no}};
+MyEclipse;{{proprietary}};{{yes}};{{yes}};{{yes}};{{yes}};FreeBSD, JVM, Solaris;{{yes}};
+NetBeans;{{yes|CDDL}}, GPL2;{{yes}};{{yes}};{{yes}};{{yes}};OpenBSD, Solaris;{{yes}};
+Rational Application Developer;{{proprietary}};{{yes}};{{yes}};{{yes}};{{no}};AIX, Solaris;{{yes}};
+Servoy;{{proprietary}};{{yes}};{{yes}};{{yes}};{{yes}};Solaris;{{yes}};
+SlickEdit;{{Proprietary}};{{No}};{{Yes}};{{Yes}};{{Yes}};Solaris, Solaris SPARC, AIX, HP-UX;{{No}};
+Understand;{{Proprietary}};{{no}};{{yes}};{{yes}};{{yes}};Solaris;{{yes}};
+Xcode (Apple);{{proprietary}};{{no}};{{no}};{{no}};{{yes}};;{{yes}};

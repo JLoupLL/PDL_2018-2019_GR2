@@ -1,0 +1,4 @@
+;Trident;Gecko;WebKit;KHTML;Presto;Prince XML;Antenna House;
+XPath 1.0[26];{{yes}};{{yes|1.8}};{{yes}};{{yes|4.8}};{{yes|2.0}};{{Dunno}};{{depends}}[14];
+XPath 2.0[27];{{no}};{{no}}[28];{{Dunno}};{{Dunno}};{{Dunno}};{{Dunno}};{{depends}}[14];
+XQuery[29];{{Dunno}};{{no}}[30];{{no}}[31];{{Dunno}};{{no}};{{Dunno}};{{no}};

@@ -1,0 +1,7 @@
+Service;Post via;Read via;
+Web;XMPP;E-Mail;SMS;API;Micropub;Web;XMPP;E-Mail;SMS;API;Feed;
+Facebook;Yes;No;Yes;Yes;Yes;No;Yes;No;Yes;Yes;Yes;Yes;
+identi.ca;Yes;Yes;Yes;Yes;Yes;No;Yes;Yes;Yes;Yes;Yes;Yes;
+Twitter;Yes;No;No;Yes;Yes;No;Yes;No;?;Yes;Yes;Yes;
+Mastodon;Yes;No;No;No;Yes;No;Yes;No;No;No;Yes;Yes;
+micro.blog;Yes;Yes;No;No;Yes;Yes;Yes;Yes;No;No;Yes;Yes;

@@ -1,0 +1,13 @@
+Prog Language;Access server;Use database;List databases;List tables;
+raw MySQL access;;use db;;show databases;;show tables;;
+PHP;$link = mysql_connect(host, user, password); or $db = new mysqli(host, user, password); or $db = new PDO('mysql:host=hostname;dbname=dbname', 'username', 'password');;mysql_select_db(''name'', $link); or $db = new mysqli(host, user, password, ''name''); or $db->select_db(''name'');;;;
+Python;db = MySQLdb.connect(
+      host="hostname", 
+      user="username", 
+      passwd="password", 
+      db="dbname", 
+      connect_timeout=5);import MySQLdb;c = db.cursor()
+c.execute("show databases")
+c.fetchall();c = db.cursor()
+c.execute("show tables")
+c.fetchall();

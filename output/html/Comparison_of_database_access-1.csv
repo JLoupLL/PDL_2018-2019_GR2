@@ -1,0 +1,4 @@
+Database;Create database;Delete database;List databases;Use a db;Create table;Delete table;List tables;List table fields;
+MySQL;create database dbname;;drop database dbname;;show databases;;use dbname;;create table tbname;;drop table tbname;;show tables;;describe tbname;;
+PostgreSQL;create database dbname;;drop database dbname;;\l (in psql);\c dbname (in psql) For schemas (a similar feature): set search_path = schema_name;;create table tbname (field1 value_type1, field2 value_type2, ... );;drop table tbname;;\d (in psql);\d tbname (in psql);
+Sqlite ver 3;?;?;?;$ sqlite3 filename;create table tbname (field1 value_type1, field2 value_type2, ... );drop table tbname;.tables;.schema;

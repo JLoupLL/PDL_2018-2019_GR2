@@ -1,0 +1,7 @@
+Kernel Name;NFS;AFS;CIFS;Coda;9P;Ceph;
+DragonFly BSD kernel;{{yes}};{{no}};{{yes}};{{no}};{{no}};{{no}};
+FreeBSD kernel;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};
+Linux kernel;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Solaris kernel;{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};
+Windows NT kernel;{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};
+XNU;{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};

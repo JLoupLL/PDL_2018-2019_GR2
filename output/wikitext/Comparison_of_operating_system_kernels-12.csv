@@ -1,0 +1,7 @@
+Kernel name;DES;AES;Blowfish;Triple DES;Serpent;Twofish;CAST-128;DES-X;IDEA;RC2;RC5;SEED;Skipjack;TEA;XTEA;CAST-256;RC4;Camellia;Anubis;KHAZAD;Salsa20;FCrypt;
+DragonFly BSD kernel;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};
+FreeBSD kernel;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};
+Linux;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Windows NT kernel;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};
+macOS XNU Kernel;{{yes}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{yes}};{{dunno}};{{dunno}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+Kernel name;DES;AES;Blowfish;Triple DES;Serpent;Twofish;CAST-128;DES-X;IDEA;RC2;RC5;SEED;Skipjack;TEA;XTEA;CAST-256;RC4;Camellia;Anubis;KHAZAD;Salsa20;FCrypt;

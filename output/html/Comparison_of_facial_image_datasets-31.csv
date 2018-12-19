@@ -1,0 +1,8 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Dow Jones Index;Weekly data of stocks from the first and second quarters of 2011.;Calculated values included such as percentage change and a lags.;750;Comma separated values;Classification, regression, Time series;2014;[407][408];M. Brown et al.;
+Statlog (Australian Credit Approval);Credit card applications either accepted or rejected and attributes about the application.;Attribute names are removed as well as identifying information. Factors have been relabeled.;690;Comma separated values;Classification;1987;[409][410];R. Quinlan;
+eBay auction data;Auction data from various eBay.com objects over various length auctions;Contains all bids, bidderID, bid times, and opening prices.;~ 550;Text;Regression, classification;2012;[411][412];G. Shmueli et al.;
+Statlog (German Credit Data);Binary credit classification into "good" or "bad" with many features;Various financial features of each person are given.;690;Text;Classification;1994;[413];H. Hofmann;
+Bank Marketing Dataset;Data from a large marketing campaign carried out by a large bank .;Many attributes of the clients contacted are given. If the client subscribed to the bank is also given.;45,211;Text;Classification;2012;[414][415];S. Moro et al.;
+Istanbul Stock Exchange Dataset;Several stock indexes tracked for almost two years.;None.;536;Text;Classification, regression;2013;[416][417];O. Akbilgic;
+Default of Credit Card Clients;Credit default data for Taiwanese creditors.;Various features about each account are given.;30,000;Text;Classification;2016;[418][419];I. Yeh;

@@ -1,0 +1,7 @@
+Model;Processor;Memory;FSB;Storage;RPM;Graphics;VRAM;Display resolution;MSRP;
+Mac Mini[1];1.4 GHz dual-core Intel Core i5;4 GB;5 GT/s;500 GB HDD;5400;Intel HD Graphics 5000;1.5 GB shared;N/A;$499 (USD) / $599 (CAD) / £479 (GBP) / €549 (EUR) / $779 (AUD);
+iMac 21.5 inch[2];1.6 GHz dual-core Intel Core i5;8 GB;5 GT/s;1 TB HDD;5400;Intel HD Graphics 6000;1.5 GB shared;1920 × 1080;$1099 (USD) / $1399 (CAD) / £1049 (GBP) / €1249 (EUR) / $1699 (AUD);
+iMac 21.5 inch with 4K Retina Display[2];3.1 GHz dual-core Intel Core i5;8 GB;5 GT/s;1 TB HDD;5400;Intel Iris Pro Graphics 6200;1.5 GB shared;4096 × 2304;$1499 (USD) / $1899 (CAD) / £1449 (GBP) / €1699 (EUR) / $2299 (AUD);
+iMac 27 inch with 5K Retina Display[2];3.2 GHz quad-core Intel Core i5;8 GB;5 GT/s;1 TB HDD;5400;AMD Radeon R9 M380;2 GB;5120 × 2880;$1799 (USD) / $2299 (CAD) / £1749 (GBP) / €2099 (EUR) / $2799 (AUD);
+Mac Pro Quad-Core[3];3.7 GHz Quad-core Xeon E5;16 GB;5 GT/s;256 GB PCIe-based flash storage;N/A;Dual AMD FirePro D300;2 GB each;N/A;$2999 (USD) / $3499 (CAD) / £2999 (GBP) / €3399 (EUR) / $4899 (AUD);
+Mac Pro 6-Core[3];3.5 GHz 6-core Xeon E5;16 GB;5 GT/s;256 GB PCIe-based flash storage;N/A;Dual AMD FirePro D500;3 GB each;N/A;$3999 (USD) / $4699 (CAD) / £3899 (GBP) / €4599 (EUR) / $6499 (AUD);

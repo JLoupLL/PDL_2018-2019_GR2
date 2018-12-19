@@ -1,0 +1,10 @@
+;Trident;Gecko;WebKit;Presto;
+translate[23];No;
+Datasets (data-*);No;6.0[g 24];Yes[w 25];2.8[p 10];
+contextmenu;8.0[g 25];No[w 16];No;
+hidden;2.0[g 26];Yes[w 26];2.7.70;
+contenteditable[24];<3.1[IE 5.5];1.9;Yes;2.0;
+spellcheck[25];6.0;1.8[g 27];Incorrect[w 27];2.8[p 11];
+draggable;1.9.1[g 28];533[w 28];2.10.270;
+dropzone;No;No[g 29];Yes;2.10.270;
+;Trident;Gecko;WebKit;Presto;

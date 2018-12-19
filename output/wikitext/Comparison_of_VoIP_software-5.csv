@@ -1,0 +1,16 @@
+Client name;Development status;Open source client;End-to-end authentication[34];Encryption protocols;Forward secrecy;Multiple encryption;Encrypted group calling;Proxy, Tor;
+ZRTP;ECDH;DTLS;SRTP;
+FaceTime;{{Active}};{{no}}[35];{{no}}[35];{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{yes}}[35];{{dunno}};{{no}};{{no}};
+Google Duo;{{Active}};{{no}};{{no}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{no}};{{no}};
+Jitsi[36];{{Active}};{{yes}};{{yes}}[35];{{yes}};{{no}};{{yes}};{{yes}};{{yes}}[35];{{yes}};{{yes}};{{dunno}};
+Line[37][38];{{Active}};{{no}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{no}}[37];{{no}};
+Linphone[36];{{Active}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{no}};
+PGPfone;{{no|Abandonware}};{{yes|Viewable source}}[39];{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+Signal;{{Active}};{{yes}};{{yes}}[35];{{no}};{{yes}};{{no}};{{yes}};{{yes}}[35];{{yes}};{{no}};{{depends}}[40];
+Silent Phone;{{Active}};{{yes|Viewable source}}[41];{{yes}}[35];{{yes}};{{dunno}};{{dunno}};{{yes}};{{yes}}[35];{{yes}};{{yes}};{{no}};
+Telegram;{{Active}};{{yes}};{{yes}}[42];{{no}};{{no}};{{no}};{{no}};{{yes}};{{dunno}};{{no}};{{no}};
+Threema;{{Active}};{{partial|Partially}}[43][44];{{yes}}[45];{{no}};{{yes}}[45];{{yes}}[45];{{yes}}[45];{{partial|Partially}}[46][45];{{yes}};{{no}};{{no}};
+Viber[21];{{Active}};{{no}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{no}};
+WhatsApp;{{Active}};{{partial|Partially}}[43][47];{{yes}}[47];{{no}};{{yes}}[47];{{no}};{{yes}}[47];{{yes}}[47];{{yes}}[47];{{no}};{{no}};
+Wire;{{Active}};{{yes}};{{yes}}[48];{{no}};{{dunno}};{{yes}}[22];{{yes}}[22];{{dunno}};{{yes}};{{yes}};{{no}};
+Zfone;{{no|Abandonware}};{{yes|Viewable source}}[49];{{yes}};{{yes}};{{optional}}[50];{{dunno}};{{yes}}[51];{{yes}};{{yes}};{{dunno}};{{dunno}};

@@ -1,0 +1,14 @@
+ADC client;GUI;CLI;WebUI;Programming language;Based on;
+AirDC++;{{yes}};{{no}};{{yes}};C++;StrongDC++;
+AirDC++ Web Client;{{no}};{{no}};{{yes}};C++, JavaScript;AirDC++;
+ApexDC++;{{yes}};{{no}};{{no}};C++, Lua;StrongDC++;
+DC++;{{yes}};{{no}};{{no}};C++;;
+Jucy;{{yes}};{{no}};{{no}};Java;;
+LinuxDC++;{{yes}};{{no}};{{no}};C++;DC++;
+EiskaltDC++;{{yes}};{{yes}};{{yes}};C++, Lua;DC++;
+FlylinkDC++;{{yes}};{{no}};{{yes}};C++;StrongDC++, DC++, ApexDC speed mode;
+RSX++;{{yes}};{{no}};{{no}};C++, Lua;StrongDC++;
+TKDC++;{{yes}};{{no}};{{no}};C++, Lua;StrongDC++, DC++;
+StrongDC++;{{yes}};{{no}};{{no}};C++;DC++;
+ncdc;{{no}};{{yes}};{{no}};C;;
+ADC client;GUI;CLI;WebUI;Programming language;Based on;

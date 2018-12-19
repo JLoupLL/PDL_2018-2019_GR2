@@ -1,0 +1,8 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;Nvidia Optimus technology;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro K500M;GK107;28;PCIe 3.0 ×16;850;850;1600;192:16:8;6.8;13.6;1024;12.8;DDR3;64;326.4;11.0;4.5;Yes;35;;
+Quadro K1000M;GK107;28;PCIe 3.0 ×16;850;850;1800;192:16:16;13.6;13.6;2048;28.8;DDR3;128;326.4;11.0;4.5;Yes;45;Dell Precision M4700;
+Quadro K2000M;GK107;28;PCIe 3.0 ×16;745;745;1800;384:32:16;11.92;23.84;2048;28.8;DDR3;128;572.16;11.0;4.5;Yes;55;Dell Precision M4700;
+Quadro K3000M;GK104;28;PCIe 3.0 ×16;654;654;2800;576:48:32;20.93;31.39;2048;89.6;GDDR5;256;753.41;11.0;4.5;Yes;75;Dell Precision M6700;
+Quadro K4000M;GK104;28;PCIe 3.0 ×16;600;600;2800;960:80:32;19.2;48;4096;89.6;GDDR5;256;1152;11.0;4.5;Yes;100;Dell Precision M6700;
+Quadro K5000M;GK104;28;PCIe 3.0 ×16;706;706;3000;1344:112:32;22.59;79.07;4096;96;GDDR5;256;1897.73;11.0;4.5;Yes;100;Dell Precision M6700;

@@ -1,0 +1,17 @@
+JVM;Status;Latest supported Java version;Supported class libraries;Performance;
+GNU Classpath;OpenJDK;Other;Interpretation;AOT;JIT;
+CACAO;;1.6[16];Yes[1];Yes[1];;No[17];No[17];Yes[17];
+GCJ;No longer maintained or distributed by GNU as of GCC 7 [18];?;Yes;No;;Yes;Yes;No;
+HotSpot, OpenJDK edition;Reference implementation.;1.8;No;Yes;;Yes;No;Yes;
+HotSpot, Oracle JDK edition;Reference implementation.;1.8;No;Yes;;Yes;No;Yes;
+HotSpot, Java SE embedded edition;;?;No;Yes;;Yes;No;Yes;
+HotSpot, Zero port;Interpreter-only port of OpenJDK using almost no assembly language and designed to be very portable.;1.7;No;Yes;;Yes;No;No;
+IKVM.NET;;?;?;?;;Whatever the .NET runtime uses;
+JAmiga;;1.4[19];Yes[20];No;;Yes[21];No;No;
+JamVM;;1.8[22];Yes[23];Yes[23];;Yes[23];No;Yes[23];
+Jato VM;;1.6[24];Yes[10];No[25];;No[25];No[25];Yes[10];
+JC virtual machine;Translates Java to C and compiles it with a C compiler.;1.4[26];Yes[27];No;;Yes[28];Yes[28];Yes[28];
+Jikes RVM;;1.6[29];Yes[30];Port[31][32];Apache Harmony[30];No[33];?;Yes;
+Kaffe;;1.4[34];Yes[13];No;;Yes[13];No[13];Yes[13];
+Mysaifu JVM;;?;Yes[35];No;;Yes[36];No[36];No[36];
+SableVM;Unmaintained;1.4;Yes;No;;Yes;No;No;

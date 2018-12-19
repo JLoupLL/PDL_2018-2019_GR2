@@ -1,0 +1,25 @@
+
+;Archival Disc;Blu-ray Disc;HD DVD;CBHD (CH-DVD);AVCHD;AVCREC;DVD;MUSE LD;
+Laser wavelength;405 nm (blue-violet laser);405 or 650 nm;650 nm (red laser);
+Numerical aperture;1;0.85;0.65;0.85 or 0.6;0.6;{{unk}};
+Storage capacity (single side);per layer/maximum;300(500)/1 TB;25(50)/128 GB{{ref|HDMC_table_note_a|[a]}};15/30 GB{{ref|HDMC_table_note_a|[a]}};1.4/2.6 GB (8 cm DVD), 4.7/8.5 GB (12 cm DVD), 25/50 GB (12 cm BD);4.7/8.5 GB;30 cm, 60 min per side;
+Maximum bitrate;Raw data transfer;100 Mbit/s;53.95 Mbit/s;36.55 Mbit/s;colspan="2" {{unk}};11.08 Mbit/s;{{unk}};
+Audio+Video+Subtitles;100.0 Mbit/s;48.0 Mbit/s;30.24 Mbit/s;27 Mbit/s;10.08 Mbit/s;{{unk}};
+Video;100 Mbit/s;40.0 Mbit/s;29.4 Mbit/s;colspan="2" {{unk}};9.8 Mbit/s;{{unk}};
+Mandatory video codecs;H.265/MPEG-H HEVC / H.264/MPEG-4 AVC / VC-1 / MPEG-2;H.264/MPEG-4 AVC / VC-1 / MPEG-2;China's AVS / H.264/MPEG-4 AVC / VC-1 / MPEG-2;H.264/MPEG-4 AVC;H.264/MPEG-4 AVC MPEG-2;MPEG-1 / MPEG-2;MUSE;
+Audio codecs (maximum data rates shown);lossy;Dolby Digital;colspan="2" {{yes|Mandatory 640 kbit/s}};colspan="2" {{yes|Mandatory 504 kbit/s [1]}};colspan="2" {{yes|Mandatory 64-640 kbit/s}};{{yes|Mandatory 448 kbit/s}};{{unk}};
+DTS;colspan="2" {{yes|Mandatory 1.5 Mbit/s}};{{unk}};colspan="2" {{n/a}};{{partial|Optional 1.5 Mbit/s}};{{unk}};
+Dolby Digital Plus{{ref|HDMC_table_note_d|[d]}};{{yes|Mandatory 3.0 Mbit/s}};{{partial|Optional 1.7 Mbit/s}};colspan="2" {{yes|Mandatory 3.0 Mbit/s}};colspan="2" {{n/a}};{{n/a}};{{unk}};
+DTS-HD High Resolution;{{yes|Mandatory 6.0 Mbit/s}};{{partial|Optional 6.0 Mbit/s}};{{partial|Optional 3.0 Mbit/s}};{{unk}};colspan="2" {{n/a}};{{n/a}};{{n/a}};
+lossless;Linear PCM{{ref|HDMC_table_note_h|[h]}};colspan="4" {{yes|Mandatory}};colspan="3" {{partial|Optional}};(B Mode) 2 channel PCM;
+Dolby TrueHD{{ref|HDMC_table_note_h|[h]}};{{yes|Mandatory 18 Mbit/s}};{{partial|Optional 18 Mbit/s}};colspan="2" {{yes|Mandatory 18 Mbit/s}};colspan="2" {{n/a}};{{n/a}};{{unk}};
+DTS-HD Master Audio{{ref|HDMC_table_note_h|[h]}};{{yes|Mandatory 24.5 Mbit/s}};{{partial|Optional 24.5 Mbit/s}};{{partial|Optional 18 Mbit/s}};{{unk}};colspan="2" {{n/a}};{{n/a}};{{n/a}};
+Secondary video decoder (PiP);{{yes|Mandatory}};{{yes|Mandatory for Bonus View players{{ref|HDMC_table_note_c|[c]}}}};{{yes|Mandatory}};{{unk}};colspan="2" {{unk}};{{n/a}};{{n/a}};
+Secondary audio decoder;{{yes|Mandatory}};{{yes|Mandatory for Bonus View players{{ref|HDMC_table_note_c|[c]}}}};{{yes|Mandatory}};{{unk}};colspan="2" {{unk}};{{partial|Optional}};{{n/a}};
+Interactivity;{{yes|ADMV and Archival Disc Java}};{{yes|BDMV and Blu-ray Disc Java}};{{yes|Standard Content and Advanced Content}};{{yes|CETC}};colspan="3" {{partial|Rudimentary}};{{n/a}};
+Internet support;{{yes|Mandatory}};{{yes|Mandatory for BD-Live players}};{{yes|Mandatory}};{{unk}};colspan="4" {{n/a}};
+Video resolution (maximum);1920×1080p / 3840×2160p / 5120?×?2880 / 7680?×?4320;1920×1080p / 3840×2160p;1920×1080p;720×480 (NTSC) 720×576 (PAL);1125 interlaced lines 1035 lines displayed;
+Frame rates at maximum resolution;24/30p, 50/60/100/120p;24/30p, 50/60i[2]{{ref|HDMC_table_note_g|[g]}} 50/60p;24/25/30p, 50/60i;24/25/30p, 50/60i;{{unk}};24/25/30p{{ref|HDMC_table_note_g|[g]}} 50/60i;60i;
+Digital Rights Management;AACS-512bit;AACS-128bit / BD+ / ROM-Mark;AACS-128bit;AACS-128bit / DKAA;None (Not intended for prerecorded content);CSS 40-bit;None;
+Region codes;None;Three region codes{{ref|HDMC_table_note_f|[f]}};None;{{unk}};None;8 regions (6 commercial);None;
+Hardcoating of disc;colspan="2" {{yes|Mandatory}};colspan="5" {{partial|Optional}};{{unk}};

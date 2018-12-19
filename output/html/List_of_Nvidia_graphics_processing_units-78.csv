@@ -1,0 +1,6 @@
+Model;Archi- tecture;Chips;Thread processors (total);Bus interface;Memory;TDP (Watts);
+Bus type;Size (GB);
+GRID K1[201];Kepler;4× GK107;4× 192;PCIe 3.0 ×16;DDR3;4× 4GB;130;
+GRID K2[202];Kepler;2× GK104-895;2× 1536;PCIe 3.0 ×16;GDDR5;2× 4GB;225;
+GRID K340;Kepler;4× GK107;4× 384;PCIe 3.0 ×16;GDDR5;4× 1GB;225;
+GRID K520;Kepler;2× GK104;2× 1536;PCIe 3.0 ×16;GDDR5;2× 4GB;225;

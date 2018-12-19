@@ -1,0 +1,9 @@
+;Windows;macOS;Linux;BSD;Unix;DOS;Android;
+ALGLIB;Yes;Yes;Yes;Yes;Yes;No;Yes;
+GNU Scientific Library;Yes;Yes;Yes;Yes;Yes;No;Yes;
+ILNumerics;Yes;Yes;Yes;Yes;Yes;No;No;
+IMSL Numerical Libraries;Yes;Yes;Yes;No;Yes;No;No;
+Math.NET Numerics;Yes;Yes;Yes;Yes;Yes;No;No;
+NAG Numerical Library;Yes;Yes;Yes;No;Yes;Yes;No;
+NMath;Yes;No;No;No;No;No;No;
+SciPy (Python packages);Yes;Yes;Yes;Yes;Yes;Yes;No;

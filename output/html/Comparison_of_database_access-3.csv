@@ -1,0 +1,7 @@
+Database;Add new column;Delete column;Change column;Add element;Delete element;
+MySQL;alter table "tbname" 
+add column "column_name";;alter table "tbname" 
+drop column "column_name";;alter table "tbname" 
+change "old" "new" "newtype";;insert into "tbname" ("fields") 
+values ("values");;delete from "tbname" 
+where "expr";;

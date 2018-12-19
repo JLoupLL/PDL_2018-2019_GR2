@@ -1,0 +1,16 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Housing Data Set;Median home values of Boston with associated home and neighborhood attributes.;None.;506;Text;Regression;1993;[455];D. Harrison et al.;
+The Getty Vocabularies;structured terminology for art and other material culture, archival materials, visual surrogates, and bibliographic materials.;None.;large;Text;Classification;2015;[456];Getty Center;
+Yahoo! Front Page Today Module User Click Log;User click log for news articles displayed in the Featured Tab of the Today Module on Yahoo! Front Page.;Conjoint analysis with a bilinear model.;45,811,883 user visits;Text;Regression, clustering;2009;[457][458];Chu et al.;
+British Oceanographic Data Centre;Biological, chemical, physical and geophysical data for oceans. 22K variables tracked.;Various.;22K variables, many instances;Text;Regression, clustering;2015;[459];British Oceanographic Data Centre;
+Congressional Voting Records Dataset;Voting data for all USA representatives on 16 issues.;Beyond the raw voting data, various other features are provided.;435;Text;Classification;1987;[460];J. Schlimmer;
+Entree Chicago Recommendation Dataset;Record of user interactions with Entree Chicago recommendation system.;Details of each users usage of the app are recorded in detail.;50,672;Text;Regression, recommendation;2000;[461];R. Burke;
+Insurance Company Benchmark (COIL 2000);Information on customers of an insurance company.;Many features of each customer and the services they use.;9,000;Text;Regression, classification;2000;[462][463];P. van der Putten;
+Nursery Dataset;Data from applicants to nursery schools.;Data about applicant's family and various other factors included.;12,960;Text;Classification;1997;[464][465];V. Rajkovic et al.;
+University Dataset;Data describing attributed of a large number of universities.;None.;285;Text;Clustering, classification;1988;[466];S. Sounders et al.;
+Blood Transfusion Service Center Dataset;Data from blood transfusion service center. Gives data on donors return rate, frequency, etc.;None.;748;Text;Classification;2008;[467][468];I. Yeh;
+Record Linkage Comparison Patterns Dataset;Large dataset of records. Task is to link relevant records together.;Blocking procedure applied to select only certain record pairs.;5,749,132;Text;Classification;2011;[469][470];University of Mainz;
+Nomao Dataset;Nomao collects data about places from many different sources. Task is to detect items that describe the same place.;Duplicates labeled.;34,465;Text;Classification;2012;[471][472];Nomao Labs;
+Movie Dataset;Data for 10,000 movies.;Several features for each movie are given.;10,000;Text;Clustering, classification;1999;[473];G. Wiederhold;
+Open University Learning Analytics Dataset;Information about students and their interactions with a virtual learning environment.;None.;~ 30,000;Text;Classification, clustering, regression;2015;[474][475];J. Kuzilek et al.;
+Mobile phone records;Telecommunications activity and interactions;Aggregation per geographical grid cells and every 15 minutes.;large;Text;Classification, Clustering, Regression;2015;[476];G. Barlacchi et al.;

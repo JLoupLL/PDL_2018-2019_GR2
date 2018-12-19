@@ -1,0 +1,8 @@
+Graphics;Launch;Market;Chipset;Code name;Device id.[3];RAMDAC clock (MHz);Pixel pipelines;Shader model (vertex/pixel);API support;Memory bandwidth (GB/s);DVMT (MB);Hardware acceleration;
+Direct3D;OpenGL;OpenCL;MPEG-2;VC-1;AVC;
+Intel740;1998;Desktop;stand-alone;Auburn;7800;220;1;3.0 (SW) / No;5.0;1.1;rowspan=6 {{No}};0.8;2–8;Optional external MPEG-2 decoder via Video Module Interface;rowspan=6 {{No}};rowspan=6 {{No}};
+752;1999;Portola;1240;250;6.0 (full) 8.0 (some features, no hardware shaders);0.8(PC100)–1.067(PC133) 1.067(AGP 4× for AIMM);8–16;MC;
+3D graphics with Direct AGP;810;Whitney;7121;230;32;
+810-DC100;7123;
+810E 810E2;7125;
+2000;815 815E 815G 815EG;Solano;1132;6.0 (full) 9.0 (some features, no hardware shaders);

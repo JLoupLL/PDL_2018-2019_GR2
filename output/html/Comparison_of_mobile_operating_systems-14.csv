@@ -1,0 +1,16 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Multitasking;Yes;7+;[417] 4-6: Limited[418];8+,[419] 7.5: Limited;Yes;2+[157];Yes;Yes;
+Quick app switching;7+[420];9+: via 3D Touch;[421] 5+: only on iPad[422];No;No;No;No;Yes;
+Document-centric multitasking;5+[423];No;No;No;No;No;No;
+Split-screen app usage;7+, some manufacturers earlier[424];9+: only on iPad with 2 GB RAM or more[425];No;No, 3rd party software[426];Yes[427];No [428];Tablet-only;
+Desktop interactive widgets;Yes;10+: App icons via 3D Touch and/or dedicated widget screen[429];No (Live Tiles are not interactive)[430];No;No;Yes;No;
+Lock screen widgets;Yes (Notifications and settings). Full Widgets on Android 4.2-4.4 only.[431][432];Media player, voicemail, camera;[433] 5+: Notifications; 7+: Control Center 8+: Interactive Notifications[434] 10+: Full widgets[429];Media Player; 8+: Live Apps and notifications[435];Yes, interactive notifications, camera, alarm;Media player; Notifications (SMS, call);Yes;No;
+Notification view widgets;4.1+: Google Now and possible with 3rd party apps;8+;No;Yes, BB 10.2;No;Yes;No;
+Quick settings toggles;2+[436];7+[437];8.1+[93];10+, customizable in 10.2.1+[438];No;Via the Patchmanager app[439];Yes;
+Search multiple internal apps at once;Yes;Yes;8.1+[440];Yes;Yes;No[441];Yes;
+Settings search;5+ or 3rd party software like LineageOS[442];9+[443];8.1update2+[45];Yes;No;No;Yes;
+Search all fields of internal objects;Only search Contacts name field but not any other field[444];6+[445];Contacts are searched by name, nick and company,[446] but not other fields like address or notes[447];Yes[448];Only searches contacts by name;First name, last name, nickname, also the multiple field called "Details"[449]|?;
+Core apps missing search;Calendar[450] (available since 3+ and HTC Sense);Bookmarks[451];Video[452];?;?;?;?;
+Phone number links to dialer;Available in stock Android, but not all devices enable it.[453];Yes;Yes;Yes;Yes, but not in browser;Yes;Yes;
+Addresses links to maps;In Contacts, but not in Calendar[454] nor in Gmail[455];Yes[456];Yes[457];Yes[458];?;Yes;?;
+Dates links to calendar;No;Yes[459];Yes;Yes;Yes;Yes;?;

@@ -1,0 +1,4 @@
+IDE;License;Windows;Linux;macOS;Other platforms;Debugger;Profiler;Notes;
+Juno (built on Atom, that Juno comes with);MIT License;Yes;Yes;Yes;;Yes[31] Rebugger?[32];Yes;Promoted from Julia's official homepage, and also integrated with JuliaPro.;
+Visual Studio Code (using the Julia extension);MIT License;Yes;Yes;Yes;FreeBSD[33];?[34];?;License is for the extension; and Microsoft's source code (only).;
+Emacs / spacemacs;portions in GPL v2, LGPL, BSD and public domain;Yes;Yes;Yes;FreeBSD;Yes;Yes;ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming ).;

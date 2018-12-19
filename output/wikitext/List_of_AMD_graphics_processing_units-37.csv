@@ -1,0 +1,3 @@
+Model;Launch;Code name;Fab (nm);Bus interface;Clock rate;Core config1;Fillrate;Memory;Processing power (GFLOPS);API compliance (version);TDP (Watts);Notes;
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (GiB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;OpenCL;Vulkan;
+FirePro W4300[80];December 1, 2015;Bonaire PRO (GCN 2nd Gen);28;PCIe 3.0 x16;930;1500;768:48:16:12[81];14.88;44.64;4;96;GDDR5;128;1428.5;89.3;11.2/12.0 SM 5.0;4.5;2.0 (2.1 beta, 2.2 possible);1.0;<50;4 Mini DisplayPort 1.2a outputs, low profile;

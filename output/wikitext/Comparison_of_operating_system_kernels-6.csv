@@ -1,0 +1,11 @@
+Kernel Name;a.out;ECOFF;ELF;FDPIC ELF binaries (mmu less);flat binaries (superH);HUNK;Mach-O;Misc (wrapper based, like interpreters);PE;SOM (PA-RISC, HP-UX);NLM;PEF;DOS COM;MZ;LE;LX;NE;
+Amiga Exec;{{No}};{{No}};{{Yes}}[20];{{No}};{{No}};{{Yes}};{{No}};{{No}};{{No}};{{No}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+DragonFly BSD kernel;{{No}};{{No}};{{Yes}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};
+HP-UX kernel;{{No}};{{No}};{{Yes}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{Yes}};{{No}};{{No}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+Linux kernel;! -->binfmt_misc<!-- DO NOT REPLACE binfmt_misc WITH binfmt misc - the underscore is part of the name;! --> and run them using Wine;{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{No}};{{No}};{{Yes}};{{some}}[21];{{Yes}};{{dunno}};{{No}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+MINIX 3 kernel;{{Some}}[8][9];{{No}};{{Yes}}[7];{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+NetBSD kernel;{{Yes}};{{Yes}};{{Yes}};{{dunno}};{{dunno}};{{dunno}};{{Yes}};{{dunno}};{{Yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+ReactOS kernel;{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{Yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+Solaris kernel;{{Yes}}[22];{{No}};{{Yes}}[23];{{No}};{{No}};{{No}};{{No}};{{No}};{{some}}[24];{{No}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+Windows NT kernel;{{No}};{{No}};{{Yes|Yes with WSL}};{{No}};{{No}};{{No}};{{No}};{{No}};{{Yes}};{{No}};{{No}};{{No}};{{partial |Yes on x86}};{{partial |Yes on x86}};{{dunno}};{{dunno}};{{partial |Yes on x86}};
+XNU;{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{Yes}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};{{No}};

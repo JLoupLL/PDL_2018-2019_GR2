@@ -1,0 +1,9 @@
+Statements;Java;C#;
+Loops;Yes;Yes;
+Conditionals;Yes;Yes;
+Flow control;Yes;Yes;
+Assignment;Yes;Yes;
+Exception control;Yes;Yes;
+Variable declaration;Yes;Yes;
+Variable type inference;Yes[41];Yes;
+Deterministic disposal (ARM-blocks);Yes;Yes;

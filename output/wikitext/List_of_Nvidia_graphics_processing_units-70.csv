@@ -1,0 +1,9 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;Nvidia Optimus technology;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro M500M;GM108;28;PCIe 3.0 ×16;;;1253 (5012);384:24:8 (3 SMM);;;2048;40.1;GDDR5;64;;12.1;4.5;Yes;25;;
+Quadro M600M;GM107;28;PCIe 3.0 ×16;;;1253 (5012);384:24:16 (3 SMM);;;2048;80.2;GDDR5;128;;12.1;4.5;Yes;30;;
+Quadro M1000M;GM107;28;PCIe 3.0 ×16;;;1253 (5012);512:32:16 (4 SMM);;;2048;80.2;GDDR5;128;;12.1;4.5;Yes;40;;
+Quadro M2000M;GM107;28;PCIe 3.0 ×16;1098;1098;1253 (5012);640:40:16 (5 SMM);;;4096;80.2;GDDR5;128;1390;12.1;4.5;Yes;55;;
+Quadro M3000M;GM204;28;PCIe 3.0 ×16;;;1253 (5012);1024:64:32 (8 SMM);;;4096;160.4;GDDR5;256;;12.1;4.5;Yes;75;;
+Quadro M4000M;GM204;28;PCIe 3.0 ×16;;;1253 (5012);1280:80:48 (10 SMM);;;4096;160.4;GDDR5;256;;12.1;4.5;Yes;100;;
+Quadro M5000M;GM204;28;PCIe 3.0 ×16;962;962;1253 (5012);1536:96:64 (12 SMM);61.6;92.4;8192;160.4;GDDR5;256;2955.3;12.1;4.5;Yes;100;;

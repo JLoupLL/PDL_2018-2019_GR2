@@ -1,0 +1,4 @@
+;FAT12;FAT16;FAT32;HPFS;ISO 9660;NTFS;UDF;
+Windows 95;{{Yes}};{{Yes}};{{Yes}} (OSR2 or above);{{partial|Network Drive}};{{Yes}};{{partial|Network Drive}};{{No}};
+Windows 98;{{Yes}};{{Yes}};{{Yes}};{{partial|Network Drive}};{{Yes}};{{partial|Network Drive}};{{Yes}} (1.5, read);
+Windows Me;{{Yes}};{{Yes}};{{Yes}};{{partial|Network Drive}};{{Yes}};{{partial|Network Drive}};{{Yes}} (1.5, read);

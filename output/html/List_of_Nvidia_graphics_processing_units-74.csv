@@ -1,0 +1,6 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;Nvidia Optimus technology;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro P500;GP108;14;PCIe 3.0 ×16;;;;256:16:16:2;;;2048;40;GDDR5;64;750;12.1;4.5;Yes;18;;
+Quadro P600;GP107;14;PCIe 3.0 ×16;;;;384:24:16:3;;;4096;80;GDDR5;128;1200;12.1;4.5;Yes;25;;
+Quadro P1000;GP107;14;PCIe 3.0 ×16;;;;512:32:16:4;;;4096;96;GDDR5;128;1600;12.1;4.5;Yes;40;;
+Quadro P2000;GP207;14;PCIe 3.0 ×16;;;;768:64:32:6;;;4096;96;GDDR5;128;2400;12.1;4.5;Yes;50;

@@ -1,0 +1,6 @@
+Features:;Modularity: supports third-party modules to extend functionality?;IPS : Intrusion prevention system;Open-Source License?;supports IPv6 ?;Class: Home / Professional;Operating Systems on which it runs?;
+Untangle;{{yes}};{{yes}};{{yes}};{{yes}};Both;Linux (built on Debian);
+Vyatta;{{yes}};{{yes}};{{yes}};{{yes}};Professional;Vyatta OS (built on Debian);
+WinGate;{{yes}}{{efn|WinGate 6.x supports 3rd party modules for data scanning only (e.g. antivirus and content filtering).}};{{dunno}};{{no}};{{no}};Professional;Windows 2000, Windows XP, Windows 2003, Windows Vista, Windows 2008. 32bit and 64bit.;
+pfSense;{{yes}};{{yes}}, with Snort and Suricata (modules);{{yes}};{{yes}};Both;FreeBSD/NanoBSD-based appliance;
+IPFire;{{yes}};{{yes}}, with Snort and Guardian;{{yes}};{{yes}} (manual setup needed);Both;Linux (based on Linux From Scratch);

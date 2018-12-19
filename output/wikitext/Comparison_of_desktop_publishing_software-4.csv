@@ -1,0 +1,18 @@
+Desktop publishing software;PDF;EPS;SVG;TeX/LaTeX;RTF;HTML;Word .doc;OOXML .docx;Other;
+CorelDRAW;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes|PSD, AI, SWF, WPD}};
+Fatpaint;{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{yes|JPG, PNG}};
+FrameMaker;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{yes|WPD}};
+InDesign;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{yes|PSD, AI, SWF, WPD, XLS}};
+InPage;{{no}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+iStudio Publisher;{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{yes|PSD, AI}};
+LyX;{{no}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{no}};{{no}};
+Microsoft Publisher;{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};
+OpenOffice.org;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes|PSD, WPD, XLS}};
+PageMaker*;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{no}};
+PagePlus;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};
+Pages;{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};
+QuarkXPress;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{no}};{{yes|PSD, AI, SWF, XLS, JPG, PNG PDF}};
+Scribus;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{yes|List}};
+The Print Shop;{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+Ventura*;{{yes}};{{yes}};{{no}};{{no}};{{yes}};{{no}};{{yes}};{{no}};{{yes|PSD, AI, WPD}};
+Desktop publishing software;PDF;EPS;SVG;TeX/LaTeX;RTF;HTML;Word .doc;OOXML .docx;Other;

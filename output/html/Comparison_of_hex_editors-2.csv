@@ -1,0 +1,12 @@
+;Maximum file size;Partial file loading;Disk sector editing;Bit editing;Text editor;Insert/delete bytes;Character encodings(ao);Search Unicode;File structure view;Disassembler;File compare;Find in files;Bookmarks;Macro;Data inspector;
+beye;8 PiB;Yes;No;Yes;No;Yes;ANSI, EBCDIC, ASCII, Macintosh;Yes;;AVR, Java, x86, i386, x86-64, ARM/XScale, PowerPC, PPC64;;;Yes;
+bvi;Unlimited;Yes;;Yes;Yes;Yes;ANSI, ASCII;;No;No;;Yes and replace;;
+Emacs;;;No;No;Yes;Yes;;;No;No;;;;Yes;No;
+FlexHex;Unlimited;Yes;Yes;Yes;No;Yes;ANSI, OEM, UTF-16;Yes;Yes;No;Yes;No;Yes;;Yes;
+Frhed;Limited by RAM;Yes;No(read only);Yes;No;Yes;ANSI, OEM;Yes;Yes;No;Yes;No;Yes;
+Hiew;Unlimited;Yes;WinNT only;Yes;Yes;Yes;ASCII,OEM, Unicode,Custom;Yes;Yes;x86, x86-64, MMX, SSE 4.2, 3DNow! - all assembler, ARM;;Yes;Yes;Yes;
+HxD;Unlimited[2];Yes;Windows 9x/NT and up;Yes;No;Yes;ANSI, ASCII, OEM, EBCDIC, Macintosh;Yes;No;Yes;Yes;Yes;Yes;;Yes;
+VEDIT;Standard, 2 GiB, Pro 64, unlimited;Yes;DOS version only;Yes;Yes;Yes;ANSI, OEM, EBCDIC, ASCII, custom;;No;No;Yes;Yes;Yes;Yes;
+UltraEdit;>4 GiB;Yes;No;No;Yes;Yes;ANSI, OEM, EBCDIC, ASCII, Mac, Unix, UTF-8;Yes;Yes;No;Yes;Yes;Yes;
+WinHex;Unlimited;Yes;Yes;Yes;External: notepad;Yes;Partial support of these formats: ANSI, UNICODE, OEM, UTF-8/UTF-16, EBCDIC, ASCII;Yes;Yes;Only x86 Intel opcodes;Yes;Yes and replace;;Yes[3];Yes;
+;Maximum file size;Partial file loading;Disk sector editing;Bit editing;Text editor;Insert/delete bytes;Character encodings(ao);Search Unicode;File structure view;Disassembler;File compare;Find in files;Bookmarks;Macro;Data inspector;

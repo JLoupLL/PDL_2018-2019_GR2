@@ -1,0 +1,10 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+MovieTweetings;Movie rating dataset based on public and well-structured tweets;;~710,000;Text;Classification, regression;2018;[191];S. Dooms;
+Twitter100k;Pairs of images and tweets;;100,000;Text and Images;Cross-media retrieval;2017;[192][193];Y. Hu, et al.;
+Sentiment140;Tweet data from 2009 including original text, time stamp, user and sentiment.;Classified using distant supervision from presence of emoticon in tweet.;1,578,627;Tweets, comma, separated values;Sentiment analysis;2009;[194][195];A. Go et al.;
+ASU Twitter Dataset;Twitter network data, not actual tweets. Shows connections between a large number of users.;None.;11,316,811 users, 85,331,846 connections;Text;Clustering, graph analysis;2009;[196][197];R. Zafarani et al.;
+SNAP Social Circles: Twitter Database;Large Twitter network data.;Node features, circles, and ego networks.;1,768,149;Text;Clustering, graph analysis;2012;[198][199];J. McAuley et al.;
+Twitter Dataset for Arabic Sentiment Analysis;Arabic tweets.;Samples hand-labeled as positive or negative.;2000;Text;Classification;2014;[200][201];N. Abdulla;
+Buzz in Social Media Dataset;Data from Twitter and Tom's Hardware. This dataset focuses on specific buzz topics being discussed on those sites.;Data is windowed so that the user can attempt to predict the events leading up to social media buzz.;140,000;Text;Regression, Classification;2013;[202][203];F. Kawala et al.;
+Paraphrase and Semantic Similarity in Twitter (PIT);This dataset focuses on whether tweets have (almost) same meaning/information or not. Manually labeled.;tokenization, part-of-speech and named entity tagging;18,762;Text;Regression, Classification;2015;[204][205];Xu et al.;
+Geoparse Twitter benchmark dataset;This dataset contains tweets during different news events in different countries. Manually labeled location mentions.;location annotations added to JSON metadata;6,386;Tweets, JSON;Classification, Information Extraction;2014;[206][207];S.E. Middleton et al.;

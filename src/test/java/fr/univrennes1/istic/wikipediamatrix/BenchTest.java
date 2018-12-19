@@ -7,13 +7,11 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.Test;
 
 import connexionAPI.ExtractionToHTML;
 import connexionAPI.ExtractionToWiki;
-import info.bliki.wiki.model.WikiModel;
 
 public class BenchTest {
 	
@@ -30,7 +28,7 @@ public class BenchTest {
 		// directory where CSV files are exported (HTML extractor) 
 		String outputDirHtml = "output" + File.separator + "html" + File.separator;
 		assertTrue(new File(outputDirHtml).isDirectory());
-		// directory where CSV files are exported (wikitext extractor) 
+		// directory where CSV files are exported (Wikitext extractor) 
 		String outputDirWikitext = "output" + File.separator + "wikitext" + File.separator;
 		assertTrue(new File(outputDirWikitext).isDirectory());
 		
@@ -38,8 +36,11 @@ public class BenchTest {
 		BufferedReader br = new BufferedReader(new FileReader(file));
 	    String url;
 	    int nurl = 0;
-	 	
 	    ExtractionToHTML extractHtml=new ExtractionToHTML();
+	    
+	    //**************************
+	    ExtractionToWiki extractwiki=new ExtractionToWiki();
+	    //*********************
 	    while ((url = br.readLine()) != null) {
 	       String wurl = BASE_WIKIPEDIA_URL + url; 
 	       System.out.println("Wikipedia url: " + wurl);
@@ -65,53 +66,20 @@ public class BenchTest {
 	       // TODO: the Wikitext extractor should save CSV files into output/wikitext
 	       // see outputDirWikitext      
 	       
+	       //****************PARTIE WIKITEXTE*****************
+	       extractwiki.getdocumentToFormatHtmp(url);
+	       Document doc2 = extractwiki.getdocumentToFormatHtmp(url);
+	       extractHtml.pourTousLesTableaux(doc2, "output\\wikitext\\"+csvFileName);
+	       //***************FIN WIKITEXTE *********************
 	       nurl++;	       
-	    }  
-	    assertEquals(nurl, 336);
-	    //partie wiki
-	    int nurl2 = 0;
-	    while ((url = br.readLine()) != null) {
-		      ExtractionToWiki extractwiki=new ExtractionToWiki();
-		       String wurl = BASE_WIKIPEDIA_URL + url; 
-		       System.out.println("Wikipedia url: " + wurl);
-		       // TODO: do something with the Wikipedia URL 
-		       // (ie extract relevant tables for correct URL, with the two extractors)
-		       String newUrl =  extractwiki.getUrlFormatRequeteJson(wurl);
-		       
-		       String list1 = extractwiki.getContenuePage(newUrl);
-		       
-               String formatWiki = extractwiki.getTableFormatwikitext(list1);
-             //  System.out.print(formatWiki);
-		       Document doc = null;
-		       //doc = Jsoup.connect(WikiModel.toHtml(formatWiki)).get();
-               doc = Jsoup.parse(WikiModel.toHtml(formatWiki));
-            //  ExtractionToHTML extractHtml = new ExtractionToHTML();
-              // System.out.print(doc);
-               FileWriter fichierCsv = extractwiki.creationFichierCsv(doc);
-               extractHtml.insertionDonnesTableauDansFichierCSV(doc, fichierCsv);
-		       // for exporting to CSV files, we will use mkCSVFileName 
-		       // example: for https://en.wikipedia.org/wiki/Comparison_of_operating_system_kernels
-		       // the *first* extracted table will be exported to a CSV file called 
-		       // "Comparison_of_operating_system_kernels-1.csv"
-		       String csvFileName = mkCSVFileName(url, 1);
-		       System.out.println("CSV file name: " + csvFileName);
-		       // the *second* (if any) will be exported to a CSV file called
-		       // "Comparison_of_operating_system_kernels-2.csv"
-		       //Continuer a reflechir!!!!
-		       extractHtml.pourTousLesTableaux(doc, "output\\wikitest\\"+csvFileName);
-		       
-		       
-		       // TODO: the HTML extractor should save CSV files into output/HTML
-		       // see outputDirHtml 
-		       
-		       // TODO: the Wikitext extractor should save CSV files into output/wikitext
-		       // see outputDirWikitext      
-		       
-		       nurl2++;	       
-		    }
-		    
+	    }
+	    
 	    br.close();	    
-	    assertEquals(nurl2, 336);
+	    assertEquals(nurl, 336);
+	    
+
+
+
 	}
 
 	private String mkCSVFileName(String url, int n) {

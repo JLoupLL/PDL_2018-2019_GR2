@@ -1,0 +1,8 @@
+Feature;Windows XP;Windows Vista;Windows 7;Windows 8;Windows 10;
+Windows Defender;{{Maybe|Available as a free download[10]}};{{Yes}};{{Yes}};{{Yes|Yes (added antivirus capabilities, available in older versions as the Microsoft Security Essentials download)}};{{Yes|Yes (added antivirus capabilities, available in older versions as the Microsoft Security Essentials download)}};
+Windows Firewall;{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};
+Windows Security Center;{{Maybe|Yes (starting w/ SP2)}};{{Yes}};{{Yes|Yes (replaced by Action Center)}};{{Yes|Yes (replaced by Action Center)}};{{Yes|Yes (replaced by Security and Maintenance)}};
+BitLocker Drive Encryption;{{Maybe|Only viewing contents}};{{Maybe|Yes (Enterprise and Ultimate only)}};{{Maybe|Yes (Enterprise and Ultimate only)}};{{Maybe|Yes (Pro and Enterprise only)}};{{Maybe|Yes (Pro, Enterprise, and Education editions only)}};
+Parental controls;{{Maybe|Some (Internet Explorer allows parental control of web browsing)}};{{Yes}};{{Yes}};{{Yes|Yes (replaced by Family Safety)}};{{Yes|Yes (replaced by Family Safety)}};
+User Account Control;{{No}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};
+Data Execution Prevention;{{Maybe|Yes (starting w/ SP2)}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};

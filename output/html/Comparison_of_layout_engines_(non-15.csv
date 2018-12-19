@@ -1,0 +1,11 @@
+;Trident;Gecko;WebKit;KHTML;Presto;
+Element identifiers;
+id;<3.1[IE 3.0];1.0;Yes;Yes;1.0;
+class;
+Inline styles;
+style;<3.1[IE 3.0];1.0;Yes;Yes;1.0;
+Advisory information;
+title;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+Language information;
+lang;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+dir;<3.1[IE 5.0];

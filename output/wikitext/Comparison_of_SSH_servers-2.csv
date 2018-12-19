@@ -1,0 +1,7 @@
+Name;Mac OS X;Mac OS classic;Windows;Cygwin;BSD;Linux;Solaris;Java;OpenVMS;z/OS;AmigaOS;AIX;HPUX;iOS: iPhone,{{r|group=Note|iphone}} iPod Touch;webOS;Android;
+Apache MINA SSHD;{{yes}};{{no}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};
+Copssh;{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+CrushFTP Server;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};
+Dropbear;{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{yes}}{{r|group=Note|sshwebos}};{{yes}};
+lsh;{{yes}};{{no}};{{no}};{{no}};{{partial}}{{r|group=Note|freebsdonly}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};??;
+OpenSSH;{{included}};{{no}};{{partial}}{{r|group=Note|win32-openssh}};{{included}};{{included}};{{included}}{{r|group=Note|opensshlinux}};{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}}{{r|group=Note|opensshaix}};{{included}};{{yes}}{{r|group=Note|opensshiphone}};{{yes}}{{r|group=Note|sshwebos}};{{partial}};

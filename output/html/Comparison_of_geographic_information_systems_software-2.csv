@@ -1,0 +1,8 @@
+Name;Language;WMS;WFS;WFS-T;WCS;WMC;SLD;FES;Other;
+ArcGIS Server;.NET/Java;Yes;Yes;Yes;Yes;No;Yes;No;SOAP, REST, KML;
+MapServer;C;Yes;Yes;No;Yes;Yes;Yes;Yes;
+Deegree;Java;Yes;Yes;Yes;Yes;No;Yes;Yes;;
+GeoServer;Java;Yes;Yes;Yes;Yes;Yes;Yes;Yes;;
+MapDotNet;C#/.NET;Yes;No;No;No;No;No;No;SOAP and REST feature and map services;
+Manifold System;ASP C#;Yes;Yes;No;No;No;No;No;client and server;
+GeoMedia WebMap;ASP C#;Yes;Yes;Yes;Yes;No;?;No;;

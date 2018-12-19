@@ -1,0 +1,3 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;Nvidia Optimus technology;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro M5500;GM204;28;PCIe 3.0 ×16;;;;2048:128:64 (16 SMM);;;8096;211;GDDR5;256;4700;12.1;4.5;Yes;150;

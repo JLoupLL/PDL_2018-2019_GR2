@@ -1,0 +1,13 @@
+Application;Red (CD-DA);Yellow (CD-ROM);Orange (CD-R/CD-RW);White (VCD/SVCD);Blue (E-CD);Beige (PCD);Green (CD-I);Purple (DDCD);Scarlet (SACD);
+Alcohol 120%;{{no}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+CDBurnerXP;{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+cdrtools;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};
+DeepBurner;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+ExpressBurn;{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+ImgBurn;{{yes}};{{yes}};{{yes}};{{no}}[2];{{dunno}};{{dunno}};{{yes}};{{no}};{{dunno}};
+InfraRecorder;{{dunno}};{{dunno}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+K3b;{{yes}};{{dunno}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{dunno}};
+Nero Burning ROM;{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};
+UltraISO;{{yes}};{{yes}};{{yes}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};
+X-CD-Roast;{{yes}};{{yes}};{{yes}};{{no}};{{no}};{{no}};{{no}};{{no}};{{no}};
+Application;Red (CD-DA);Yellow (CD-ROM);Orange (CD-R/CD-RW);White (VCD/SVCD);Blue (E-CD);Beige (PCD);Green (CD-I);Purple (DDCD);Scarlet (SACD);

@@ -1,0 +1,4 @@
+;Trident;Gecko;WebKit;KHTML;Presto;Prince XML;Antenna House;
+DTD;{{no}};{{partial}}{{#tag:ref|Only inline DTDs are allowed, external DTDs are ignored.[32]|group=note}};{{no}}[33];{{no}};{{partial}}{{#tag:ref|Prior to version 2.0, only inline DTDs are allowed; external DTDs are ignored. In 2.0, it is possible to load external DTDs, but not cross-domain.|group=note}};{{yes|3.0}};{{depends}}[14];
+XML Schema[34][35][36][37];{{Dunno}};{{partial}};rowspan="2" {{no}};{{Dunno}};rowspan="2" {{no}};{{Dunno}};{{depends}}[14];
+RELAX NG[38];{{Dunno}};{{no}}[39];{{Dunno}};{{Dunno}};{{depends}}[14];

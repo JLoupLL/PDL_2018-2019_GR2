@@ -1,0 +1,14 @@
+;Native UTF-16 support{{R|group=Note|unicode_native}};Native UTF-8 support{{R|group=Note|unicode_native}};Multi-line matching;Partial match{{R|group=Note|partial_match_explanation}};
+Boost.Regex;{{No}};{{No}};{{yes}};{{yes}};
+GLib/GRegex;{{yes}};{{yes}};{{yes}};{{yes}};
+Helios RXPF;{{yes}};{{yes}};{{No}};{{yes}};
+ICU Regex;{{yes}};{{No}};{{yes}};{{dunno}};
+Java;{{No}};{{Partial}}{{R|group=Note|Partial_Uni4}};{{yes}};{{yes}};
+.NET;{{No}}{{R|group=Note|UCS2}};{{yes}};{{yes}};{{dunno}};
+PCRE;{{Yes}}{{R|group=Note|8.30}};{{yes}};{{yes}};{{yes}};
+Qt/QRegExp;{{yes}};{{No}};{{No}};{{dunno}};
+Tcl;{{Yes}};{{Yes}}{{R|group=Note|Conversion}};{{Yes}};{{dunno}};
+TRE;{{No}};{{dunno}};{{yes}};{{dunno}};
+RGX;{{No}};{{No}};{{yes}};{{dunno}};
+wxWdigets::wxRegEx{{R|group=Note|wxRegEx}};{{yes}};{{yes}};{{yes}};{{dunno}};
+XRegExp;{{yes}};{{dunno}};{{yes}};{{dunno}};

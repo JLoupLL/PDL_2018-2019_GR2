@@ -1,0 +1,5 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Safe driving mode;{{No2}} 3rd party software;{{Yes|11+}}[317];{{Yes|8 GDR3+}}[318];{{No}};?;?;?;
+Turn-by-turn navigation;{{Yes|2+}}[319];{{Yes|6+}}[320];{{Yes|8+}}[321];{{Yes|10+}}[322];?;{{Yes}};{{No2}} 3rd party software;
+Offline maps;{{No2}} 3rd party software Google Maps,[323] Here Maps;{{Yes|6+}}[324];{{Yes|8+}}[325];{{No2}} 3rd party software;?;{{No2}} 3rd party software;{{No2}} 3rd party software;
+Alternative routes in maps;{{Yes}}[326];{{Yes|5+}}[327][328];{{Yes|10+}}[329];?;?;{{No2}} 3rd party software;{{No2}} 3rd party software;

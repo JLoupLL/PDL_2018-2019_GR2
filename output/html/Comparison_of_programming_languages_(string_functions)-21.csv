@@ -1,0 +1,2 @@
+Definition;left(string,n) returns string;
+Description;Returns the left n part of a string. If n is greater than the length of the string then most implementations return the whole string (exceptions exist – see code examples). Note that for variable-length encodings such as UTF-8, UTF-16 or Shift-JIS, it can be necessary to remove string positions at the end, in order to avoid invalid strings.;

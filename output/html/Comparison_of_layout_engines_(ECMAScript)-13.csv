@@ -1,0 +1,12 @@
+;Trident;Gecko;WebKit;Presto;
+Called as function;
+Error (message);?;?;?;?;
+Called as constructor;
+new Error (message);5.0;1.0;Yes;1.0;
+Properties;
+prototype;5.0;1.0;Yes;1.0;
+Properties of prototype;
+constructor;5.0;1.0;Yes;1.0;
+name;5.5;1.0;Yes;1.0;
+message;5.5;1.0;Yes;1.0;
+toString();5.0;1.0;Yes;1.0;

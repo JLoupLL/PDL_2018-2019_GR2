@@ -1,0 +1,11 @@
+Other software;GUI;CLI;Other;Programming language;Based on;
+ADCCore;{{no}};{{no}};{{no}};C#;CoreDC;
+DCBouncer;{{no}};{{yes}};{{no}};C++;;
+DC-Hublink;{{yes}};{{no}};{{no}};Visual Basic;;
+DCWatch;{{no}};{{yes}};{{no}};Java, Lua;Embla;
+Embla;{{no}};{{no}};{{no}};Java;;
+FlowLib;{{no}};{{no}};{{no}};C#;;
+NetChatLink;{{yes}};{{no}};{{no}};Object Pascal (Delphi);;
+Announcer Bot;{{no}};{{no}};{{no}};Lua;;
+Certmanager;{{yes}};{{no}};{{no}};wxLua;;
+ADC hub;GUI;CLI;Other;Programming language;Based on;

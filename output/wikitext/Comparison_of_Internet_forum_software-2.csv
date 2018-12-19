@@ -1,0 +1,18 @@
+;Flat;Threaded;User selectable themes;Unread message tracking;WYSIWYG Editor;Export, portability;Email / NNTP interface;Languages;SSO;
+bbPress;{{yes}}[27];;;;;{{no}}[28];{{partial|Plugin}}[29][30];{{yes}}[31];;
+Beehive Forum;{{yes}}[27];{{yes}}[27];{{partial}}[27];{{yes|Full}}[27];{{yes}}[27] (using TinyMCE);{{partial}}[32];;;;
+Discourse;{{yes}};{{no}}[33];{{yes}}[34];{{yes|Full}};{{partial|Real-time side-by-side preview}};{{yes|Full}}[35];{{partial}}[36];{{yes}}[37][38];{{yes|OAuth2[39], Custom[40]}};
+Discuz!;;;{{yes}}[41];;;;;;
+FluxBB;{{yes}}[27];{{no}}[27];{{partial}}[27];{{partial|Session}}[27];{{no}}[27];;;{{yes}}[42];;
+FUDforum;{{yes}}[27];{{yes}}[27];{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];{{partial}}[43];{{yes}}[44];{{yes}}[45];
+Invision Power Board;{{yes}}[27];;{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];;{{no}}[46];;{{no}}[47];
+MyBB[48];{{yes}}[27];{{yes}}[27];{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];{{no}}[49];{{no}}[50][51];{{yes}}[52];;
+Phorum;{{yes}}[27];{{yes}}[27];{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];{{partial|Plugin}}[53];;{{no}}[54];;
+phpBB[55];{{yes}}[27];{{no}}[27];{{yes}}[27];{{yes|Full}}[27];{{no}}[27];{{no}}[56];{{no}}[57][58];{{yes}}[59];{{yes}} (LDAP, OAuth)[60];
+PunBB[61];{{yes}}[27];;{{yes}}[27];{{partial|Session}}[27];;;;{{no}}[62][63];;
+Simple Machines Forum;{{yes}}[27];{{no}}[27];{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];{{partial}} [64];{{no}}[65];{{yes}}[66];;
+Thredded;{{yes}}[25];{{no}}[25];{{yes}}[25];{{yes|Full}}[25];{{no}}[25];{{no}}[25];{{partial|Read-only}}[25];{{yes}}[25];{{yes|Custom}}[25];
+UBB.threads;{{yes}}[27];{{yes}}[27];{{yes}}[27];{{yes|Full}}[27];{{no}}[27];;;{{no}}[67];;
+Vanilla Forums;{{yes}}[27];;{{yes}}[27];{{yes}}[27];{{partial|Plugin}}[27];{{partial|Plugin}} [68][69];;{{no}}[70];{{yes}}[71];
+vBulletin[72];{{yes}}[27];{{yes}}[27];{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];{{partial|Plugin}}[73][74];;{{no}}[75];;
+XenForo;{{yes}}[27];;{{yes}}[27];{{yes|Full}}[27];{{yes}}[27];{{yes}}[76];;{{yes}}[77];{{yes}}[78];

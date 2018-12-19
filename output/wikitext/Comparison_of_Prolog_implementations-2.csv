@@ -1,0 +1,13 @@
+;Web-related;
+Name;Conditional compilation;Sockets;Multi-threading;Tabling;HTTP client;HTTP server;HTML Parser;RDF Triple store;
+BProlog;;;;{{yes}};;;;;
+Ciao;{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}};;{{Yes}};;
+ECLiPSe;{{Yes}};{{Yes}};{{Yes}};;{{Yes}};;{{Yes}};;
+GNU Prolog;;{{Yes}};;;;;;;
+Jekejeke Prolog;;{{yes |Yes}};{{Yes}};;{{yes |Yes}};{{yes |Yes}};{{yes |Yes}};;
+LPA-Prolog;;{{yes}};;;{{yes}};{{yes}};{{yes}};;
+SICStus Prolog;{{yes}};{{Yes}};{{Yes}};;;;;;
+SWI-Prolog;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Visual Prolog;{{yes}};{{yes}};{{yes}};;{{yes}};{{yes}};{{yes}};;
+XSB;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};;;;
+YAP-Prolog;{{yes}};{{yes}};{{yes}};{{yes}};;;;;

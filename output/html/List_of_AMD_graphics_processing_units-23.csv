@@ -1,0 +1,16 @@
+Model;Launch;Code name;Fab (nm);Transistors (million);Die size (mm2);Bus interface;Clock rate;Core config[a];Fillrate;Memory;Processing power (GFLOPS);TDP (Watts)[b];API support (version);Release Price (USD);
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Idle;Max.;Direct3D;OpenGL;OpenCL;Vulkan;
+Radeon HD 5450;Feb 4, 2010;Cedar PRO;40;292;59;PCIe 2.1 x16 PCI PCIe 2.1 x1;650 650 650;400 800 800;80:8:4;2.6;5.2;512 1024 2048;6.4 12.8;DDR2 DDR3;64;104;N/A;6.4;19.1;11.3 (11_0);4.5;1.2;N/A;~50;
+Radeon HD 5550;Feb 9, 2010;Redwood LE;627;104;PCIe 2.1 x16;550 550 550;320:16:8;4.4;8.8;12.8 25.6 51.2;DDR2 GDDR3 GDDR5;128;352;10;39;~70;
+Radeon HD 5570;Redwood PRO;650 650;400 900;400:20:8;5.2;13.0;12.8 28.8 57.6;520;80;
+Radeon HD 5610;May 14, 2011;650;500;1024;16.0;GDDR3;;;
+Radeon HD 5670;Jan 14, 2010;Redwood XT;775 775;800 1000;6.2;15.5;512 1024 2048;25.6 64.0;GDDR3 GDDR5;620;15;64;99;
+Radeon HD 5750;Oct 13, 2009;Juniper PRO;1040;170;700 700;1150 1150;720:36:16;11.2;25.2;512 1024;73.6;GDDR5;1008;16;86;129;
+Radeon HD 5770;Juniper XT;850 850;1200 1200;800:40:16;13.6;34.0;76.8;1360;18;108;159;
+Radeon HD 5830;Feb 25, 2010;Cypress LE;2154;334;800;1000;1120:56:16;12.8;44.8;1024;128.0;256;1792;358.4;25;175;239;
+Radeon HD 5850;Sep 30, 2009;Cypress PRO;725 725;1000 1000;1440:72:32;23.2;52.2;1024 2048;2088;417.6;27;151;259;
+Radeon HD 5870;Sep 23, 2009;Cypress XT;850 850;1200 1200;1600:80:32;27.2;68.0;153.6;2720;544;188 228;379;
+Radeon HD 5870 Eyefinity Edition[c][22];Mar 11, 2010;850;1200;2048;228;479;
+Radeon HD 5970;Nov 18, 2009;Hemlock XT;2154×2;334×2;725 725;1000 1000;1600:80:32×2;46.4;116.0;1024×2 2048×2;128×2;256×2;4640;928;51;294;599;
+Model;Launch;Code name;Fab (nm);Transistors (Million);Die Size (mm²);Bus interface;Core (MHz);Memory (MHz);Core config[a];Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single Precision;Double Precision;Idle;Max.;Direct3D;OpenGL;OpenCL;Vulkan;Release Price (USD);
+Clock rate;Fillrate;Memory>;Processing power (GFLOPS);TDP (W)[b];API support (version);

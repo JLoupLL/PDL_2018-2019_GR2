@@ -1,0 +1,13 @@
+Application;bin/cue;Apple disk image;img;ISO image;Nero CD image;Audio file/cue;
+Alcohol 120%;{{yes}};{{no}};{{no}};{{yes}};{{yes}};{{no}};
+CDBurnerXP;{{partial}}[1];{{no}};{{no}};{{yes}};{{partial}}[1];{{yes}};
+cdrtools;{{yes}};{{dunno}};{{dunno}};{{yes}};{{no}};{{yes}};
+DeepBurner;{{dunno}};{{dunno}};{{dunno}};{{yes}};{{dunno}};{{dunno}};
+ExpressBurn;{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}};
+ImgBurn;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{yes}};
+InfraRecorder;{{yes}};{{no}};{{yes}};{{yes}};{{no}};{{dunno}};
+K3b;{{yes}};{{dunno}};{{dunno}};{{yes}};{{yes}};{{yes}};
+Nero Burning ROM;{{yes}};{{no}};{{partial}};{{yes}};{{yes}};{{yes}};
+UltraISO;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+X-CD-Roast;{{dunno}};{{dunno}};{{dunno}};{{yes}};{{dunno}};{{dunno}};
+Application;bin/cue;Apple disk image;img;ISO image;Nero CD image;Audio file/cue;

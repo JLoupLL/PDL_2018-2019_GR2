@@ -1,0 +1,13 @@
+Model;Features;
+Scalable Link Interface (SLI);PureVideo 2 with VP2 Engine: (BSP and 240 AES);PureVideo 4 with VP4 Engine;
+GeForce 210;No;No;Yes;
+GeForce GT 220;
+GeForce GT 240;
+GeForce GTS 250;Yes 3-Way (4-way for EVGA 285 Classified);Yes;No;
+GeForce GTX 260;
+GeForce GTX 260 Core 216;
+GeForce GTX 260 Core 216 (55 nm);
+GeForce GTX 275;
+GeForce GTX 280;
+GeForce GTX 285;
+GeForce GTX 295;Yes;

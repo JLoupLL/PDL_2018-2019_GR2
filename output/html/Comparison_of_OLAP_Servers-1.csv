@@ -1,0 +1,16 @@
+OLAP Server;Company;Website;Latest stable version;Software license;License Pricing;
+Apache Kylin;Apache Software Foundation;[1];2.5.1;Apache 2.0;free;
+Druid;Open source community;[2];0.11.0;Apache 2.0;free;
+Essbase;Oracle;[3];11.1.2.4;Proprietary;[1];
+IBM Cognos TM1;IBM;[4];10.2.2 FP7;Proprietary;-;
+icCube;icCube;[5];6.8.1;Proprietary;community/[2];
+Infor BI OLAP Server;Infor;[6];10.6.0;Proprietary;-;
+Jedox OLAP Server;Jedox;[7];7.0;GPL v2 or EULA, Proprietary;[3];
+Kyligence;Kyligence;[8];3.2.1;Proprietary;-;
+Kyvos BI on Big Data;Kyvos Insights;[9];4.0;Proprietary;-;
+Microsoft Analysis Services;Microsoft;[10];2016;Proprietary;[4];
+MicroStrategy Intelligence Server;MicroStrategy;[11];10.11;Proprietary;-;
+Mondrian OLAP server;Pentaho;[12];3.7;EPL;free;
+Oracle Database OLAP Option;Oracle;[13];11g R2;Proprietary;[5];
+SAP NetWeaver BW;SAP;[14];7.30;Proprietary;-;
+SAS OLAP Server;SAS Institute;[15];9.4;Proprietary;-;

@@ -1,0 +1,13 @@
+;Resource access control;Subsystem isolation mechanisms;Integrated firewall;Encrypted file systems;Defender;Windows Hello;
+Windows 2000;ACLs;;TCP/IP Filtering, IPSec;{{Yes}} (NTFS only);{{No}};{{No}};
+Windows XP;ACLs;Win32 WindowStation, Desktop, Job objects;Windows Firewall (from SP2), TCP/IP Filtering, IPSec;{{Yes}} (NTFS only);{{Optional}};{{No}};
+Windows Server 2003;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Optional}};{{No}};
+Windows Vista;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows Server 2008;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows 7;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows Server 2012;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows 8;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows Server 2012 R2;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows 8.1;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{No}};
+Windows 10;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{Yes}};
+Windows Server 2016;ACLs, Privileges, RBAC;Win32 WindowStation, Desktop, Job objects;Windows Firewall, TCP/IP Filtering, IPSec;{{Yes}};{{Yes}};{{Yes}};

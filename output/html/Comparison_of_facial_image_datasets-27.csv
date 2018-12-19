@@ -1,0 +1,4 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Ecoli Dataset;Protein localization sites.;Various features of the protein localizations sites are given.;336;Text;Classification;1996;[396][397];K. Nakai et al.;
+MicroMass Dataset;Identification of microorganisms from mass-spectrometry data.;Various mass spectrometer features.;931;Text;Classification;2013;[398][399];P. Mahe et al.;
+Yeast Dataset;Predictions of Cellular localization sites of proteins.;Eight features given per instance.;1484;Text;Classification;1996;[400][401];K. Nakai et al.;

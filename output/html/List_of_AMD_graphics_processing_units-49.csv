@@ -1,0 +1,15 @@
+Model (Codename);Launch;Architecture (Fab);Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TDP;
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Bus type & width;Size (GiB);Clock (MT/s);Band- width (GB/s);
+Radeon R5 M330[113] (Exo Pro);2015;GCN 1st gen (28 nm);320:20:8;Unknown 1030;8.2;20.6;659.2;DDR3 64-bit;2 4;1000;14.4 16;18 W;
+Radeon R5 M335[113] (Exo Pro);2015;320:20:8;Unknown 1070;8.6;21.4;684.8;DDR3 64-bit;2 4;1100;17.6;Unknown;
+Radeon R7 M360[114] (Meso XT);2015;384:24:8;Unknown 1125;9;27;864;DDR3 64-bit;2 4;1000;16;Unknown;
+Radeon R9 M365X[115] (Strato Pro);2015;640:40:16;Unknown 925;14.8;37;1184;GDDR5 128-bit;4;1125;72;50 W;
+Radeon R9 M370X[115] (Strato Pro);May 2015;640:40:16;800;12.8;32;1024;GDDR5 128-bit;2;1125;72;40–45 W;
+Radeon R9 M375[115] (Strato Pro);2015;640:40:16;Unknown 1015;16.2;40.6;1299.2;GDDR5 128-bit;4;1100;35.2;Unknown;
+Radeon R9 M375X[115] (Strato Pro);2015;640:40:16;Unknown 1015;16.2;40.6;1299.2;GDDR5 128-bit;4;1125;72;Unknown;
+Radeon R9 M380[115] (Strato Pro);2015;640:40:16;Unknown 900;14.4;36;1152;GDDR5 128-bit;4;1500;96;Unknown;
+Radeon R9 M385X[115] (Strato);2015;GCN 2nd gen (28 nm);896:56:16;Unknown 1100;17.6;61.6;1971.2;GDDR5 128-bit;4;1500;96;~75 W;
+Radeon R9 M390[115] (Pitcairn);June 2015;GCN 1st gen (28 nm);1024:64:32;Unknown 958;30.7;61.3;1962;GDDR5 256-bit;2;1365;174.7;~100 W;
+Radeon R9 M390X[115] (Amethyst XT);2015;GCN 3rd gen (28 nm);2048:128:32;Unknown 723;23.1;92.5;2961.4;GDDR5 256-bit;4;1250;160;125 W;
+Radeon R9 M395[115] (Amethyst Pro);2015;1792:112:32;Unknown 834;26.6;93.4;2989.0;GDDR5 256-bit;2;1365;174.7;125 W;
+Radeon R9 M395X[115] Amethyst XT);2015;2048:128:32;Unknown 909;29.1;116.3;3723.3;GDDR5 256-bit;4;1365;174.7;125 W;

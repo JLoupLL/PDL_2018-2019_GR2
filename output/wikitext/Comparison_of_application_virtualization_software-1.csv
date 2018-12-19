@@ -1,0 +1,13 @@
+Virtual machine;Machine model;Memory management;Code security;Interpreter;JIT;AOT;Shared libraries;Common Language Object Model;Dynamic typing;
+Android Runtime (ART);register;automatic;{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};
+Common Language Runtime (CLR);stack;automatic or manual;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Dis (Inferno);register;automatic;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+DotGNU Portable.NET;stack;automatic or manual;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};
+Java virtual machine (JVM);stack;automatic;{{yes}};{{yes}};{{yes}};{{yes}};{{Yes}};{{yes}};{{yes}}[1];
+JikesRVM;stack;automatic;{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};
+LLVM;register;manual;{{no}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};
+Mono;stack;automatic or manual;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+Parrot;register;automatic;{{no}};{{yes}};{{no}}[2];{{yes}};{{yes}};{{yes}};{{yes}};
+Dalvik;register;automatic;{{yes}};{{yes}};{{yes}};{{no}};{{dunno}};{{no}};{{no}};
+Squeak;stack;automatic;{{no}};{{yes}};{{yes}};{{no}};{{yes}};{{no}};{{yes}};
+BEAM (Erlang);register;automatic;{{dunno}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};

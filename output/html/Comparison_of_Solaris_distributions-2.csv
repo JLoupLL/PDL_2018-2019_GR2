@@ -1,0 +1,9 @@
+Distribution;Supported architectures;Install-time desktop environment selection;
+BeleniX;x86, x86-64;KDE, Xfce;
+Nexenta OS;x86, x86-64;GNOME;
+NexentaStor;x86(-64?);?;
+OmniOS;x86, x86-64;none;
+OpenIndiana;x86, x86-64;GNOME;
+SmartOS;x86-64[11];none;
+v9os;SPARC;none;
+Distribution;Supported architectures;Install-time desktop environment selection;

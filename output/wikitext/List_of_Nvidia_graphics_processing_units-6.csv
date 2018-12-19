@@ -1,0 +1,15 @@
+Model;Features;
+nFiniteFX II Engine;Video Processing Engine (VPE);
+GeForce4 MX420;{{no}};{{yes}};
+GeForce4 MX440 SE;{{no}};{{yes}};
+GeForce4 MX4000;{{no}};{{yes}};
+GeForce4 PCX4300;{{no}};{{yes}};
+GeForce4 MX440;{{no}};{{yes}};
+GeForce4 MX440 8X;{{no}};{{yes}};
+GeForce4 MX460;{{no}};{{yes}};
+GeForce4 Ti4200;{{yes}};{{no}};
+GeForce4 Ti4200 8x;{{yes}};{{no}};
+GeForce4 Ti4400;{{yes}};{{no}};
+GeForce4 Ti4400 8x;{{yes}};{{no}};
+GeForce4 Ti4600;{{yes}};{{no}};
+GeForce4 Ti4600 8x;{{yes}};{{no}};

@@ -1,0 +1,7 @@
+Model;Released;Codename;Architecture;Fab (nm);Core Clock rate (MHz);Config core[a];Fillrate;Shared Memory;Processing power (GFLOPS);API compliance (version);Combined TDP[b];APU;
+Pixel (GP/s);Texture (GT/s);Bus width (bit);Bus type;Bandwidth (GB/s);Direct3D;OpenGL[c];OpenCL;Vulkan;Idle (W);Max. (W);
+Radeon HD 7340[24];June 6, 2012;Ontario;TeraScale 2;40;523;80:8:4;2.1;4.2;128;DDR3-1333;21.3;60;11.0;;;;;9;E2-1800;
+Radeon HD 7480D;June 1, 2012;Scrapper;TeraScale 3;32;723;128:8:4;2.9;11.6;128;DDR3-1600;25.6;185;11.3 (11_0);4.5;1.2;N/A;Unknown;65;A4-4000, A4-5300;
+Radeon HD 7540D;760;192:12:4;Unknown;DDR3-1866;29.9;292;A6-5400K;
+Radeon HD 7560D;Devastator;256:16:4;389;65–100;A8-5500, A8-5600K;
+Radeon HD 7660D;760–800;384:24:8;2.7;16.2;584–614;A10-5700 (760 MHz), A10-5800K (800 MHz);

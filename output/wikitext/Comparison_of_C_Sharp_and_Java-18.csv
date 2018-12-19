@@ -1,0 +1,8 @@
+Metadata;Java;C#;
+Metadata annotations/attributes;{{yes|Interface based}}; user-defined annotations can be created[77];{{yes|Class based}};
+Positional arguments;{{no}}; unless a single argument;{{yes}};
+Named arguments;{{yes}};{{yes}};
+Default values;{{yes|At definition}};{{yes|Through initialization}};
+Nested types;{{yes}};{{yes}};
+Specialization;{{no}};{{yes}};
+Conditional metadata;{{no}};{{yes}};

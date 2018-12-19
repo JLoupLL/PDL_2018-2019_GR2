@@ -1,0 +1,11 @@
+;Trident;Tasman;Gecko;WebKit;KHTML;Presto;iCab;
+form;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+input;
+select;
+option;
+textarea;
+button;
+fieldset;
+label;
+legend;
+optgroup;

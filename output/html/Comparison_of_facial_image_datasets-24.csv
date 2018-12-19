@@ -1,0 +1,16 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+EEG Database;Study to examine EEG correlates of genetic predisposition to alcoholism.;Measurements from 64 electrodes placed on the scalp sampled at 256 Hz (3.9 ms epoch) for 1 second.;122;Text;Classification;1999;[343][344];H. Begleiter;
+P300 Interface Dataset;Data from nine subjects collected using P300-based brain-computer interface for disabled subjects.;Split into four sessions for each subject. MATLAB code given.;1,224;Text;Classification;2008;[345][346];U. Hoffman et al.;
+Heart Disease Data Set;Attributed of patients with and without heart disease.;75 attributes given for each patient with some missing values.;303;Text;Classification;1988;[347][348];A. Janosi et al.;
+Breast Cancer Wisconsin (Diagnostic) Dataset;Dataset of features of breast masses. Diagnoses by physician is given.;10 features for each sample are given.;569;Text;Classification;1995;[349][350];W. Wolberg et al.;
+National Survey on Drug Use and Health;Large scale survey on health and drug use in the United States.;None.;55,268;Text;Classification, regression;2012;[351];United States Department of Health and Human Services;
+Lung Cancer Dataset;Lung cancer dataset without attribute definitions;56 features are given for each case;32;Text;Classification;1992;[352][353];Z. Hong et al.;
+Arrhythmia Dataset;Data for a group of patients, of which some have cardiac arrhythmia.;276 features for each instance.;452;Text;Classification;1998;[354][355];H. Altay et al.;
+Diabetes 130-US hospitals for years 1999–2008 Dataset;9 years of readmission data across 130 US hospitals for patients with diabetes.;Many features of each readmission are given.;100,000;Text;Classification, clustering;2014;[356][357];J. Clore et al.;
+Diabetic Retinopathy Debrecen Dataset;Features extracted from images of eyes with and without diabetic retinopathy.;Features extracted and conditions diagnosed.;1151;Text;Classification;2014;[358][359];B. Antal et al.;
+Diabetic Retinopathy Messidor Dataset;Methods to evaluate segmentation and indexing techniques in the field of retinal ophthalmology (MESSIDOR);Features retinopathy grade and risk of macular edema;1200;Images,Text;Classification, Segmentation;2008;[360][361];Messidor Project;
+Liver Disorders Dataset;Data for people with liver disorders.;Seven biological features given for each patient.;345;Text;Classification;1990;[362][363];Bupa Medical Research Ltd.;
+Thyroid Disease Dataset;10 databases of thyroid disease patient data.;None.;7200;Text;Classification;1987;[364][365];R. Quinlan;
+Mesothelioma Dataset;Mesothelioma patient data.;Large number of features, including asbestos exposure, are given.;324;Text;Classification;2016;[366][367];A. Tanrikulu et al.;
+Parkinson's Vision-Based Pose Estimation Dataset;2D human pose estimates of Parkinson's patients performing a variety of tasks.;Camera shake has been removed from trajectories.;134;Text;Classification, regression;2017;[368][369][370];M. Li et al.;
+KEGG Metabolic Reaction Network (Undirected) Dataset;Network of metabolic pathways. A reaction network and a relation network are given.;Detailed features for each network node and pathway are given.;65,554;Text;Classification, clustering, regression;2011;[371];M. Naeem et al.;

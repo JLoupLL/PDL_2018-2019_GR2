@@ -1,0 +1,3 @@
+Kernel name;Deflate;zlib;LZO;LZJB;gzip;
+Linux;{{yes}};{{yes}};{{yes}};{{no}};{{yes}};
+Solaris kernel;{{dunno}};{{dunno}};{{dunno}};{{yes}};{{yes}};

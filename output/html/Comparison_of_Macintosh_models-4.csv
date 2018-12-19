@@ -1,0 +1,16 @@
+Model;USB;Gigabit Ethernet;AirPort Extreme;Bluetooth;Video interface;SD card slot;Keyboard and mouse;iSight/Facetime Camera;Remote IR receiver;
+Mac mini[1];4;Yes;Yes;Yes;HDMI and Thunderbolt 2;Yes;No;No;Yes;
+iMac 21.5 in[2];4;Yes;Yes;Yes;Thunderbolt 3;Yes;Yes;Yes;No;
+iMac 21.5 in Retina Display[2];4;Yes;Yes;Yes;Thunderbolt 3;Yes;Yes;Yes;No;
+iMac 27 in[2];4;Yes;Yes;Yes;Thunderbolt 3;Yes;Yes;Yes;No;
+Mac Pro Quad-Core[3];4;2;Yes;Yes;HDMI and Thunderbolt 2;No;No;No;No;
+Mac Pro 6-Core[3];4;2;Yes;Yes;HDMI and Thunderbolt 2;No;No;No;No;
+MacBook Air[4];2;No;Yes;Yes;Thunderbolt 2;Yes;Integrated;Yes;No;
+MacBook 1.1 GHz;1 USB-C;No;Yes;Yes;HDMI and VGA through USB-C adapter;No;Integrated;Yes;No;
+MacBook 1.2 GHz;1 USB-C;No;Yes;Yes;HDMI and VGA through USB-C adapter;No;Integrated;Yes;No;
+MacBook Pro 13 in 2.0 GHz[6];2 USB-C;No;Yes;Yes;Thunderbolt 3;No;Integrated;Yes;No;
+MacBook Pro 13 in 2.9 GHz[6];4 USB-C;No;Yes;Yes;Thunderbolt 3;No;Integrated;Yes;No;
+MacBook Pro 15 in 2.6 GHz[6];4 USB-C;No;Yes;Yes;Thunderbolt 3;No;Integrated;Yes;No;
+MacBook Pro 15 in 2.7 GHz[6];4 USB-C;No;Yes;Yes;Thunderbolt 3;No;Integrated;Yes;No;
+MacBook Pro 13 in 2.7 GHz[6];2;No;Yes;Yes;HDMI and Thunderbolt 2;Yes;Integrated;Yes;No;
+MacBook Pro 15 in 2.2 GHz[6];2;No;Yes;Yes;HDMI and Thunderbolt 2;Yes;Integrated;Yes;No;

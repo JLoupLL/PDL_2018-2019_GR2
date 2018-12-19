@@ -1,0 +1,17 @@
+Graphics;Launch;Market;Chipset;Code name;Device id.[3];Core render clock (MHz);Pixel pipelines;Shader model (vertex/pixel);API support[4];Memory bandwidth (GB/s);DVMT (MiB);Hardware acceleration;
+Direct3D;OpenGL;OpenCL;MPEG-2;VC-1;AVC;
+GMA 900;2004;Desktop;910GL;Grantsdale;2582 258A;333;4;3.0 (SW) / 2.0;9.0 (No WDDM nor Aero support);1.4Windows 1.4macOS 2.1Linux ES 2.0Linux;No;3.2;128;MC[6][7];No;No;
+915GL;
+915GV;8.5;
+915G;
+2005;Mobile;Mobile 915 Family;Alviso;2592;133–333;
+GMA 950;Desktop;945GZ;Lakeport;2772;400;9.0c FL9_1;256[7][8];
+945GC;10.7;
+945G;
+2006;Mobile;Mobile 945 Family;Calistoga;27A2 27AE;166–400[9];
+GMA 3100;2007;Desktop;Q33;Bearlake;29D2;400[10][11];12.8;
+Q35;29B2;
+G31;29C2;
+G33;12.8 (DDR2) 17 (DDR3);Variable-Length Decoding (VLD) + iDCT + MC (Full)[7];
+GMA 3150;2010;Nettop;Atom D4xx Atom D5xx;Pineview;A001;2;1.5Windows 2.1Linux ES 2.0Linux;6.4;384;
+Netbook;Atom N4xx Atom N5xx;A011;200;5.3;

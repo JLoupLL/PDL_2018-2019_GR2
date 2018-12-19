@@ -1,0 +1,11 @@
+;Trident;Tasman;Gecko;WebKit;KHTML;Presto;iCab;
+caption;rowspan="10" {{Yes}};rowspan="5" {{Yes}};rowspan="10" {{Yes}};rowspan="10" {{Yes}};rowspan="10" {{Yes}};rowspan="10" {{Yes}};rowspan="9" {{Yes}};
+table;
+td;
+th;
+tr;
+col;rowspan="2" {{Dunno}};
+colgroup;
+tbody;rowspan="3" {{Yes}};
+thead;
+tfoot;{{Dunno}};

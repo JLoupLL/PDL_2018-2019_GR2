@@ -1,0 +1,17 @@
+;Skrill;Stripe;PayPal Pro;PayPal Payflow Link;PayPal Payflow Pro;Sage Pay Form;Sage Pay Direct;USAePay;WorldPay;Offline processing;Offline methods;
+Apache OFBiz;No;No;No;No;No;No;No;No;Yes;Yes;Yes;
+Batavi;No;No;No;No;No;No;No;No;No;Yes;Yes;
+Bigcommerce;No;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+Drupal Commerce;Yes;Yes;Yes;Yes;Yes;No;No;Yes;No;No;No;
+KonaKart;Yes;No;No;No;Yes;No;No;Yes;Yes;Yes;Yes;
+Magento;Yes;Yes;Yes;Yes;Yes;Yes;Yes;add-on ($175.00);Yes;Yes;Yes;
+nopCommerce;Yes;Yes;Yes;Yes;Yes;Yes;Yes;add-on ($175.00);Yes;Yes;Yes;
+osCommerce;Yes;Yes;Yes;No;No;Yes;Yes;No;No;Yes;Yes;
+pimcore;No;No;No;No;No;No;No;No;No;No;No;
+PrestaShop;Yes;Yes;Yes;No;No;No;No;No;Yes;Yes;Yes;
+Sana Commerce;No;No;Yes;Yes;Yes;No;No;No;No;Yes;Yes;
+Shopify;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+Virto Commerce;No;Yes;Yes;No;No;No;No;No;No;Yes;Yes;
+WooCommerce;No;Yes;Yes;Yes;Yes;Yes;Yes;No;Yes;Yes;Yes;
+Zen Cart;Yes;Yes;Yes;No;free add-on;No;Yes;Yes;Yes;free add-on, removed from core for PCI compliance;Yes;
+;Skrill;Stripe;PayPal Pro;PayPal Payflow Link;PayPal Payflow Pro;Sage Pay Form;Sage Pay Direct;USAePay;WorldPay;Offline processing;Offline methods;

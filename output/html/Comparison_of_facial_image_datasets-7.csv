@@ -1,0 +1,12 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Stanford Sentiment Treebank;Positive and negative movie reviews;;11k;Text;Sentiment analysis;2005;[1];Bo Pang & Lillian Lee;
+IMDB Reviews;Positive and negative movie reviews;;50k;Text;Sentiment analysis;2011;[2];Maas et al.;
+Movie Review Data;Positive and negative movie reviews;;2k;Text;Sentiment analysis;2005;[3];Bo Pang & Lillian Lee;
+Amazon reviews;US product reviews from Amazon.com.;None.;~ 82M;Text;Classification, sentiment analysis;2015;[159];McAuley et al.;
+OpinRank Review Dataset;Reviews of cars and hotels from Edmunds.com and TripAdvisor respectively.;None.;42,230 / ~259,000 respectively;Text;Sentiment analysis, clustering;2011;[160][161];K. Ganesan et al.;
+MovieLens;22,000,000 ratings and 580,000 tags applied to 33,000 movies by 240,000 users.;None.;~ 22M;Text;Regression, clustering, classification;2016;[162];GroupLens Research;
+Yahoo! Music User Ratings of Musical Artists;Over 10M ratings of artists by Yahoo users.;None described.;~ 10M;Text;Clustering, regression;2004;[163][164];Yahoo!;
+Car Evaluation Data Set;Car properties and their overall acceptability.;Six categorical features given.;1728;Text;Classification;1997;[165][166];M. Bohanec;
+YouTube Comedy Slam Preference Dataset;User vote data for pairs of videos shown on YouTube. Users voted on funnier videos.;Video metadata given.;1,138,562;Text;Classification;2012;[167][168];Google;
+Skytrax User Reviews Dataset;User reviews of airlines, airports, seats, and lounges from Skytrax.;Ratings are fine-grain and include many aspects of airport experience.;41396;Text;Classification, regression;2015;[169];Q. Nguyen;
+Teaching Assistant Evaluation Dataset;Teaching assistant reviews.;Features of each instance such as class, class size, and instructor are given.;151;Text;Classification;1997;[170][171];W. Loh et al.;

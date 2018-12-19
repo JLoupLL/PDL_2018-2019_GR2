@@ -1,0 +1,3 @@
+Model;CPU/APU PCIe Link;PCIe;SATA + SATA Express;USB 3.1 Gen2 + 3.1 Gen1 + 2.0;RAID;Overclocking;TDP (W);Chipset lithography;Features / notes;Part number;
+Chipset PCIe 2.0 Lanes;CrossFire;SLI;
+X399[27][26];4;8×;Yes;Yes;4 + 2;2 + 14 + 6;0,1,10;Yes;TBA;TBA;TBA;TBA;

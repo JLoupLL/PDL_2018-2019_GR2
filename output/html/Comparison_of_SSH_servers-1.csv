@@ -1,0 +1,7 @@
+Name;Developer;First release date;Last release;Last release date;License;
+Apache MINA SSHD;Apache Software Foundation;2009;2.0.0;2018-05-28[1];Apache License v2;
+CopSSH;Itefix;2003-08-12;6.1.2;2018-02-19[2];Proprietary, Free for non-commercial use;
+CrushFTP Server;CrushFTP, LLC;2003-01-01;7.6.0;2016-05-07;Proprietary, shareware;
+Dropbear;Matt Johnston;2003-04-06[3];2018.76;2018-02-27[4];MIT;
+lsh;Niels Möller;1999-05-23[5];2.1;2013-06-26;GPL;
+OpenSSH;The OpenBSD project;1999-12-01;7.7;2018-04-03[6];BSD;

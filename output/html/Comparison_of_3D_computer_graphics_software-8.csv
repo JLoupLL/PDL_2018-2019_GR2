@@ -1,0 +1,7 @@
+Application;Hard surface Modeling;Sculpt Modeling;Non-destructive Modeling;
+Polygon Modeling;Subdivision Modeling;Base-mesh Creation;Sculpting;Retopology;Boolean;Bevel;Procedural;
+Maya;Yes;Yes;(SOuP BMesh);Yes;Yes;Yes;Yes;Yes;
+3ds Max;Yes;Yes;(Form);Paint Deform;Yes;Yes;Yes;Yes;
+Blender;Yes;Yes;Skin Modifier;Yes;Yes;Yes;Yes;stack only;
+ZBrush;ZModeler;ZModeler;ZSphere and ZSketch;Yes;Yes;4R8 and later;?;No;
+Curvy 3D;No;No;sketch-based;Yes;?;?;?;No;

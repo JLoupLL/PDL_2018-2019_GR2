@@ -1,0 +1,16 @@
+;Amazon FPS;Checkout by Amazon;Google Checkout;PayPal Express;
+Apache OFBiz;No;Yes;Yes;Yes;
+Batavi;No;?;No;No;
+Bigcommerce;No;No;No;Yes;
+Drupal Commerce;Yes;?;Yes;Yes;
+Magento;Yes;free add-on;Yes;Yes;
+nopCommerce;Yes;Yes;Yes;Yes;
+osCommerce;No;?;No;Yes;
+pimcore;No;No;No;No;
+PrestaShop;Yes;Yes;Yes;Yes;
+Sana Commerce;No;No;No;Yes;
+Shopify;No;?;Yes;Yes;
+Virto Commerce;No;No;No;Yes;
+WooCommerce;No;Yes;Yes;Yes;
+Zen Cart;No;free add-on [35];free add-on;Yes;
+;Amazon FPS;Checkout by Amazon;Google Checkout;PayPal Express;

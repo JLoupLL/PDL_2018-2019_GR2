@@ -1,0 +1,11 @@
+Name;Creator;Primary Purpose(s);First release date;Most recent update;Most recent version;Cost;License;Main user interface type;Development status;
+Bidule;Plogue;Realtime synthesis, live coding, algorithmic composition, acoustic research, all-purpose programming language;2002;2017-06;0.9757;Non-free;Proprietary;Graphical;Mature;
+ChucK;Ge Wang and Perry Cook;Realtime synthesis, live coding, pedagogy, acoustic research, algorithmic composition;2004;2018-02-09;v1.4.0.0;Free;GPL;Document;Immature;
+Csound;Barry Vercoe;Realtime performance, sound synthesis, algorithmic composition, acoustic research;1986;2018-05-18;v6.11.0;Free;LGPL;Document, graphical;Mature;
+Impromptu;Andrew Sorensen;Live coding, algorithmic composition, hardware control, realtime synthesis, 2d/3d graphics programming;2006;2010-10;v2.5;Free;Proprietary;Document;Stable;
+Kyma;Carla Scaletti;Realtime audio synthesis, hardware control, acoustic research, algorithmic composition, data sonification, live-performance multi-effects processing;1986;2018-9-03;v7.23;Non-free;Proprietary;Graphical;Mature;
+Max/MSP;Miller Puckette;Realtime audio + video synthesis, hardware control, GUI design;1980s (mid);2017-05-30;v7.3.4;Non-free;Proprietary;Graphical;Mature;
+Pure Data;Miller Puckette;Realtime synthesis, hardware control, acoustic research;1990s;2018-01-07;v0.48-1;Free;BSD-like;Graphical;Mature;
+Reaktor;Native Instruments;Realtime synthesis, hardware control, GUI design;1996;2017-08-16;6.2;Non-free;Proprietary;Graphical;Mature;
+SuperCollider;James McCartney;Realtime synthesis, live coding, algorithmic composition, acoustic research, all-purpose programming language;1996-03;2018-04-08;v3.9.3;Free;GPL;Document;Mature;
+Sporth;Paul Batchelor;Sound design, algorithmic composition, live coding, embedded systems;2015;2016-05;-;Free;MIT;Document;Immature;

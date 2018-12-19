@@ -1,0 +1,5 @@
+IDE;License;Windows;Linux;macOS;Other platforms;Debugger;GUI builder;Toolchain;Profiler;Code coverage;Autocomplete;Static code analysis;GUI-based design;Class browser;Latest stable release;
+Eclipse w/ AonixADT[1];{{yes|EPL}};{{yes}};{{yes}};{{yes}};FreeBSD, JVM, Solaris;{{yes}};{{yes}}[2];{{no}};{{unk}};{{unk}};{{yes}};{{unk}};{{no}};{{yes}};December 2009;
+GNAT Programming Studio;{{yes|GPL}};{{yes}};{{yes}};{{yes}};DragonFly BSD, FreeBSD, NetBSD, OpenBSD, Solaris;{{yes}};{{yes}}[3];{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};{{yes}};June 2014;
+SlickEdit;{{Proprietary}};{{Yes}};{{Yes}};{{Yes}};Solaris, Solaris SPARC, AIX, HP-UX;{{Yes}};{{No}};{{No}};{{No}};{{No}};{{Yes}};{{No}};{{No}};{{Yes}};October 2016;
+Understand;{{proprietary}};{{yes}};{{yes}};{{yes}};Solaris;{{no}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{yes}};December 2015;

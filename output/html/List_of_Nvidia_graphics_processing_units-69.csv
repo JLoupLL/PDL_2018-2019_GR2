@@ -1,0 +1,9 @@
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS);Supported API version;Nvidia Optimus technology;TDP (Watts);Notes;
+Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Direct3D;OpenGL;
+Quadro K510M;GK208;28;PCIe 3.0 ×8;850;850;1200 (2400);192:16:8 (1 SMX);6.8;13.6;1024;19.2;GDDR5;64;326.4;11.0;4.5;Yes;30;;
+Quadro K610M;GK208;28;PCIe 3.0 ×16;980;980;1300 (2600);192:16:8 (1 SMX);7.84;15.68;1024;20.8;GDDR5;64;376.32;11.0;4.5;Yes;30;;
+Quadro K1100M;GK107;28;PCIe 3.0 ×16;716;716;1400 (2800);384:32:16 (2 SMX);11.45;22.91;2048;44.8;GDDR5;128;549.89;11.0;4.5;Yes;45;Dell Precision M3800 and M4800;
+Quadro K2100M;GK106;28;PCIe 3.0 ×16;654;654;1500 (3000);576:48:16 (3 SMX);10.46;31.39;2048;48.0;GDDR5;128;753.41;11.0;4.5;Yes;55;Dell Precision M4800;
+Quadro K3100M;GK104;28;PCIe 3.0 ×16;680;680;800 (3200);768:64:32 (4 SMX);21.76;43.52;4096;102.4;GDDR5;256;1044.48;11.0;4.5;Yes;75;Dell Precision M6800;
+Quadro K4100M;GK104;28;PCIe 3.0 ×16;706;706;800 (3200);1152:96:32 (6 SMX);22.59;67.77;4096;102.4;GDDR5;256;1626.624;11.0;4.5;Yes;100;Dell Precision M6800;
+Quadro K5100M;GK104;28;PCIe 3.0 ×16;771;771;900 (3600);1536:128:32 (8 SMX);24.67;98.68;8192;115.2;GDDR5;256;2368.51;11.0;4.5;Yes;100;Dell Precision M6800;

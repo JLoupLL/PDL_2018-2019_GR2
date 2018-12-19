@@ -1,0 +1,7 @@
+Kernel Name;TCP;UDP;SCTP;DCCP;
+DragonFly BSD kernel;{{yes}};{{yes}};{{no}};{{no}};
+FreeBSD kernel;{{yes}};{{yes}};{{yes}};{{no}};
+Linux kernel;{{yes}};{{yes}};{{yes}};{{yes}};
+Solaris kernel;{{yes}};{{yes}};{{yes}};{{dunno}};
+Windows NT kernel;{{yes}};{{yes}};{{no}};{{dunno}};
+XNU;{{yes}};{{yes}};{{no}};{{no}};

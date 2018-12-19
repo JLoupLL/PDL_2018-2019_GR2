@@ -1,0 +1,17 @@
+kernel;HP;Softbank/ARM Holdings;Intel;Tallwood MIPS;IBM;Renesas Electronics;Oracle;NXP;Analog Devices;Xilinx;Cadence;Canon/Axis Comm.;Socionext;Microchip/ Atmel;CML/ Hyperstone;Intel/Altera;WDC;Sunplus Technology;Mellanox;TI;
+VAX;Alpha;PA-RISC;ARM;x86;i960;IA-64;MIPS;PowerPC;S/390;z/Arch;H8300;M16C;M32R;78K;V850;SuperH;SPARC;m68k;Blackfin (no-mmu);MicroBlaze;Xtensa;ETRAX CRIS;FR-V;MN10300;AVR32;E1 (no-mmu);Nios (no-mmu);Nios II;WDC 65C816;S+core;Tilera;C6X;
+mmu;no-mmu;x86;x86-64;mmu;no-mmu;32-bit;64-bit;mmu;no-mmu;32-bit;64-bit;no-mmu;mmu;no-mmu;mmu;no-mmu;mmu;no-mmu;
+DragonFly BSD kernel;No;No;No;No;No;No;Yes;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;
+FreeBSD kernel;No;No;No;Yes;?;Yes;Yes;?;Yes;Yes;No;Yes;Yes;No;No;?;?;?;?;?;No;No;No;Yes;?;No;No;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+Linux kernel;No;Yes;Yes;Yes;Yes;Yes;Yes;No;Yes;Yes;?;Yes;Yes;Yes;Yes;Yes;No;4.16 and below only[35];No;2.6 and below only;Yes;Yes;Yes;Yes;Yes;Yes;Yes;4.16 and below only[35];Yes;Yes;Yes;4.16 and below only[35];4.16 and below only[35];4.16 and below only[35];4.12 and below only;No;No;Yes;Yes;No;4.16 and below only[35];4.16 and below only[35];Yes;
+MINIX 3 kernel;?;No;No;Yes;?;Yes;In progress;No;No;In progress;?;No;No;No;No;No;?;No;?;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;
+NetBSD kernel;Yes;Yes;Yes;Yes;No[36];Yes;Yes;?;Yes;Yes;No[36];Yes;No;No;No;?;?;?;?;?;Yes;No[36];Yes;Yes;No[36];Yes;No[36];?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+NetWare kernel;No;No;No;No;No;Yes;No;?;No;No;No;No;No;No;No;?;?;?;?;?;No;No;No;No;No;No;No;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+OpenBSD kernel;Yes;Yes;Yes;Yes;?;Yes;Yes;?;No;Yes;?;Yes;No;No;No;?;?;?;?;?;Yes;?;Yes;Yes;?;Yes;Yes;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+Rockbox kernel;?;?;?;Yes;?;?;?;?;?;Yes;?;?;?;?;No;?;?;?;?;?;Yes;?;?;?;?;Yes;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+Solaris kernel;No;No;No;No;No;Yes;Yes;?;No;No;No;No;No;No;No;?;?;?;?;?;No;No;Yes;Yes;?;No;No;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+Windows NT kernel;No;NT 5.0 RC1 and below only;No;Yes;No;Yes;Yes;No;XP and 2003-2008 R2 only;NT 4.0 and below only;No;NT 3.51 and NT 4.0 only;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;
+Windows CE kernel;No;No;No;Yes;?;Yes;?;No;No;Yes;?;No;No;No;No;No;?;No;?;No;Yes;?;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;
+XNU;No;No;No;Yes;?;Yes;Yes;?;No;No;No;Yes;Yes;No;No;?;?;?;?;?;No;No;No;No;No;No;No;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+SPARTAN kernel;?;No;No;Yes;?;Yes;Yes;?;Yes;Yes;?;Yes;No;No;No;?;?;?;?;?;No;No;Yes;Yes;?;No;No;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;?;
+FreeRTOS kernel;?;?;?;?;Yes[37];?;?;?;?;?;?;Yes[37];?;?;No;Yes[37];?;?;Yes[37];Yes[37];?;Yes[37];?;?;?;?;?;Yes[37];Yes[37];?;?;?;?;?;Yes[37];?;?;?;Yes[37];?;?;?;?;

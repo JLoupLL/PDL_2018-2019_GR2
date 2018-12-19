@@ -1,0 +1,4 @@
+;Trident;Tasman;Gecko;WebKit;KHTML;Presto;
+Interface CSS2Properties;
+Support this interface;DOM2;4.0;Yes;1.0;?;?;1.0;
+Properties;Please refer to Comparison of layout engines (Cascading Style Sheets) for the comparison of CSS properties.;

@@ -1,0 +1,14 @@
+Model;Launch;Micro-archi-tecture;Code name;Fab (nm);Transistors (million);Die size (mm2);Bus interface;Clock rate;Core config1;Fillrate;Memory;Processing power (GFLOPS);API compliance (version);TDP (Watts);Notes;
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;OpenCL;Vulkan;
+FirePro 3D V3700[151];August 8, 2008;Terascale 1;RV620 PRO[152];55;181;67;PCIe 2.0 x16;800;950;40(8×5):4:4:2;3.2;3.2;256;15.2;GDDR3;64;64;-;10.1;3.3 SM4.1;APP Stream only;N/A;32;UVD+, PowerPlay;
+FirePro 3D V3750[153];September 11, 2008;Terascale 1;RV730 PRO;55;514;146;PCIe 2.0 x16;550;750;320(64×5):32:8:4;4.4;17.6;256;24;GDDR3;128;352;-;10.1;3.3;1.0;48;UVD2, PowerPlay;
+FirePro 3D V3800,[154][155];April 26, 2010;TeraScale 2;Redwood Pro GL (RV830);40;627;104;PCIe 2.1 x16;650;900;400(80×5):20:8:5;5.2;13;512;14.4;GDDR3;64;520;?;11.0;4.3 SM5.0;1.2;43;UVD2, PowerPlay, Eyefinity;
+FirePro 3D V4800,[156][157];April 26, 2010;TeraScale 2;Redwood XT GL (RV830);40;672;104;PCIe 2.1 x16;775;9002;400(80×5):20:8:5;6.2;15.5;1024;57.6;GDDR52;128;620;?;11.0;4.3;1.2;69;UVD2, PowerPlay, Eyefinity;
+FirePro 3D V5700[158];August 8, 2008;TeraScale 1;RV730 XT;55;514;146;PCIe 2.0 x16;700;900;320(64×5):32:8:4;5.6;22.4;512;28.8;GDDR3;128;448;-;10.1;3.3;1.0;58;UVD2, PowerPlay;
+FirePro 3D V5800,[154][159];April 26, 2010;TeraScale 2;Juniper XT GL (RV840);40;1040;166;PCIe 2.1 x16;700;10002;800(160×5):40:16:10;11.2;28;1024;64;GDDR52;128;1120;224;11.0;4.3;1.2;74;UVD2, PowerPlay, Eyefinity;
+FirePro 3D V7750[160];March 27, 2009;TeraScale 1;RV730 XTX;55;514;146;PCIe 2.0 x16;800;900;320(64×5):32:8:4;6.4;25.6;1024;28.8;GDDR3;128;512;-;10.1;3.3;1.0;76;UVD2, PowerPlay;
+FirePro 3D V7800,[156][161];April 26, 2010;TeraScale 2;Cypress Pro GL (RV870);40;2154;334;PCIe 2.1 x16;700;10002;1440(288×5):72:32:18;22.4;50.4;2048;128;GDDR52;256;2016;403.2;11.0;4.3;1.2;138;UVD2, PowerPlay, Eyefinity;
+FirePro 3D V8700[162];September 11, 2008;TeraScale 1;RV770 XT;55;956;256;PCIe 2.1 x16;750;8502;800(160×5):40:16:10;12;30;1024;108.8;GDDR52;256;1200;240;10.1;3.3;1.0;151;UVD2, PowerPlay;
+FirePro 3D V8750[163];July 28, 2009;TeraScale 1;RV770 XT;55;956;256;PCIe 2.1 x16;750;9002;800(160×5):40:16:10;12;30;2048;115.2;GDDR52;256;1200;240;10.1;3.3;1.0;154;UVD2, PowerPlay;
+FirePro 3D V8800[164];April 7, 2010;TeraScale 2;Cypress XT GL (RV870);40;2154;334;PCIe 2.1 x16;825;11502;1600(320×5):80:32:20;26.4;66;2048;147.2;GDDR52;256;2640;528;11.0;4.3;1.2;208;UVD2, PowerPlay, Eyefinity;
+FirePro 3D V9800[165];September 9, 2010;TeraScale 2;Cypress XT GL (RV870);40;2154;334;PCIe 2.1 x16;850;11502;1600(320×5):80:32:20;27.2;68;4096;147.2;GDDR52;256;2720;544;11.0;4.3;1.2;225;UVD2, PowerPlay, Eyefinity;

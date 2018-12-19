@@ -1,0 +1,13 @@
+Model (Codename);Launch;Architecture (Fab);Core;Fillrate[a][b][c];Processing power[a][d] (GFLOPS);Memory;TDP;
+Config[e];Clock[a] (MHz);Texture (GT/s);Pixel (GP/s);Bus type & width;Size (GiB);Clock (MT/s);Band- width (GB/s);
+Radeon R5 M230 (Jet Pro);2014;GCN 1st gen (28 nm);320:20:8:5;780 855;3.4;17.1;547;DDR3 64-bit;2 4;1000;16;Unknown;
+Radeon R5 M255 (Jet Pro);June 2014;320:20:8:5;925 940;7.5;18.8;601;DDR3 64-bit;2 4;1000;16;Unknown;
+Radeon R7 M260 (Topaz);June 2014;384:24:8:6;620 980;5.7 7.8;17.2 23.5;549.1 752.6;DDR3 64-bit;2 4;1000;32 16;Unknown;
+Radeon R7 M260X (Opal);June 2014;384:24:8:6;620 715;5.7;17.2;549;GDDR5 128-bit;2 4;1000;64;Unknown;
+Radeon R7 M265 (Opal XT);May 2014;384:24:8:6;725 825;6.6;19.8;633.6;DDR3 64-bit;2 4;1000;16 32;Unknown;
+Radeon R9 M265X (Venus Pro);May 2014;640:40:16:10;575 625;10;25;800;GDDR5 128-bit;2 4;1125;72;Unknown;
+Radeon R9 M270X (Venus XT);May 2014;640:40:16:10;725 775;12.4;31;992;GDDR5 128-bit;2 4;1125;72;Unknown;
+Radeon R9 M275X (Venus XTX);May 2014;640:40:16:10;900 925;14.8;37;1184;GDDR5 128-bit;2 4;1125;72;50 W;
+Radeon R9 M280X (Saturn XT);February 2015;GCN 2nd gen (28 nm);896:56:16:14;1000 1100;17.6;61.6;1792;GDDR5 128-bit;2 4;1500;96;~75 W;
+Radeon R9 M290X (Neptune XT);May 2014;GCN 1st gen (28 nm);1280:80:32:20;850 900;28.8;72;2176 2304;GDDR5 256-bit;4;1200;153.6;100 W;
+Radeon R9 M295X (Amethyst XT);2014;GCN 3rd gen (28 nm);2048:128:32:32;750 800;25.6;102.4;3276.8;GDDR5 256-bit;4;1375;176;250 W;

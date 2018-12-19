@@ -1,0 +1,12 @@
+Name;Keyboard mapping;Session tabs;ZMODEM transfers;Find text in buffer;Mouse input support[Note 1];Unicode support;URL hyperlinking;Public key authentication;Smart card support;Hardware encryption;FIPS 140-2 validation;Scripting;Shared Database;Auto-reconnect;
+AbsoluteTelnet;full;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;?;Yes;Yes;?;?;
+OpenSSH;?;No;No;?;Yes[Note 2];Yes;not native[Note 3];Yes;Yes[Note 4];Yes;Partial[Note 5];No;No;?;
+PACManager;No;Yes;No;Yes;Yes;Yes;Yes;Yes;No;No;No;Yes;?;?;
+PuTTY;No;No[Note 6];No;No;Yes;Yes;No[Note 7];Yes;No[Note 8];No[Note 9];No;No;No;No;
+SecureCRT;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;No;Yes;Yes;No;?;
+SmartFTP;Partial;Yes;No;Yes;Yes;Yes;Yes;Yes;Yes;AES-NI;Yes;No;?;?;
+Tera Term;Yes;Yes;Yes;No;Yes;Yes;Yes;Yes;No;No;No;No;No;?;
+TN3270 Plus;Yes;Yes;No;No;No;No;Yes;Yes;No;No;No;Yes;?;?;
+TtyEmulator;No;No;No;Yes;Yes;No;Yes;Yes;No;No;No;Yes;?;?;
+Xshell;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;No;No;Yes;No;?;
+ZOC;full;Yes;Yes;Alt+F;Yes;UTF-8;Yes;Yes;pkcs#11;No;No;Yes;?;?;

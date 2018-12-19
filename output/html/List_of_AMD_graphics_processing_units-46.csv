@@ -1,0 +1,10 @@
+Model (Codename);Launch;Architecture (Fab);Core config[a];Clock rate (MHz);Fillrate;Processing power (GFLOPS);Shared memory;
+Core (MHz);Boost (MHz);Pixel (GP/s);Texture (GT/s);Bus type & width (bit);Clock;Bandwidth (GB/s);
+Radeon HD 7400G (Scrapper);September 2012;TeraScale 3 (32 nm);192:12:4;327;424;1.31;3.92;125.57;DDR3 128-bit;1333 to 2133;21.33–34.13;
+Radeon HD 7420G (Scrapper);June 2012;128:8:4;480;655;1.92;3.84;122.88;
+Radeon HD 7500G (Scrapper);May 2012;256:16:8;327;424;2.62;5.23;167.42;
+Radeon HD 7520G (Scrapper);June 2012;192:12:4;496;685;1.98;5.95;190.46;
+Radeon HD 7600G (Devastator);September 2012;384:24:8;320;424;2.56;7.68;245.76;
+Radeon HD 7620G (Devastator);May 2012;360;497;2.88;8.64;276.48;
+Radeon HD 7640G (Devastator);256:16:8;496;685;3.97;7.94;253.95;
+Radeon HD 7660G (Devastator);384:24:8;11.9;380.93;

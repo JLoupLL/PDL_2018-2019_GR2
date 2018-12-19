@@ -1,0 +1,8 @@
+Service;Tagging{{r|group=Note|Tagging}};Groups;Conversation{{r|group=Note|Conversation}};Private{{r|group=Note|Private}};Private following list;RSS;Atom;Bookmarklet;
+Tumblr;{{yes}};{{no}};{{no}};{{yes}};{{dunno}};{{yes}};{{no}};{{dunno}};
+Facebook;{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{no}};{{dunno}};
+Google+;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}}[7];{{no}}[7];{{dunno}};
+identi.ca;{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};{{yes}}[8];
+Twitter;{{yes}};{{no}};{{yes}};{{yes}};{{yes}};{{no}}[9];{{no}}[9];{{no}};
+Mastodon;{{yes}};{{no}};{{yes}};{{yes}};{{dunno}};{{no}};{{yes}};{{no}};
+micro.blog;{{yes}};{{no}};{{yes}};{{no}};{{dunno}};{{yes}};{{no}};{{no}};

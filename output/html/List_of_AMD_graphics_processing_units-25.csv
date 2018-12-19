@@ -1,0 +1,6 @@
+Model;Launch;Codename;Architecture;Fab (nm);Core Clock rate (MHz);Config core[a];Fillrate;Shared Memory;Processing power (GFLOPS);API compliance (version);Combined TDP[b];APU;
+Pixel (GP/s);Texture (GT/s);Bus width (bit);Bus type;Bandwidth (GB/s);Direct3D;OpenGL;OpenCL;Vulkan;Idle (W);Max. (W);
+Radeon HD 6370D;November 1, 2011;WinterPark;TeraScale 2;32;443;160:8:4;1.77;3.54;128;DDR3-1600;25.6;142;11.3 (11_0);4.5;1.2;N/A;Unknown;65;E2-3200;
+Radeon HD 6410D;June 20, 2011;600;2.4;4.8;DDR3-1866;29.9;192;A4-3300, A4-3400;
+Radeon HD 6530D;BeaverCreek;443;320:16:8;3.54;7.08;284;65–100;A6-3500, A6-3600, A6-3620, A6-3650, A6-3670K;
+Radeon HD 6550D;600;400:20:8;4.8;12;480;A8-3800, A8-3820, A8-3850, A8-3870K;

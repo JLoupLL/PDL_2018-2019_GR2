@@ -1,0 +1,16 @@
+Package;License;Windows;Mac OS;Linux;Market focus;GL;AR/AP;DEB;$£€¥;OB;POS;EC;SOCT;PR;ERP;CRM;BI;HRM;Manf. /BOM;SCM;IM—;RM;D/WM;MU;Multi Co;Tax;Other Features;Structure;Language;
+Adempiere;GPL;Yes;Yes;Yes;Mid-market;Yes;Yes;Yes;Yes;;Yes;Yes;;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;;Yes;Yes;Yes;;SaaS, Project Management, CRM.;Web-based and Client-server.;Java on JBoss, GlassFish, PostgreSQL, Oracle.;
+Apache OFBiz;Apache License;Yes;Yes;Yes;Small to mid-sized enterprises;Yes;Yes;Yes;Yes;;Yes;Yes;;;Yes;Yes;Yes;Yes;Yes;Yes;Yes;;Yes;Yes;Yes;Yes;SaaS, Calendar, Webmail;Multi-User, Web Access, Cloud Hostable;Java;
+Compiere;GPL2, other proprietary;Yes;Yes;Yes;Mid-market;;;;;;Yes;;;;Yes;Yes;;;Yes;;;;Yes;;;;MES;Web-based;Java EE;
+Dolibarr;GPL;Yes;Yes;Yes;Low to mid-market;Yes;Yes;Yes;Yes;;Yes;;Yes;;Yes;Yes;;Yes;;;;;Yes;Yes;Yes;;SaaS;Web-based;PHP;
+GnuCash;GPL;Yes;Yes;Yes;Personal and small enterprise;Yes;Yes;Yes;Yes;Yes;;;Yes;;;;;;;;;;;;;ltd;;Stand-alone;C, Scheme;
+GNU Enterprise;GPL;Yes;Yes;Yes;Mid to high end market;;;;Yes;;;Yes;;;Yes;Yes;;Yes;;Yes;;;;;;;;Web-based + stand-alone;Python;
+iDempiere;GPL2;Yes;Yes;Yes;Mid-market;Yes;Yes;Yes;Yes;;Yes;Yes;;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;;Yes;Yes;Yes;;SaaS, Calendar, Project Management;Web-based and Client-server;Java on Jetty, OSGi, PostgreSQL, Oracle;
+JFire;GPL;Yes;No;Yes;All markets;;;Yes;;;Yes;;;;Yes;Yes;;;;;;;Yes;;;;;Web-based, Stand-alone;Java;
+LedgerSMB;GPL;Yes;Yes;Yes;Mid-market;Yes;Yes;Yes;Yes;Yes;Yes;;;;Yes;Yes;Yes;;Yes;Yes;Yes;;Yes;Yes;Yes;Yes;SaaS, Light Manufacturing, Multi-language (40),;Web-based;Perl;
+Ledger (CLI);BSD;Yes;Yes;Yes;Personal and small enterprise;Yes;Yes;Yes;Yes;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;No;Can be used with git;Plain text file-based;C++;
+metasfresh;GPL2;Yes;Yes;Yes;Mid-market;Yes;Yes;Yes;Yes;;Yes;Yes;;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;;Yes;Yes;Yes;;SaaS, On-Premise;Web-based, Client-server;Java on Tomcat, PostgreSQL;
+Openbravo;MPL derivative with badgeware clause;Yes;Yes;Yes;Mid-market;Yes;Yes;Yes;Yes;;Yes;Yes;;Yes;Yes;Yes;Yes;Yes;Yes;;Yes;;;Yes;Yes;Yes;Project Management, Multi-language, Localized by country;Web-based, on-premises, Saas, On Demand;Java;
+Postbooks;CPAL;Yes;Yes;Yes;Low to mid-market;Yes;Yes;Yes;Yes;;Yes;Yes;;;Yes;Yes;Yes;;Yes;;Yes;;Yes;;;;Professional Services;Client-server;C++, Qt;
+SQL-Ledger;GPL;Yes;Yes;Yes;Mid-market;Yes;Yes;Yes;Yes;;Yes;;;;Yes;;;;Yes;;Yes;;;Yes;Yes;;;Web-based;Perl;
+Tryton;GPL;Yes;Yes;Yes;Low to mid-market;Yes;Yes;Yes;Yes;Yes[1];;Yes[2];;;Yes;Yes;;;Yes[3];Yes;Yes;;Yes;Yes[4];Yes[5];Yes;;Thin client & Web-based client - Server;Python;

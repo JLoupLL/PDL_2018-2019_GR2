@@ -1,0 +1,14 @@
+Model;Launch;Micro-archi-tecture;Code name;Fab (nm);Bus inter- face;Clock rate;Core config1;Fillrate;Memory;Processing power (GFLOPS);API compliance (version);TDP (Watts);Notes;
+Core (MHz);Memory (MHz);Pixel (GP/s);Texture (GT/s);Size (GiB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct X;OpenGL;OpenCL;Vulkan;
+FirePro S4000x[84][85];August 7, 2014;GCN 1st Gen;Venus XT;28;PCIe 3.0 x16;950;1200;640:40:16:10;11.6;29;2;72;GDDR5;256;992;62;11.1 12.0;4.5;1.2;1.0;<45;Type A MXM form factor, No physical display outputs,;
+FirePro S7000[86];August 27, 2012;GCN 1st gen;Pitcairn XT;28;PCIe 3.0 x16;950;1200;1280:80:32:20;30.4;76;4;153.6;GDDR5;256;2432;152;11.1 12.0;4.5;1.2;<150;One DP;
+FirePro S7100X[87][88][89][90];May 25, 2016;GCN 3rd gen;Amethyst XT;28;PCIe 3.0 x16;723;1050;2048:128:32:32;23.14;92.5;8;160;GDDR5;256;2961;TBA;11.2 12.0;4.5;2.0;1.1;100;For Blade Servers, MXM Module 3.1;
+FirePro S7150[91][92][93][94];February 1, 2016;GCN 3rd gen;Tonga PRO GL;28;PCIe 3.0 x16;1050;1250;1792:112:32:28;33.6;117.6;8;160;GDDR5;256;3763;250;11.2 12.0;4.5;2.0;150;ECC RAM, two Slots;
+FirePro S7150 X2[91][93][95][96];February 1, 2016;GCN 3rd gen;2× Tonga PRO GL;28;PCIe 3.0 x16;1050;1250;2× 1792:112:32:28;33.6;117.6;16;2× 160;GDDR5;256;7540;500;11.2 12.0;4.5;2.0;265;ECC RAM, no physical display outputs;
+FirePro S9000[97];August 27, 2012;GCN 1st gen;Tahiti PRO GL;28;PCIe 3.0 x16;900;1375;1792:112:32:28;28.8;100.8;6;264;GDDR5;384;3225.6;806.4;11.1 12.0;4.5;1.2;1.0;<225;ECC RAM, One DP;
+FirePro S9050[98][99];August 6, 2014;GCN 1st gen;Tahiti PRO GL;28;PCIe 3.0 x16;900;1375;1792:112:32:28;28.8;100.8;12;264;GDDR5;384;3225.6;806.4;11.1 12.0;4.5;1.2;<225;ECC RAM, One DP;
+FirePro S9150[100][101][102];August 6, 2014;GCN 2nd gen;Hawaii XT GL;28;PCIe 3.0 x16;900;1250;2816:176:64:44;57.6;158.4;16;320;GDDR5;512;5070;2530;11.2 12.0;4.5;2.0;<235;ECC RAM, No physical display outputs;
+FirePro S9170[103][104];July 8, 2015;GCN 2nd gen;Grenada XT GL;28;PCIe 3.0 x16;930;1375;2816:176:64:44;59.52;163.68;32;320;GDDR5;512;5240;2620;11.2 12.0;4.5;2.0;<275;ECC RAM, Full Throughput double precision, no physical display outputs;
+FirePro S9300 x2[105][106][107][108][109];March 31, 2016;GCN 3rd gen;2× Capsaicin XT;28;PCIe 3.0 x16;850;2x 500;2× 4096:256:64:64;54.4;217.6;2× 4;2× 512;HBM;2x 4096;13900;868;11.2 12.0;4.5;2.0;1.1;300;Non-ECC RAM, half-precision (FP16) support, no physical display outputs;
+FirePro S10000[110];November 12, 2012;GCN 1st gen;2× Zaphod (Tahiti Pro GL);28;PCIe 3.0 x16;825;1250;2× 1792:112:32:28;52.8;184.8;2× 3;2× 240;GDDR5;384;5913.6;1478.4;11.1 12.0;4.5;1.2;1.0;<375;ECC RAM, 4x DP, 1x DVI-I;
+FirePro S10000 passive[111];November 12, 2012;GCN 1st gen;2× Tahiti PRO GL;28;PCIe 3.0 x16;825;1250;2× 1792:112:32:28;52.8;184.8;2× 3;2× 240;GDDR5;384;5913.6;1478.4;11.1 12.0;4.5;1.2;<375;ECC RAM, 1x Mini DP, 1x DVI-I;

@@ -1,0 +1,4 @@
+;Trident;Gecko;WebKit;KHTML;Presto;Prince XML;Antenna House;
+XPath 1.0[spec 13];Yes;1.8;Yes;4.8;2.0;?;Depends[a 1];
+XPath 2.0[spec 14];No;No[g 6];?;?;?;?;Depends[a 1];
+XQuery[spec 15];?;No[g 7];No[w 5];?;No;?;No;

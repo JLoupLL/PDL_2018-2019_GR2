@@ -1,0 +1,14 @@
+;Trident;Gecko;WebKit;KHTML;Presto;
+Basic table elements;
+table;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+caption;
+tr;
+th;
+td;
+Row groups;
+thead;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+tbody;
+tfoot;
+Column groups;
+colgroup;<3.1[IE 4.0];1.0;Yes;Yes;1.0;
+col;

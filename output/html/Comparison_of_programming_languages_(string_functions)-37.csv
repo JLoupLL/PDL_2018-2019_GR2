@@ -1,0 +1,2 @@
+Definition;<string>.rpartition(separator) Searches for the separator from right-to-left within the string then returns the sub-string before the separator; the separator; then the sub-string after the separator.;
+Description;Splits the given string by the right-most separator and returns the three substrings that together make the original.;

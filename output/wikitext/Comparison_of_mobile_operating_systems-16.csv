@@ -1,0 +1,15 @@
+Feature;Android;iOS;Windows 10 Mobile;BlackBerry 10;Tizen;Sailfish OS;Ubuntu Touch;
+Proxy server;{{Okay|3.1+}}[472] but only global, not per connection[473] and only works for the browser[474] 3rd party apps available[475];{{Yes}};{{Yes}};{{Yes}};{{Yes}};{{Yes}}[476];{{No}};
+On-device encryption;{{Okay|3+}}[477] but insecure on Qualcomm devices[478];{{Yes}}[479] (3rd party software may attempt brute-force attacks on password[480]);{{Yes|8+}}[481];{{Yes}}[482] (3rd party software may attempt brute-force attacks on password[480]);{{No}};{{No}}[483];{{No}};
+External storage encryption;{{Yes|6+}}[84];{{No|External storage not available}};{{Okay|8.1+}} Apps and data only[484];{{Yes}}[485];{{No}};{{Yes}};{{No}};
+Zero knowledge encryption[486];{{No|No, data is accessible by Google}}[487] and shared with the American PRISM surveillance program.[488];{{No}}, data stored on iCloud is accessible by Apple[489] and shared with the American PRISM surveillance program.[488];{{No|No, data is accessible by Microsoft}}[490] and shared with the American PRISM surveillance program.[488];?;?;?;{{No}};
+Privacy of synchronization[491];{{No2}} 3rd party software like ownCloud[492];{{Yes|When synchronizing locally and not using iCloud}};{{Okay|Partial}}, Contacts, Calendar and Mail can be kept private when using your own Exchange server or Office 365 own cloud instead of synchronizing with public cloud servers (that keeps data unencrypted)[493] for Photos and Office docs can be kept private when using your own Office 365 cloud or SharePoint,[494] or synchronization of Phones can be disabled (by default).[495];{{No2|When using your own BES instead of BlackBerry cloud BES (that keeps data unencrypted)}}[496];?;?;?;
+Sync to cloud communication encryption;{{Yes|2.3.4+}}[497];{{Yes}}[498];{{Yes|7.10.7720.0+}}[499];{{Yes}}[500];?;?;?;
+Wireless anti-tracking[501];{{No2}} 3rd party software[502];{{Yes|8+}}[503];{{Yes|10+}}[504];{{No}};{{No}};?;{{No}};
+Remote device location tracking;{{Yes}}[505];{{Yes}}[506];{{Yes}}[507];{{Yes}};?;?;{{No}};
+Remote device locking and/or data wipe;{{Yes|2.2+}}[508];{{Yes}}[506];{{Yes}}[507];{{Yes}};?;?;{{No}};
+End-to-end encrypted push notifications;{{Yes|Possible, notifications are handled by the app that can decrypt it}}[155];{{Yes|Possible since iOS 7, where the app can handle the notification and decrypt it}}[509];{{Yes|Possible, raw notifications are handled by the app that can decrypt it}}[510];?;?;?;{{Yes}};
+SSH Client;{{Yes}};{{Yes}}[511][512];{{Yes}}[513];{{Yes}};?;{{Yes}};{{Yes}};
+VPN;{{Yes}}[514];{{Yes}}[515];{{Yes|8.1+}}[93];{{Yes|10+}}[516];?;{{Yes}};{{Yes}};
+OpenVPN;{{No2}} No, but possible with 3rd party firmware[517];{{Yes}}[518];{{No}};{{No}};?;{{Yes}};{{Yes}};
+WPA PEAP;{{Yes}}[519];{{Yes}}[520];{{Yes}}[521];Yes;?;{{Okay|In developer mode}}[522];{{Yes}};

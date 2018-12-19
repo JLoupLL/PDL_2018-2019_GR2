@@ -1,0 +1,7 @@
+;Type;Method;Type inheritance;Table inheritance;
+CUBRID;{{yes}};{{yes}};{{yes}};{{yes}};
+Oracle;{{yes}};{{yes}}[1];{{yes}};{{yes}};
+OpenLink Virtuoso;{{yes}};{{yes}};{{yes}};{{yes}};
+PostgreSQL;{{yes}};{{yes}};{{yes}};{{yes}};
+Informix;{{yes}};{{yes}};{{yes}};{{yes}};
+WakandaDB;{{yes}};{{yes}};{{yes}};{{yes}};

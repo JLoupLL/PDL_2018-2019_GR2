@@ -1,0 +1,10 @@
+;Scanner support;Freehand sketch;Raster filters;Change color depth;Image resize;Rotate;Crop;Raster shapes;
+Easy Trace;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+FreeHand;{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+Graphic Tracer Professional;{{yes}};{{yes}};N/A;N/A;{{yes}};{{yes}};{{no}};N/A;
+Illustrator;{{no}};{{no}};{{no}};{{no}};{{yes}};{{yes}};{{no}};{{no}};
+Potrace;N/A;N/A;N/A;N/A;N/A;N/A;N/A;N/A;
+ImageTracer;N/A;N/A;N/A;N/A;N/A;N/A;N/A;N/A;
+Scan2CAD;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};
+WinTopo Pro;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}};
+! Scanner Support;Freehand sketch;Raster Filters;Change color depth;Image resize;Rotate;Crop;Raster Shapes;

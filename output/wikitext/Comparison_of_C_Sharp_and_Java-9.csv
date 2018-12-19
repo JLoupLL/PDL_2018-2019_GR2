@@ -1,0 +1,34 @@
+keyword;feature, example usage;
+<kbd>checked</kbd>, <kbd>unchecked</kbd>;In C#, <kbd>checked</kbd> statement blocks or expressions can enable run-time checking for arithmetic overflow.[42];
+<kbd>get</kbd>, <kbd>set</kbd>;C# implements properties as part of the language syntax with their optional corresponding <kbd>get</kbd> and <kbd>set</kbd> accessors, as an alternative for the accessor methods used in Java, which is not a language feature but a coding-pattern based on method name conventions.;
+<kbd>goto</kbd>;C# supports the <kbd>[[goto (command)|goto]]</kbd> keyword. This can occasionally be useful, for example for implementing finite state machines or for generated code, but the use of a more structured method of control flow is usually recommended (see criticism of the goto statement). Java does not support the <kbd>goto</kbd> statement (but <kbd>goto</kbd> is a reserved word). However, Java does support labeled <kbd>break</kbd> and <kbd>continue</kbd> statements, which in certain situations can be used when a <kbd>goto</kbd> statement might otherwise be used. 
+switch(color)
+{
+    case Color.Blue:
+        Console.WriteLine("Color is blue");
+        break;
+    case Color.DarkBlue:
+        Console.WriteLine("Color is dark");
+        goto case Color.Blue;
+    // ...
+};
+<kbd>lock</kbd>;In C#, the <kbd>lock</kbd> keyword is a shorthand for synchronizing access to a block of code across threads (using a <kbd>Monitor</kbd>), wrapped in a <kbd>try</kbd> … <kbd>finally</kbd> block.;
+<kbd>out</kbd>, <kbd>ref</kbd>;C# has support for output and reference parameters. These allow returning multiple output values from a method, or passing values by reference.;
+<kbd>strictfp</kbd>;Java uses <kbd>[[strictfp]]</kbd> to guarantee the results of floating point operations remain the same across platforms.;
+<kbd>switch</kbd>;In C#, the switch statement also operates on strings and longs. Fallthrough is allowed for empty statements and possible via 'goto case' for statements containing code. Java's switch statement operates on strings (since Java 7) but not the <kbd>long</kbd> primitive type, and falls through for all statements (excluding those with '<kbd>break</kbd>').[43];
+<kbd>synchronized</kbd>;In Java, the <kbd>synchronized</kbd> keyword is a shorthand for synchronizing access to a block of code across threads (using a <kbd>Monitor</kbd>), wrapped in a <kbd>try</kbd> … <kbd>finally</kbd> block.;
+<kbd>throws</kbd>;Java requires every method to declare the checked exceptions or superclasses of the checked exceptions that it can throw. Any method can also optionally declare the unchecked exception that it throws. C# has no such syntax. 
+public int readItem() throws java.io.IOException {
+    // ...
+};
+<kbd>using</kbd>;In C#, <kbd>using</kbd> causes the <kbd>Dispose</kbd> method (implemented via the <kbd>IDisposable</kbd> interface) of the object declared to be executed after the code block has run or when an exception is thrown within the code block. 
+// Create a small file "test.txt", write a string,
+// ... and close it (even if an exception occurs)
+using (StreamWriter file = new StreamWriter("test.txt"))
+{
+    file.Write("test");
+}
+ In Java SE 7 a similar construct has been added[44] called try-with-resources: 
+try (BufferedReader br = new BufferedReader(new FileReader(path))) {
+    return br.readLine();
+};

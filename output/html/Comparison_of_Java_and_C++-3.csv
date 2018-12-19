@@ -1,0 +1,20 @@
+C++;Java;
+const Foo *a; // it is not possible to modify the object
+              // pointed to by a through a;final Foo a; // a declaration of a "final" reference:
+             // it is possible to modify the object, 
+             // but the reference will constantly point 
+             // to the first object assigned to it;
+a = new Foo();;a = new Foo(); // Only in constructor;
+a->x = 5;
+// ILLEGAL;a.x = 5;
+// LEGAL, the object's members can still be modified 
+// unless explicitly declared final in the declaring class;
+Foo *const b = new Foo();
+// a declaration of a "const" pointer;final Foo b = new Foo();
+// a declaration of a "final" reference;
+b = new Foo();
+// ILLEGAL, it is not allowed to re-bind it;b = new Foo();
+// ILLEGAL, it is not allowed to re-bind it;
+b->x = 5;
+// LEGAL, the object can still be modified;b.x = 5;
+// LEGAL, the object can still be modified;

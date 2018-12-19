@@ -1,0 +1,15 @@
+! MPU;MT-32;GM;GS;XG level 1;XG level 2;XG level 3;GM level 2;XGlite;
+Entry date;1984[1][2];1987;1991;1991;1994;1997;1998;1999;2002;
+Organization;Roland;JMSC (AMEI), MMA;Roland;Yamaha;MMA;Yamaha;
+Minimum equipment requirements;;Simultaneous melodic voices;;8 or more (up to 32 partials) combined;16;16;32 combined;64 combined;128 combined;16;32 combined;
+Simultaneous percussion voices;;8;8;16;
+MIDI melodic channels;;8;15;15[3];16 combined;32 combined (on 2 ports);64 combined (on 4 ports);14;16 combined;
+Rhythm/percussion channels;;1;1 (#10);1;2 (#10 & #11);
+Channel recommendations;;;;;1: melody; #2: melody (duet); #3: bass; #4: pad; #5: riff; #10: drums[4];;;
+Sounds banks available;;Melodic instruments;;128;128;226;480;1074;1149;256;360;
+Drum kits;;1;1;8 + 1 SFX kit;9 + 2 SFX kits;34 + 2 SFX kits;35 + 2 SFX kits;9;12 kits;
+Drum sounds per kit;;30;47;61;72;61;53;
+Controls available;;Special CC[5];;2[6];6 (MT32+4);;;;;6 (GM);;
+Parametric effect CC[7];;4[6];5;16 (GM+11);51 (GM+46);12 (GM+7);;
+RPNs;;0[6];5[8];;;;;6 (GM+1) [8];;
+SysEx messages;;;2;;;;;14;;

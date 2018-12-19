@@ -1,0 +1,52 @@
+;throw;handler;assertion;
+Ada[1];raise exception_name «with string_expression»;begin statementsexception when exception_list1 => statements; when exception_list2 => statements;... «when others => statements;»end[b];pragma Assert («Check =>» boolean_expression ««Message =>» string_expression») [function | procedure | entry] with Pre => boolean_expression Post => boolean_expression any_type with Type_Invariant => boolean_expression;
+APL;«string_expression» ?SIGNAL number_expression;:Trap number«s»_expression statements«:Case number«s»_expression statements»... «:Else number«s»_expression statements»:EndTrap;«string_expression» ?SIGNAL 98/?~condition;
+C (C99);longjmp(state, exception);;switch (setjmp(state)) { case 0: instructions break; case exception: instructions ... };assert(condition);;
+C++;throw exception;;try { instructions } catch «(exception)» { instructions } ...;
+C#;try { instructions } catch «(exception)» { instructions } ... «finally { instructions }»;Debug.Assert(condition);;
+Java;try { instructions } catch (exception) { instructions } ... «finally { instructions }»;assert condition «: description»;;
+JavaScript;try { instructions } catch (exception) { instructions } «finally { instructions }»;?;
+D;try { instructions } catch (exception) { instructions } ... «finally { instructions }»;assert(condition);;
+PHP;try { instructions } catch (exception) { instructions } ... «finally { instructions }»;assert(condition);;
+S-Lang;try { instructions } catch «exception» { instructions } ... «finally { instructions }»;?;
+Windows PowerShell;trap «[exception]» { instructions } ... instructions or try { instructions } catch «[exception]» { instructions } ... «finally { instructions }»;[Debug]::Assert(condition);
+Objective-C;@throw exception;;@try { instructions } @catch (exception) { instructions } ... «@finally { instructions }»;NSAssert(condition, description);;
+Swift;throw exception (2.x);do { try expression ... instructions } catch exception { instructions } ... (2.x);assert(condition«, description»);
+Perl;die exception;;eval { instructions }; if ($@) { instructions };?;
+Perl 6;try { instructions CATCH { when exception { instructions } ...}};?;
+Ruby;raise exception;begin instructions rescue exception instructions... «else instructions» «ensure instructions» end;;
+Smalltalk;exception raise;instructionBlock on: exception do: handlerBlock;assert: conditionBlock;
+Common Lisp;(error "exception") or (error type arguments) or (error (make-condition type arguments));(handler-case (progn instructions) (exception instructions) ...) or (handler-bind (condition (lambda instructions «invoke-restart restart args»))...)[a];(assert condition) or (assert condition «(place) «error»») or (check-type var type);
+Scheme (R6RS);(raise exception);(guard (con (condition instructions) ...) instructions);?;
+ISLISP;(error "error-string" objects) or (signal-condition condition continuable);(with-handler handler form*);?;
+Pascal;raise Exception.Create();try Except on E: exception do begin instructions end; end;;?;
+Visual Basic;Err.Raise ERRORNUMBER;With New Try: On Error Resume Next OneInstruction .Catch: On Error GoTo 0: Select Case .Number Case ERRORNUMBER instructions End Select: End With '*** Try class ***
+Private mstrDescription As String
+Private mlngNumber As Long
+Public Sub Catch()
+
+mstrDescription = Err.Description
+
+mlngNumber = Err.Number
+
+End Sub
+Public Property Get Number() As Long
+
+Number = mlngNumber
+
+End Property
+Public Property Get Description() As String
+
+Description = mstrDescription
+End Property
+[12];Debug.Assert condition;
+Visual Basic .NET;Throw exception;Try instructions Catch «exception» «When condition» instructions ... «Finally instructions» End Try;Debug.Assert(condition);
+Xojo;Raise exception;Try instructions Catch «exception» instructions ... «Finally instructions» End Try;N/A;
+Python;raise exception;try: Tab ? instructions except «exception»: Tab ? instructions ... «else: Tab ? instructions» «finally: Tab ? instructions»;assert condition;
+Fortran;N/A;
+Forth;code THROW;xt CATCH ( code or 0 );N/A;
+OCaml;raise exception;try expression with pattern -> expression ...;assert condition;
+F#;try expression with pattern -> expression ... or try expression finally expression;
+Standard ML;raise exception «arg»;expression handle pattern => expression ...;;
+Haskell (GHC);throw exception or throwError expression;catch tryExpression catchExpression or catchError tryExpression catchExpression;assert condition expression;
+COBOL;RAISE «EXCEPTION» exception;USE «AFTER» EXCEPTION OBJECT class-name. or USE «AFTER» EO class-name. or USE «AFTER» EXCEPTION CONDITION exception-name «FILE file-name». or USE «AFTER» EC exception-name «FILE file-name».;N/A;

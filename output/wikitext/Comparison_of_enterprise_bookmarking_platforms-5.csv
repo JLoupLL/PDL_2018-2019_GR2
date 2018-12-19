@@ -1,0 +1,7 @@
+Software;Hosted Platform;On-Premises Platform;Encryption level;Multi-user support;Access permissions;LDAP integration;Information-level permissions;Workspace-level permissions;Role-level permissions;Notes;
+Connectbeam;{{yes}};{{yes}};?;{{yes}};{{yes}};{{no}};?;?;?;none;
+Dogear;{{no}};{{yes}};?;{{yes}};{{yes}};{{yes}};?;?;?;The Lotus Connection Suite with Dogear runs on the AIX (Unix) operating system;
+Jumper 2.0;{{no}};{{yes}};HTTPS optionally available;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};LDAP integration is available;
+Knowledge Plaza;{{yes}};{{yes}};HTTPS with high-grade 256-bit AES;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};none;
+Licorize;{{yes}};{{yes}};HTTPS is available;{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}};none;
+Scuttle;{{no}};{{yes}};HTTPS optionally available [1];{{no}};{{yes}};{{no}};{{yes}};?;;none;

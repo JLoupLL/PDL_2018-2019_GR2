@@ -1,0 +1,7 @@
+Kernel name;CRC-32 (IEEE);CRC32c;MD2;MD4;MD5;SHA-1;SHA-2;SHA-3;Michael MIC;Poly1305;RIPEMD-128;RIPEMD-160;RIPEMD-256;RIPEMD-320;Tiger;Whirlpool;HMAC;MDC2;GOST;LASH;VMAC;
+Linux;{{yes}}[40][41];{{no}};{{yes}}[42];{{yes}}[43];{{yes}}[44];{{yes}}[45] | {{yes}}[46];{{yes}}[47];{{yes}}[48];{{yes}}[49];{{yes}}[50];{{yes}}[51];{{yes}}[52];{{no}};{{no}};{{yes}}[53];
+{{yes}};{{yes}};{{yes}};{{yes}};{{yes}};{{dunno}} | {{dunno}} | {{dunno}};{{yes}};{{dunno}};{{yes}};{{dunno}};{{yes}};{{yes}};{{dunno}} | {{dunno}};
+{{dunno}};{{yes}};{{yes}};{{yes}};{{yes}};{{no}} | {{dunno}} | {{no}};{{no}};{{no}};{{no}};{{no}};{{yes}};{{no}};{{no}} | {{dunno}};
+FreeBSD kernel;{{yes}};{{yes}};{{dunno}};{{yes}};{{yes}};{{yes}};{{dunno}} | {{dunno}} | {{dunno}};{{yes}};{{dunno}};{{yes}};{{dunno}};{{yes}};{{dunno}};{{dunno}} | {{dunno}};
+XNU kernel;{{yes}};{{dunno}};{{yes}};{{dunno}};{{yes}};{{dunno}};{{dunno}} | {{dunno}} | {{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}};{{dunno}} | {{dunno}};
+Kernel name;CRC-32 (IEEE);CRC32c;MD2;MD4;MD5;SHA-1;SHA-2;SHA-3;Michael MIC;Poly1305;RIPEMD-128;RIPEMD-160;RIPEMD-256;RIPEMD-320;Tiger;Whirlpool;HMAC;MDC2;GOST;LASH;VMAC;

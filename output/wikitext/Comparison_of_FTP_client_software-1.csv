@@ -1,0 +1,15 @@
+Client;Creator;First public release date;Latest stable version;Software license;Copy files over 2 GB limit[1];Interface;
+cURL;Daniel Stenberg;1998;{{Latest stable software release/cURL}};MIT;{{yes}};CLI;
+Cyberduck;David V. Kocher;2001;6.0.4 {{Start date and age|2017|06|02}};GPL;{{yes}};GUI and CLI;
+FAR Manager;Eugene Roshal / FAR Group;1996;{{Latest stable software release/FAR Manager|mf=y}};BSD;{{yes}};TUI;
+FileZilla;Community;2001 (January);{{Latest stable software release/FileZilla}};GPL;{{yes}};GUI;
+FireFTP;Mime ?uvalo;2004 (September);{{Latest stable software release/FireFTP}};MPL 1.1, Charityware;{{Yes}} (since version 2.0.5);Firefox pre-version 57 addon;
+Fugu;University of Michigan Research Systems Unix Group;2003;1.2.0 {{Start date and age|2005|05|02}};BSD;{{dunno}};GUI;
+gFTP;Brian Masney;1998;2.0.19 {{Start date and age|2008|11|30}};GPL;{{Yes}};GTK+;
+lftp;Alexander V. Lukyanov;1996 (August);{{Latest stable software release/lftp}};GPL;{{yes}};CLI;
+Macfusion;Michael Gorbach;0 ?;2.0.4;BSD;{{dunno}};GUI;
+NcFTP;NcFTP Software Inc.;1991;3.2.6 {{Start date and age|2016|11|27}};Clarified Artistic License;{{yes}};CLI;
+net2ftp;David C. Gartner;2003 (January);0.98 {{Start date and age|2013|03|01}};GPL;{{dunno}};Web application;
+tnftp;Luke Mewburn;1999;20151004 {{Start date and age|2015|10|04}};BSD;{{dunno}};CLI;
+WinSCP;Martin P?ikryl;2000;{{Latest stable software release/WinSCP}};GPL;{{yes}};GUI and CLI;
+Yafc;Sebastian Ramacher;1999;{{Latest stable software release/yafc - Yet Another FTP Client}};GPL;{{yes}};CLI;

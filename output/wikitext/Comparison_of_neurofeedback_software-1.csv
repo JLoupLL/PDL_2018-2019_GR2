@@ -1,0 +1,35 @@
+Software;Type;Version;Operating systems;Developer;License;FDA cleared;Supported Devices;
+BetterFly;Neurofeedback;Clinic 2.0; Home 2.0;Windows;BetterFly Neurofeedback;{{Proprietary}};Classification by device;U-WIZ, PocketNeurobics PendantEEG, BrainMaster 2EB;
+BioEra;Biofeedback: visual designer;2.0;Windows, Android;PROATECH LLC;{{Proprietary}};No (but basis of Cygnet and others);Pocket Neurobics,[1] BrainQuiry,[2] NeuroAmp,[3] Neurobit Optima, 
+ Brainmaster,[4] QDS[2];
+BioExplorer;Neurofeedback;1.5;Windows;Cyberevolution, Larry Janow;{{Proprietary}};No "Intended for personal use...";Brainmaster,[4] BrainQuiry,[2] NeuroAmp,[3] Neurobit Optima, 
+ J&J,[4] NeuroSky,[2]
+ Pocket Neurobics,[1] QDS,[2] Telediagnostic Systems[4];
+BioGraph Infiniti;Neurofeedback/Biofeedback;6.1.0;Windows;Thought Technology Ltd, Dr. Hal Myers;{{Proprietary}};Yes;Thought Technology[4];
+BioTrace+;Neurofeedback, Biofeedback, QEEG;2015;Windows;Mind Media B.V.;{{Proprietary}};Medical class II;NeXus by Mind Media[2] 4, 10 (MKII), 32;
+Brainathalon;Game;{{dunno}};Java;Amy Palke;{{free|Open source}};No;;
+BrainBay;Neurofeedback: MIDI, particle display;{{dunno}};Windows;Chris Veigl and Jeremy Wilkerson;{{free|GPL}};No;Neurobit Optima and more;
+BrainFeedback Pro;Neurofeedback;v12;Windows;Deymed Diagnostic;{{Proprietary}};Yes;Deymed;
+BrainMaster;Neurofeedback, Biofeedback, and QEEG; optional live z-scores (ANI or BrainDX), Live sLORETA Projector.;various including BrainAvatar. Third-party SW includes: NeuroGuide, BioExplorer, BioERA, BrainPaint, SKIL, LENS, EEGer, BrainTrain, OpenVibe, EEGStudio;Windows;BrainMaster Technologies, Inc. Thomas F. Collura;{{Proprietary|Proprietary; includes optional no-cost Application Programming Interfaces (API)}};FDA 510(k) clearance, ISO 13485 certification, and CE marking in Europe;Brainmaster[4] 2E, 2EW, 2EB, Atlantis, Discovery, MINI-Q;
+BrainPaint®;Evidence Based Neurofeedback, with a validated [1] and replicated [2] symptom based evaluation tool.;2.0 Includes BrainPrint™, Alpha Theta, Brain-Heart Coherence, Couples Synchrony, Nonlinear, Slow Cortical Potential, Coherence training and all other frequency rewards and inhibits.;N/A;BrainPaint, Inc. William C. Scott;{{Proprietary|Proprietary}};FDA 510(k) clearance, ISO 13485 certification, and CE marking in Europe;Brainmaster[4] 2E, 2EW, 2EB, Atlantis, Discovery;
+BWView;Brainwave viewer;1.0.5;Linux, Windows;Jim Peters;{{free|GPL}};No;;
+Cygnet;Neurofeedback: one- and two channel frequency band training and ILF (SCP) training according to Othmer, Alpha-Theta training. With additional Mitsar device or x23 accessory also tomographic (sLoreta) neurofeedback. Add-ons for sLoreta feedback and flexible system configuration fully approved but not available to clinicians. For research institutions only. Biofeedback: pIR far-infrared triple-sensor feedback;2.0;Windows;BEE Systems LLC / Corscience;{{Proprietary}};FDA class II, CE class IIa; Software approved including feedback animations by SomaticVision; accessory to EEG NeuroAmp;NeuroAmp[3] plus add-ons: NeuroAmp x23,[3] pIRx3,[3] tactile feedback[3];
+Dual Drive Pro;Biofeedback GSR & Temp;3.0;Windows;Somatic Vision Inc.;{{Proprietary}};Unknown (not EEG);;
+eBioo;Neurofeedback & Analysis one-, two- and four channel training, Amplitude-, relative Amplitude-, Coherence-, Band-Ratio-, Asymmetry-inhibit-Training and more ..;1.5;Windows;Soft-dynamics, Geoffrey Arens;{{Proprietary}};No – not stated or in FDA database;Pocket Neurobics,[1] Neurobit Optima,[2] Brainmaster[4];
+EEGer4;Neurofeedback & Analysis;4.3.0;Windows;EEG Software LLC;{{Proprietary}};FDA Class II;J&J,[4] Telediagnostic Systems,[4] Phoenix Neuro Systems,[4] 
+Thought Technology,[4] Brainmaster,[4] Brainquiry,[2]
+Pocket Neurobics,[1] external analog amplifiers;
+ElectricGuru;Neurofeedback;0.4;Windows;Rob Sacks;{{free|Open source}};No;;
+EventIDE;Visual environment for designing behavioral experiments and mental games with real-time neurofeedback control and signal processing.;1.0;Windows;Okazolab Ltd;{{Proprietary}};No;The majority of popular bio-amplifiers;
+LENSware;Neurofeedback &Analysis;3;Windows;OchsLabs;Proprietary;FDA Class II Exempt;Ochslabs A200 amplifier;
+Mind WorkStation;Neurofeedback, Biofeedback, and EEG-Driven Entrainment;1.3;Windows;Transparent Corporation;{{Proprietary}};No but can use Bioexplorer, Biograph, BioEra links;See Bioexplorer, Biograph, BioEra;
+MindReflector;Neurofeedback;1.1;Windows;MindReflector Technologies, LLC;{{Proprietary}};No;NeuroSky[2];
+NeuroField;Neurofeedback & Analysis;8.7.5;Windows;NeuroField, Inc.;Proprietary;FDA Class II[5];X3000 Plus[6] and Q20 EEG[7][8];
+neuromore Studio;Customizable Biofeedback, protocol designing and automated therapy solution;1.2.0;Windows, Mac OS, Linux, Android, iOS;neuromore Inc.;{{Proprietary}};No;
+NeurOptimal;Neurofeedback;3.0;Windows;Valdeane W. Brown, Ph.D.;{{Proprietary}};Unknown – not stated or in FDA database;zAmp[2] from Zengar;
+NeuroRT Suite Koala Modulo;Real-time Processing, Self Neuromodulation, Bio/Neurofeedback;2.2;Windows, Linux, Android;Mensia Technologies;{{Proprietary}};Medical device CE class IIa;ANT: All devices Biosemi: ActiveTwo Mk I and ActiveTwo Mk II Brainmaster: Atlantis and Discovery 24 Brain Products: ActiCHamp, BrainAmp series, QuickAmp and vAMP Cognionics: Cognionics64 EGI: NetAmps 300 Emotiv: EPOC g.Tec: gMobilab+ and gUSBamp MindMedia: NeXus32, NeXus10 Mitsar: EEG 202; NeuroElectrics: Enobio OpenEEG: ModularEEG Shimmer TMSi: Porti, Refa, MOBITA, MOBI, MOBI mini Wearable Sensing: DSI24 and DSI6;
+NeuroServer;Raw EEG to TCP/IP + EDF converter;0.7.4;Linux, Windows;[Rudi Cilibrasi];{{free|GPL}};No;;
+OpenViBE;BCI, Visual Designer, Analysis, Neurofeedback;0.18;Linux, Windows;INRIA;{{free|AGPL-3}};No;List of compatible systems;
+SmartMind;Neurofeedback;v2010;Windows;BrainTrain, Inc.;{{Proprietary}};Unknown – not stated or in FDA database;Smartmind,[2] Brainmaster,[4] Thought Technology,[4] J&J,[4] 
+Pocket Neurobics,[1] NeuroSky[2];
+Myndlift;Neurofeedback: one-channel remote amplitude training;?;Android;Myndlift LTD;{{Proprietary}};No;Muse;

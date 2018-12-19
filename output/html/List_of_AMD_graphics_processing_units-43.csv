@@ -1,0 +1,7 @@
+Model;Released;Codename;Architecture;Fab (nm);Core Clock rate (MHz);Config core[a];Fillrate;Shared Memory;Processing power (GFLOPS);API compliance (version);Combined TDP[b];APU;
+Pixel (GP/s);Texture (GT/s);Bandwidth (GB/s);Bus type;Bus width (bit);Direct3D;OpenGL;OpenCL;Vulkan;Idle (W);Max. (W);
+Radeon HD 6250[110];November 9, 2010[111];Wrestler[112];TeraScale 2;40;280–400;80:8:4:2;1.12–1.6;2.24–3.2;8.525;DDR3-1066;64;44.8–64;11.3 (11_0);4.5;1.2;N/A;Unknown;9;C-30, C-50, Z-60;
+Radeon HD 6290;January 7, 2011;Ontario;276–400;C-60;
+Radeon HD 6310[110];November 9, 2010[111];Wrestler[112];492;2.0;4.0;80;18;E-240, E-300, E-350;
+Radeon HD 6320;August 15, 2011;508–600;2.032–2.4;4.064–4.8;10.6;DDR3-1333;82–97;E-450;
+Radeon HD 7340[24];June 6, 2012;Ontario;523;2.1;4.2;21.3;128;60;11.0;;;;;9;E2-1800;

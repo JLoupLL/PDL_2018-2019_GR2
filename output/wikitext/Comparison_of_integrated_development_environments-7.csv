@@ -1,0 +1,4 @@
+IDE;License;Windows;Linux;macOS;Other platforms;Editor;Debugger;GUI builder;Profiler;Browsers;
+Allegro Common Lisp;{{proprietary}};{{yes}};{{yes}};{{yes}};FreeBSD, HP-UX, AIX, Solaris, Tru64 UNIX;{{yes}};{{yes}};{{yes}};{{yes}};Class browser, Systems, Definitions;
+LispWorks;{{proprietary}};{{yes}};{{yes}};{{yes}};FreeBSD, HP-UX, Solaris;{{yes}};{{yes}};{{yes}};{{yes}};Class browser, Functions, Errors, Processes, Symbols, Systems;
+SLIME (Emacs);{{yes|portions in GPL v2, LGPL, BSD and public domain}};{{yes}};{{yes}};{{yes}};DragonFly BSD, FreeBSD, HP-UX, AIX, IRIX, DOS, NetBSD, OpenBSD, OpenVMS, OS/2, Solaris, other Unix;{{yes}};{{yes}};{{no}};{{yes}};Class browser, Errors, Symbols;

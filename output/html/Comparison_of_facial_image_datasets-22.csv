@@ -1,0 +1,3 @@
+Dataset Name;Brief description;Preprocessing;Instances;Format;Default Task;Created (updated);Reference;Creator;
+Volcanoes of the World;Volcanic eruption data for all known volcanic events on earth.;Details such as region, subregion, tectonic setting, dominant rock type are given.;1535;Text;Regression, classification;2013;[334];E. Venzke et al.;
+Seismic-bumps Dataset;Seismic activities from a coal mine.;Seismic activity was classified as hazardous or not.;2584;Text;Classification;2013;[335][336];M. Sikora et al.;

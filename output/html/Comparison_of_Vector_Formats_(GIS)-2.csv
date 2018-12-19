@@ -1,0 +1,4 @@
+;Point;Multipoint;Line;Polyline;MultiPolyline;Polygon;Multipolygon;
+GeoJSON[1];Yes;Yes;?;Yes;Yes;Yes;Yes;
+Personal Geodatabase;Yes;No;Yes;No;No;Yes;No;
+Shapefile[2];Yes;Yes;?;Yes;Yes;Yes;Yes (as Polygon with multiple outer rings or as MultiPatch);

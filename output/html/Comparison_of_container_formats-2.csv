@@ -1,0 +1,9 @@
+;Lossy compression;No compression;Lossless compression;
+MP3;WMA;Vorbis;Opus;AAC;AC-3;DTS;PCM;LPCM;FLAC;ALAC;MLP / Dolby TrueHD;DTS-HD;
+AVI;Yes;Yes[36];Not officially;?;Yes[37];Yes;Yes;Yes;Yes;No;No;No;?;
+Matroska;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;Yes;
+MP4;Yes;Yes;Not officially;Yes;Yes;Yes[38];Yes;No;Yes;Not officially[39];Yes;No;Yes[40];
+MPG;Yes;?;?;No;?;?;?;?;Yes;?;?;?;?;
+MXF;Yes;No;?;?;Yes;Yes;Yes;Yes;Yes;No;No;Yes;Yes;
+Ogg;Yes;No;Yes;Yes;No;No;No;Yes;Yes;Yes;No;No;No;
+QuickTime;Yes;Yes;Yes;?;Yes;;?;Yes;Yes;Yes;Yes;No;No;

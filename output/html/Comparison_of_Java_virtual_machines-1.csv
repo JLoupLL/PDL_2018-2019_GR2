@@ -1,0 +1,17 @@
+Name;Creator;First public release;Latest stable version;Latest release date;Cost, availability;License;
+CACAO;Vienna University of Technology;?;1.6.0[1];4 September 2012[1];Free;GPL version 2 or later[2];
+Eclipse OpenJ9 (formerly IBM J9);IBM;?;0.8.0;15 March 2018[3];Free;Apache License 2.0 Eclipse Public License 2.0;
+GCJ;GNU;6 September 1998;6.4 (Terminal);4 July 2017;Free;GPL version 2 or later, with the "libgcc exception"[4];
+HotSpot, OpenJDK edition;Sun Microsystems, Oracle;27 April 1999;?;21 September 2017;Free;GPL version 2 only;
+HotSpot, Oracle JDK edition;Sun Microsystems, Oracle;27 April 1999;?;September 2017;Free;Proprietary;
+HotSpot, Java SE embedded edition;Sun Microsystems, Oracle;27 April 1999;?;?;Commercial;Proprietary[5];
+HotSpot, Zero port;Gary Benson[6];?;?;?;Free;GPL version 2 only;
+IKVM.NET;Jeroen Frijters;28 June 2004;7.0.4335.0;5 December 2011;Free;zlib License[7];
+JAmiga;Peter Werno, Joakim Nordström;19 May 2005[8];1.2;6 January 2014;Free;GPL version 2 or later;
+JamVM;Robert Lougher;13 March 2003;2.0.0;30 July 2014;Free;GPL version 2 or later;
+Jato VM;Pekka Enberg and contributors[9];?;0.3[10];4 January 2012[10];Free;GPL version 2 only[9];
+JC virtual machine;Archie L. Cobbs;?;1.4.7;13 November 2005;Free;LGPL version 2.1 or later;
+Jikes RVM;IBM;14 October 2001;3.1.4[11];18 February 2016[11];Free;Eclipse Public License version 1.0[12];
+Kaffe;Transvirtual Technologies;1996;1.1.9;22 February 2008;Free;GPL version 2 or later[13];
+Mysaifu JVM;?;16 April 2005[14];0.4.8[14];5 March 2010[14];Free;GPL version 2 only[14];
+SableVM;Sable Research Group;?;1.13;30 March 2007[15];Free;LGPL version 2.1 or later;

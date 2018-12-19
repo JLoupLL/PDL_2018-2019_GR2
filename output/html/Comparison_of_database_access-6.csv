@@ -1,0 +1,5 @@
+;Read value;Change value;Search;Inserting;
+django;table_var."field_name";table_var."field_name" = \
+"value";table_var = \
+Table.objects.filter( "expr" );table_var = Table()
+table_var.save();
