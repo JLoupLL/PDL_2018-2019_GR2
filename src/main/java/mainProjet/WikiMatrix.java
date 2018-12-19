@@ -18,7 +18,6 @@ public class WikiMatrix {
 		try {
 			choix = br.readLine();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		while (!choix.equals("1") && !choix.equals("2") && !choix.equals("q")) {
@@ -33,6 +32,7 @@ public class WikiMatrix {
 		}
 		System.out.println(utils.Messages.DEMANDERURL);
 		String url = "";
+		String newURLJson ="";
 		try {
 			url = br.readLine();
 		} catch (IOException e) {
@@ -41,18 +41,25 @@ public class WikiMatrix {
 		}
 		if (choix.equals("1")) {
 			ExtractionToHTML eth = new ExtractionToHTML(url);
-			eth.getContentHtml();
+			
+			System.out.print(eth.getHtmlJsoup(url));
+			// Patientez..
+
 		} else if (choix.equals("2")) {
-			//ExtractionToWiki eth = new ExtractionToWiki();
-			// eth.
+			ExtractionToWiki eth = new ExtractionToWiki();
+			try {
+			newURLJson = eth.getTitreUrl(url);
+			System.out.print(eth.getdocumentToFormatHtmp(newURLJson));
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
 		}
 		System.out.println(utils.Messages.MESSAGEDEFIN);
 
 		System.out.println(utils.Messages.PATIENT);// Patientez..
-
+		/*
 		ExtractionToHTML eth = new ExtractionToHTML("https://en.wikipedia.org/wiki/Comparison_of_Canon_EOS_digital_cameras");
-
-		eth.getContentHtml();
+		eth.getContentHtml();*/
 
 	}
 

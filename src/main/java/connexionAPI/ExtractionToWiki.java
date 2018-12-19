@@ -135,7 +135,8 @@ public class ExtractionToWiki extends Object{
 
 	//plus besoin de cette fonction, elle est donnee par les profs (cf norme de nommage)
 
-	public static FileWriter creationFichierCsv(Document doc, String titre) { // peut �tre d�placer dans un autre package
+	public static FileWriter creationFichierCsv(Document doc, String titre) { 
+		// peut �tre d�placer dans un autre package
 
 		// (createFileCSV)
 
@@ -191,12 +192,7 @@ public class ExtractionToWiki extends Object{
 
 		Elements titreh1 = doc.select("h1");
 
-
-
 		String titre = titreh1.first().text();    
-
-
-
 		for (int i = 0; i < titre.length(); i++) {
 
 			if(titre.charAt(i)==' ') {
@@ -215,7 +211,7 @@ public class ExtractionToWiki extends Object{
 
 	}
 
-
+	//Fonction pour générer les documents de format HTML à partir du code wiki et le Parseur de bliki en utilisant WikiModel.toHtml
 
 	public Document getdocumentToFormatHtmp(String url) throws IOException {
 
@@ -382,57 +378,6 @@ public class ExtractionToWiki extends Object{
 
 		et1.pourTousLesTableaux(doc, Url1);
 
-		/*
-
-                           //System.out.println(tasse.getString()); //Rouge
-
-                           Configuration conf = Configuration.DEFAULT_CONFIGURATION;
-
-                           // Allow custom user <IMG> tags
-
-                           conf.addTokenTag("table", new HTMLTag("table"));
-
-
-
-                           // Ignore custom <INPUTBOX> tags
-
-                           conf.addTokenTag("inputbox", new IgnoreTag("inputbox"));
-
-
-
-                           WikiModel wiki = new WikiModel(conf,formatWiki , "${title}");
-
-
-
-                           try {
-
-                               BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-                               StringBuilder sb = new StringBuilder();
-
-                               String newLine = System.getProperty("line.separator");
-
-                               String line;
-
-                               while ((line = reader.readLine()) != null) {
-
-                                   sb.append(line);
-
-                                   sb.append(newLine);
-
-                               }
-
-                               String htmlText = wiki.render(sb.toString());
-
-                               System.out.print(htmlText);
-
-
-
-                           } catch (IOException e) {
-
-                               e.printStackTrace();
-
-                           }*/
 
 	}
 
