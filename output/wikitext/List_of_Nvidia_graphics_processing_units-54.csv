@@ -1,6 +1,6 @@
-Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[154][155];Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
-Quadro 410;GK107;28;PCIe 2.0 ×16;706;706;1800;192:16:8 (1 SMX);5.65;11.3;512;14.4;DDR3[159];64;271.10;;11.0;4.6;38;;
+Quadro 410;GK107;28;PCIe 2.0 ×16;706;706;1800;192:16:8 (1 SMX);5.65;11.3;512;14.4;DDR3[158];64;271.10;;11.0;4.6;38;;
 Quadro K600;GK107;28;PCIe 2.0 ×16;876;876;891 (1782);192:16:16 (1 SMX);14.0;14.0;1024;28.5;DDR3;128;336.38;;11.0;4.6;41;6.3" Card;
 Quadro K2000;GK107;28;PCIe 2.0 ×16;954;954;1000 (4000);384:32:16 (2 SMX);15.2;30.5;2048;64;GDDR5;128;732.67;;11.0;4.6;51;7.97" Card;
 Quadro K2000D;GK107;28;PCIe 2.0 ×16;954;954;1000 (4000);384:32:16 (2 SMX);15.2;30.5;2048;64;GDDR5;128;732.67;;11.0;4.6;51;7.97" Card;

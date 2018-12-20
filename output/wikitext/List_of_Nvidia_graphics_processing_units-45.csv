@@ -1,4 +1,4 @@
-Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power[155][156] (GFLOPS);Supported API version;TDP (Watts);Notes;
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power[154][155] (GFLOPS);Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
 Quadro;NV10GL;220;AGP 4×;135;135;166;0:4:4:4;0.54;0.54;64;2.66;SDR;128;;;7;1.2;;;
 Quadro DDR;NV10GL;220;AGP 4×;135;135;333;0:4:4:4;0.54;0.54;64;5.312;DDR;128;;;7;1.2;;;
@@ -15,4 +15,4 @@ Quadro4 750XGL;NV25;150;AGP 4×;275;275;550;2:4:8:4;1.1;2.2;128;8.8;DDR;128;;;8;1
 Quadro4 900XGL;NV25;150;AGP 4×;300;300;650;2:4:8:4;1.2;2.4;128;10.4;DDR;128;;;8;1.4;;Stereo display;
 Quadro4 980XGL;NV28GL;150;AGP 8×;300;300;650;2:4:8:4;1.2;2.4;128;10.4;DDR;128;;;8;1.4;;Stereo display;
 Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;TDP (Watts);Features;
-Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;
+Fillrate;Memory;Processing power (GFLOPS)[154][155];Supported API version;

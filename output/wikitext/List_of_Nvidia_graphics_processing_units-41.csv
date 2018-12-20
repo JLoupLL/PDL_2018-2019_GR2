@@ -5,10 +5,10 @@ GeForce GT 720M;April 1, 2013;GF117;28;PCIe 2.0 ×16;96:16:4;938;1876;2000;3.8;15
 GeForce GT 730M;January 2013;GK208;28;PCIe 3.0 ×8;384:32:8 (2 SMX);719;719;2000;5.8;23.0;2048;16.0;DDR3;128;12;4.5;552.2;33;Kepler, similar to Desktop GT640;
 GeForce GT 735M;April 1, 2013;GK208;28;PCIe 3.0 ×8;384:32:8 (2 SMX);889;889;2000;7.11;28.4;2048;16.0;DDR3;64;12;4.5;682.8;?;Kepler, similar to Desktop GT640;
 GeForce GT 740M;April 1, 2013;GK208;28;PCIe 3.0 ×8;384:32:8 (2 SMX);980;980;1800;7.84;31.4;2048;14.4;DDR3;64;12;4.5;752.6;?;Kepler, similar to Desktop GT640.;
-GeForce GT 740M;April 1, 2013;GK107;28;PCIe 3.0 ×16;384:32:16 (2 SMX);810[126];810[126];1800 5000;12.96;25.92;2048[126];28.8 80;DDR3 GDDR5[126];128;12;4.5;622.1;45;about 76% of Desktop GTX650{{Original research inline|date=June 2015}};
+GeForce GT 740M;April 1, 2013;GK107;28;PCIe 3.0 ×16;384:32:16 (2 SMX);810[125];810[125];1800 5000;12.96;25.92;2048[125];28.8 80;DDR3 GDDR5[125];128;12;4.5;622.1;45;about 76% of Desktop GTX650{{Original research inline|date=June 2015}};
 GeForce GT 745M;April 1, 2013;GK107;28;PCIe 3.0 ×16;384:32:16 (2 SMX);837;837;2000 5000;13.4;26.8;2048;32 80;DDR3 GDDR5;128;12;4.5;642.8;45;about 79% of Desktop GTX650{{Original research inline|date=June 2015}};
 GeForce GT 750M;April 1, 2013;GK107;28;PCIe 3.0 ×16;384:32:16 (2 SMX);967;967;2000 5000;15.5;30.9;2048;32 80;DDR3 GDDR5;128;12;4.5;742.7;50;about 91% of Desktop GTX650{{Original research inline|date=June 2015}};
-GeForce GT 755M [127];?;GK107;28;PCIe 3.0 ×16;384:32:16 (2 SMX);1020;1020;5400;15.7;31.4;2048;86.4;GDDR5;128;12;4.5;783;50;about 93% of Desktop GTX650{{Original research inline|date=June 2015}};
+GeForce GT 755M [126];?;GK107;28;PCIe 3.0 ×16;384:32:16 (2 SMX);1020;1020;5400;15.7;31.4;2048;86.4;GDDR5;128;12;4.5;783;50;about 93% of Desktop GTX650{{Original research inline|date=June 2015}};
 GeForce GTX 760M;May 2013;GK106;28;PCIe 3.0 ×16;768:64:16 (4 SMX);719;719;4000;10.5;42.1;2048;64;GDDR5;128;12;4.5;1104;55;about 71% of Desktop GTX 650Ti{{Original research inline|date=June 2015}};
 GeForce GTX 765M;May 2013;GK106;28;PCIe 3.0 ×16;768:64:16 (4 SMX);863;863;4000;13.6;54.4;2048;64;GDDR5;128;12;4.5;1326;65;about 92% of Desktop GTX 650Ti{{Original research inline|date=June 2015}};
 GeForce GTX 770M;May 2013;GK106;28;PCIe 3.0 ×16;960:80:24 (5 SMX);797;797;4000;19.5;64.9;3072;96;GDDR5;192;12;4.5;1530;75;about 83% of Desktop GTX660{{Original research inline|date=June 2015}};

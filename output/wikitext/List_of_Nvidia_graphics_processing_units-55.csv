@@ -1,6 +1,6 @@
-Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[154][155];Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
-Quadro K420;GK107;28;PCIe 2.0 ×16;780;780;1800;192:16:16 (1 SMX);12.48;12.48;1024 2048[160];29;DDR3;128;299.52;12.48;11.0;4.6;41;;
+Quadro K420;GK107;28;PCIe 2.0 ×16;780;780;1800;192:16:16 (1 SMX);12.48;12.48;1024 2048[159];29;DDR3;128;299.52;12.48;11.0;4.6;41;;
 Quadro K620;GM107;28;PCIe 2.0 ×16;1000;1000;900 (1800);384:24:16 (3 SMM);16.0;24.0;2048;28.8;DDR3;128;768.0;24.0;12.0;4.6;45;6.3" Card;
 Quadro K1200;GM107;28;PCIe 2.0 ×16;954;;1253;512:32:16 (4 SMM);15.3;30.5;4096;80.2;GDDR5;128;1083;;12.0;4.6;45;7.97" Card;
 Quadro K2200;GM107;28;PCIe 2.0 ×16;1000;1000;1250 (5000);640:40:16 (5 SMM);16;40;4096;80;GDDR5;128;1280.0;40.0;12.0;4.6;68;7.97" Card;

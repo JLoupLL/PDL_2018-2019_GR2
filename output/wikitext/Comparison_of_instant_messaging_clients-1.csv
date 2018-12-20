@@ -23,7 +23,7 @@ Gajim;Yann Le Boulanger;2004-05-21;Single-protocol;{{Latest stable software rele
 Google Allo;Google, Inc.;2016-09-21;Single-protocol;{{Latest stable software release/Google Allo}};{{proprietary|Freeware}};
 Google Hangouts;Google, Inc.;2013-05-15;Single-protocol;;{{proprietary|Freeware}};
 Hookt;Hookt, Inc.;2011-09-14;Single-protocol;;{{proprietary|Freeware}};
-Hike;Bharti SoftBank;2012-12-12;Single-protocol;3.2.0 {{small|(Android, {{start date and age|2014|8|12}})}}[3] 2.6.2.0 {{small|(Windows Phone, {{release date and age|2014|07|23}})}}[4] 2.6.2 {{small|(BlackBerry, {{release date and age|2014|05|07}})}}[5] 2.6.0 {{small|(iOS, {{release date and age|2014|8|12}})}}[6] 2.6.0 {{small|(Symbian)}};{{proprietary|Freeware}};
+Hike;Bharti SoftBank;2012-12-12;Single-protocol;3.2.0 {{small|(Android, {{start date and age|2014|8|12}})}}[2] 2.6.2.0 {{small|(Windows Phone, {{release date and age|2014|07|23}})}}[3] 2.6.2 {{small|(BlackBerry, {{release date and age|2014|05|07}})}}[4] 2.6.0 {{small|(iOS, {{release date and age|2014|8|12}})}}[5] 2.6.0 {{small|(Symbian)}};{{proprietary|Freeware}};
 IBM Lotus Sametime;IBM, Ubique;1998;Multi-protocol — proprietary T.120, SIP, XMPP;9.0.0 ({{Start date and age|2013|09|20}});{{proprietary|Proprietary commercial software}};
 iChat;Apple Inc.;2002-08;Multi-protocol;6.0.1 (1002) ({{Start date and age|2012|02|01}}), replaced by Messages;{{included|Part of macOS}};
 ICQ;Mail.Ru;1996-11;Single-protocol;8.0.5977 ({{Start date and age|2016|01|14}});{{free|Apache license}};
@@ -53,14 +53,14 @@ Quiet Internet Pager (QIP);Ilgam Zyulkorneev;2004;Multi-protocol;{{Latest stable
 QuteCom;QuteCom;2004;Multi-protocol;{{Latest stable software release/QuteCom}};{{free|GPL}};
 Ricochet;Invisible.im;2014-06;Single-protocol;{{Latest stable software release/Ricochet}};{{free|BSD}};
 Ring;Savoir-faire Linux Inc.;2014;Single-protocol;20180509;{{free|GPLv3}};
-RingID;Ring Inc.;2015;Multi-protocol;4.1.4 {{small|(Android, {{start date and age|2016|3|16}})}}[7] 4.1.1.4 {{small|(Windows Phone, {{release date and age|2016|3|9}})}}[8] 4.2.2 {{small|(iOS, {{release date and age|2016|3|19}})}}[9];{{proprietary|Freeware}};
+RingID;Ring Inc.;2015;Multi-protocol;4.1.4 {{small|(Android, {{start date and age|2016|3|16}})}}[6] 4.1.1.4 {{small|(Windows Phone, {{release date and age|2016|3|9}})}}[7] 4.2.2 {{small|(iOS, {{release date and age|2016|3|19}})}}[8];{{proprietary|Freeware}};
 Riot.im;New Vector Limited;2016-07;Single-protocol;{{Latest stable software release/Riot.im}};{{free|Apache License}};
 Sicher;SHAPE GmbH;2014-06;Single-protocol;1.1;{{Proprietary|Freeware}};
 Signal;Open Whisper Systems;2014-07;Single-protocol;{{Latest stable software release/Signal}};{{free|GPLv3}};
 Skype;Skype Technologies, a subsidiary of Microsoft Corporation;2003;Single-protocol;{{Latest stable software release/Skype}};{{proprietary|Freemium adware}};
 Spark (XMPP client);Ignite Realtime;2006-09;Single-protocol;{{Latest stable software release/Spark (XMPP client)}};{{free|Apache License}};
 Surespot;Surespot LLC;2013;Single-protocol;{{Latest stable software release/Surespot}};{{free|GPLv3}};
-Telegram;Telegram Messenger LLP;2013;Single-protocol;{{Latest stable software release/Telegram}};{{free|GPLv2, GPLv3}}[10];
+Telegram;Telegram Messenger LLP;2013;Single-protocol;{{Latest stable software release/Telegram}};{{free|GPLv2, GPLv3}}[9];
 Tencent QQ;Tencent Holdings;1999-02;Single-protocol;See current releases;{{proprietary|Adware}};
 TextSecure;Open Whisper Systems;2010-05;Single-protocol;Discontinued (merged with RedPhone to become Signal);{{free|GPLv3}};
 Threema;Threema GmbH;2012-12;Single-protocol;{{Latest stable software release/Threema}};{{Proprietary|Proprietary commercial software}};
@@ -75,7 +75,7 @@ WhatsApp;Facebook, Inc.;2009-08;Single-protocol;{{Latest stable software release
 Wickr;Wickr Inc.;2012-06;Single-protocol;{{Latest stable software release/Wickr}};{{proprietary|Trialware}};
 Windows Live Messenger;Microsoft;1999-07;Dual-protocol;{{Latest stable software release/Windows Live Messenger}};{{Terminated|Discontinued}} (was freeware);
 Wire;Wire Swiss GmbH;2014-12-03;Single-protocol;iOS: 2.2 Android: 2.3 OS X: 2.5 Windows: 2.6ch Web: 2016-04-08;{{free|GPLv3}};
-Xabber;Redsolution Inc.;2011;Single-protocol;iOS: 2.0.1[11];{{free|GPLv3}};
+Xabber;Redsolution Inc.;2011;Single-protocol;iOS: 2.0.1[10];{{free|GPLv3}};
 Xfire;Xfire Inc.;2004;Dual-protocol;{{Latest stable software release/Xfire}};{{Terminated|Discontinued}} (was freeware);
 Yahoo! Messenger;Yahoo!;1999-06-21;Dual-protocol;Windows: 11.5.0.228 OS X: 3.0.2 Unix: 1.0.4;{{Terminated|Discontinued}} (was freeware);
 Zephyr;Project Athena;1987;Single-protocol;2.0;{{free|MIT}};

@@ -1,6 +1,6 @@
-Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[154][155];Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;Vulkan;OpenCL;CUDA;
 Quadro M2000;GM206;28;PCIe 3.0 ×16;1180;1180;1653 (6612);768:48:32:6;37.8;56.6;4;105.8;GDDR5;128;1812.5;56.6;12.1;4.6;1.1;1.2;5.2;75;Four DisplayPort 1.2a;
 Quadro M4000;GM204;28;PCIe 3.0 ×16;800;800;1503 (6012);1664:104:56:13;51.2;83.2;8;192.4;GDDR5;256;2662.4;83.2;12.1;4.6;1.1;1.2;5.2;120;Four DisplayPort 1.2a;
 Quadro M5000;GM204;28;PCIe 3.0 ×16;1050;1050;1653 (6612);2048:128:64:16;67.2;134.4;8;211.6;GDDR5;256;4300.8;134.4;12.1;4.6;1.1;1.2;5.2;150;Four DisplayPort 1.2a, One DVI-I;
-Quadro M6000;GM200;28;PCIe 3.0 ×16;988;988;1653 (6612);3072:192:96:24;94.8;189.7;12 24;317;GDDR5;384;6070;190;12.1;4.6;1.1;1.2;5.2;250[161];Four DisplayPort 1.2a, One DVI-I;
+Quadro M6000;GM200;28;PCIe 3.0 ×16;988;988;1653 (6612);3072:192:96:24;94.8;189.7;12 24;317;GDDR5;384;6070;190;12.1;4.6;1.1;1.2;5.2;250[160];Four DisplayPort 1.2a, One DVI-I;

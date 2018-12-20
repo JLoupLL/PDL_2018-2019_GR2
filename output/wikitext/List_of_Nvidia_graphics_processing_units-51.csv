@@ -1,4 +1,4 @@
-Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[154][155];Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
 Quadro FX 370;G84;80;PCIe ×16;360;720;1000;16:8:4;1.44;2.88;256;6.4;DDR2;64;34.56;;10.0;3.3;35;;
 Quadro FX 370 LP;G86;80;PCIe ×16;540;1080;1000;8:8:4;2.16;4.32;256;8;DDR2;64;25.92;;10.0;3.3;25;DMS-59 for two Single Link DVI;

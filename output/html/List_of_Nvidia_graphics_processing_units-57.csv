@@ -1,4 +1,4 @@
-Model;Code name[162];Fab (nm);Bus interface;Core clock (MHz);Boost clock (MHz);Memory clock (MHz);Core config1;Fillrate[163];Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Model;Code name[161];Fab (nm);Bus interface;Core clock (MHz);Boost clock (MHz);Memory clock (MHz);Core config1;Fillrate[162];Memory;Processing power (GFLOPS)[154][155];Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (GB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;Vulkan;OpenCL;CUDA;
 Quadro P400;GP107;14;PCIe 3.0 ×16;1070;1170;1752 (7008);256:16:16:2;17.1;17.1;2;32;GDDR5;64;641;20.0;12.1;4.6;1.1;1.2;6.1;30;Three Mini-DisplayPort 1.4;
 Quadro P600;1354;1557;1003 (4012);384:24:16:3;21.7;32.5;2;64;GDDR5;128;1195;37.3;12.1;4.6;1.1;1.2;6.1;40;Four Mini-DisplayPort 1.4;

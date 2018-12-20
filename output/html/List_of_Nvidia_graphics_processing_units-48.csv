@@ -1,4 +1,4 @@
-Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[155][156];Supported API version;TDP (Watts);Notes;
+Model;Code name;Fab (nm);Bus interface;Core clock (MHz);Shader clock (MHz);Memory clock (MHz);Core config1;Fillrate;Memory;Processing power (GFLOPS)[154][155];Supported API version;TDP (Watts);Notes;
 Pixel (GP/s);Texture (GT/s);Size (MB);Bandwidth (GB/s);Bus type;Bus width (bit);Single precision;Double precision;Direct3D;OpenGL;
 Quadro FX 540;NV43GL;90;PCIe ×16;300;300;550;4:8:8:8;2.4;2.4;128;8.8;GDDR3;128;;;9.0c;2.1;35;;
 Quadro FX 1400;NV41;130;PCIe ×16;350;350;600;5:12:12:8;2.8;4.2;128;19.2;DDR;256;;;9.0c;2.1;75;Stereo display, SLI;
