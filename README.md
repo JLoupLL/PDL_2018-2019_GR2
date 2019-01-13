@@ -8,14 +8,8 @@ The purpose of this project is to extract tables from wikipedia pages. We have t
 The extracted data must be well structured and exported in the CSV format.
 
 <b><h1>Prerequisites</h1></b>
-You need to install Eclipse as a devleppoment tool.
-<tabl>
-<tr>
-<td>
+<p>You need to install Eclipse as a devleppoment tool.</p>
 
-<td>
-</tr>
-</table>
 <h1>Authors</h1>
 <ul>
 <li>Chepkasova Anastasiia</li>
